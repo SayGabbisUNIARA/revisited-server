@@ -7,7 +7,7 @@ settings:
   connection-throttle: 4000
   query-plugins: true
   deprecated-verbose: default
-  shutdown-message: A World's Tale
+  shutdown-message: O servidor está em manutenção para backup automático. Ele será reiniciado em breve! Entre novamente em 3 minutos; Aguarde...
   minimum-api: none
   use-map-color-cache: true
 spawn-limits:

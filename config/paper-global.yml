@@ -71,7 +71,7 @@ logging:
   deobfuscate-stacktraces: true
 messages:
   kick:
-    authentication-servers-down: <lang:multiplayer.disconnect.authservers_down>
+    authentication-servers-down: O servidor está em manutenção para backup automático. Ele será reiniciado em breve! Entre novamente em 3 minutos; Aguarde...
     connection-throttle: Connection throttled! Please wait before reconnecting.
     flying-player: <lang:multiplayer.disconnect.flying>
     flying-vehicle: <lang:multiplayer.disconnect.flying>
