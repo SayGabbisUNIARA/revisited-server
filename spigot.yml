@@ -37,7 +37,8 @@ settings:
 players:
   disable-saving: false
 messages:
-  restart: O servidor está em manutenção para backup automático. Ele será reiniciado em breve! Entre novamente em 3 minutos; Aguarde...
+  restart: O servidor está em manutenção para backup automático. Ele será reiniciado
+    em breve! Entre novamente em 3 minutos; Aguarde...
   whitelist: You are not whitelisted on this server!
   unknown-command: Unknown command. Type "/help" for help.
   server-full: The server is full!
