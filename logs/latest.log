@@ -1,98 +1,726 @@
-[00:13:50] [Server thread/INFO]: miauzinto has made the advancement [Voluntary Exile]
-[00:50:17] [User Authenticator #35/INFO]: UUID of player Alencar73 is 028a82f5-20fe-3357-8797-b427ea04a6c1
-[00:50:17] [Server thread/INFO]: Alencar73 joined the game
-[00:50:18] [Server thread/INFO]: Alencar73[/177.152.86.165:44626] logged in with entity id 251619 at ([world]-1220.369826795943, 68.0, 280.02601819530315)
-[00:50:18] [User Authenticator #34/INFO]: UUID of player Toruma1 is 46f7d4de-643b-3589-a56c-43a902aa5053
-[00:50:19] [Server thread/INFO]: Toruma1 joined the game
-[00:50:19] [Server thread/INFO]: Toruma1[/138.97.187.7:28860] logged in with entity id 251630 at ([world]-1243.294807082207, 70.0, 272.9045533718503)
-[01:01:08] [Server thread/INFO]: Villager Villager['Villager'/234619, uuid='ff7a420e-2517-4a26-aa3e-ed5c5e73ed9b', l='ServerLevel[world]', x=-1244.49, y=70.00, z=273.70, cpos=[-78, 17], tl=57311, v=true] died, message: 'Villager was slain by Alencar73'
-[01:04:03] [Server thread/INFO]: Villager Villager['Butcher'/127073, uuid='ca9af037-8dc2-4cb7-8ec8-56dd828adfcb', l='ServerLevel[world]', x=-1252.69, y=70.00, z=262.32, cpos=[-79, 16], tl=446982, v=true] died, message: 'Butcher was slain by Toruma1'
-[01:11:47] [Server thread/INFO]: Alencar73 lost connection: Disconnected
-[01:11:47] [Server thread/INFO]: Alencar73 left the game
-[01:18:00] [Server thread/INFO]: Toruma1 lost connection: Disconnected
-[01:18:00] [Server thread/INFO]: Toruma1 left the game
-[01:24:07] [User Authenticator #36/INFO]: UUID of player PomboObeso is 094d96a5-49f9-3622-8b4c-3b31833720f6
-[01:24:08] [Server thread/INFO]: PomboObeso joined the game
-[01:24:08] [Server thread/INFO]: PomboObeso[/177.9.104.223:59383] logged in with entity id 257759 at ([world]-1273.5, 69.0, 267.5)
-[01:24:55] [Server thread/INFO]: PomboObeso has made the advancement [Sweet Dreams]
-[01:27:52] [Server thread/INFO]: PomboObeso has made the advancement [Stone Age]
-[01:36:23] [User Authenticator #37/INFO]: UUID of player Narrador3 is c6b40a19-7f47-3478-9285-c19fd506627e
-[01:36:24] [Server thread/INFO]: Narrador3 joined the game
-[01:36:24] [Server thread/INFO]: Narrador3[/45.172.69.25:12352] logged in with entity id 261820 at ([world]-1263.5, 69.0, 265.5)
-[01:37:16] [Server thread/INFO]: PomboObeso has made the advancement [Monster Hunter]
-[01:38:50] [Server thread/INFO]: Narrador3 has made the advancement [A Seedy Place]
-[01:39:24] [Server thread/INFO]: Narrador3 was slain by Zombie
-[01:39:29] [Server thread/INFO]: Narrador3 has made the advancement [Monster Hunter]
-[01:39:50] [Server thread/INFO]: Narrador3 was slain by Zombie
-[01:39:54] [Server thread/INFO]: PomboObeso was slain by Zombie
-[01:39:56] [Server thread/INFO]: Narrador3 has made the advancement [Stone Age]
-[01:40:06] [Server thread/INFO]: Narrador3 was slain by Zombie
-[01:40:26] [Server thread/INFO]: Narrador3 was slain by Zombie
-[01:41:26] [Server thread/INFO]: PomboObeso was slain by Zombie
-[01:53:56] [Server thread/INFO]: miauzinto lost connection: Disconnected
-[01:53:56] [Server thread/INFO]: miauzinto left the game
-[01:54:12] [Server thread/INFO]: Narrador3 has made the advancement [Getting an Upgrade]
-[01:56:01] [Server thread/INFO]: PomboObeso has made the advancement [Getting an Upgrade]
-[01:58:09] [Server thread/INFO]: Narrador3 lost connection: Disconnected
-[01:58:09] [Server thread/INFO]: Narrador3 left the game
-[02:00:44] [Server thread/INFO]: PomboObeso has made the advancement [Acquire Hardware]
-[02:01:16] [Server thread/INFO]: PomboObeso has made the advancement [Isn't It Iron Pick]
-[02:03:42] [Server thread/INFO]: PomboObeso was slain by Zombie
-[02:06:22] [Server thread/INFO]: PomboObeso was slain by Zombie
-[02:15:45] [Server thread/INFO]: PomboObeso fell from a high place
-[02:17:21] [User Authenticator #38/INFO]: UUID of player Narrador3 is c6b40a19-7f47-3478-9285-c19fd506627e
-[02:17:22] [Server thread/INFO]: Narrador3 joined the game
-[02:17:22] [Server thread/INFO]: Narrador3[/45.172.69.25:12155] logged in with entity id 270737 at ([world]-1375.0400724351111, 37.0, 197.69999998807907)
-[02:21:03] [Server thread/INFO]: Narrador3 has made the advancement [What a Deal!]
-[02:23:34] [Server thread/INFO]: PomboObeso has made the advancement [What a Deal!]
-[02:24:42] [Server thread/INFO]: PomboObeso has made the advancement [Diamonds!]
-[02:26:22] [Server thread/INFO]: PomboObeso fell from a high place
-[02:27:17] [Server thread/INFO]: PomboObeso lost connection: Disconnected
-[02:27:17] [Server thread/INFO]: PomboObeso left the game
-[02:27:50] [Server thread/INFO]: Narrador3 was shot by Skeleton
-[02:28:01] [Server thread/INFO]: Narrador3 issued server command: /kill me
-[02:28:27] [Server thread/INFO]: Narrador3 lost connection: Disconnected
-[02:28:27] [Server thread/INFO]: Narrador3 left the game
-[02:28:55] [User Authenticator #39/INFO]: UUID of player Toruma1 is 46f7d4de-643b-3589-a56c-43a902aa5053
-[02:28:56] [Server thread/INFO]: Toruma1 joined the game
-[02:28:56] [Server thread/INFO]: Toruma1[/138.97.187.7:28467] logged in with entity id 272787 at ([world]-1269.567183514759, 31.0, 214.33981424364407)
-[02:36:22] [Server thread/INFO]: Toruma1 lost connection: Disconnected
-[02:36:22] [Server thread/INFO]: Toruma1 left the game
-[02:36:26] [User Authenticator #40/INFO]: UUID of player miauzinto is 7beeffc0-74d6-3ca7-b0d2-83dda4b42169
-[02:36:27] [Server thread/INFO]: miauzinto joined the game
-[02:36:27] [Server thread/INFO]: miauzinto[/186.223.169.147:10214] logged in with entity id 273837 at ([world]-1644.699999988079, 70.5625, 964.6999999880791)
-[02:50:20] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username KSantos77363
-[02:50:20] [localSession-7-2/INFO]: [Geyser-Spigot] KSantos77363 (logged in as: KSantos77363) has connected to the Java server
-[02:50:21] [Server thread/INFO]: [floodgate] Floodgate player logged in as KSantos77363 joined (UUID: 00000000-0000-0000-0009-01fcd0333658)
-[02:50:21] [Server thread/INFO]: KSantos77363 joined the game
-[02:50:21] [Server thread/INFO]: KSantos77363[/143.255.109.108:0] logged in with entity id 276547 at ([world]-1172.9386, 64.0, 332.20062)
-[02:50:45] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] KSantos77363 has disconnected from the Java server because of Bedrock client disconnected
-[02:50:45] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as KSantos77363 disconnected
-[02:50:45] [Server thread/INFO]: KSantos77363 lost connection: Disconnected
-[02:50:45] [Server thread/INFO]: KSantos77363 left the game
-[02:55:13] [Server thread/INFO]: miauzinto lost connection: Disconnected
-[02:55:13] [Server thread/INFO]: miauzinto left the game
-[03:03:32] [User Authenticator #41/INFO]: UUID of player miauzinto is 7beeffc0-74d6-3ca7-b0d2-83dda4b42169
-[03:03:33] [Server thread/INFO]: miauzinto joined the game
-[03:03:33] [Server thread/INFO]: miauzinto[/186.223.169.147:9983] logged in with entity id 277692 at ([world]-1644.6766796965912, 70.5625, 964.6999999880791)
-[03:34:34] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username KSantos77363
-[03:34:34] [localSession-7-3/INFO]: [Geyser-Spigot] KSantos77363 (logged in as: KSantos77363) has connected to the Java server
-[03:34:34] [Server thread/INFO]: [floodgate] Floodgate player logged in as KSantos77363 joined (UUID: 00000000-0000-0000-0009-01fcd0333658)
-[03:34:34] [Server thread/INFO]: KSantos77363 joined the game
-[03:34:35] [Server thread/INFO]: KSantos77363[/143.255.109.108:0] logged in with entity id 284053 at ([world]-1172.9386, 64.0, 332.20062)
-[03:53:24] [Server thread/INFO]: miauzinto lost connection: Disconnected
-[03:53:24] [Server thread/INFO]: miauzinto left the game
-[05:02:52] [Server thread/INFO]: Villager Villager['Villager'/191365, uuid='5e8204dc-f25d-47b2-84e8-3cc9ade55bdd', l='ServerLevel[world]', x=-1241.30, y=70.00, z=268.30, cpos=[-78, 16], tl=515774, v=true] died, message: 'Villager was slain by Zombie'
-[06:18:40] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] KSantos77363 has disconnected from the Java server because of Bedrock client disconnected
-[06:18:40] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as KSantos77363 disconnected
-[06:18:40] [Server thread/INFO]: KSantos77363 lost connection: Disconnected
-[06:18:40] [Server thread/INFO]: KSantos77363 left the game
+[00:01:52] [User Authenticator #12/INFO]: UUID of player miauzinto is 7beeffc0-74d6-3ca7-b0d2-83dda4b42169
+[00:01:52] [Server thread/INFO]: miauzinto joined the game
+[00:01:52] [Server thread/INFO]: miauzinto[/186.223.169.147:10133] logged in with entity id 85124 at ([world]-1644.6502565256474, 70.5625, 964.6999999880791)
+[00:08:54] [User Authenticator #13/INFO]: UUID of player KyrunDark is 12c5890a-1cf6-3e99-921b-04a95cf33604
+[00:08:55] [Server thread/INFO]: KyrunDark joined the game
+[00:08:55] [Server thread/INFO]: KyrunDark[/201.71.221.152:46454] logged in with entity id 87501 at ([world]-1265.5, 69.0, 267.5)
+[00:09:20] [Async Chat Thread - #8/INFO]: [Not Secure] <KyrunDark> salve salve
+[00:09:25] [Async Chat Thread - #8/INFO]: [Not Secure] <Alencar73> salve
+[00:09:33] [Async Chat Thread - #8/INFO]: [Not Secure] <miauzinto> salve
+[00:09:55] [Async Chat Thread - #8/INFO]: [Not Secure] <KyrunDark> Ale, tem algum lugar específico pra fazer casa?
+[00:10:12] [Async Chat Thread - #8/INFO]: [Not Secure] <Alencar73> qualquer lugar mn aq em volta
+[00:10:18] [Async Chat Thread - #8/INFO]: [Not Secure] <Alencar73> a vontade
+[00:10:28] [Async Chat Thread - #8/INFO]: [Not Secure] <KyrunDark> blz, entrei só agr, vou farmar um tico
+[00:10:36] [Async Chat Thread - #8/INFO]: [Not Secure] <Alencar73> term farm de ferro aq ó
+[00:11:19] [Async Chat Thread - #8/INFO]: [Not Secure] <Alencar73> troca com villagers
+[00:11:23] [Async Chat Thread - #8/INFO]: [Not Secure] <Alencar73> pega ae
+[00:11:26] [Server thread/INFO]: KyrunDark has made the advancement [Acquire Hardware]
+[00:11:37] [Async Chat Thread - #8/INFO]: [Not Secure] <KyrunDark> pqp
+[00:11:41] [Async Chat Thread - #8/INFO]: [Not Secure] <Alencar73> kkkkkk
+[00:11:41] [Async Chat Thread - #8/INFO]: [Not Secure] <KyrunDark> como assim???
+[00:11:50] [Async Chat Thread - #8/INFO]: [Not Secure] <KyrunDark> eu nunca vi uma farm de ferro assim
+[00:11:52] [Async Chat Thread - #8/INFO]: [Not Secure] <Alencar73> troca com os vullagers da casa la
+[00:11:56] [Async Chat Thread - #8/INFO]: [Not Secure] <Alencar73> kkkkkk
+[00:11:56] [Async Chat Thread - #8/INFO]: [Not Secure] <KyrunDark> blz
+[00:12:39] [Server thread/INFO]: KyrunDark has made the advancement [What a Deal!]
+[00:12:50] [Async Chat Thread - #8/INFO]: [Not Secure] <Alencar73> compra armadira e ferramentas com eles
+[00:13:15] [Async Chat Thread - #8/INFO]: [Not Secure] <KyrunDark> melhor começar com ferro né? ou vpode ir direto pro dima?
+[00:13:26] [Async Chat Thread - #8/INFO]: [Not Secure] <Alencar73> vai direto pro dima
+[00:13:34] [Async Chat Thread - #8/INFO]: [Not Secure] <Alencar73> tem farm tu pra vcs
+[00:13:42] [Async Chat Thread - #8/INFO]: [Not Secure] <Alencar73> se morre pega dnv sem problema
+[00:13:45] [Async Chat Thread - #8/INFO]: [Not Secure] <KyrunDark> então blz, pô, vlw
+[00:14:03] [Async Chat Thread - #8/INFO]: [Not Secure] <Alencar73> tmj agr se vota la em mim dps fih
+[00:14:13] [Async Chat Thread - #8/INFO]: [Not Secure] <KyrunDark> pode deixar
+[00:14:13] [Async Chat Thread - #9/INFO]: [Not Secure] <Alencar73> no seu presidente ale 73
+[00:15:06] [Server thread/INFO]: KyrunDark has made the advancement [Cover Me with Diamonds]
+[00:19:10] [User Authenticator #14/INFO]: UUID of player CartolaQuadrado is ac9cb4f9-a1f9-3677-8684-8043bfbff71b
+[00:19:11] [Server thread/INFO]: CartolaQuadrado joined the game
+[00:19:11] [Server thread/INFO]: CartolaQuadrado[/45.165.222.185:12354] logged in with entity id 90619 at ([world]-1253.5, 81.0, 268.5)
+[00:22:47] [Async Chat Thread - #10/INFO]: [Not Secure] <KyrunDark> Ale
+[00:22:50] [Async Chat Thread - #10/INFO]: [Not Secure] <Alencar73> oi
+[00:22:51] [Async Chat Thread - #10/INFO]: [Not Secure] <KyrunDark> cometi um erro
+[00:22:56] [Async Chat Thread - #10/INFO]: [Not Secure] <Alencar73> hm
+[00:23:04] [Async Chat Thread - #10/INFO]: [Not Secure] <KyrunDark> apertei com o shift + botão direito
+[00:23:11] [Async Chat Thread - #10/INFO]: [Not Secure] <Alencar73> onde
+[00:23:15] [Async Chat Thread - #10/INFO]: [Not Secure] <Alencar73> a
+[00:23:19] [Async Chat Thread - #10/INFO]: [Not Secure] <Alencar73> kkkkkkkkk
+[00:23:22] [Server thread/INFO]: CartolaQuadrado has made the advancement [Stone Age]
+[00:23:35] [Async Chat Thread - #10/INFO]: [Not Secure] <KyrunDark> dá pra quem precisar
+[00:23:35] [Server thread/INFO]: CartolaQuadrado has made the advancement [Getting an Upgrade]
+[00:23:44] [Async Chat Thread - #10/INFO]: [Not Secure] <Alencar73> sla troca dnv ou taca na lava
+[00:23:58] [Async Chat Thread - #10/INFO]: [Not Secure] <Alencar73> tem a farm deferro tu tem bglh ifinito
+[00:24:02] [Async Chat Thread - #12/INFO]: [Not Secure] <KyrunDark> vdd
+[00:24:11] [Async Chat Thread - #12/INFO]: [Not Secure] <Alencar73> fica a vontade é de vcs bro
+[00:25:16] [Server thread/INFO]: KyrunDark has made the advancement [A Seedy Place]
+[00:26:25] [Server thread/INFO]: KyrunDark has made the advancement [The Parrots and the Bats]
+[00:28:14] [User Authenticator #15/INFO]: UUID of player Vintin is 742d656d-0826-3cc4-a58f-590439d9ab38
+[00:28:15] [Server thread/INFO]: Vintin joined the game
+[00:28:15] [Server thread/INFO]: Vintin[/45.160.232.205:57948] logged in with entity id 93954 at ([world]-1253.797260099764, 69.0, 408.1563941409946)
+[00:28:53] [Async Chat Thread - #13/INFO]: [Not Secure] <Vintin> Vou ficar um pouco mutado jaja ligo, mas to escutando vcs
+[00:29:14] [Async Chat Thread - #13/INFO]: [Not Secure] <Vintin> to pelado gente
+[00:29:43] [Server thread/INFO]: KyrunDark has made the advancement [Stone Age]
+[00:32:34] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> djabo ferro valendo 10 inves de 4
+[00:32:58] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> tem comida ai alencar?
+[00:33:06] [Async Chat Thread - #15/INFO]: [Not Secure] <Alencar73> é eles vao aumentando msms
+[00:33:14] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> food
+[00:33:37] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> oloko mt bom vlw
+[00:34:03] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> mlk
+[00:34:26] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> tem sela ai?
+[00:34:36] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> n aguento mais ficar andando preciso de locomoção
+[00:34:40] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> beleza, vou pegar ein
+[00:34:47] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> ele é rapido?
+[00:34:58] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> oloko de dima
+[00:35:23] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> TAPORRA
+[00:35:33] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> gamemode
+[00:35:43] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> flw
+[00:36:03] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> esse daqui pula alto mas anda lento, vou atras de outros
+[00:36:13] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> ficamo so nós
+[00:36:19] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> to com 1 corda
+[00:36:52] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> para de ser tao produtivo
+[00:37:09] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> gg 3 cordas
+[00:37:25] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> achei que era maça
+[00:38:01] [Server thread/INFO]: Vintin has made the advancement [Best Friends Forever]
+[00:38:19] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> esse daqui é rapidin
+[00:38:53] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> temos um cavalo rapido e outro com pulo alto, vamos ver...
+[00:39:04] [Async Chat Thread - #16/INFO]: [Not Secure] <Vintin> oloko n sabia que isso funcionava
+[00:39:47] [Async Chat Thread - #16/INFO]: [Not Secure] <Vintin> tem que esperar esse preço abaixar
+[00:39:50] [Async Chat Thread - #16/INFO]: [Not Secure] <Vintin> se nao nunca abaixa
+[00:39:51] [Async Chat Thread - #16/INFO]: [Not Secure] <Vintin> foda
+[00:40:16] [Async Chat Thread - #16/INFO]: [Not Secure] <Vintin> mais um diazin eu acho e volta ent
+[00:40:26] [Async Chat Thread - #16/INFO]: [Not Secure] <Vintin> ah tem cenoura aqui
+[00:40:27] [Async Chat Thread - #16/INFO]: [Not Secure] <Vintin> dourada
+[00:40:47] [Async Chat Thread - #16/INFO]: [Not Secure] <Vintin> AH tem que esperar crescer
+[00:41:35] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> tem bloco de pedra ai rapidao?
+[00:42:08] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> oxi
+[00:42:13] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> eu abri um menu dunada
+[00:42:15] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> nunca vi
+[00:42:16] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> sem querer
+[00:42:20] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> menu de players
+[00:42:26] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> sla o que era
+[00:42:32] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> isso
+[00:42:40] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> e dava pra silenciar alguem
+[00:42:49] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> qual?
+[00:42:57] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> ata
+[00:42:59] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> cd tu
+[00:43:00] [Server thread/INFO]: Villager Villager['Villager'/96741, uuid='c8a3a363-d0b5-4e70-ab5f-e2d423cb6f5b', l='ServerLevel[world]', x=-1834.58, y=99.00, z=805.30, cpos=[-115, 50], tl=11944, v=true] died, message: 'Villager was slain by miauzinto'
+[00:43:02] [Server thread/INFO]: Villager Villager['Villager'/96742, uuid='c0bf9f33-f3ad-47c2-8c5a-91c8e4cfcba7', l='ServerLevel[world]', x=-1827.29, y=78.00, z=747.48, cpos=[-115, 46], tl=11978, v=true] died, message: 'Villager was slain by Zombie'
+[00:43:03] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> to indo
+[00:43:11] [Async Chat Thread - #15/INFO]: [Not Secure] <Alencar73> pega aql outro favor
+[00:43:39] [Server thread/INFO]: KyrunDark has made the advancement [Best Friends Forever]
+[00:43:53] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> subi, cd tu
+[00:43:53] [Async Chat Thread - #15/INFO]: [Not Secure] <KyrunDark> ...não sei como vou levar
+[00:43:58] [Async Chat Thread - #15/INFO]: [Not Secure] <Alencar73> espera ae
+[00:44:12] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> achei
+[00:44:16] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> ei Kyrun
+[00:44:25] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> tu é o Nick? Ou o Omni?
+[00:44:50] [Async Chat Thread - #15/INFO]: [Not Secure] <KyrunDark> esse eu já domei
+[00:44:57] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> esse é dos bons
+[00:45:17] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> n te achei alencar, achei o Kyrun mas n tu
+[00:45:24] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> ata
+[00:45:46] [Server thread/INFO]: KyrunDark has made the advancement [Bee Our Guest]
+[00:46:05] [Server thread/INFO]: CartolaQuadrado has made the advancement [Acquire Hardware]
+[00:46:08] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> olha esse
+[00:46:30] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> quase
+[00:46:40] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> OLOKO
+[00:46:59] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> KSKKSKKSKSKS
+[00:47:18] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> MATA
+[00:47:36] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> oxi ta sem sela e esse da pra usar
+[00:47:53] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> e esse aqui que to usando?
+[00:47:57] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> ta sem sela e to usando
+[00:48:15] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> mas eu to dirigindo buro
+[00:48:28] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> oxi
+[00:48:33] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> EU TELEPORTEI
+[00:48:40] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> KSKSKSKSKKSKS eu que to bugado
+[00:49:08] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> mn eu tava digirindo ne
+[00:49:14] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> ai eu sai e teleportei
+[00:49:16] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> to bugadasso
+[00:49:24] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> qual? me perdi
+[00:50:00] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> branco das bolinhas brancas
+[00:50:41] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> oia
+[00:51:26] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> ss
+[00:51:45] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> façam sexo
+[00:51:52] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> LIXO
+[00:51:56] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> aborta
+[00:52:18] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> racista
+[00:52:34] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> PORRA
+[00:52:41] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> era essa a piada
+[00:52:55] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> oloko
+[00:53:14] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> pq todos tem manchas brancas
+[00:53:18] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> cd um preto aqui
+[00:53:37] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> ta com sela?
+[00:54:44] [Async Chat Thread - #17/INFO]: [Not Secure] <Vintin> tu é o Nick? Ou o Omni?
+[00:54:46] [Async Chat Thread - #17/INFO]: [Not Secure] <Vintin> kyrun
+[00:54:47] [Async Chat Thread - #17/INFO]: [Not Secure] <Vintin> tu
+[00:54:53] [Async Chat Thread - #17/INFO]: [Not Secure] <Vintin> disoc
+[00:54:55] [Async Chat Thread - #17/INFO]: [Not Secure] <Vintin> dc
+[00:58:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2538ms or 50 ticks behind
+[00:58:50] [Server thread/INFO]: KyrunDark was slain by Zombie
+[00:59:38] [Server thread/INFO]: Villager Villager['Villager'/47, uuid='fafff6ee-924d-42a0-8c09-58b9949c8d59', l='ServerLevel[world]', x=-1244.83, y=76.19, z=270.10, cpos=[-78, 16], tl=1292795, v=true] died, message: 'Villager was slain by Zombie'
+[00:59:42] [Server thread/INFO]: Villager Villager['Villager'/28, uuid='5e9caa9c-26f2-429f-9449-6ef64d1f5430', l='ServerLevel[world]', x=-1244.83, y=76.19, z=270.10, cpos=[-78, 16], tl=1292857, v=true] died, message: 'Villager was slain by Zombie Villager'
+[00:59:44] [Server thread/INFO]: Villager Villager['Villager'/35, uuid='457d0c53-29fc-4655-9a5a-8878a020eb9b', l='ServerLevel[world]', x=-1246.40, y=76.19, z=271.27, cpos=[-78, 16], tl=1292910, v=true] died, message: 'Villager was slain by Zombie'
+[00:59:46] [Server thread/INFO]: Villager Villager['Villager'/33, uuid='5024cb54-76f9-40ef-b5b5-f81845aba077', l='ServerLevel[world]', x=-1247.86, y=76.19, z=272.13, cpos=[-78, 17], tl=1292951, v=true] died, message: 'Villager was slain by Zombie'
+[00:59:49] [Server thread/INFO]: Villager Villager['Villager'/36, uuid='110872f8-69f5-42dd-afe5-76a3afda4f1a', l='ServerLevel[world]', x=-1247.86, y=76.19, z=272.13, cpos=[-78, 17], tl=1293013, v=true] died, message: 'Villager was slain by Zombie'
+[01:03:59] [Server thread/INFO]: CartolaQuadrado has made the advancement [Monster Hunter]
+[01:05:19] [Server thread/INFO]: CartolaQuadrado has made the advancement [Not Today, Thank You]
+[01:05:52] [Server thread/INFO]: CartolaQuadrado was shot by Skeleton
+[01:05:59] [Async Chat Thread - #19/INFO]: [Not Secure] <CartolaQuadrado> FILHA DUMA PUTA
+[01:13:15] [User Authenticator #16/INFO]: UUID of player PomboObeso is 094d96a5-49f9-3622-8b4c-3b31833720f6
+[01:13:16] [Server thread/INFO]: PomboObeso joined the game
+[01:13:16] [Server thread/INFO]: PomboObeso[/177.9.104.223:63537] logged in with entity id 121561 at ([world]-1266.2090515391744, 67.0, 358.1929215548697)
+[01:16:12] [Async Chat Thread - #21/INFO]: [Not Secure] <PomboObeso> vou fazer uma farme de ferro
+[01:16:19] [Async Chat Thread - #21/INFO]: [Not Secure] <Vintin> ja tem bro
+[01:16:19] [Async Chat Thread - #21/INFO]: [Not Secure] <Alencar73> ja tem na vila
+[01:16:24] [Async Chat Thread - #21/INFO]: [Not Secure] <PomboObeso> serio?
+[01:16:27] [Async Chat Thread - #21/INFO]: [Not Secure] <KyrunDark> rapazeada
+[01:16:28] [Async Chat Thread - #21/INFO]: [Not Secure] <PomboObeso> aonde
+[01:16:30] [Async Chat Thread - #21/INFO]: [Not Secure] <Alencar73> ainda n podemos fazer farm
+[01:16:39] [Async Chat Thread - #21/INFO]: [Not Secure] <Alencar73> atras da nossa vila da uma olgada
+[01:16:44] [Async Chat Thread - #21/INFO]: [Not Secure] <Alencar73> olhada
+[01:16:51] [Async Chat Thread - #21/INFO]: [Not Secure] <KyrunDark> fui eu
+[01:17:21] [Server thread/INFO]: miauzinto has made the advancement [Ice Bucket Challenge]
+[01:17:42] [Async Chat Thread - #21/INFO]: [Not Secure] <PomboObeso> bem que podiam colocar voice chat
+[01:17:46] [Async Chat Thread - #21/INFO]: [Not Secure] <KyrunDark> sou eu meu mano
+[01:17:50] [Async Chat Thread - #21/INFO]: [Not Secure] <Vintin> tem call pra isso
+[01:17:57] [Async Chat Thread - #21/INFO]: [Not Secure] <PomboObeso> A
+[01:18:09] [Async Chat Thread - #21/INFO]: [Not Secure] <Alencar73> vou ver com a gabs dps
+[01:18:50] [Async Chat Thread - #21/INFO]: [Not Secure] <PomboObeso> caramba a farm ta no cafudel de judas?
+[01:19:01] [Async Chat Thread - #21/INFO]: [Not Secure] <Alencar73> n poh
+[01:19:30] [Async Chat Thread - #21/INFO]: [Not Secure] <Alencar73> tem a casa de trocas ai no centro atras dela um pouco ao lado tem a farm
+[01:19:49] [Async Chat Thread - #21/INFO]: [Not Secure] <PomboObeso> achei
+[01:20:17] [Server thread/INFO]: PomboObeso has made the advancement [Suit Up]
+[01:20:41] [Async Chat Thread - #21/INFO]: [Not Secure] <PomboObeso> salve
+[01:20:44] [Async Chat Thread - #21/INFO]: [Not Secure] <KyrunDark> salve
+[01:20:47] [Async Chat Thread - #21/INFO]: [Not Secure] <KyrunDark> pombo
+[01:20:50] [Async Chat Thread - #21/INFO]: [Not Secure] <KyrunDark> tó
+[01:21:04] [Async Chat Thread - #21/INFO]: [Not Secure] <PomboObeso> olko deus bençoe
+[01:21:46] [Async Chat Thread - #21/INFO]: [Not Secure] <PomboObeso> da um comand block ai rapidão so pra tentar fazer um bagulho
+[01:21:51] [Async Chat Thread - #21/INFO]: [Not Secure] <Vintin> ban
+[01:21:54] [Async Chat Thread - #21/INFO]: [Not Secure] <Alencar73> teu cu
+[01:22:04] [Async Chat Thread - #21/INFO]: [Not Secure] <PomboObeso> deselegante
+[01:22:59] [Server thread/INFO]: PomboObeso has made the advancement [A Seedy Place]
+[01:26:05] [Async Chat Thread - #23/INFO]: [Not Secure] <Alencar73> omg
+[01:26:07] [Async Chat Thread - #23/INFO]: [Not Secure] <miauzinto> oi
+[01:26:08] [Async Chat Thread - #23/INFO]: [Not Secure] <Vintin> SUMIDO
+[01:26:21] [Async Chat Thread - #23/INFO]: [Not Secure] <Alencar73> the first time see u here
+[01:26:50] [Async Chat Thread - #23/INFO]: [Not Secure] <miauzinto> pika
+[01:26:50] [Async Chat Thread - #23/INFO]: [Not Secure] <Alencar73> u look like my dad know?
+[01:26:59] [Async Chat Thread - #23/INFO]: [Not Secure] <Alencar73> sumido igualzinho
+[01:27:46] [Server thread/INFO]: KyrunDark has made the advancement [Getting an Upgrade]
+[01:29:18] [User Authenticator #17/INFO]: UUID of player Narrador3 is c6b40a19-7f47-3478-9285-c19fd506627e
+[01:29:19] [Server thread/INFO]: Narrador3 joined the game
+[01:29:19] [Server thread/INFO]: Narrador3[/45.172.69.25:12159] logged in with entity id 132336 at ([world]-1270.3870376865243, 70.0, 274.86132939086)
+[01:29:29] [Async Chat Thread - #25/INFO]: [Not Secure] <Vintin> qm é tu?
+[01:29:47] [Async Chat Thread - #25/INFO]: [Not Secure] <Narrador3> sou namorada do pombo
+[01:29:54] [Server thread/INFO]: miauzinto has made the advancement [We Need to Go Deeper]
+[01:30:01] [Async Chat Thread - #25/INFO]: [Not Secure] <PomboObeso> va te fude mizera
+[01:30:07] [Async Chat Thread - #25/INFO]: [Not Secure] <Narrador3> ksksks
+[01:30:16] [Server thread/INFO]: Narrador3 has made the advancement [Acquire Hardware]
+[01:30:22] [Async Chat Thread - #25/INFO]: [Not Secure] <Vintin> tem bct nas pernas?
+[01:30:49] [Async Chat Thread - #25/INFO]: [Not Secure] <Narrador3> tenho
+[01:31:06] [Async Chat Thread - #25/INFO]: [Not Secure] <PomboObeso> pode passar cantad ela é lesbica
+[01:32:10] [Server thread/INFO]: Narrador3 has made the advancement [Suit Up]
+[01:32:59] [Server thread/INFO]: Narrador3 has made the advancement [Isn't It Iron Pick]
+[01:34:14] [Async Chat Thread - #27/INFO]: [Not Secure] <Narrador3> man
+[01:34:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2526ms or 50 ticks behind
+[01:38:34] [Server thread/INFO]: Vintin has made the advancement [We Need to Go Deeper]
+[01:40:30] [Server thread/INFO]: KyrunDark was shot by Skeleton
+[01:42:17] [Async Chat Thread - #29/INFO]: [Not Secure] <PomboObeso> tem livro ai?
+[01:42:19] [Server thread/INFO]: Narrador3 has made the advancement [Diamonds!]
+[01:42:22] [Async Chat Thread - #29/INFO]: [Not Secure] <KyrunDark> tenho n
+[01:42:23] [Async Chat Thread - #29/INFO]: [Not Secure] <Vintin> PNC da vida
+[01:42:27] [Async Chat Thread - #29/INFO]: [Not Secure] <Vintin> é pulo e corrida
+[01:43:47] [Server thread/INFO]: Narrador3 has made the advancement [Not Today, Thank You]
+[01:44:11] [Async Chat Thread - #31/INFO]: [Not Secure] <PomboObeso> alguem tem livro?
+[01:44:17] [Async Chat Thread - #31/INFO]: [Not Secure] <Alencar73> compra estande
+[01:44:26] [Async Chat Thread - #31/INFO]: [Not Secure] <Alencar73> e fortuna no machado
+[01:44:33] [Async Chat Thread - #31/INFO]: [Not Secure] <PomboObeso> oloko
+[01:44:41] [Async Chat Thread - #31/INFO]: [Not Secure] <PomboObeso> é isso que eu quro
+[01:45:05] [Server thread/INFO]: CartolaQuadrado lost connection: Disconnected
+[01:45:05] [Server thread/INFO]: CartolaQuadrado left the game
+[01:47:21] [User Authenticator #18/INFO]: UUID of player CartolaQuadrado is ac9cb4f9-a1f9-3677-8684-8043bfbff71b
+[01:47:22] [Server thread/INFO]: CartolaQuadrado joined the game
+[01:47:22] [Server thread/INFO]: CartolaQuadrado[/45.165.222.185:12797] logged in with entity id 142820 at ([world]-513.5593105431504, 70.0, -668.0073984716062)
+[01:48:21] [Server thread/INFO]: CartolaQuadrado was shot by Skeleton
+[01:48:33] [Async Chat Thread - #33/INFO]: [Not Secure] <PomboObeso> eu teho pai
+[01:48:50] [Async Chat Thread - #33/INFO]: [Not Secure] <CartolaQuadrado> ok
+[01:50:09] [Server thread/INFO]: Narrador3 has made the advancement [Cover Me with Diamonds]
+[01:50:27] [Async Chat Thread - #35/INFO]: [Not Secure] <CartolaQuadrado> sai e entrei no server só pra baixar shaders
+[01:55:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2546ms or 50 ticks behind
+[01:56:15] [Server thread/INFO]: miauzinto lost connection: Disconnected
+[01:56:15] [Server thread/INFO]: miauzinto left the game
+[01:59:50] [Server thread/INFO]: CartolaQuadrado lost connection: Disconnected
+[01:59:50] [Server thread/INFO]: CartolaQuadrado left the game
+[02:01:07] [Server thread/INFO]: Narrador3 lost connection: Disconnected
+[02:01:07] [Server thread/INFO]: Narrador3 left the game
+[02:01:09] [User Authenticator #19/INFO]: UUID of player Narrador3 is c6b40a19-7f47-3478-9285-c19fd506627e
+[02:01:09] [Server thread/INFO]: Narrador3 joined the game
+[02:01:09] [Server thread/INFO]: Narrador3[/45.172.69.25:12767] logged in with entity id 150212 at ([world]-1230.300000011921, 73.5, 268.30000001192093)
+[02:01:20] [Server thread/INFO]: Villager Villager['Villager'/52585, uuid='e88a9f24-8b8d-4474-a107-c4ca163a5665', l='ServerLevel[world]', x=-1230.70, y=73.05, z=268.70, cpos=[-77, 16], tl=206472, v=true] died, message: 'Villager was slain by Narrador3'
+[02:01:44] [User Authenticator #19/INFO]: UUID of player miauzinto is 7beeffc0-74d6-3ca7-b0d2-83dda4b42169
+[02:01:45] [Server thread/INFO]: miauzinto joined the game
+[02:01:45] [Server thread/INFO]: miauzinto[/186.223.169.147:9875] logged in with entity id 150360 at ([world]-1644.4285747741394, 70.5625, 964.6999999880791)
+[02:08:09] [Server thread/INFO]: Narrador3 has made the advancement [Take Aim]
+[02:20:45] [Server thread/INFO]: miauzinto lost connection: Disconnected
+[02:20:45] [Server thread/INFO]: miauzinto left the game
+[02:20:47] [User Authenticator #20/INFO]: UUID of player miauzinto is 7beeffc0-74d6-3ca7-b0d2-83dda4b42169
+[02:20:48] [Server thread/INFO]: miauzinto joined the game
+[02:20:48] [Server thread/INFO]: miauzinto[/186.223.169.147:10026] logged in with entity id 163374 at ([world]-1630.7023020999097, 71.0, 930.5646112012593)
+[02:21:30] [Server thread/INFO]: miauzinto lost connection: Disconnected
+[02:21:30] [Server thread/INFO]: miauzinto left the game
+[02:21:31] [User Authenticator #20/INFO]: UUID of player miauzinto is 7beeffc0-74d6-3ca7-b0d2-83dda4b42169
+[02:21:32] [Server thread/INFO]: miauzinto joined the game
+[02:21:32] [Server thread/INFO]: miauzinto[/186.223.169.147:10035] logged in with entity id 163782 at ([world]-1650.496585362459, 71.0, 895.7678447461086)
+[02:22:08] [Server thread/INFO]: Narrador3 was blown up by Creeper
+[02:22:31] [Async Chat Thread - #37/INFO]: [Not Secure] <Alencar73> n durmam pfvr
+[02:22:34] [Async Chat Thread - #37/INFO]: [Not Secure] <Alencar73> n dorme
+[02:24:12] [Server thread/INFO]: Vintin lost connection: Disconnected
+[02:24:12] [Server thread/INFO]: Vintin left the game
+[02:24:17] [User Authenticator #21/INFO]: UUID of player Vintin is 742d656d-0826-3cc4-a58f-590439d9ab38
+[02:24:18] [Server thread/INFO]: Vintin joined the game
+[02:24:18] [Server thread/INFO]: Vintin[/45.160.232.205:58291] logged in with entity id 167174 at ([world]-1255.2584906189925, 64.0, 375.9042080661418)
+[02:25:18] [User Authenticator #22/INFO]: UUID of player SayGabbis is d414d361-18a6-31ef-96af-690e2149ba53
+[02:25:19] [Server thread/INFO]: SayGabbis joined the game
+[02:25:19] [Server thread/INFO]: SayGabbis[/170.244.254.134:35570] logged in with entity id 168625 at ([world]-1330.833316678139, 64.0, 703.2214833539272)
+[02:25:33] [Async Chat Thread - #39/INFO]: [Not Secure] <Alencar73> salve gabs
+[02:25:41] [Async Chat Thread - #39/INFO]: [Not Secure] <Vintin> oia a aniversariante
+[02:26:06] [Async Chat Thread - #40/INFO]: [Not Secure] <SayGabbis> olaaa
+[02:26:14] [Async Chat Thread - #40/INFO]: [Not Secure] <PomboObeso> que faz aniversario é lgbt
+[02:26:24] [Async Chat Thread - #40/INFO]: [Not Secure] <Alencar73> to fznd o melhor cavalo do game
+[02:27:12] [Async Chat Thread - #40/INFO]: [Not Secure] <SayGabbis> gente falem pro allgames me dar pix de aniversario ele pode
+[02:27:16] [Async Chat Thread - #40/INFO]: [Not Secure] <SayGabbis> :D
+[02:27:26] [Async Chat Thread - #40/INFO]: [Not Secure] <PomboObeso> vdd
+[02:27:31] [Async Chat Thread - #40/INFO]: [Not Secure] <Vintin> vou falar pra ele te roubar
+[02:27:59] [Async Chat Thread - #40/INFO]: [Not Secure] <PomboObeso> vou fazer uma estatua do luisgamer kkk
+[02:28:34] [Server thread/INFO]: PomboObeso has made the advancement [Take Aim]
+[02:29:24] [Server thread/INFO]: SayGabbis has made the advancement [Ice Bucket Challenge]
+[02:30:34] [Server thread/INFO]: Alencar73 lost connection: Disconnected
+[02:30:34] [Server thread/INFO]: Alencar73 left the game
+[02:32:47] [Async Chat Thread - #41/INFO]: [Not Secure] <SayGabbis> gente passem as cord da vila
+[02:32:51] [Async Chat Thread - #41/INFO]: [Not Secure] <SayGabbis> num sei onde to
+[02:32:54] [Async Chat Thread - #41/INFO]: [Not Secure] <Vintin> oxi
+[02:33:15] [Async Chat Thread - #41/INFO]: [Not Secure] <Vintin> ta na caverna?
+[02:33:18] [Async Chat Thread - #41/INFO]: [Not Secure] <SayGabbis> no
+[02:33:22] [Async Chat Thread - #41/INFO]: [Not Secure] <SayGabbis> tava num mar de lava
+[02:33:26] [Async Chat Thread - #41/INFO]: [Not Secure] <SayGabbis> fiz portal
+[02:33:29] [Async Chat Thread - #41/INFO]: [Not Secure] <SayGabbis> ai quebrei ele\
+[02:33:31] [Async Chat Thread - #41/INFO]: [Not Secure] <Vintin> ata to indo ai
+[02:33:42] [Async Chat Thread - #41/INFO]: [Not Secure] <SayGabbis> e to levando pra vila
+[02:33:47] [Async Chat Thread - #41/INFO]: [Not Secure] <SayGabbis> manda cord
+[02:34:01] [Async Chat Thread - #41/INFO]: [Not Secure] <SayGabbis> deixa achei
+[02:34:06] [Async Chat Thread - #41/INFO]: [Not Secure] <Vintin> -1230 240
+[02:34:27] [Server thread/INFO]: PomboObeso has made the advancement [Not Today, Thank You]
+[02:34:36] [Server thread/INFO]: PomboObeso was slain by Narrador3
+[02:34:43] [Async Chat Thread - #41/INFO]: [Not Secure] <Vintin> oloko
+[02:35:21] [Async Chat Thread - #43/INFO]: [Not Secure] <KyrunDark> ALGUEM DORME, PELO AMOR DE NOTCH
+[02:35:35] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username Eren yeiga
+[02:35:35] [localSession-7-1/INFO]: [Geyser-Spigot] Eren yeiga (logged in as: Eren_yeiga) has connected to the Java server
+[02:35:35] [Async Chat Thread - #43/INFO]: [Not Secure] <PomboObeso> BLZ
+[02:35:35] [Server thread/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga joined (UUID: 00000000-0000-0000-0009-01f93862b926)
+[02:35:36] [Server thread/INFO]: Eren_yeiga joined the game
+[02:35:36] [Server thread/INFO]: Eren_yeiga[/179.125.214.54:0] logged in with entity id 178322 at ([world]-1231.379, 70.0, 280.52908)
+[02:36:07] [Async Chat Thread - #43/INFO]: [Not Secure] <SayGabbis> oq diabos tem na vila q o fps caiu pra 30
+[02:36:16] [Async Chat Thread - #43/INFO]: [Not Secure] <Vintin> villager pra caralho
+[02:36:20] [Async Chat Thread - #43/INFO]: [Not Secure] <SayGabbis> mata
+[02:36:23] [Async Chat Thread - #43/INFO]: [Not Secure] <Vintin> oloko
+[02:36:32] [Async Chat Thread - #43/INFO]: [Not Secure] <Vintin> abaixa esses graficos ai
+[02:36:33] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username GeozinP5
+[02:36:33] [localSession-7-2/INFO]: [Geyser-Spigot] GeozinP5 (logged in as: GeozinP5) has connected to the Java server
+[02:36:34] [Server thread/INFO]: [floodgate] Floodgate player logged in as GeozinP5 joined (UUID: 00000000-0000-0000-0009-01f0cbe20fd1)
+[02:36:34] [Server thread/INFO]: GeozinP5 joined the game
+[02:36:34] [Server thread/INFO]: GeozinP5[/200.219.1.44:0] logged in with entity id 178955 at ([world]-1177.0627, 77.0, 909.32324)
+[02:36:43] [Async Chat Thread - #43/INFO]: [Not Secure] <PomboObeso> EAI BB
+[02:36:45] [Async Chat Thread - #43/INFO]: [Not Secure] <SayGabbis> da n man n jogo sem shaders
+[02:36:46] [Async Chat Thread - #42/INFO]: [Not Secure] <Eren_yeiga> opa
+[02:36:56] [Async Chat Thread - #43/INFO]: [Not Secure] <PomboObeso> seu pai é pedreiro
+[02:37:02] [Async Chat Thread - #43/INFO]: [Not Secure] <PomboObeso> ?
+[02:37:03] [Async Chat Thread - #43/INFO]: [Not Secure] <Eren_yeiga> nao pq ?
+[02:37:04] [Async Chat Thread - #43/INFO]: [Not Secure] <miauzinto> abaixa a rend
+[02:37:08] [Async Chat Thread - #43/INFO]: [Not Secure] <Vintin> poise
+[02:37:16] [Async Chat Thread - #43/INFO]: [Not Secure] <PomboObeso> então toma essa pedra
+[02:37:18] [Async Chat Thread - #43/INFO]: [Not Secure] <SayGabbis> injogavel abaixo de 32
+[02:37:20] [Async Chat Thread - #43/INFO]: [Not Secure] <SayGabbis> meme
+[02:37:21] [Async Chat Thread - #43/INFO]: [Not Secure] <Eren_yeiga> a
+[02:37:59] [Async Chat Thread - #43/INFO]: [Not Secure] <Vintin> CUIDADO MUIE
+[02:37:59] [Async Chat Thread - #43/INFO]: [Not Secure] <SayGabbis> qual o nome
+[02:38:16] [Server thread/INFO]: Eren_yeiga was shot by PomboObeso
+[02:38:21] [Async Chat Thread - #43/INFO]: [Not Secure] <Vintin> N sei
+[02:38:24] [Async Chat Thread - #43/INFO]: [Not Secure] <Vintin> da um nome ae
+[02:38:27] [Async Chat Thread - #43/INFO]: [Not Secure] <PomboObeso> PERDÃO
+[02:38:32] [Async Chat Thread - #43/INFO]: [Not Secure] <SayGabbis> barnabé
+[02:38:37] [Async Chat Thread - #43/INFO]: [Not Secure] <Eren_yeiga> tranquilo
+[02:38:37] [Async Chat Thread - #43/INFO]: [Not Secure] <Vintin> perfeito
+[02:38:45] [Async Chat Thread - #43/INFO]: [Not Secure] <PomboObeso> TO FERRO
+[02:39:06] [Async Chat Thread - #43/INFO]: [Not Secure] <Vintin> nao mexem no cavalo pq o alencar vai fazer experiencias com eles
+[02:39:09] [Async Chat Thread - #43/INFO]: [Not Secure] <Vintin> so avisando
+[02:41:13] [Async Chat Thread - #44/INFO]: [Not Secure] <PomboObeso> pera
+[02:41:24] [Async Chat Thread - #44/INFO]: [Not Secure] <Eren_yeiga> vlw pombo
+[02:41:31] [Async Chat Thread - #44/INFO]: [Not Secure] <Eren_yeiga> e narrador
+[02:41:39] [Async Chat Thread - #44/INFO]: [Not Secure] <PomboObeso> rlz
+[02:42:01] [Server thread/INFO]: Eren_yeiga has made the advancement [Isn't It Iron Pick]
+[02:42:08] [Async Chat Thread - #44/INFO]: [Not Secure] <Vintin> ei gabs
+[02:42:13] [Async Chat Thread - #44/INFO]: [Not Secure] <Vintin> vaia buildar o que?
+[02:42:23] [Async Chat Thread - #44/INFO]: [Not Secure] <SayGabbis> torres gemeas pra gente tacar aviao
+[02:42:27] [Async Chat Thread - #44/INFO]: [Not Secure] <SayGabbis> minha casinha*
+[02:42:29] [Async Chat Thread - #44/INFO]: [Not Secure] <Vintin> Oloko
+[02:42:37] [Async Chat Thread - #44/INFO]: [Not Secure] <Vintin> explodir sua casa? ;D
+[02:42:44] [Async Chat Thread - #44/INFO]: [Not Secure] <SayGabbis> a sua
+[02:42:57] [Async Chat Thread - #44/INFO]: [Not Secure] <Vintin> nem tenho
+[02:43:06] [Async Chat Thread - #44/INFO]: [Not Secure] <SayGabbis> e essa base dando sopa
+[02:43:18] [Async Chat Thread - #44/INFO]: [Not Secure] <Vintin> base diferente de casa
+[02:43:24] [Async Chat Thread - #44/INFO]: [Not Secure] <Vintin> :D
+[02:43:38] [Async Chat Thread - #44/INFO]: [Not Secure] <PomboObeso> quem tiver pedra sobrando poderiam doar para construir a estatua do luis
+[02:43:46] [Async Chat Thread - #44/INFO]: [Not Secure] <SayGabbis> os backup do sv tão funfando perfeitamente
+[02:43:51] [Async Chat Thread - #44/INFO]: [Not Secure] <Eren_yeiga> pdp
+[02:43:56] [Async Chat Thread - #44/INFO]: [Not Secure] <Vintin> aleluia
+[02:44:22] [Async Chat Thread - #44/INFO]: [Not Secure] <SayGabbis> onde tao os itens do alenca
+[02:44:31] [Async Chat Thread - #44/INFO]: [Not Secure] <Vintin> boa pergunta
+[02:44:39] [Async Chat Thread - #44/INFO]: [Not Secure] <Vintin> eu diria aqui o
+[02:45:13] [Async Chat Thread - #44/INFO]: [Not Secure] <SayGabbis> preciso de dima
+[02:45:47] [Async Chat Thread - #44/INFO]: [Not Secure] <SayGabbis> tem comida vintin
+[02:45:47] [Async Chat Thread - #44/INFO]: [Not Secure] <Vintin> agora foda saber aonde ele meteu tudo aquilo
+[02:45:54] [Async Chat Thread - #44/INFO]: [Not Secure] <Vintin> tenho
+[02:45:58] [Async Chat Thread - #44/INFO]: [Not Secure] <SayGabbis> só entrar no espectador e ver
+[02:46:01] [Async Chat Thread - #44/INFO]: [Not Secure] <SayGabbis> :3
+[02:46:03] [Async Chat Thread - #44/INFO]: [Not Secure] <Vintin> oloko
+[02:46:05] [Async Chat Thread - #44/INFO]: [Not Secure] <Vintin> ban
+[02:46:08] [Async Chat Thread - #44/INFO]: [Not Secure] <SayGabbis> kkk brincadeira
+[02:46:13] [Async Chat Thread - #45/INFO]: [Not Secure] <Vintin> sei sei
+[02:46:22] [Async Chat Thread - #45/INFO]: [Not Secure] <SayGabbis> só quando n tem ngm vendo
+[02:46:27] [Async Chat Thread - #44/INFO]: [Not Secure] <SayGabbis> ^^
+[02:46:35] [Async Chat Thread - #44/INFO]: [Not Secure] <Vintin> ban invisivel
+[02:47:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2623ms or 52 ticks behind
+[02:47:50] [Server thread/WARN]: Eren_yeiga moved wrongly!
+[02:47:50] [Async Chat Thread - #46/INFO]: [Not Secure] <SayGabbis> tem dima vinin
+[02:47:52] [Async Chat Thread - #46/INFO]: [Not Secure] <SayGabbis> vintin
+[02:47:56] [Async Chat Thread - #46/INFO]: [Not Secure] <Vintin> tenho um
+[02:48:01] [Async Chat Thread - #46/INFO]: [Not Secure] <SayGabbis> um pack
+[02:48:06] [Async Chat Thread - #46/INFO]: [Not Secure] <Vintin> vinin?? que xingamento
+[02:48:11] [Async Chat Thread - #46/INFO]: [Not Secure] <Vintin> ta pedindo demais mulher
+[02:48:32] [Async Chat Thread - #46/INFO]: [Not Secure] <SayGabbis> Vini
+[02:48:41] [Server thread/INFO]: Eren_yeiga has made the advancement [What a Deal!]
+[02:49:12] [Async Chat Thread - #46/INFO]: [Not Secure] <SayGabbis> meu dima
+[02:49:37] [Async Chat Thread - #46/INFO]: [Not Secure] <SayGabbis> matar esse cavalo
+[02:49:59] [Async Chat Thread - #46/INFO]: [Not Secure] <Vintin> se matar o alencar tem trauma
+[02:50:18] [Server thread/INFO]: Vintin has made the advancement [Into Fire]
+[02:50:57] [Async Chat Thread - #46/INFO]: [Not Secure] <SayGabbis> oh mae
+[02:51:01] [Async Chat Thread - #46/INFO]: [Not Secure] <Vintin> ah não
+[02:51:11] [Async Chat Thread - #46/INFO]: [Not Secure] <SayGabbis> onde é q tá o dima aqui de casa
+[02:51:11] [Async Chat Thread - #46/INFO]: [Not Secure] <KyrunDark> onde é que tá o leeeite aqui de casa
+[02:51:23] [Async Chat Thread - #46/INFO]: [Not Secure] <KyrunDark> não tem mais dima
+[02:51:34] [Async Chat Thread - #46/INFO]: [Not Secure] <SayGabbis> vou pegar no criativo beleza
+[02:51:47] [Async Chat Thread - #46/INFO]: [Not Secure] <Eren_yeiga> eu preciso de dima pra poder matar o captao patria
+[02:51:53] [Async Chat Thread - #46/INFO]: [Not Secure] <Vintin> me da um pack de netherite
+[02:52:28] [Async Chat Thread - #46/INFO]: [Not Secure] <Vintin> QUEM FEZ ISSO AQUI EIN GABS
+[02:52:38] [Async Chat Thread - #46/INFO]: [Not Secure] <SayGabbis> o j13
+[02:52:56] [Async Chat Thread - #46/INFO]: [Not Secure] <Vintin> ata beleza
+[02:52:59] [Async Chat Thread - #46/INFO]: [Not Secure] <Vintin> vou bater nele dps
+[02:53:23] [Async Chat Thread - #46/INFO]: [Not Secure] <SayGabbis> tantos itens legaispra eu roubar
+[02:53:34] [Async Chat Thread - #46/INFO]: [Not Secure] <Vintin> medo
+[02:53:37] [Async Chat Thread - #46/INFO]: [Not Secure] <SayGabbis> kkk
+[02:53:50] [Async Chat Thread - #46/INFO]: [Not Secure] <KyrunDark> Gabbis sendo a própria Black Cat
+[02:54:12] [Async Chat Thread - #46/INFO]: [Not Secure] <Vintin> quem é o aranha achando que é pai acidentalmente?
+[02:54:30] [Async Chat Thread - #46/INFO]: [Not Secure] <KyrunDark> o Alencar
+[02:54:46] [Async Chat Thread - #46/INFO]: [Not Secure] <Vintin> alencar ja ta gravido do Luis
+[02:55:04] [Async Chat Thread - #46/INFO]: [Not Secure] <SayGabbis> vdd vazou o video no meu privado
+[02:55:07] [Async Chat Thread - #46/INFO]: [Not Secure] <SayGabbis> do processo
+[02:55:22] [Async Chat Thread - #46/INFO]: [Not Secure] <Vintin> foi desconfortavel ou ofegante?
+[02:56:30] [Async Chat Thread - #48/INFO]: [Not Secure] <Vintin> to em fase de crescimento ainda fiah
+[02:56:48] [Async Chat Thread - #48/INFO]: [Not Secure] <Vintin> tem tronco normal ai?
+[02:57:03] [Async Chat Thread - #48/INFO]: [Not Secure] <Vintin> carvalho
+[02:57:47] [Async Chat Thread - #48/INFO]: [Not Secure] <SayGabbis> vintin posso dar game mode
+[02:57:52] [Async Chat Thread - #48/INFO]: [Not Secure] <Vintin> NAO
+[02:58:06] [Async Chat Thread - #48/INFO]: [Not Secure] <SayGabbis> mas eu quero ser rica
+[02:58:14] [Async Chat Thread - #48/INFO]: [Not Secure] <Vintin> mas nao pode aqui
+[02:58:18] [Async Chat Thread - #48/INFO]: [Not Secure] <Vintin> tente na vida real
+[02:58:21] [Async Chat Thread - #48/INFO]: [Not Secure] <Eren_yeiga> gente teria algum lugar onde poderia construir minha humilde residência?
+[02:58:39] [Async Chat Thread - #48/INFO]: [Not Secure] <PomboObeso> todo lugar
+[02:59:19] [Async Chat Thread - #48/INFO]: [Not Secure] <SayGabbis> tenho tronco normal vintin
+[02:59:27] [Async Chat Thread - #48/INFO]: [Not Secure] <Vintin> roubei um teu ja
+[02:59:31] [Async Chat Thread - #48/INFO]: [Not Secure] <SayGabbis> vira ai
+[02:59:48] [Async Chat Thread - #48/INFO]: [Not Secure] <Vintin> ixi
+[02:59:55] [Async Chat Thread - #48/INFO]: [Not Secure] <KyrunDark> vai sentir o cacetete
+[02:59:58] [Async Chat Thread - #48/INFO]: [Not Secure] <SayGabbis> kkkkk
+[03:00:07] [Async Chat Thread - #48/INFO]: [Not Secure] <Vintin> medo, ela disse que é 300metros
+[03:00:13] [Async Chat Thread - #48/INFO]: [Not Secure] <SayGabbis> sim
+[03:00:38] [Async Chat Thread - #48/INFO]: [Not Secure] <SayGabbis> algm tem lfing
+[03:00:40] [Server thread/INFO]: SayGabbis issued server command: /flitn
+[03:00:41] [Async Chat Thread - #48/INFO]: [Not Secure] <SayGabbis> flint
+[03:01:05] [Async Chat Thread - #48/INFO]: [Not Secure] <Vintin> o Kyrun tem
+[03:01:09] [Async Chat Thread - #48/INFO]: [Not Secure] <Vintin> mas ele ta longe
+[03:01:10] [Async Chat Thread - #48/INFO]: [Not Secure] <Vintin> coitado
+[03:01:32] [Server thread/WARN]: Oak Boat with Chest (vehicle of KyrunDark) moved wrongly! 0.37691933352834894
+[03:01:32] [Server thread/WARN]: Oak Boat with Chest (vehicle of KyrunDark) moved wrongly! 0.31011793707807556
+[03:01:32] [Server thread/WARN]: Oak Boat with Chest (vehicle of KyrunDark) moved wrongly! 0.5938352454388678
+[03:01:39] [Async Chat Thread - #48/INFO]: [Not Secure] <SayGabbis> pq o pombo obeso e o narrador estao reproduzindo em baixo da terra
+[03:01:47] [Async Chat Thread - #48/INFO]: [Not Secure] <Vintin> oloko exposed
+[03:01:59] [Async Chat Thread - #48/INFO]: [Not Secure] <Vintin> sabia que tinha algo entre eles
+[03:02:00] [Async Chat Thread - #48/INFO]: [Not Secure] <PomboObeso> calma ae paizão
+[03:02:02] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] GeozinP5 has disconnected from the Java server because of Bedrock client disconnected
+[03:02:02] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as GeozinP5 disconnected
+[03:02:02] [Server thread/INFO]: GeozinP5 lost connection: Disconnected
+[03:02:02] [Server thread/INFO]: GeozinP5 left the game
+[03:02:02] [Async Chat Thread - #48/INFO]: [Not Secure] <Narrador3> deixa no off
+[03:02:06] [Async Chat Thread - #48/INFO]: [Not Secure] <Vintin> vi os dois acasalando hoje de manha
+[03:02:20] [Async Chat Thread - #48/INFO]: [Not Secure] <Vintin> tenho flint
+[03:02:24] [Async Chat Thread - #48/INFO]: [Not Secure] <SayGabbis> mim de
+[03:02:35] [Async Chat Thread - #48/INFO]: [Not Secure] <SayGabbis> cabo meu niver sou veia
+[03:02:46] [Async Chat Thread - #48/INFO]: [Not Secure] <Vintin> idosa SKKKSKSKKSKSKSKSKSKSKSKSKSKSKK
+[03:02:48] [Async Chat Thread - #48/INFO]: [Not Secure] <Vintin> sorry
+[03:02:52] [Async Chat Thread - #48/INFO]: [Not Secure] <SayGabbis> 9 aninho
+[03:03:12] [Async Chat Thread - #48/INFO]: [Not Secure] <KyrunDark> agora multiplica por 3
+[03:03:18] [Async Chat Thread - #48/INFO]: [Not Secure] <Vintin> 27
+[03:03:22] [Async Chat Thread - #48/INFO]: [Not Secure] <Vintin> taporra
+[03:03:37] [Async Chat Thread - #48/INFO]: [Not Secure] <SayGabbis> agora preciso de ferro
+[03:03:43] [Server thread/INFO]: Villager Villager['Villager'/150815, uuid='cab77b6e-fdaa-49f8-882b-2b68c685b5e5', l='ServerLevel[world]', x=-1637.73, y=70.00, z=939.44, cpos=[-103, 58], tl=45794, v=true] died, message: 'Villager burned to death'
+[03:03:43] [Async Chat Thread - #48/INFO]: [Not Secure] <Vintin> vai farm
+[03:06:52] [Async Chat Thread - #50/INFO]: [Not Secure] <SayGabbis> -127 63
+[03:07:15] [Async Chat Thread - #50/INFO]: [Not Secure] <Vintin> nether
+[03:07:22] [Async Chat Thread - #50/INFO]: [Not Secure] <SayGabbis> the nether
+[03:07:32] [Async Chat Thread - #50/INFO]: [Not Secure] <Vintin> chicken jockey
+[03:08:41] [Async Chat Thread - #52/INFO]: [Not Secure] <SayGabbis> matei um preto
+[03:08:46] [Async Chat Thread - #52/INFO]: [Not Secure] <Vintin> oloko
+[03:08:47] [Async Chat Thread - #52/INFO]: [Not Secure] <KyrunDark> oloko
+[03:08:47] [Async Chat Thread - #52/INFO]: [Not Secure] <Vintin> apoio
+[03:09:07] [Async Chat Thread - #52/INFO]: [Not Secure] <PomboObeso> toma jack toma
+[03:09:17] [Async Chat Thread - #53/INFO]: [Not Secure] <Narrador3> que isso
+[03:09:51] [Async Chat Thread - #52/INFO]: [Not Secure] <SayGabbis> matei oto
+[03:12:26] [Async Chat Thread - #54/INFO]: [Not Secure] <PomboObeso> COLOCA KEEPIVENTURE PELO AMOR DE DEUS
+[03:12:29] [Async Chat Thread - #54/INFO]: [Not Secure] <SayGabbis> não
+[03:12:37] [Async Chat Thread - #54/INFO]: [Not Secure] <Vintin> noob
+[03:12:45] [Async Chat Thread - #54/INFO]: [Not Secure] <PomboObeso> deselegante
+[03:14:44] [Server thread/INFO]: Eren_yeiga has made the advancement [Not Today, Thank You]
+[03:15:10] [Server thread/INFO]: SayGabbis has completed the challenge [Return to Sender]
+[03:15:23] [Async Chat Thread - #56/INFO]: [Not Secure] <KyrunDark> É O BICHÃO MESMO DOIDO
+[03:15:26] [Server thread/INFO]: Eren_yeiga was shot by Skeleton
+[03:15:32] [Async Chat Thread - #56/INFO]: [Not Secure] <Vintin> oloko
+[03:17:22] [Server thread/INFO]: SayGabbis has made the advancement [A Terrible Fortress]
+[03:17:28] [Async Chat Thread - #58/INFO]: [Not Secure] <Eren_yeiga> vcs tinham visto o spawner de esqueleto embaixo da vila ?
+[03:17:52] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Bedrock user with ip: /200.6.90.237 has disconnected for reason Please log into Xbox to join this server.
+[03:18:07] [Async Chat Thread - #58/INFO]: [Not Secure] <Vintin> se for perto da mina tlg
+[03:18:28] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Bedrock user with ip: /200.6.90.237 has disconnected for reason Please log into Xbox to join this server.
+[03:19:18] [Async Chat Thread - #60/INFO]: [Not Secure] <Eren_yeiga> acho que e tem bastante tocha perto
+[03:20:09] [Server thread/INFO]: SayGabbis was doomed to fall
+[03:20:18] [Async Chat Thread - #60/INFO]: [Not Secure] <KyrunDark> F
+[03:20:19] [Async Chat Thread - #60/INFO]: [Not Secure] <Vintin> puta merda
+[03:20:33] [Async Chat Thread - #60/INFO]: [Not Secure] <SayGabbis> depresao
+[03:20:36] [Async Chat Thread - #60/INFO]: [Not Secure] <Vintin> oxi KSKKSSKSK brotou aqui
+[03:20:50] [Async Chat Thread - #60/INFO]: [Not Secure] <SayGabbis> :(
+[03:21:18] [Async Chat Thread - #60/INFO]: [Not Secure] <Vintin> n desista
+[03:21:22] [Async Chat Thread - #60/INFO]: [Not Secure] <SayGabbis> desisto
+[03:21:26] [Async Chat Thread - #60/INFO]: [Not Secure] <Vintin> oxi
+[03:21:46] [Async Chat Thread - #60/INFO]: [Not Secure] <KyrunDark> n desista, Gabbis, gambare gambare
+[03:22:54] [Async Chat Thread - #62/INFO]: [Not Secure] <SayGabbis> vou me mamar
+[03:23:03] [Async Chat Thread - #62/INFO]: [Not Secure] <KyrunDark> bom...
+[03:23:03] [Async Chat Thread - #62/INFO]: [Not Secure] <Vintin> ao vivoa
+[03:23:24] [Async Chat Thread - #62/INFO]: [Not Secure] <KyrunDark> que só não seja em público
+[03:26:39] [Async Chat Thread - #64/INFO]: [Not Secure] <SayGabbis> ifood
+[03:26:42] [Async Chat Thread - #64/INFO]: [Not Secure] <Vintin> perdeu tudo?
+[03:26:44] [Async Chat Thread - #64/INFO]: [Not Secure] <SayGabbis> s
+[03:26:52] [Async Chat Thread - #64/INFO]: [Not Secure] <Vintin> tinha mt coisa valiosa?
+[03:28:20] [Async Chat Thread - #66/INFO]: [Not Secure] <SayGabbis> full dima
+[03:28:31] [Async Chat Thread - #66/INFO]: [Not Secure] <KyrunDark> com hack, até eu
+[03:28:39] [Async Chat Thread - #66/INFO]: [Not Secure] <SayGabbis> é roubo mesmo
+[03:28:43] [Async Chat Thread - #66/INFO]: [Not Secure] <KyrunDark> A
+[03:28:45] [Async Chat Thread - #66/INFO]: [Not Secure] <Vintin> clipei
+[03:28:47] [Async Chat Thread - #66/INFO]: [Not Secure] <SayGabbis> deu bola passo a vara
+[03:28:52] [Server thread/INFO]: Narrador3 fell from a high place
+[03:29:04] [Async Chat Thread - #66/INFO]: [Not Secure] <KyrunDark> caiu na rede é peixe, né Gabbis?
+[03:30:13] [Async Chat Thread - #68/INFO]: [Not Secure] <SayGabbis> \gamemode creatvie
+[03:30:15] [Async Chat Thread - #68/INFO]: [Not Secure] <SayGabbis> pode
+[03:30:19] [Async Chat Thread - #68/INFO]: [Not Secure] <Vintin> nao
+[03:30:23] [Async Chat Thread - #68/INFO]: [Not Secure] <SayGabbis> :(
+[03:30:23] [Async Chat Thread - #68/INFO]: [Not Secure] <PomboObeso> pode simn
+[03:30:28] [Async Chat Thread - #68/INFO]: [Not Secure] <PomboObeso> eu deixo
+[03:30:34] [Async Chat Thread - #68/INFO]: [Not Secure] <SayGabbis> dou 1k dima se aceitar
+[03:30:36] [Async Chat Thread - #68/INFO]: [Not Secure] <Vintin> Vanilla pura com honra
+[03:30:47] [Async Chat Thread - #68/INFO]: [Not Secure] <Vintin> 2k e aceito
+[03:30:53] [Async Chat Thread - #68/INFO]: [Not Secure] <PomboObeso> eu quero 23 pecs de pedra
+[03:30:53] [Async Chat Thread - #68/INFO]: [Not Secure] <SayGabbis> e a honra
+[03:30:59] [Async Chat Thread - #68/INFO]: [Not Secure] <Vintin> ta nos 2k
+[03:31:33] [Async Chat Thread - #68/INFO]: [Not Secure] <Eren_yeiga> como diria luis gamer : dinheiro na mão calsinha no chão
+[03:31:42] [Async Chat Thread - #68/INFO]: [Not Secure] <Eren_yeiga> vlw
+[03:31:45] [Async Chat Thread - #68/INFO]: [Not Secure] <Vintin> ou o contrario
+[03:32:13] [Async Chat Thread - #68/INFO]: [Not Secure] <PomboObeso> pegar mulher é coisa de gay, elas gostam de homem
+[03:32:20] [Async Chat Thread - #69/INFO]: [Not Secure] <SayGabbis> eu gosto de mulhe
+[03:32:30] [Async Chat Thread - #69/INFO]: [Not Secure] <SayGabbis> e de homes gostosos
+[03:32:55] [Async Chat Thread - #69/INFO]: [Not Secure] <Vintin> mulher n precisa ser gostosa?
+[03:33:04] [Async Chat Thread - #69/INFO]: [Not Secure] <PomboObeso> meu segoscio é piriquito
+[03:33:12] [Async Chat Thread - #69/INFO]: [Not Secure] <PomboObeso> portugues ta foda
+[03:33:23] [Async Chat Thread - #69/INFO]: [Not Secure] <SayGabbis> ?
+[03:33:29] [Async Chat Thread - #69/INFO]: [Not Secure] <KyrunDark> premio por ter matado o ghat
+[03:33:33] [Async Chat Thread - #69/INFO]: [Not Secure] <SayGabbis> a
+[03:33:42] [Async Chat Thread - #69/INFO]: [Not Secure] <SayGabbis> tenkio
+[03:34:09] [Async Chat Thread - #69/INFO]: [Not Secure] <PomboObeso> Luis falou que quando eu terminar a estatua é pra chamar ele pro server
+[03:34:21] [Async Chat Thread - #69/INFO]: [Not Secure] <SayGabbis> termine daqui 2 semanas
+[03:34:26] [Async Chat Thread - #69/INFO]: [Not Secure] <Vintin> concordo
+[03:34:33] [Async Chat Thread - #69/INFO]: [Not Secure] <PomboObeso> ai é foda
+[03:34:35] [Async Chat Thread - #69/INFO]: [Not Secure] <PomboObeso> bçz
+[03:34:39] [Async Chat Thread - #69/INFO]: [Not Secure] <PomboObeso> blz
+[03:34:40] [Async Chat Thread - #69/INFO]: [Not Secure] <Eren_yeiga> também concordo
+[03:34:55] [Async Chat Thread - #69/INFO]: [Not Secure] <Eren_yeiga> vou tentar refazer meu colosso aqui no server novo
+[03:34:55] [Async Chat Thread - #69/INFO]: [Not Secure] <Vintin> é dos bons, so nao morre com ele pela amor
+[03:34:57] [Async Chat Thread - #69/INFO]: [Not Secure] <SayGabbis> é meu agora
+[03:35:01] [Async Chat Thread - #69/INFO]: [Not Secure] <PomboObeso> imediatamente coloque mod de voice chat
+[03:35:17] [Async Chat Thread - #69/INFO]: [Not Secure] <Vintin> call no dc n quer
+[03:35:29] [Async Chat Thread - #69/INFO]: [Not Secure] <PomboObeso> independente irmão
+[03:35:34] [Async Chat Thread - #69/INFO]: [Not Secure] <PomboObeso> da teus corre
+[03:35:37] [Async Chat Thread - #69/INFO]: [Not Secure] <SayGabbis> bedrock n suporta mod java
+[03:36:05] [Async Chat Thread - #69/INFO]: [Not Secure] <Vintin> toma otario
+[03:36:09] [Async Chat Thread - #69/INFO]: [Not Secure] <Vintin> da teus corre
+[03:38:31] [Server thread/INFO]: KyrunDark has made the advancement [Isn't It Iron Pick]
+[03:39:12] [Server thread/INFO]: Vintin has made the advancement [Hot Stuff]
+[03:39:24] [Async Chat Thread - #70/INFO]: [Not Secure] <SayGabbis> me da
+[03:39:37] [Async Chat Thread - #70/INFO]: [Not Secure] <KyrunDark> dá não
+[03:39:53] [Async Chat Thread - #70/INFO]: [Not Secure] <Vintin> safada
+[03:39:57] [Server thread/INFO]: SayGabbis lost connection: Disconnected
+[03:39:57] [Server thread/INFO]: SayGabbis left the game
+[03:40:03] [Async Chat Thread - #70/INFO]: [Not Secure] <Vintin> SKKSKSKSKSKSS
+[03:40:14] [Async Chat Thread - #70/INFO]: [Not Secure] <Vintin> clipada
+[03:40:45] [Async Chat Thread - #70/INFO]: [Not Secure] <PomboObeso> alguem tem slime?
+[03:54:52] [Server thread/INFO]: KyrunDark lost connection: Disconnected
+[03:54:52] [Server thread/INFO]: KyrunDark left the game
+[03:55:12] [Server thread/WARN]: Eren_yeiga moved wrongly!
+[03:57:19] [Server thread/WARN]: miauzinto moved too quickly! -3.684027441322087,1.1767592750642422,-18.49276342703979
+[03:59:53] [Async Chat Thread - #72/INFO]: [Not Secure] <Vintin> o alencar deve ter
+[04:00:19] [Server thread/INFO]: Villager Villager['Villager'/39733, uuid='c1c70d5c-06fb-4fcf-9ed8-0f93d98aad40', l='ServerLevel[world]', x=-1247.09, y=64.00, z=229.52, cpos=[-78, 14], tl=391655, v=true] died, message: 'Villager was shot by Narrador3'
+[04:00:25] [Server thread/INFO]: Villager Villager['Villager'/88639, uuid='de3f5f1a-933f-417a-a6cb-d77a936f7164', l='ServerLevel[world]', x=-1247.32, y=64.00, z=226.61, cpos=[-78, 14], tl=273735, v=true] died, message: 'Villager was shot by Narrador3'
+[04:01:39] [Server thread/INFO]: Villager Villager['Villager'/138983, uuid='74b32480-aea1-4009-8fa9-958b5a609608', l='ServerLevel[world]', x=-1299.33, y=69.00, z=221.58, cpos=[-82, 13], tl=169553, v=true] died, message: 'Villager was slain by Narrador3'
+[04:03:26] [Server thread/INFO]: miauzinto lost connection: Disconnected
+[04:03:26] [Server thread/INFO]: miauzinto left the game
+[04:03:46] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Eren yeiga has disconnected from the Java server because of Bedrock client disconnected
+[04:03:46] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga disconnected
+[04:03:46] [Server thread/INFO]: Eren_yeiga lost connection: Disconnected
+[04:03:46] [Server thread/INFO]: Eren_yeiga left the game
+[04:06:46] [Server thread/INFO]: Villager Villager['Villager'/217901, uuid='880d18ea-3eda-403e-89c6-b3b343819d0e', l='ServerLevel[world]', x=-1314.79, y=70.00, z=260.18, cpos=[-83, 16], tl=61170, v=true] died, message: 'Villager was shot by Narrador3'
+[04:06:59] [Server thread/INFO]: Villager Villager['Villager'/85039, uuid='ccf11caa-9481-4324-a7ac-3151b0d65a26', l='ServerLevel[world]', x=-1314.53, y=70.00, z=261.30, cpos=[-83, 16], tl=295001, v=true] died, message: 'Villager was shot by Narrador3'
+[04:07:26] [Server thread/INFO]: Villager Villager['Villager'/196599, uuid='2ef38677-15a5-43f8-94bb-51854df8a8b1', l='ServerLevel[world]', x=-1311.41, y=71.00, z=276.49, cpos=[-82, 17], tl=87517, v=true] died, message: 'Villager was shot by Narrador3'
+[04:07:34] [Server thread/INFO]: Narrador3 has made the advancement [We Need to Go Deeper]
+[04:07:37] [Server thread/INFO]: PomboObeso has made the advancement [We Need to Go Deeper]
+[04:09:01] [Server thread/INFO]: PomboObeso was shot by Narrador3
+[04:09:09] [Async Chat Thread - #74/INFO]: [Not Secure] <Vintin> oloko
+[04:12:08] [Server thread/INFO]: Villager Villager['Villager'/233134, uuid='ae16e4e4-7c4b-4e3f-be9c-62c6d4de1f6a', l='ServerLevel[world]', x=-1281.27, y=69.00, z=265.23, cpos=[-81, 16], tl=41907, v=true] died, message: 'Villager was shot by Narrador3'
+[04:12:10] [Server thread/INFO]: Villager Villager['Villager'/208599, uuid='738ba9a7-eae3-4763-ab35-1a0174f2f668', l='ServerLevel[world]', x=-1281.73, y=69.00, z=267.21, cpos=[-81, 16], tl=80203, v=true] died, message: 'Villager was shot by Narrador3'
+[04:12:40] [Server thread/INFO]: Narrador3 has made the advancement [Sweet Dreams]
+[04:16:05] [Server thread/INFO]: Narrador3 lost connection: Disconnected
+[04:16:05] [Server thread/INFO]: Narrador3 left the game
+[04:25:41] [Async Chat Thread - #76/INFO]: [Not Secure] <Vintin> eae pombo fazendo o que?
+[04:29:59] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username Patinhoskk
+[04:29:59] [localSession-7-3/INFO]: [Geyser-Spigot] Patinhoskk (logged in as: Patinhoskk) has connected to the Java server
+[04:30:00] [Server thread/INFO]: [floodgate] Floodgate player logged in as Patinhoskk joined (UUID: 00000000-0000-0000-0009-01f1ae1b4cb8)
+[04:30:00] [Server thread/INFO]: Patinhoskk joined the game
+[04:30:00] [Server thread/INFO]: Patinhoskk[/206.43.70.97:0] logged in with entity id 251730 at ([world]-1353.9714, 64.0, 402.8352)
+[04:30:31] [Async Chat Thread - #78/INFO]: [Not Secure] <Patinhoskk> ow
+[04:30:43] [Async Chat Thread - #78/INFO]: [Not Secure] <Vintin> eae man
+[04:30:49] [Async Chat Thread - #78/INFO]: [Not Secure] <Vintin> desconhecido é vc?
+[04:30:52] [Async Chat Thread - #78/INFO]: [Not Secure] <Patinhoskk> quem me ajuda a minera manhã?
+[04:30:55] [Async Chat Thread - #78/INFO]: [Not Secure] <Patinhoskk> é
+[04:31:09] [Async Chat Thread - #78/INFO]: [Not Secure] <Vintin> n sei se estarei disponivel
+[04:31:39] [Async Chat Thread - #78/INFO]: [Not Secure] <Patinhoskk> pomba ?
+[04:33:55] [Async Chat Thread - #80/INFO]: [Not Secure] <Patinhoskk> onde cês tão?
+[04:34:01] [Async Chat Thread - #80/INFO]: [Not Secure] <Vintin> to minerando
+[04:34:09] [Async Chat Thread - #80/INFO]: [Not Secure] <Vintin> pra pegar bloco pra minha house
+[04:34:18] [Async Chat Thread - #80/INFO]: [Not Secure] <Patinhoskk> minha chunk não carrega
+[04:34:29] [Async Chat Thread - #80/INFO]: [Not Secure] <Vintin> ta no bedrock?
+[04:34:32] [Async Chat Thread - #80/INFO]: [Not Secure] <Patinhoskk> é
+[04:34:33] [Async Chat Thread - #80/INFO]: [Not Secure] <Vintin> sai e volta
+[04:34:42] [Async Chat Thread - #80/INFO]: [Not Secure] <Patinhoskk> bele
+[04:34:43] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Patinhoskk has disconnected from the Java server because of Bedrock client disconnected
+[04:34:43] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as Patinhoskk disconnected
+[04:34:44] [Server thread/INFO]: Patinhoskk lost connection: Disconnected
+[04:34:44] [Server thread/INFO]: Patinhoskk left the game
+[04:34:59] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Patinhoskk
+[04:34:59] [localSession-7-4/INFO]: [Geyser-Spigot] Patinhoskk (logged in as: Patinhoskk) has connected to the Java server
+[04:34:59] [User Authenticator #23/INFO]: UUID of player Patinhoskk is c06899ba-fd36-3ea4-a20f-752c22fea279
+[04:34:59] [Server thread/INFO]: Patinhoskk joined the game
+[04:34:59] [Server thread/INFO]: Patinhoskk[/206.43.70.97:0] logged in with entity id 252958 at ([world]-1264.5, 70.0, 278.5)
+[04:35:19] [Async Chat Thread - #80/INFO]: [Not Secure] <Patinhoskk> ué
+[04:35:26] [Async Chat Thread - #80/INFO]: [Not Secure] <Vintin> ue
+[04:35:29] [Async Chat Thread - #80/INFO]: [Not Secure] <Patinhoskk> meus itens sumiram
+[04:35:31] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username GeozinP5
+[04:35:31] [localSession-7-1/INFO]: [Geyser-Spigot] GeozinP5 (logged in as: GeozinP5) has connected to the Java server
+[04:35:32] [Server thread/INFO]: [floodgate] Floodgate player logged in as GeozinP5 joined (UUID: 00000000-0000-0000-0009-01f0cbe20fd1)
+[04:35:32] [Server thread/INFO]: GeozinP5 joined the game
+[04:35:32] [Server thread/INFO]: GeozinP5[/200.219.1.44:0] logged in with entity id 252996 at ([world]-1540.5155, 60.0, 1238.7737)
+[04:35:38] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Patinhoskk has disconnected from the Java server because of Bedrock client disconnected
+[04:35:38] [Server thread/INFO]: Patinhoskk lost connection: Disconnected
+[04:35:38] [Server thread/INFO]: Patinhoskk left the game
+[04:35:38] [Async Chat Thread - #80/INFO]: [Not Secure] <Vintin> tu trocou de nome burro
+[04:35:53] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Patinhoskk
+[04:35:53] [localSession-7-2/INFO]: [Geyser-Spigot] Patinhoskk (logged in as: Patinhoskk) has connected to the Java server
+[04:35:53] [Server thread/INFO]: [floodgate] Floodgate player logged in as Patinhoskk joined (UUID: 00000000-0000-0000-0009-01f1ae1b4cb8)
+[04:35:53] [Server thread/INFO]: Patinhoskk joined the game
+[04:35:53] [Server thread/INFO]: Patinhoskk[/206.43.70.97:0] logged in with entity id 253480 at ([world]-1279.2487, 64.0, 209.32327)
+[04:36:09] [Async Chat Thread - #80/INFO]: [Not Secure] <Patinhoskk> aeee
+[04:36:37] [Server thread/INFO]: Patinhoskk has made the advancement [Stone Age]
+[04:36:44] [Async Chat Thread - #80/INFO]: [Not Secure] <Vintin> gg
+[04:37:27] [Async Chat Thread - #80/INFO]: [Not Secure] <Patinhoskk> tô sem comida
+[04:37:42] [Async Chat Thread - #80/INFO]: [Not Secure] <Patinhoskk> os caras fizeram extermínio dos bichos
+[04:37:56] [Server thread/INFO]: GeozinP5 was slain by Zombie
+[04:38:07] [Server thread/INFO]: Patinhoskk has made the advancement [Getting an Upgrade]
+[04:39:29] [Server thread/INFO]: Villager Villager['Cleric'/121179, uuid='a8285f82-6fa9-448f-876a-4d5b5b0f06d1', l='ServerLevel[world]', x=-1330.87, y=70.42, z=284.14, cpos=[-84, 17], tl=248320, v=true] died, message: 'Cleric was slain by Zombie'
+[04:39:50] [Server thread/INFO]: GeozinP5 was shot by Skeleton
+[04:40:35] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] GeozinP5 has disconnected from the Java server because of Bedrock client disconnected
+[04:40:35] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as GeozinP5 disconnected
+[04:40:35] [Server thread/INFO]: GeozinP5 lost connection: Disconnected
+[04:40:35] [Server thread/INFO]: GeozinP5 left the game
+[04:41:51] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username GeozinP5
+[04:41:51] [localSession-7-3/INFO]: [Geyser-Spigot] GeozinP5 (logged in as: GeozinP5) has connected to the Java server
+[04:41:52] [Server thread/INFO]: [floodgate] Floodgate player logged in as GeozinP5 joined (UUID: 00000000-0000-0000-0009-01f0cbe20fd1)
+[04:41:52] [Server thread/INFO]: GeozinP5 joined the game
+[04:41:52] [Server thread/INFO]: GeozinP5[/200.219.1.44:0] logged in with entity id 255711 at ([world]-1267.1049, 80.0, 266.55112)
+[04:42:28] [Async Chat Thread - #82/INFO]: [Not Secure] <Patinhoskk> quem tem comida?
+[04:42:53] [Async Chat Thread - #82/INFO]: [Not Secure] <Vintin> tem na casinha ao lado da plantação e cavalos
+[04:43:08] [Async Chat Thread - #82/INFO]: [Not Secure] <Vintin> vê la os baus e procura que tem comida
+[04:43:12] [Async Chat Thread - #82/INFO]: [Not Secure] <Vintin> sabe?
+[04:43:39] [Async Chat Thread - #82/INFO]: [Not Secure] <Patinhoskk> uma de pedra
+[04:43:46] [Async Chat Thread - #82/INFO]: [Not Secure] <Vintin> isso
+[04:43:56] [Async Chat Thread - #82/INFO]: [Not Secure] <Patinhoskk> toda de pedra ?
+[04:44:06] [Async Chat Thread - #82/INFO]: [Not Secure] <Patinhoskk> ou é da vila ?
+[04:44:08] [Async Chat Thread - #82/INFO]: [Not Secure] <Vintin> toda de forma literal?
+[04:44:10] [Async Chat Thread - #82/INFO]: [Not Secure] <Vintin> da vila
+[04:44:26] [Async Chat Thread - #82/INFO]: [Not Secure] <Patinhoskk> ata
+[04:47:02] [Server thread/INFO]: Patinhoskk has made the advancement [Acquire Hardware]
+[04:47:46] [Server thread/INFO]: Patinhoskk has made the advancement [Isn't It Iron Pick]
+[04:49:53] [Server thread/INFO]: Patinhoskk has made the advancement [Suit Up]
+[04:50:36] [Server thread/INFO]: GeozinP5 was burned to a crisp while fighting Zombie
+[04:54:47] [Async Chat Thread - #84/INFO]: [Not Secure] <Patinhoskk> galera
+[04:54:52] [Async Chat Thread - #84/INFO]: [Not Secure] <Patinhoskk> vou sair
+[04:54:59] [Async Chat Thread - #84/INFO]: [Not Secure] <Patinhoskk> pra da aquela dormida
+[04:55:01] [Async Chat Thread - #84/INFO]: [Not Secure] <GeozinP5> Boa noite
+[04:55:09] [Async Chat Thread - #84/INFO]: [Not Secure] <Patinhoskk> boa noite
+[04:55:16] [Async Chat Thread - #84/INFO]: [Not Secure] <Patinhoskk> flw rapaziada
+[04:55:19] [Async Chat Thread - #84/INFO]: [Not Secure] <Vintin> boa noite ae
+[04:55:39] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Patinhoskk has disconnected from the Java server because of Bedrock client timed out
+[04:55:39] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as Patinhoskk disconnected
+[04:55:39] [Server thread/INFO]: Patinhoskk lost connection: Disconnected
+[04:55:39] [Server thread/INFO]: Patinhoskk left the game
+[04:56:24] [Server thread/INFO]: GeozinP5 has made the advancement [Sweet Dreams]
+[04:59:00] [Server thread/INFO]: GeozinP5 hit the ground too hard
+[05:16:43] [Server thread/INFO]: GeozinP5 has made the advancement [Acquire Hardware]
+[05:17:39] [Server thread/INFO]: GeozinP5 has made the advancement [Monster Hunter]
+[05:18:40] [Server thread/INFO]: GeozinP5 was slain by Zombie
+[05:20:14] [Server thread/INFO]: GeozinP5 was shot by Skeleton
+[05:23:18] [Server thread/INFO]: PomboObeso lost connection: Disconnected
+[05:23:18] [Server thread/INFO]: PomboObeso left the game
+[05:26:26] [Server thread/INFO]: Vintin lost connection: Disconnected
+[05:26:26] [Server thread/INFO]: Vintin left the game
+[05:36:19] [Server thread/INFO]: GeozinP5 was blown up by Creeper
+[05:48:18] [Server thread/WARN]: GeozinP5 moved wrongly!
+[05:48:18] [Server thread/WARN]: GeozinP5 moved wrongly!
+[06:02:22] [Server thread/INFO]: GeozinP5 was shot by Skeleton
+[06:09:11] [Server thread/INFO]: GeozinP5 has made the advancement [Isn't It Iron Pick]
+[06:15:02] [Server thread/INFO]: GeozinP5 has made the advancement [Fishy Business]
+[06:32:52] [Server thread/INFO]: GeozinP5 was slain by Zombie Villager
+[06:37:16] [Server thread/INFO]: GeozinP5 was slain by Zombie
+[06:53:00] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] GeozinP5 has disconnected from the Java server because of Bedrock client disconnected
+[06:53:00] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as GeozinP5 disconnected
+[06:53:00] [Server thread/INFO]: GeozinP5 lost connection: Disconnected
+[06:53:00] [Server thread/INFO]: GeozinP5 left the game
 [07:00:01] [SIGCONT handler/WARN]: Exception in thread "SIGCONT handler" java.io.IOError: java.io.IOException: Error calling ioctl(TIOCGWINSZ): return code is -1
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:65)
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.Terminal.getBufferSize(Terminal.java:273)
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.reader.impl.LineReaderImpl.handleSignal(LineReaderImpl.java:1160)
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractTerminal.raise(AbstractTerminal.java:96)
-[07:00:01] [Server thread/INFO]: Stopping server
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.PosixSysTerminal.lambda$handle$1(PosixSysTerminal.java:68)
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.utils.Signals.lambda$register$1(Signals.java:52)
 [07:00:01] [SIGCONT handler/WARN]: 	at jdk.proxy2/jdk.proxy2.$Proxy64.handle(Unknown Source)
@@ -126,43 +754,44 @@ Caused by: java.io.IOException: Input/output error
 	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:56) ~[jline-terminal-3.27.1.jar:?]
 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160) ~[jline-reader-3.20.0.jar:?]
 	... 9 more
+[07:00:01] [Server thread/INFO]: Stopping server
 [07:00:01] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.2
 [07:00:01] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
 [07:00:01] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[07:00:02] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[07:00:02] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
-[07:00:02] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[07:00:02] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
-[07:00:02] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[07:00:02] [Server thread/INFO]: Saving players
-[07:00:02] [Server thread/INFO]: Saving worlds
-[07:00:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[07:00:02] [WebSocketConnectReadThread-1328/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 135 entity chunks, 0 poi chunks in world 'world' in 0.07s
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[07:00:01] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[07:00:01] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
+[07:00:01] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[07:00:01] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+[07:00:01] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[07:00:01] [Server thread/INFO]: Saving players
+[07:00:01] [Server thread/INFO]: Saving worlds
+[07:00:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[07:00:01] [WebSocketConnectReadThread-2265/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Saved 3 block chunks, 128 entity chunks, 0 poi chunks in world 'world' in 0.08s
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
 [07:00:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saved 237 block chunks, 52 entity chunks, 0 poi chunks in world 'world_nether' in 0.19s
-[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[07:00:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[07:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[07:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[07:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[07:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[07:00:03] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[07:00:03] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[07:00:03] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[07:00:03] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 65 block chunks, 104 entity chunks, 0 poi chunks in world 'world_nether' in 0.21s
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[07:00:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:00:02] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[07:00:02] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[07:00:02] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[07:00:02] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
