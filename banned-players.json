@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "uuid": "00000000-0000-0000-0009-01f71aba736a",
+    "name": "WeskerIkrausse",
+    "created": "2025-05-09 21:41:39 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]
