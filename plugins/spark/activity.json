@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "SayGabbis",
+      "uniqueId": "d414d361-18a6-31ef-96af-690e2149ba53"
+    },
+    "time": 1746898854101,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/lFpMGhYLWS"
+    }
+  }
+]

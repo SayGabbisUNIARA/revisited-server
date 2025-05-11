@@ -1,23 +1,21 @@
-[07:01:56] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu122.04; Ubuntu null) on Linux 6.8.0-1029-gcp (amd64)
-[07:01:56] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-22-main@6c2b037 (2025-04-16T18:32:47Z) for Minecraft 1.21.5
-[07:01:56] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[07:01:58] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
-[07:01:58] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
- - Geyser-Spigot (2.7.1-SNAPSHOT), SkinsRestorer (15.6.2), ViaBackwards (5.3.2), ViaVersion (5.3.2), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
-[07:02:05] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[07:02:08] [ServerMain/INFO]: Loaded 1373 recipes
-[07:02:08] [ServerMain/INFO]: Loaded 1484 advancements
-[07:02:08] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[07:02:08] [Server thread/INFO]: Loading properties
-[07:02:08] [Server thread/INFO]: This server is running Paper version 1.21.5-22-main@6c2b037 (2025-04-16T18:32:47Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
-[07:02:09] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[07:02:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[07:02:09] [Server thread/INFO]: Using 4 threads for Netty based IO
-[07:02:10] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[07:02:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[07:02:11] [Server thread/INFO]: Default game type: SURVIVAL
-[07:02:11] [Server thread/INFO]: Generating keypair
-[07:02:11] [Server console handler/WARN]: [org.jline] Failed to load history
+[05:16:05] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu122.04; Ubuntu null) on Linux 6.8.0-1029-gcp (amd64)
+[05:16:05] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-22-main@6c2b037 (2025-04-16T18:32:47Z) for Minecraft 1.21.5
+[05:16:05] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[05:16:06] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
+[05:16:06] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+ - Geyser-Spigot (2.7.1-SNAPSHOT), SkinsRestorer (15.6.3), Timber (1.6.3), ViaBackwards (5.3.2), ViaVersion (5.3.2), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
+[05:16:14] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[05:16:17] [ServerMain/INFO]: Loaded 1373 recipes
+[05:16:17] [ServerMain/INFO]: Loaded 1484 advancements
+[05:16:17] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[05:16:17] [Server thread/INFO]: Loading properties
+[05:16:17] [Server thread/INFO]: This server is running Paper version 1.21.5-22-main@6c2b037 (2025-04-16T18:32:47Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
+[05:16:17] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[05:16:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:16:17] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:16:19] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[05:16:19] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[05:16:19] [Server console handler/WARN]: [org.jline] Failed to load history
 java.lang.IllegalArgumentException: Bad history file syntax! The history file `.console_history` may be an older history: please remove it or use a different history file.
 	at org.jline.reader.impl.history.DefaultHistory.addHistoryLine(DefaultHistory.java:181) ~[jline-reader-3.20.0.jar:?]
 	at org.jline.reader.impl.history.DefaultHistory.addHistoryLine(DefaultHistory.java:165) ~[jline-reader-3.20.0.jar:?]
@@ -32,447 +30,216 @@ java.lang.IllegalArgumentException: Bad history file syntax! The history file `.
 	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158) ~[terminalconsoleappender-1.3.0.jar:?]
 	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141) ~[terminalconsoleappender-1.3.0.jar:?]
 	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:108) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
-[07:02:11] [Server thread/INFO]: Starting Minecraft server on *:25565
-[07:02:11] [Server thread/INFO]: Using epoll channel type
-[07:02:11] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[07:02:11] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[07:02:12] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
-[07:02:12] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
-[07:02:12] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[07:02:13] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[07:02:13] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[07:02:13] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[07:02:14] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[07:02:15] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[07:02:15] [Server thread/INFO]: [floodgate] Took 1,220ms to boot Floodgate
-[07:02:15] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
-[07:02:15] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
-[07:02:17] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[07:02:17] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[07:02:17] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.2
-[07:02:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[07:02:17] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.2
-[07:02:17] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[07:02:18] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.5.
-[07:02:18] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[07:02:18] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[07:02:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[07:02:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[07:02:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[07:02:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[07:02:18] [Server thread/INFO]: Preparing level "world"
-[07:02:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[07:02:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[07:02:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[07:02:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[07:02:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[07:02:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[07:02:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[07:02:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.2
-[07:02:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7bda5de
-[07:02:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[07:02:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[07:02:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[07:02:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[07:02:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[07:02:20] [Server thread/INFO]: Preparing spawn area: 0%
-[07:02:20] [Server thread/INFO]: Preparing spawn area: 0%
-[07:02:21] [Server thread/INFO]: Preparing spawn area: 0%
-[07:02:21] [Server thread/INFO]: Preparing spawn area: 0%
-[07:02:21] [Server thread/INFO]: Preparing spawn area: 0%
-[07:02:22] [Server thread/INFO]: Time elapsed: 2252 ms
-[07:02:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[07:02:22] [Server thread/INFO]: Preparing spawn area: 0%
-[07:02:22] [Server thread/INFO]: Time elapsed: 472 ms
-[07:02:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[07:02:22] [Server thread/INFO]: Preparing spawn area: 0%
-[07:02:22] [Server thread/INFO]: Time elapsed: 211 ms
-[07:02:22] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
-[07:02:22] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.5 (770)
-[07:02:22] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[07:02:23] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
-[07:02:23] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
-[07:02:24] [Server thread/INFO]: [spark] Starting background profiler...
-[07:02:24] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[07:02:24] [Server thread/INFO]: [Geyser-Spigot] 
-[07:02:24] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b824 (git-master-b296f10)
-[07:02:24] [Server thread/INFO]: [Geyser-Spigot] 
-[07:02:24] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[07:02:28] [pool-14-thread-1/WARN]: [floodgate] 
+[05:16:19] [Server thread/INFO]: Default game type: SURVIVAL
+[05:16:19] [Server thread/INFO]: Generating keypair
+[05:16:19] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:16:19] [Server thread/INFO]: Using epoll channel type
+[05:16:20] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[05:16:20] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[05:16:20] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+[05:16:20] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[05:16:21] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[05:16:21] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[05:16:22] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[05:16:22] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[05:16:23] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[05:16:24] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[05:16:24] [Server thread/INFO]: [floodgate] Took 1,181ms to boot Floodgate
+[05:16:24] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
+[05:16:24] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
+[05:16:25] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[05:16:25] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[05:16:25] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.3
+[05:16:25] [Server thread/INFO]: [Timber] Loading server plugin Timber v1.6.3
+[05:16:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:16:25] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.3
+[05:16:27] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.5.
+[05:16:27] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[05:16:27] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[05:16:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:16:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:16:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:16:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:16:27] [Server thread/INFO]: Preparing level "world"
+[05:16:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:16:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[05:16:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[05:16:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[05:16:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[05:16:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[05:16:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:16:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.3
+[05:16:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7eb6dc6
+[05:16:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[05:16:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:16:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[05:16:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[05:16:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:16:29] [Server thread/INFO]: Preparing spawn area: 0%
+[05:16:30] [Server thread/INFO]: Preparing spawn area: 0%
+[05:16:30] [Server thread/INFO]: Preparing spawn area: 0%
+[05:16:30] [Server thread/INFO]: Preparing spawn area: 0%
+[05:16:30] [Server thread/INFO]: Time elapsed: 1967 ms
+[05:16:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[05:16:30] [Server thread/INFO]: Preparing spawn area: 0%
+[05:16:30] [Server thread/INFO]: Time elapsed: 378 ms
+[05:16:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[05:16:30] [Server thread/INFO]: Preparing spawn area: 0%
+[05:16:31] [Server thread/INFO]: Time elapsed: 178 ms
+[05:16:31] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[05:16:31] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.5 (770)
+[05:16:31] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[05:16:31] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
+[05:16:31] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
+[05:16:32] [Server thread/INFO]: [Timber] Enabling Timber v1.6.3
+[05:16:33] [Server thread/INFO]: [spark] Starting background profiler...
+[05:16:34] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[05:16:34] [Server thread/INFO]: [Geyser-Spigot] 
+[05:16:34] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b824 (git-master-b296f10)
+[05:16:34] [Server thread/INFO]: [Geyser-Spigot] 
+[05:16:34] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[05:16:36] [pool-14-thread-1/WARN]: [floodgate] 
 **********************************
 * You specified an empty prefix in your Floodgate config for Bedrock players!
 * Should a Java player join and a Bedrock player join with the same username, unwanted results and conflicts will happen!
 * We strongly recommend using . as the prefix, but other alternatives that will not conflict include: +, - and *
 **********************************
-[07:02:32] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[07:02:32] [Server thread/INFO]: [Geyser-Spigot] Done (7.883s)! Run /geyser help for help!
-[07:02:32] [Server thread/INFO]: Done preparing level "world" (13.890s)
-[07:02:32] [Server thread/INFO]: Running delayed init tasks
-[07:02:32] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[07:02:32] [Server thread/INFO]: Done (37.723s)! For help, type "help"
-[07:02:32] [User Authenticator #0/INFO]: UUID of player SayGabbis is d414d361-18a6-31ef-96af-690e2149ba53
-[07:02:48] [User Authenticator #0/INFO]: UUID of player SayGabbis is d414d361-18a6-31ef-96af-690e2149ba53
-[07:02:48] [Netty Epoll Server IO #2/WARN]: [ViaVersion] Duplicate UUID on frontend connection! (d414d361-18a6-31ef-96af-690e2149ba53)
-[07:02:49] [Server thread/INFO]: SayGabbis joined the game
-[07:02:49] [Server thread/INFO]: SayGabbis[/170.244.254.134:35996] logged in with entity id 140 at ([world]-1227.206072833492, 60.0, 361.49549897191565)
-[07:03:02] [Server thread/INFO]: Disconnecting SayGabbis (/170.244.254.134:36215): Took too long to log in
-[07:03:02] [Server thread/INFO]: SayGabbis (/170.244.254.134:36215) lost connection: Internal Exception: io.netty.handler.codec.EncoderException: Pipeline has no outbound protocol configured, can't process packet net.minecraft.network.protocol.login.ClientboundLoginDisconnectPacket@385d59ed
-[07:37:45] [Server thread/INFO]: SayGabbis issued server command: /gamerule keepInventory true
-[07:37:45] [Server thread/INFO]: [SayGabbis: Gamerule keepInventory is now set to: true]
-[07:37:46] [Server thread/INFO]: SayGabbis issued server command: /kill
-[07:37:46] [Server thread/INFO]: SayGabbis was killed
-[07:37:46] [Server thread/INFO]: [SayGabbis: Killed SayGabbis]
-[07:37:50] [Server thread/INFO]: SayGabbis issued server command: /gamerule keepInventory false
-[07:37:50] [Server thread/INFO]: [SayGabbis: Gamerule keepInventory is now set to: false]
-[07:40:39] [Server thread/INFO]: SayGabbis lost connection: Disconnected
-[07:40:39] [Server thread/INFO]: SayGabbis left the game
-[09:20:19] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
-[09:20:19] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
-[09:20:19] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[09:20:19] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |------------------|
-[09:20:19] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[09:20:19] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
-[09:20:19] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
-[09:20:19] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Version: 15.6.2
-[09:20:19] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Commit: 7bda5de
-[09:20:19] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     A new version (15.6.3) is available! Downloading update...
-[09:20:19] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
-[09:20:19] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[09:20:19] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[09:20:19] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] [GitHubUpdate] Downloading update...
-[09:20:19] [Folia Async Scheduler Thread #3/WARN]: [SkinsRestorer] [GitHubUpdate] SHA256 hash not found, cannot verify integrity
-[09:20:19] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] [GitHubUpdate] Downloaded update in 708ms
-[09:20:19] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] [GitHubUpdate] Update saved as SkinsRestorer.jar
-[09:20:19] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] [GitHubUpdate] The update will be loaded on the next server restart
-[10:31:57] [User Authenticator #1/INFO]: UUID of player Narrador3 is c6b40a19-7f47-3478-9285-c19fd506627e
-[10:31:57] [Server thread/INFO]: Narrador3 joined the game
-[10:31:57] [Server thread/INFO]: Narrador3[/45.172.69.25:12779] logged in with entity id 7840 at ([world]-1350.4886665776976, 64.0, 247.66469951203658)
-[11:13:02] [Server thread/INFO]: Narrador3 lost connection: Disconnected
-[11:13:02] [Server thread/INFO]: Narrador3 left the game
-[12:51:09] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username SonNatso13
-[12:51:09] [localSession-7-2/INFO]: [Geyser-Spigot] SonNatso13 (logged in as: SonNatso13) has connected to the Java server
-[12:51:10] [Server thread/INFO]: [floodgate] Floodgate player logged in as SonNatso13 joined (UUID: 00000000-0000-0000-0009-01f0aea0fdd9)
-[12:51:10] [Server thread/INFO]: SonNatso13 joined the game
-[12:51:10] [Server thread/INFO]: SonNatso13[/187.13.40.197:0] logged in with entity id 14593 at ([world]-1149.2299, 78.5625, 324.40656)
-[12:53:21] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] SonNatso13 has disconnected from the Java server because of Bedrock client timed out
-[12:53:21] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as SonNatso13 disconnected
-[12:53:21] [Server thread/INFO]: SonNatso13 lost connection: Disconnected
-[12:53:21] [Server thread/INFO]: SonNatso13 left the game
-[12:53:58] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username SonNatso13
-[12:53:58] [localSession-7-3/INFO]: [Geyser-Spigot] SonNatso13 (logged in as: SonNatso13) has connected to the Java server
-[12:53:59] [Server thread/INFO]: [floodgate] Floodgate player logged in as SonNatso13 joined (UUID: 00000000-0000-0000-0009-01f0aea0fdd9)
-[12:53:59] [Server thread/INFO]: SonNatso13 joined the game
-[12:53:59] [Server thread/INFO]: SonNatso13[/187.13.40.197:0] logged in with entity id 15017 at ([world]-1176.3715, 69.0, 305.04788)
-[13:01:20] [Server thread/WARN]: SonNatso13 moved wrongly!
-[13:05:02] [Server thread/INFO]: SonNatso13 has made the advancement [Monster Hunter]
-[13:43:59] [Server thread/WARN]: SonNatso13 moved wrongly!
-[13:54:57] [Server thread/INFO]: SonNatso13 has made the advancement [The Parrots and the Bats]
-[13:59:20] [User Authenticator #2/INFO]: UUID of player Narrador3 is c6b40a19-7f47-3478-9285-c19fd506627e
-[13:59:20] [Server thread/INFO]: Narrador3 joined the game
-[13:59:20] [Server thread/INFO]: Narrador3[/45.172.69.25:12712] logged in with entity id 30639 at ([world]-1380.6118273276836, 65.0, 223.62116618115064)
-[13:59:20] [Server thread/WARN]: SonNatso13 was kicked for floating too long!
-[13:59:20] [localSession-7-3/INFO]: [Geyser-Spigot] SonNatso13 has disconnected from the Java server because of Flying is not enabled on this server
-[13:59:20] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as SonNatso13 disconnected
-[13:59:20] [Server thread/INFO]: SonNatso13 lost connection: Flying is not enabled on this server
-[13:59:20] [Server thread/INFO]: SonNatso13 left the game
-[14:01:15] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username SonNatso13
-[14:01:15] [localSession-7-4/INFO]: [Geyser-Spigot] SonNatso13 (logged in as: SonNatso13) has connected to the Java server
-[14:01:16] [Server thread/INFO]: [floodgate] Floodgate player logged in as SonNatso13 joined (UUID: 00000000-0000-0000-0009-01f0aea0fdd9)
-[14:01:16] [Server thread/INFO]: SonNatso13 joined the game
-[14:01:16] [Server thread/INFO]: SonNatso13[/187.13.40.197:0] logged in with entity id 31527 at ([world]-1145.3783, 79.04456459576491, 320.35202)
-[14:08:37] [Server thread/INFO]: SonNatso13 has made the advancement [What a Deal!]
-[14:09:45] [Server thread/WARN]: Player SonNatso13 just tried to change non-editable sign
-[14:13:40] [User Authenticator #3/INFO]: UUID of player miauzinto is 7beeffc0-74d6-3ca7-b0d2-83dda4b42169
-[14:13:40] [Server thread/INFO]: miauzinto joined the game
-[14:13:40] [Server thread/INFO]: miauzinto[/186.223.169.147:1884] logged in with entity id 34681 at ([world]-1644.4983363336937, 70.5625, 964.6999999880791)
-[14:18:37] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] SonNatso13 has disconnected from the Java server because of Bedrock client disconnected
-[14:18:37] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as SonNatso13 disconnected
-[14:18:37] [Server thread/INFO]: SonNatso13 lost connection: Disconnected
-[14:18:37] [Server thread/INFO]: SonNatso13 left the game
-[14:21:43] [Server thread/INFO]: Narrador3 lost connection: Disconnected
-[14:21:43] [Server thread/INFO]: Narrador3 left the game
-[14:22:12] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username SonNatso13
-[14:22:12] [localSession-7-1/INFO]: [Geyser-Spigot] SonNatso13 (logged in as: SonNatso13) has connected to the Java server
-[14:22:13] [Server thread/INFO]: [floodgate] Floodgate player logged in as SonNatso13 joined (UUID: 00000000-0000-0000-0009-01f0aea0fdd9)
-[14:22:13] [Server thread/INFO]: SonNatso13 joined the game
-[14:22:13] [Server thread/INFO]: SonNatso13[/187.13.40.197:0] logged in with entity id 37825 at ([world]-1148.8401, 78.5625, 323.93796)
-[14:24:32] [User Authenticator #4/INFO]: UUID of player ShapelierC15 is 95eebe6f-dfa4-33e4-ab20-cd7b96b3b8a4
-[14:24:32] [Server thread/INFO]: ShapelierC15 joined the game
-[14:24:32] [Server thread/INFO]: ShapelierC15[/45.226.75.92:53703] logged in with entity id 38663 at ([world]-1244.093094160301, 70.0, 275.1307591177708)
-[14:24:59] [Server thread/INFO]: ShapelierC15 lost connection: Disconnected
-[14:24:59] [Server thread/INFO]: ShapelierC15 left the game
-[14:28:05] [User Authenticator #5/INFO]: UUID of player Narrador3 is c6b40a19-7f47-3478-9285-c19fd506627e
-[14:28:05] [Server thread/INFO]: Narrador3 joined the game
-[14:28:05] [Server thread/INFO]: Narrador3[/45.172.69.25:12786] logged in with entity id 39840 at ([world]-1391.405108682881, 68.0, 220.45065924940354)
-[14:29:27] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] SonNatso13 has disconnected from the Java server because of Bedrock client disconnected
-[14:29:27] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as SonNatso13 disconnected
-[14:29:27] [Server thread/INFO]: SonNatso13 lost connection: Disconnected
-[14:29:27] [Server thread/INFO]: SonNatso13 left the game
-[14:41:23] [Server thread/INFO]: miauzinto has made the advancement [Hidden in the Depths]
-[14:45:49] [Async Chat Thread - #0/INFO]: [Not Secure] <Narrador3> eae mano, ta vivo?
-[14:45:54] [Async Chat Thread - #0/INFO]: [Not Secure] <miauzinto> sim
-[14:46:15] [Async Chat Thread - #0/INFO]: [Not Secure] <Narrador3> cara to fazendo uma plantação aqui atras
-[14:46:40] [Async Chat Thread - #0/INFO]: [Not Secure] <miauzinto> onde?
-[14:46:52] [Async Chat Thread - #0/INFO]: [Not Secure] <Narrador3> onde tu tá?
-[14:47:01] [Async Chat Thread - #0/INFO]: [Not Secure] <miauzinto> to no nether
-[14:47:08] [Async Chat Thread - #0/INFO]: [Not Secure] <Narrador3> po
-[14:47:24] [Async Chat Thread - #0/INFO]: [Not Secure] <Narrador3> sabe a casa de baixo da terra?
-[14:47:55] [Async Chat Thread - #0/INFO]: [Not Secure] <miauzinto> sim
-[14:48:07] [Async Chat Thread - #0/INFO]: [Not Secure] <Narrador3> atrás dela
-[14:54:30] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username KSantos77363
-[14:54:30] [localSession-7-2/INFO]: [Geyser-Spigot] KSantos77363 (logged in as: KSantos77363) has connected to the Java server
-[14:54:31] [Server thread/INFO]: [floodgate] Floodgate player logged in as KSantos77363 joined (UUID: 00000000-0000-0000-0009-01fcd0333658)
-[14:54:31] [Server thread/INFO]: KSantos77363 joined the game
-[14:54:31] [Server thread/INFO]: KSantos77363[/143.255.109.108:0] logged in with entity id 50273 at ([world]-1259.1335, 101.0, 434.7556)
-[14:54:46] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as KSantos77363 disconnected
-[14:54:46] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] KSantos77363 has disconnected from the Java server because of Bedrock client timed out
-[14:54:46] [Server thread/INFO]: KSantos77363 lost connection: Disconnected
-[14:54:46] [Server thread/INFO]: KSantos77363 left the game
-[15:01:06] [Server thread/INFO]: Narrador3 tried to swim in lava
-[15:18:13] [Server thread/INFO]: Narrador3 lost connection: Disconnected
-[15:18:13] [Server thread/INFO]: Narrador3 left the game
-[15:31:03] [Server thread/INFO]: miauzinto has made the advancement [Those Were the Days]
-[15:32:47] [Server thread/INFO]: miauzinto has made the advancement [War Pigs]
-[15:32:55] [Server thread/INFO]: miauzinto has made the advancement [Who is Cutting Onions?]
-[15:37:56] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Eren yeiga
-[15:37:56] [localSession-7-3/INFO]: [Geyser-Spigot] Eren yeiga (logged in as: Eren_yeiga) has connected to the Java server
-[15:37:57] [Server thread/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga joined (UUID: 00000000-0000-0000-0009-01f93862b926)
-[15:37:57] [Server thread/INFO]: Eren_yeiga joined the game
-[15:37:57] [Server thread/INFO]: Eren_yeiga[/179.125.214.54:0] logged in with entity id 62958 at ([world]-1161.4525, 66.0, 267.96747)
-[15:38:42] [Server thread/INFO]: miauzinto lost connection: Disconnected
-[15:38:42] [Server thread/INFO]: miauzinto left the game
-[15:39:04] [User Authenticator #6/INFO]: UUID of player j13013j is ce345b66-6787-3b61-aa59-8047f5f80d80
-[15:39:04] [Server thread/INFO]: j13013j joined the game
-[15:39:04] [Server thread/INFO]: j13013j[/168.232.161.61:41444] logged in with entity id 63289 at ([world]-1185.4843674005479, 73.0, 438.30000001192093)
-[15:44:23] [Server thread/INFO]: j13013j lost connection: Disconnected
-[15:44:23] [Server thread/INFO]: j13013j left the game
-[15:48:14] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Eren yeiga has disconnected from the Java server because of Bedrock client disconnected
-[15:48:14] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga disconnected
-[15:48:14] [Server thread/INFO]: Eren_yeiga lost connection: Disconnected
-[15:48:14] [Server thread/INFO]: Eren_yeiga left the game
-[15:49:44] [User Authenticator #7/INFO]: UUID of player SayGabbis is d414d361-18a6-31ef-96af-690e2149ba53
-[15:49:45] [Server thread/INFO]: SayGabbis joined the game
-[15:49:45] [Server thread/INFO]: SayGabbis[/170.244.254.134:36093] logged in with entity id 65602 at ([world]-1268.699999988079, 71.0, 291.3021150564282)
-[15:50:02] [Server thread/INFO]: SayGabbis lost connection: Disconnected
-[15:50:02] [Server thread/INFO]: SayGabbis left the game
-[15:50:38] [User Authenticator #7/INFO]: UUID of player SayGabbis is d414d361-18a6-31ef-96af-690e2149ba53
-[15:50:38] [Server thread/INFO]: SayGabbis joined the game
-[15:50:38] [Server thread/INFO]: SayGabbis[/170.244.254.134:35715] logged in with entity id 65664 at ([world]-1267.5, 71.0, 292.5)
-[15:51:12] [Server thread/INFO]: SayGabbis issued server command: /difficulty
-[15:51:15] [Server thread/INFO]: SayGabbis issued server command: /difficulty peaceful
-[15:51:15] [Server thread/INFO]: [SayGabbis: The difficulty has been set to Peaceful]
-[15:54:48] [Server thread/INFO]: SayGabbis issued server command: /difficulty hard
-[15:54:48] [Server thread/INFO]: [SayGabbis: The difficulty has been set to Hard]
-[15:55:07] [Server thread/INFO]: SayGabbis issued server command: /gamemode creative
-[15:55:07] [Server thread/INFO]: [SayGabbis: Set own game mode to Creative Mode]
-[15:56:02] [Server thread/INFO]: SayGabbis issued server command: /summon minecraft:zombie
-[15:56:02] [Server thread/INFO]: [SayGabbis: Summoned new Zombie]
-[15:57:45] [Server thread/INFO]: SayGabbis issued server command: /summon minecraft:zombie
-[15:57:45] [Server thread/INFO]: [SayGabbis: Summoned new Zombie]
-[15:57:51] [Server thread/INFO]: Villager Villager['Villager'/337, uuid='a1d46505-3b94-4810-a03b-5d8e06c8a69c', l='ServerLevel[world]', x=-1276.44, y=57.56, z=201.37, cpos=[-80, 12], tl=220320, v=true] died, message: 'Villager was slain by Zombie'
-[15:57:59] [Server thread/INFO]: Villager Villager['Villager'/336, uuid='7c528a37-888c-4b87-a9d1-48c2350836b9', l='ServerLevel[world]', x=-1276.33, y=57.56, z=199.40, cpos=[-80, 12], tl=220481, v=true] died, message: 'Villager was slain by Zombie Villager'
-[15:58:04] [Server thread/INFO]: Villager Villager['Villager'/338, uuid='c06a9c46-3f8b-48dd-b27f-9abf4aa16259', l='ServerLevel[world]', x=-1276.46, y=57.56, z=199.48, cpos=[-80, 12], tl=220576, v=true] died, message: 'Villager was slain by Zombie'
-[15:58:09] [Server thread/INFO]: SayGabbis issued server command: /summon minecraft:zombie
-[15:58:09] [Server thread/INFO]: [SayGabbis: Summoned new Zombie]
-[15:58:49] [Server thread/INFO]: SayGabbis issued server command: /summon minecraft:zombie
-[15:58:50] [Server thread/INFO]: [SayGabbis: Summoned new Zombie]
-[15:59:43] [Server thread/INFO]: SayGabbis issued server command: /gamemode survival
-[15:59:43] [Server thread/INFO]: [SayGabbis: Set own game mode to Survival Mode]
-[15:59:59] [Server thread/INFO]: SayGabbis was slain by Iron Golem
-[16:01:21] [Server thread/INFO]: SayGabbis issued server command: /deop SayGabbis
-[16:01:21] [Server thread/INFO]: [SayGabbis: Made SayGabbis no longer a server operator]
-[16:11:15] [User Authenticator #8/INFO]: UUID of player miauzinto is 7beeffc0-74d6-3ca7-b0d2-83dda4b42169
-[16:11:15] [Server thread/INFO]: miauzinto joined the game
-[16:11:15] [Server thread/INFO]: miauzinto[/186.223.169.147:1949] logged in with entity id 68530 at ([world_nether]-310.35009097823666, 31.0, 208.30000001192093)
-[16:22:17] [Server thread/INFO]: miauzinto has made the advancement [A Terrible Fortress]
-[16:24:32] [Server thread/INFO]: miauzinto has made the advancement [Into Fire]
-[16:34:18] [Server thread/INFO]: SayGabbis lost connection: Disconnected
-[16:34:18] [Server thread/INFO]: SayGabbis left the game
-[16:38:28] [User Authenticator #9/INFO]: UUID of player Narrador3 is c6b40a19-7f47-3478-9285-c19fd506627e
-[16:38:28] [Server thread/INFO]: Narrador3 joined the game
-[16:38:28] [Server thread/INFO]: Narrador3[/45.172.69.25:12733] logged in with entity id 75769 at ([world]-1356.7902170604275, 64.0, 250.5912769952144)
-[16:38:38] [User Authenticator #9/INFO]: UUID of player SayGabbis is d414d361-18a6-31ef-96af-690e2149ba53
-[16:38:38] [Server thread/INFO]: SayGabbis joined the game
-[16:38:38] [Server thread/INFO]: SayGabbis[/170.244.254.134:35624] logged in with entity id 75905 at ([world]-1132.6879540738057, 25.0, 417.69999998807907)
-[16:43:14] [Async Chat Thread - #2/INFO]: [Not Secure] <SayGabbis> gnt algm dorme
-[16:43:44] [Async Chat Thread - #2/INFO]: [Not Secure] <miauzinto> to muito longe de casa
-[16:43:51] [Async Chat Thread - #2/INFO]: [Not Secure] <SayGabbis> achei a vila
-[16:44:43] [Server thread/INFO]: Narrador3 was slain by Zombie
-[16:46:02] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username KSantos77363
-[16:46:02] [localSession-7-4/INFO]: [Geyser-Spigot] KSantos77363 (logged in as: KSantos77363) has connected to the Java server
-[16:46:03] [Server thread/INFO]: [floodgate] Floodgate player logged in as KSantos77363 joined (UUID: 00000000-0000-0000-0009-01fcd0333658)
-[16:46:03] [Server thread/INFO]: KSantos77363 joined the game
-[16:46:03] [Server thread/INFO]: KSantos77363[/143.255.109.108:0] logged in with entity id 80004 at ([world]-1259.1335, 101.0, 434.7556)
-[16:47:51] [Server thread/INFO]: SayGabbis fell from a high place
-[16:48:12] [Async Chat Thread - #4/INFO]: [Not Secure] <SayGabbis> ta funcionando agr?
-[16:48:15] [Async Chat Thread - #4/INFO]: [Not Secure] <SayGabbis> a farm
-[16:48:21] [Async Chat Thread - #4/INFO]: [Not Secure] <Narrador3> ta
-[16:48:24] [Async Chat Thread - #4/INFO]: [Not Secure] <SayGabbis> os golem tava nascendo fora
-[16:48:45] [Async Chat Thread - #4/INFO]: [Not Secure] <KSantos77363> Cristo Redentor ???
-[16:48:47] [Async Chat Thread - #4/INFO]: [Not Secure] <Narrador3> tlgd
-[16:48:55] [User Authenticator #10/INFO]: UUID of player ShapelierC15 is 95eebe6f-dfa4-33e4-ab20-cd7b96b3b8a4
-[16:48:55] [Server thread/INFO]: ShapelierC15 joined the game
-[16:48:55] [Server thread/INFO]: ShapelierC15[/45.226.75.92:54727] logged in with entity id 81841 at ([world]-1257.8410015712184, 69.9375, 285.3316233007188)
-[16:48:58] [Async Chat Thread - #4/INFO]: [Not Secure] <Narrador3> é do pombo
-[16:49:12] [Async Chat Thread - #4/INFO]: [Not Secure] <KSantos77363> caramba que bonito
-[16:49:59] [Async Chat Thread - #4/INFO]: [Not Secure] <SayGabbis> tenkio
-[16:50:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2545ms or 50 ticks behind
-[16:55:19] [Server thread/INFO]: Narrador3 lost connection: Disconnected
-[16:55:19] [Server thread/INFO]: Narrador3 left the game
-[16:55:23] [User Authenticator #11/INFO]: UUID of player Narrador3 is c6b40a19-7f47-3478-9285-c19fd506627e
-[16:55:23] [Server thread/INFO]: Narrador3 joined the game
-[16:55:23] [Server thread/INFO]: Narrador3[/45.172.69.25:12154] logged in with entity id 87995 at ([world]-1365.4552657437239, 68.0, 247.30000001192093)
-[16:55:25] [Server thread/INFO]: Narrador3 lost connection: Disconnected
-[16:55:25] [Server thread/INFO]: Narrador3 left the game
-[16:55:39] [Server thread/INFO]: SayGabbis lost connection: Disconnected
-[16:55:39] [Server thread/INFO]: SayGabbis left the game
-[16:56:16] [Server thread/INFO]: Made SayGabbis a server operator
-[16:56:22] [User Authenticator #11/INFO]: UUID of player SayGabbis is d414d361-18a6-31ef-96af-690e2149ba53
-[16:56:22] [Server thread/INFO]: SayGabbis joined the game
-[16:56:22] [Server thread/INFO]: SayGabbis[/170.244.254.134:35853] logged in with entity id 88635 at ([world_nether]-162.68198780089605, 30.0, 36.547405526431426)
-[16:56:23] [Server thread/INFO]: SayGabbis issued server command: /gamemode creative
-[16:56:23] [Server thread/INFO]: [SayGabbis: Set own game mode to Creative Mode]
-[16:58:22] [Server thread/INFO]: SayGabbis issued server command: /gamemode survival
-[16:58:22] [Server thread/INFO]: [SayGabbis: Set own game mode to Survival Mode]
-[16:59:07] [Server thread/INFO]: SayGabbis issued server command: /gamemode creative
-[16:59:07] [Server thread/INFO]: [SayGabbis: Set own game mode to Creative Mode]
-[16:59:10] [Server thread/INFO]: SayGabbis issued server command: /gamemode survival
-[16:59:10] [Server thread/INFO]: [SayGabbis: Set own game mode to Survival Mode]
-[16:59:18] [Server thread/INFO]: SayGabbis issued server command: /gamemode creative
-[16:59:18] [Server thread/INFO]: [SayGabbis: Set own game mode to Creative Mode]
-[16:59:27] [Server thread/INFO]: SayGabbis issued server command: /gamemode survival
-[16:59:27] [Server thread/INFO]: [SayGabbis: Set own game mode to Survival Mode]
-[17:04:03] [Async Chat Thread - #6/INFO]: [Not Secure] <ShapelierC15> estou sem rumo
-[17:07:08] [Async Chat Thread - #8/INFO]: [Not Secure] <SayGabbis> onde ta o portal do nether pra voltar pra casa?
-[17:07:28] [Async Chat Thread - #8/INFO]: [Not Secure] <ShapelierC15> o que perto da vila?
-[17:07:33] [Server thread/INFO]: KSantos77363 has made the advancement [We Need to Go Deeper]
-[17:07:34] [Async Chat Thread - #8/INFO]: [Not Secure] <SayGabbis> n, de dentro do nether
-[17:07:41] [Server thread/INFO]: SayGabbis fell from a high place
-[17:07:45] [Async Chat Thread - #8/INFO]: [Not Secure] <ShapelierC15> puts
-[17:07:46] [Async Chat Thread - #8/INFO]: [Not Secure] <SayGabbis> a
-[17:07:53] [Async Chat Thread - #9/INFO]: [Not Secure] <ShapelierC15> eu ia la pegar as cord
-[17:07:54] [Server thread/INFO]: SayGabbis issued server command: /gamerule keepInventory false
-[17:07:54] [Server thread/INFO]: [SayGabbis: Gamerule keepInventory is now set to: false]
-[17:08:05] [Async Chat Thread - #9/INFO]: [Not Secure] <SayGabbis> wtf
-[17:08:06] [Async Chat Thread - #8/INFO]: [Not Secure] <ShapelierC15> complicado...
-[17:08:07] [Async Chat Thread - #8/INFO]: [Not Secure] <SayGabbis> n perdi os itens
-[17:08:12] [Async Chat Thread - #8/INFO]: [Not Secure] <ShapelierC15> vixi
-[17:08:13] [Async Chat Thread - #8/INFO]: [Not Secure] <SayGabbis> algm botou keepinv?
-[17:08:33] [Async Chat Thread - #8/INFO]: [Not Secure] <ShapelierC15> tavam pedindo pra ativar o keepinv ontem
-[17:08:39] [Async Chat Thread - #8/INFO]: [Not Secure] <SayGabbis> vou ver la no console
-[17:08:41] [Async Chat Thread - #8/INFO]: [Not Secure] <ShapelierC15> mas nao sei se ativaram
-[17:08:54] [Async Chat Thread - #8/INFO]: [Not Secure] <ShapelierC15> muito noobs
-[17:08:55] [Server thread/INFO]: Gamerule keepInventory is currently set to: false
-[17:09:06] [Async Chat Thread - #8/INFO]: [Not Secure] <SayGabbis> desativei
-[17:09:33] [Async Chat Thread - #8/INFO]: [Not Secure] <ShapelierC15> to com um livro de fortuna sobrando aq
-[17:09:38] [Async Chat Thread - #8/INFO]: [Not Secure] <ShapelierC15> alguem quer?
-[17:09:51] [Async Chat Thread - #8/INFO]: [Not Secure] <SayGabbis> algm tem vara de blaze
-[17:13:12] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username NicolasDaflon
-[17:13:12] [localSession-7-1/INFO]: [Geyser-Spigot] NicolasDaflon (logged in as: NicolasDaflon) has connected to the Java server
-[17:13:13] [Server thread/INFO]: [floodgate] Floodgate player logged in as NicolasDaflon joined (UUID: 00000000-0000-0000-0009-01fad6b104ec)
-[17:13:13] [Server thread/INFO]: NicolasDaflon joined the game
-[17:13:13] [Server thread/INFO]: NicolasDaflon[/191.250.52.232:0] logged in with entity id 96182 at ([world]-768.30001, 103.0, 452.72058)
-[17:16:55] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Patinhoskk
-[17:16:55] [localSession-7-2/INFO]: [Geyser-Spigot] Patinhoskk (logged in as: Patinhoskk) has connected to the Java server
-[17:16:56] [Server thread/INFO]: [floodgate] Floodgate player logged in as Patinhoskk joined (UUID: 00000000-0000-0000-0009-01f1ae1b4cb8)
-[17:16:56] [Server thread/INFO]: Patinhoskk joined the game
-[17:16:56] [Server thread/INFO]: Patinhoskk[/206.43.70.97:0] logged in with entity id 98440 at ([world]-1283.5597, 65.9375, 328.32812)
-[17:17:11] [Async Chat Thread - #10/INFO]: [Not Secure] <Patinhoskk> broooo
-[17:17:26] [Async Chat Thread - #10/INFO]: [Not Secure] <SayGabbis> vcs tem pinheiro?
-[17:19:39] [Server thread/INFO]: KSantos77363 has made the advancement [Not Today, Thank You]
-[17:19:53] [Async Chat Thread - #12/INFO]: [Not Secure] <SayGabbis> responde o chat seus chifrudo
-[17:20:03] [Async Chat Thread - #12/INFO]: [Not Secure] <Patinhoskk> calmo
-[17:20:08] [Async Chat Thread - #12/INFO]: [Not Secure] <Patinhoskk> tenho não
-[17:20:20] [Async Chat Thread - #12/INFO]: [Not Secure] <NicolasDaflon> eu consigo pegar
-[17:20:42] [Async Chat Thread - #12/INFO]: [Not Secure] <Patinhoskk> galera
-[17:21:05] [Async Chat Thread - #12/INFO]: [Not Secure] <Patinhoskk> essas árvores da ponte
-[17:21:11] [Server thread/INFO]: NicolasDaflon has made the advancement [Monster Hunter]
-[17:21:29] [Async Chat Thread - #12/INFO]: [Not Secure] <Patinhoskk> vou quebrar pra fazer minha casa de mendigo
-[17:23:18] [User Authenticator #12/INFO]: UUID of player CartolaQuadrado is ac9cb4f9-a1f9-3677-8684-8043bfbff71b
-[17:23:19] [Server thread/INFO]: CartolaQuadrado joined the game
-[17:23:19] [Server thread/INFO]: CartolaQuadrado[/45.165.222.185:12512] logged in with entity id 102032 at ([world]-1206.2206729057255, 63.0, 227.08459305179287)
-[17:24:58] [Server thread/INFO]: KSantos77363 was shot by Pillager
-[17:25:15] [Server thread/INFO]: KSantos77363 was shot by Pillager
-[17:25:54] [Async Chat Thread - #14/INFO]: [Not Secure] <KSantos77363> como que tem pilager na minha casa!!!!!
-[17:26:07] [Async Chat Thread - #14/INFO]: [Not Secure] <Patinhoskk> foi te taxar
-[17:26:13] [Server thread/INFO]: ShapelierC15 has made the advancement [Voluntary Exile]
-[17:26:37] [Async Chat Thread - #14/INFO]: [Not Secure] <KSantos77363> mal presságio
-[17:27:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2609ms or 52 ticks behind
-[17:27:00] [Async Chat Thread - #14/INFO]: [Not Secure] <ShapelierC15> ah vlw
-[17:27:25] [Async Chat Thread - #14/INFO]: [Not Secure] <KSantos77363> jogador 015 eliminado
-[17:27:36] [Async Chat Thread - #14/INFO]: [Not Secure] <ShapelierC15> oloko
-[17:27:37] [Server thread/INFO]: SayGabbis issued server command: /say sim
-[17:27:37] [Async Chat Thread - #15/INFO]: [Not Secure] [SayGabbis] sim
-[17:27:50] [Async Chat Thread - #15/INFO]: [Not Secure] <KSantos77363> kkkkk
-[17:28:41] [Async Chat Thread - #15/INFO]: [Not Secure] <ShapelierC15> sem querer
-[17:28:47] [Async Chat Thread - #15/INFO]: [Not Secure] <KSantos77363> d boa
-[17:30:05] [Server thread/INFO]: ShapelierC15 has made the advancement [Ol' Betsy]
-[17:31:04] [Server thread/INFO]: ShapelierC15 lost connection: Disconnected
-[17:31:04] [Server thread/INFO]: ShapelierC15 left the game
-[17:31:19] [Server thread/INFO]: NicolasDaflon fell from a high place
-[17:32:05] [Server thread/WARN]: KSantos77363 moved too quickly! 0.20899000000008527,11.746099999999998,-11.414079999999956
-[17:32:05] [Server thread/WARN]: SayGabbis moved too quickly! 1.6661985174671372,-1.0,9.871101763980391
-[17:32:05] [Server thread/WARN]: KSantos77363 moved too quickly! 0.20899000000008527,11.581330000000001,-11.26864999999998
-[17:32:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9792ms or 195 ticks behind
-[17:32:09] [Server thread/INFO]: miauzinto has made the advancement [Minecraft: Trial(s) Edition]
-[17:33:44] [Server thread/INFO]: Stopping server
-[17:33:44] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.2
-[17:33:44] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
-[17:33:44] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[17:33:44] [Server thread/INFO]: [Geyser-Spigot] Kicking 3 player(s)
-[17:33:44] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as Patinhoskk disconnected
-[17:33:44] [Server thread/INFO]: [Geyser-Spigot] Patinhoskk has disconnected from the Java server because of Proxy Geyser encerrando.
-[17:33:44] [Server thread/INFO]: [Geyser-Spigot] KSantos77363 has disconnected from the Java server because of Proxy Geyser encerrando.
-[17:33:44] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as KSantos77363 disconnected
-[17:33:44] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as NicolasDaflon disconnected
-[17:33:44] [Server thread/INFO]: [Geyser-Spigot] NicolasDaflon has disconnected from the Java server because of Proxy Geyser encerrando.
-[17:33:44] [Server thread/INFO]: [Geyser-Spigot] Kicked all players!
-[17:33:44] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[17:33:44] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
-[17:33:44] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[17:33:44] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
-[17:33:44] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[17:33:44] [Server thread/INFO]: Saving players
-[17:33:44] [Server thread/INFO]: miauzinto lost connection: O servidor está em manutenção para backup automático. Ele será reiniciado em breve! Entre novamente em 3 minutos; Aguarde...
-[17:33:45] [Server thread/INFO]: miauzinto left the game
-[17:33:45] [Server thread/INFO]: SayGabbis lost connection: O servidor está em manutenção para backup automático. Ele será reiniciado em breve! Entre novamente em 3 minutos; Aguarde...
-[17:33:45] [Server thread/INFO]: SayGabbis left the game
-[17:33:45] [Server thread/INFO]: Patinhoskk lost connection: O servidor está em manutenção para backup automático. Ele será reiniciado em breve! Entre novamente em 3 minutos; Aguarde...
-[17:33:45] [Server thread/INFO]: Patinhoskk left the game
-[17:33:45] [Server thread/INFO]: CartolaQuadrado lost connection: O servidor está em manutenção para backup automático. Ele será reiniciado em breve! Entre novamente em 3 minutos; Aguarde...
-[17:33:45] [Server thread/INFO]: CartolaQuadrado left the game
-[17:33:45] [Server thread/INFO]: KSantos77363 lost connection: O servidor está em manutenção para backup automático. Ele será reiniciado em breve! Entre novamente em 3 minutos; Aguarde...
-[17:33:45] [Server thread/INFO]: KSantos77363 left the game
-[17:33:45] [Server thread/INFO]: NicolasDaflon lost connection: O servidor está em manutenção para backup automático. Ele será reiniciado em breve! Entre novamente em 3 minutos; Aguarde...
-[17:33:45] [WebSocketConnectReadThread-95/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[17:33:45] [Server thread/INFO]: NicolasDaflon left the game
-[17:33:45] [Server thread/INFO]: Saving worlds
-[17:33:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:33:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[17:33:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[17:33:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[17:33:48] [Server thread/INFO]: [ChunkHolderManager] Saved 2339 block chunks, 1543 entity chunks, 16 poi chunks in world 'world' in 3.21s
-[17:33:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[17:33:48] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[17:33:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:33:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[17:33:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[17:33:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[17:33:48] [Server thread/INFO]: [ChunkHolderManager] Saved 2 block chunks, 84 entity chunks, 0 poi chunks in world 'world_nether' in 0.02s
-[17:33:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[17:33:48] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[17:33:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:33:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[17:33:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[17:33:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[17:33:48] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[17:33:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[17:33:48] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[17:33:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:33:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:33:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:33:48] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[17:33:48] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[17:33:48] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[17:33:48] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[17:33:48] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[05:16:41] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[05:16:41] [Server thread/INFO]: [Geyser-Spigot] Done (7.341s)! Run /geyser help for help!
+[05:16:41] [Server thread/INFO]: Done preparing level "world" (13.661s)
+[05:16:41] [Server thread/INFO]: Running delayed init tasks
+[05:16:41] [Server thread/INFO]: Done (38.149s)! For help, type "help"
+[05:16:41] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[05:16:42] [User Authenticator #0/INFO]: UUID of player Narrador3 is c6b40a19-7f47-3478-9285-c19fd506627e
+[05:16:43] [Server thread/INFO]: Narrador3 (/45.172.69.25:12382) lost connection: Disconnected
+[05:16:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2748ms or 54 ticks behind
+[05:16:47] [Server thread/INFO]: Incorrect argument for command
+gamerule randomTickSpeeddom 3<--[HERE]
+[05:16:48] [User Authenticator #0/INFO]: UUID of player KyrunDark is 12c5890a-1cf6-3e99-921b-04a95cf33604
+[05:16:52] [Server thread/INFO]: KyrunDark joined the game
+[05:16:53] [Server thread/INFO]: KyrunDark[/201.71.221.175:6538] logged in with entity id 139 at ([world]-1323.1382484514932, 70.5, 296.48508623239826)
+[05:16:54] [User Authenticator #0/INFO]: UUID of player CartolaQuadrado is ac9cb4f9-a1f9-3677-8684-8043bfbff71b
+[05:16:55] [Server thread/INFO]: Gamerule randomTickSpeed is now set to: 3
+[05:16:55] [Server thread/INFO]: CartolaQuadrado joined the game
+[05:16:55] [Server thread/INFO]: CartolaQuadrado[/45.165.222.185:12379] logged in with entity id 141 at ([world]-1294.8124216636422, 55.0, 393.2778851098873)
+[05:16:59] [Async Chat Thread - #0/INFO]: [Not Secure] <CartolaQuadrado> ALOU
+[05:17:00] [User Authenticator #0/INFO]: UUID of player SayGabbis is d414d361-18a6-31ef-96af-690e2149ba53
+[05:17:00] [Server thread/INFO]: SayGabbis joined the game
+[05:17:00] [Server thread/INFO]: SayGabbis[/170.244.254.134:36245] logged in with entity id 512 at ([world]-1275.1341160580766, 63.0, 366.9931287124776)
+[05:17:02] [Async Chat Thread - #0/INFO]: [Not Secure] <CartolaQuadrado> volto
+[05:17:02] [Async Chat Thread - #0/INFO]: [Not Secure] <KyrunDark> ALO
+[05:17:07] [Async Chat Thread - #0/INFO]: [Not Secure] <SayGabbis> ta vivo
+[05:17:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9814ms or 196 ticks behind
+[05:18:06] [User Authenticator #1/INFO]: UUID of player Narrador3 is c6b40a19-7f47-3478-9285-c19fd506627e
+[05:18:07] [Server thread/INFO]: Narrador3 joined the game
+[05:18:07] [Server thread/INFO]: Narrador3[/45.172.69.25:12253] logged in with entity id 694 at ([world]-1269.0702283043133, 31.0, 212.8400892370099)
+[05:18:26] [Server thread/INFO]: SayGabbis issued server command: /seed
+[05:19:12] [Async Chat Thread - #2/INFO]: [Not Secure] <SayGabbis> -304 160
+[05:36:00] [Server thread/INFO]: SayGabbis issued server command: /gamemode spectator
+[05:36:00] [Server thread/INFO]: [SayGabbis: Set own game mode to Spectator Mode]
+[05:36:53] [Server thread/INFO]: SayGabbis issued server command: /gamemode survival
+[05:36:53] [Server thread/INFO]: [SayGabbis: Set own game mode to Survival Mode]
+[05:38:01] [Async Chat Thread - #4/INFO]: [Not Secure] <SayGabbis> yum
+[05:38:12] [Async Chat Thread - #4/INFO]: [Not Secure] <KyrunDark> fiz um massacre de galinha hj
+[05:38:20] [Async Chat Thread - #4/INFO]: [Not Secure] <KyrunDark> tinha muita
+[06:01:23] [Server thread/INFO]: CartolaQuadrado burned to death
+[06:01:28] [Async Chat Thread - #6/INFO]: [Not Secure] <CartolaQuadrado> ALA
+[06:01:33] [Async Chat Thread - #6/INFO]: [Not Secure] <CartolaQuadrado> NEM PERDI MEUS ITENS
+[06:01:35] [Async Chat Thread - #7/INFO]: [Not Secure] <SayGabbis> ta com keep?
+[06:01:37] [Async Chat Thread - #7/INFO]: [Not Secure] <CartolaQuadrado> to falando cara
+[06:01:40] [Async Chat Thread - #7/INFO]: [Not Secure] <CartolaQuadrado> ta bugado
+[06:01:43] [Async Chat Thread - #7/INFO]: [Not Secure] <SayGabbis> dps tem q ver no log do sv
+[06:01:46] [Async Chat Thread - #7/INFO]: [Not Secure] <SayGabbis> pq q ta ativando
+[06:01:46] [Async Chat Thread - #7/INFO]: [Not Secure] <Narrador3> só na lava do ned
+[06:09:40] [Server thread/INFO]: CartolaQuadrado has made the advancement [Ice Bucket Challenge]
+[06:16:55] [Server thread/INFO]: CartolaQuadrado has made the advancement [Hidden in the Depths]
+[06:16:58] [Async Chat Thread - #8/INFO]: [Not Secure] <KyrunDark> tem diorito?
+[06:19:35] [Server thread/INFO]: Narrador3 has made the advancement [The Parrots and the Bats]
+[06:21:17] [Async Chat Thread - #10/INFO]: [Not Secure] <KyrunDark> alguem tem diorito?
+[06:21:21] [Async Chat Thread - #10/INFO]: [Not Secure] <SayGabbis> non
+[06:23:56] [Server thread/INFO]: Narrador3 lost connection: Disconnected
+[06:23:56] [Server thread/INFO]: Narrador3 left the game
+[06:27:44] [Server thread/INFO]: CartolaQuadrado burned to death
+[06:27:50] [Async Chat Thread - #13/INFO]: [Not Secure] <CartolaQuadrado> mlk
+[06:27:53] [Async Chat Thread - #13/INFO]: [Not Secure] <CartolaQuadrado> adivinha
+[06:28:02] [Async Chat Thread - #13/INFO]: [Not Secure] <SayGabbis> ta ativado eu vi la
+[06:28:07] [Async Chat Thread - #13/INFO]: [Not Secure] <SayGabbis> tem q desativar depois
+[06:28:17] [Async Chat Thread - #13/INFO]: [Not Secure] <CartolaQuadrado> A
+[06:42:14] [Async Chat Thread - #14/INFO]: [Not Secure] <SayGabbis> boa noite
+[06:42:17] [Async Chat Thread - #14/INFO]: [Not Secure] <KyrunDark> boa
+[06:42:21] [Server thread/INFO]: SayGabbis lost connection: Disconnected
+[06:42:21] [Server thread/INFO]: SayGabbis left the game
+[06:42:21] [Async Chat Thread - #14/INFO]: [Not Secure] <CartolaQuadrado> boa noite
+[06:56:09] [Async Chat Thread - #16/INFO]: [Not Secure] <KyrunDark> boa noite
+[06:56:14] [Async Chat Thread - #16/INFO]: [Not Secure] <CartolaQuadrado> boa noite
+[06:56:16] [Server thread/INFO]: KyrunDark lost connection: Disconnected
+[06:56:16] [Server thread/INFO]: KyrunDark left the game
+[06:56:32] [Async Chat Thread - #16/INFO]: [Not Secure] <CartolaQuadrado> HEHEHEHE
+[06:56:35] [Async Chat Thread - #16/INFO]: [Not Secure] <CartolaQuadrado> TO SOZINHO
+[07:00:01] [Server console handler/ERROR]: Caught previously unhandled exception :
+java.io.IOError: java.io.IOException: Input/output error
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468) ~[jline-reader-3.20.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:108) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+Caused by: java.io.IOException: Input/output error
+	at java.base/java.io.FileInputStream.read0(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:231) ~[?:?]
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:71) ~[?:?]
+	at org.jline.terminal.impl.AbstractPty$1.read(AbstractPty.java:58) ~[jline-terminal-3.27.1.jar:?]
+	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:124) ~[jline-terminal-3.27.1.jar:?]
+	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62) ~[jline-terminal-3.27.1.jar:?]
+	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:157) ~[jline-terminal-3.27.1.jar:?]
+	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:56) ~[jline-terminal-3.27.1.jar:?]
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160) ~[jline-reader-3.20.0.jar:?]
+	... 9 more
+[07:00:01] [Server thread/INFO]: Stopping server
+[07:00:01] [Server thread/INFO]: [Timber] Disabling Timber v1.6.3
+[07:00:01] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.3
+[07:00:01] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
+[07:00:01] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[07:00:01] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[07:00:01] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
+[07:00:01] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[07:00:01] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+[07:00:01] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[07:00:01] [Server thread/INFO]: Saving players
+[07:00:01] [Server thread/INFO]: CartolaQuadrado lost connection: O servidor está em manutenção para backup automático. Ele será reiniciado em breve! Entre novamente em 3 minutos; Aguarde...
+[07:00:01] [Server thread/INFO]: CartolaQuadrado left the game
+[07:00:01] [WebSocketConnectReadThread-100/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[07:00:01] [Server thread/INFO]: Saving worlds
+[07:00:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 40 block chunks, 174 entity chunks, 5 poi chunks in world 'world' in 0.17s
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[07:00:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 460 block chunks, 588 entity chunks, 0 poi chunks in world 'world_nether' in 0.72s
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[07:00:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:00:02] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[07:00:02] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[07:00:02] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[07:00:02] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
