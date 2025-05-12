@@ -1,0 +1,1517 @@
+[07:01:56] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu122.04; Ubuntu null) on Linux 6.8.0-1029-gcp (amd64)
+[07:01:56] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-22-main@6c2b037 (2025-04-16T18:32:47Z) for Minecraft 1.21.5
+[07:01:56] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[07:01:57] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
+[07:01:57] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+ - Geyser-Spigot (2.7.1-SNAPSHOT), SkinsRestorer (15.6.2), ViaBackwards (5.3.2), ViaVersion (5.3.2), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
+[07:02:05] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07:02:08] [ServerMain/INFO]: Loaded 1373 recipes
+[07:02:08] [ServerMain/INFO]: Loaded 1484 advancements
+[07:02:08] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[07:02:08] [Server thread/INFO]: Loading properties
+[07:02:08] [Server thread/INFO]: This server is running Paper version 1.21.5-22-main@6c2b037 (2025-04-16T18:32:47Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
+[07:02:08] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[07:02:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:02:09] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:02:10] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[07:02:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[07:02:10] [Server console handler/WARN]: [org.jline] Failed to load history
+java.lang.IllegalArgumentException: Bad history file syntax! The history file `.console_history` may be an older history: please remove it or use a different history file.
+	at org.jline.reader.impl.history.DefaultHistory.addHistoryLine(DefaultHistory.java:181) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.history.DefaultHistory.addHistoryLine(DefaultHistory.java:165) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.history.DefaultHistory.lambda$load$0(DefaultHistory.java:86) ~[jline-reader-3.20.0.jar:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.jline.reader.impl.history.DefaultHistory.load(DefaultHistory.java:86) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.history.DefaultHistory.attach(DefaultHistory.java:69) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:603) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468) ~[jline-reader-3.20.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:108) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+[07:02:10] [Server thread/INFO]: Default game type: SURVIVAL
+[07:02:10] [Server thread/INFO]: Generating keypair
+[07:02:10] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:02:10] [Server thread/INFO]: Using epoll channel type
+[07:02:11] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[07:02:11] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[07:02:11] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+[07:02:11] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[07:02:12] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[07:02:13] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[07:02:13] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[07:02:13] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[07:02:14] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[07:02:15] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[07:02:15] [Server thread/INFO]: [floodgate] Took 1,163ms to boot Floodgate
+[07:02:15] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
+[07:02:15] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
+[07:02:16] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[07:02:16] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[07:02:16] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.2
+[07:02:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:02:16] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.2
+[07:02:17] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[07:02:17] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.5.
+[07:02:17] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[07:02:18] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[07:02:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:02:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:02:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:02:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:02:18] [Server thread/INFO]: Preparing level "world"
+[07:02:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[07:02:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[07:02:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[07:02:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[07:02:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[07:02:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[07:02:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[07:02:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.2
+[07:02:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7bda5de
+[07:02:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[07:02:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[07:02:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[07:02:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[07:02:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:02:19] [Server thread/INFO]: Preparing spawn area: 0%
+[07:02:19] [Server thread/INFO]: Preparing spawn area: 0%
+[07:02:20] [Server thread/INFO]: Preparing spawn area: 0%
+[07:02:20] [Server thread/INFO]: Preparing spawn area: 0%
+[07:02:21] [Server thread/INFO]: Preparing spawn area: 0%
+[07:02:21] [Server thread/INFO]: Time elapsed: 2172 ms
+[07:02:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[07:02:21] [Server thread/INFO]: Preparing spawn area: 0%
+[07:02:21] [Server thread/INFO]: Time elapsed: 388 ms
+[07:02:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[07:02:21] [Server thread/INFO]: Preparing spawn area: 0%
+[07:02:21] [Server thread/INFO]: Time elapsed: 270 ms
+[07:02:21] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[07:02:21] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.5 (770)
+[07:02:22] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[07:02:22] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
+[07:02:22] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
+[07:02:23] [Server thread/INFO]: [spark] Starting background profiler...
+[07:02:23] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[07:02:23] [Server thread/INFO]: [Geyser-Spigot] 
+[07:02:23] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b824 (git-master-b296f10)
+[07:02:23] [Server thread/INFO]: [Geyser-Spigot] 
+[07:02:23] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[07:02:27] [pool-14-thread-1/WARN]: [floodgate] 
+**********************************
+* You specified an empty prefix in your Floodgate config for Bedrock players!
+* Should a Java player join and a Bedrock player join with the same username, unwanted results and conflicts will happen!
+* We strongly recommend using . as the prefix, but other alternatives that will not conflict include: +, - and *
+**********************************
+[07:02:31] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[07:02:31] [Server thread/INFO]: [Geyser-Spigot] Done (7.598s)! Run /geyser help for help!
+[07:02:31] [Server thread/INFO]: Done preparing level "world" (13.309s)
+[07:02:31] [Server thread/INFO]: Running delayed init tasks
+[07:02:31] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[07:02:31] [Server thread/INFO]: Done (36.898s)! For help, type "help"
+[11:31:02] [User Authenticator #0/INFO]: UUID of player Narrador3 is c6b40a19-7f47-3478-9285-c19fd506627e
+[11:31:03] [Server thread/INFO]: Narrador3 joined the game
+[11:31:04] [Server thread/INFO]: Narrador3[/45.172.69.25:12976] logged in with entity id 116 at ([world]-1329.8520035602378, 70.0, 239.1861560724224)
+[11:31:12] [User Authenticator #0/INFO]: UUID of player Alencar73 is 028a82f5-20fe-3357-8797-b427ea04a6c1
+[11:31:13] [Server thread/INFO]: Alencar73 joined the game
+[11:31:13] [Server thread/INFO]: Alencar73[/177.152.86.165:44423] logged in with entity id 398 at ([world]-1189.4795765879824, 67.5, 273.4478819782744)
+[11:31:19] [Async Chat Thread - #0/INFO]: [Not Secure] <Alencar73> dia
+[11:32:25] [Async Chat Thread - #1/INFO]: [Not Secure] <Alencar73> e esse rombo?
+[11:32:36] [Async Chat Thread - #1/INFO]: [Not Secure] <Narrador3> sei lá
+[11:34:46] [Async Chat Thread - #3/INFO]: [Not Secure] <Narrador3> acho que eu sou o unico que não criou uma casa
+[11:35:02] [Async Chat Thread - #3/INFO]: [Not Secure] <Alencar73> fez uma ae poh
+[11:35:08] [Async Chat Thread - #3/INFO]: [Not Secure] <Alencar73> ta sem ideia?
+[11:35:10] [Async Chat Thread - #3/INFO]: [Not Secure] <Narrador3> vou fazer depois
+[11:35:12] [Async Chat Thread - #3/INFO]: [Not Secure] <Alencar73> a
+[11:35:33] [Async Chat Thread - #3/INFO]: [Not Secure] <Narrador3> fiquei ajudando o pombo na dele
+[11:35:42] [Async Chat Thread - #3/INFO]: [Not Secure] <Alencar73> tendeu
+[11:37:28] [Server thread/INFO]: Villager Villager['Villager'/64, uuid='dd29a368-f369-43e9-a56e-ef5d6492d71f', l='ServerLevel[world]', x=-1235.81, y=70.00, z=270.46, cpos=[-78, 16], tl=184978, v=true] died, message: 'Villager was slain by Alencar73'
+[11:40:00] [Server thread/INFO]: Villager Villager['Farmer'/80, uuid='db4a6458-5847-4fe7-9d83-56e304e634a7', l='ServerLevel[world]', x=-1277.12, y=64.94, z=268.42, cpos=[-80, 16], tl=10686, v=true] died, message: 'Farmer was slain by Alencar73'
+[11:40:04] [Server thread/INFO]: Villager Villager['Farmer'/81, uuid='f58f8192-ec31-4aab-abd1-18774a7dfa3c', l='ServerLevel[world]', x=-1274.52, y=64.94, z=266.70, cpos=[-80, 16], tl=10764, v=true] died, message: 'Farmer was slain by Alencar73'
+[11:40:24] [Server thread/INFO]: Villager Villager['Villager'/1398, uuid='3fa17800-0540-4f7e-9533-9034e5e4af99', l='ServerLevel[world]', x=-1278.31, y=62.82, z=269.48, cpos=[-80, 16], tl=3532, v=true] died, message: 'Villager was slain by Alencar73'
+[11:46:25] [Server thread/INFO]: Narrador3 lost connection: Disconnected
+[11:46:25] [Server thread/INFO]: Narrador3 left the game
+[11:47:25] [Server thread/INFO]: Villager Villager['Villager'/67, uuid='f38efd46-b740-4e2f-989d-9a6118eb6cdc', l='ServerLevel[world]', x=-1263.19, y=64.00, z=187.54, cpos=[-79, 11], tl=19590, v=true] died, message: 'Villager was slain by Alencar73'
+[11:47:33] [Server thread/INFO]: Villager Villager['Villager'/148, uuid='202b0c09-b34d-4ea3-acb4-a656f438083e', l='ServerLevel[world]', x=-1232.95, y=64.00, z=192.99, cpos=[-78, 12], tl=19737, v=true] died, message: 'Villager was slain by Alencar73'
+[11:47:40] [Server thread/INFO]: Villager Villager['Villager'/147, uuid='4bdc69c6-3837-40fb-a85f-219e2456a7a9', l='ServerLevel[world]', x=-1269.06, y=64.00, z=190.31, cpos=[-80, 11], tl=19874, v=true] died, message: 'Villager was slain by Alencar73'
+[11:47:43] [Server thread/INFO]: Villager Villager['Villager'/119, uuid='35348be7-c12e-4ae1-a7bf-00ffc441c9f0', l='ServerLevel[world]', x=-1266.73, y=64.00, z=180.45, cpos=[-80, 11], tl=19958, v=true] died, message: 'Villager was slain by Alencar73'
+[11:47:54] [Server thread/INFO]: Villager Villager['Villager'/133, uuid='821209c9-2354-4750-8810-f744094ea2ff', l='ServerLevel[world]', x=-1283.56, y=63.00, z=171.44, cpos=[-81, 10], tl=20180, v=true] died, message: 'Villager was slain by Alencar73'
+[11:48:00] [Server thread/INFO]: Villager Villager['Villager'/121, uuid='2438123c-7952-4fd0-a3bc-9b2224fe8c9b', l='ServerLevel[world]', x=-1311.40, y=63.00, z=188.40, cpos=[-82, 11], tl=20291, v=true] died, message: 'Villager was slain by Alencar73'
+[12:03:17] [Server thread/INFO]: Villager Villager['Cleric'/83, uuid='1a7e4657-dbe5-47cd-90ae-0bd49364274f', l='ServerLevel[world]', x=-1341.60, y=78.00, z=233.63, cpos=[-84, 14], tl=38624, v=true] died, message: 'Cleric was slain by Zombie'
+[12:04:01] [Server thread/INFO]: Villager Villager['Villager'/73, uuid='f50df982-088d-4206-96cd-bf4e45fcadb4', l='ServerLevel[world]', x=-1150.84, y=73.42, z=299.70, cpos=[-72, 18], tl=39504, v=true] died, message: 'Villager was slain by Zombie'
+[12:04:03] [Server thread/INFO]: Villager Villager['Villager'/157, uuid='e220fa77-07b8-490f-9de5-72a9702a4630', l='ServerLevel[world]', x=-1231.76, y=64.00, z=203.65, cpos=[-77, 12], tl=39546, v=true] died, message: 'Villager was slain by Zombie'
+[12:08:55] [Server thread/INFO]: Villager Villager['Cleric'/7, uuid='d9783d62-57c7-45cd-b4e9-e882fe815176', l='ServerLevel[world]', x=-1251.24, y=70.13, z=285.31, cpos=[-79, 17], tl=56513, v=true] died, message: 'Cleric was slain by Alencar73'
+[12:09:03] [Server thread/INFO]: Villager Villager['Villager'/65, uuid='f9791a38-9ef8-4812-b611-1b968ce5669d', l='ServerLevel[world]', x=-1248.65, y=70.00, z=276.54, cpos=[-79, 17], tl=289855, v=true] died, message: 'Villager was slain by Alencar73'
+[12:09:10] [Server thread/INFO]: Villager Villager['Villager'/149, uuid='7c4ff27a-3ec3-4cc3-9f8f-f90ab353d9cd', l='ServerLevel[world]', x=-1272.21, y=70.00, z=298.79, cpos=[-80, 18], tl=45682, v=true] died, message: 'Villager was slain by Alencar73'
+[12:09:13] [Server thread/INFO]: Villager Villager['Villager'/74, uuid='52f56624-f664-41ca-96c7-4b8ad0298469', l='ServerLevel[world]', x=-1276.45, y=69.94, z=287.02, cpos=[-80, 17], tl=45722, v=true] died, message: 'Villager was slain by Alencar73'
+[12:09:22] [Server thread/INFO]: Villager Villager['Villager'/71, uuid='3d874ef6-ec36-44b4-beef-fff3c663e9d9', l='ServerLevel[world]', x=-1280.55, y=76.00, z=292.44, cpos=[-81, 18], tl=45912, v=true] died, message: 'Villager was slain by Alencar73'
+[12:09:34] [Server thread/INFO]: Villager Villager['Villager'/69, uuid='e34dbd72-f3d9-48b1-9143-d2282ed2e04a', l='ServerLevel[world]', x=-1273.77, y=68.00, z=324.26, cpos=[-80, 20], tl=46157, v=true] died, message: 'Villager was slain by Alencar73'
+[12:09:43] [Server thread/INFO]: Villager Villager['Villager'/70, uuid='54d49778-e0a6-486b-b16e-5bc253b4379f', l='ServerLevel[world]', x=-1280.13, y=70.00, z=309.87, cpos=[-81, 19], tl=46335, v=true] died, message: 'Villager was slain by Alencar73'
+[12:11:37] [Server thread/INFO]: Villager Villager['Villager'/82, uuid='c87df6e2-3272-4a48-949d-30afb998ca1d', l='ServerLevel[world]', x=-1278.16, y=68.00, z=247.50, cpos=[-80, 15], tl=48640, v=true] died, message: 'Villager was slain by Alencar73'
+[12:11:39] [Server thread/INFO]: Villager Villager['Villager'/630, uuid='599f987a-aa87-44a3-bcbb-5504d098e4ae', l='ServerLevel[world]', x=-1271.33, y=67.00, z=245.58, cpos=[-80, 15], tl=47468, v=true] died, message: 'Villager was slain by Alencar73'
+[12:11:48] [Server thread/INFO]: Villager Villager['Villager'/120, uuid='90358666-7704-425f-be76-6bfb92f132b2', l='ServerLevel[world]', x=-1238.54, y=64.00, z=203.52, cpos=[-78, 12], tl=48865, v=true] died, message: 'Villager was slain by Alencar73'
+[12:11:56] [Server thread/INFO]: Villager Villager['Villager'/66, uuid='544f8d27-2afb-4488-ac8c-16db6284437e', l='ServerLevel[world]', x=-1279.22, y=64.00, z=198.21, cpos=[-80, 12], tl=48997, v=true] died, message: 'Villager was slain by Alencar73'
+[12:12:05] [Server thread/INFO]: Villager Villager['Villager'/1864, uuid='1ae772be-d707-4af1-b656-e5e2cda20f72', l='ServerLevel[world]', x=-1335.72, y=70.00, z=219.50, cpos=[-84, 13], tl=40802, v=true] died, message: 'Villager was slain by Alencar73'
+[12:12:10] [Server thread/INFO]: Villager Villager['Villager'/68, uuid='be6b11f2-e8e7-409b-a23f-dee9a52ee824', l='ServerLevel[world]', x=-1353.06, y=70.00, z=209.05, cpos=[-85, 13], tl=49288, v=true] died, message: 'Villager was slain by Alencar73'
+[12:12:19] [Server thread/INFO]: Villager Villager['Villager'/123, uuid='3663e43c-aeae-4cc8-a444-c4496dad031c', l='ServerLevel[world]', x=-1338.78, y=74.00, z=225.74, cpos=[-84, 14], tl=49473, v=true] died, message: 'Villager was slain by Alencar73'
+[12:13:23] [User Authenticator #1/INFO]: UUID of player Narrador3 is c6b40a19-7f47-3478-9285-c19fd506627e
+[12:13:23] [Server thread/INFO]: Narrador3 joined the game
+[12:13:23] [Server thread/INFO]: Narrador3[/45.172.69.25:12774] logged in with entity id 7467 at ([world]-1335.0528136375008, 71.0, 241.49344491898762)
+[12:23:22] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username SonNatso13
+[12:23:22] [localSession-7-2/INFO]: [Geyser-Spigot] SonNatso13 (logged in as: SonNatso13) has connected to the Java server
+[12:23:22] [Server thread/INFO]: [floodgate] Floodgate player logged in as SonNatso13 joined (UUID: 00000000-0000-0000-0009-01f0aea0fdd9)
+[12:23:23] [Server thread/INFO]: SonNatso13 joined the game
+[12:23:23] [Server thread/INFO]: SonNatso13[/187.13.40.197:0] logged in with entity id 10596 at ([world]-1256.5, 70.0, 275.5)
+[12:24:03] [Async Chat Thread - #5/INFO]: [Not Secure] <Alencar73> mlk
+[12:24:09] [Async Chat Thread - #5/INFO]: [Not Secure] <SonNatso13> oioioi
+[12:24:10] [Async Chat Thread - #5/INFO]: [Not Secure] <Alencar73> eu nem vih tu entrando kkkkkkkk
+[12:24:16] [Async Chat Thread - #5/INFO]: [Not Secure] <SonNatso13> kkkkkkkkkkk
+[12:24:22] [Async Chat Thread - #5/INFO]: [Not Secure] <SonNatso13> entrei agr pela primeira vez
+[12:28:45] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] SonNatso13 has disconnected from the Java server because of Bedrock client disconnected
+[12:28:45] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as SonNatso13 disconnected
+[12:28:45] [Server thread/INFO]: SonNatso13 lost connection: Disconnected
+[12:28:45] [Server thread/INFO]: SonNatso13 left the game
+[12:29:00] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username SonNatso13
+[12:29:00] [localSession-7-3/INFO]: [Geyser-Spigot] SonNatso13 (logged in as: SonNatso13) has connected to the Java server
+[12:29:01] [Server thread/INFO]: [floodgate] Floodgate player logged in as SonNatso13 joined (UUID: 00000000-0000-0000-0009-01f0aea0fdd9)
+[12:29:01] [Server thread/INFO]: SonNatso13 joined the game
+[12:29:01] [Server thread/INFO]: SonNatso13[/187.13.40.197:0] logged in with entity id 11813 at ([world]-1254.4485, 69.9375, 284.50452)
+[12:33:35] [Server thread/INFO]: Villager Villager['Cleric'/92, uuid='bdec695a-1c53-4ae1-ba7f-84a2021d1a98', l='ServerLevel[world]', x=-1346.15, y=69.00, z=285.30, cpos=[-85, 17], tl=74998, v=true] died, message: 'Cleric hit the ground too hard while trying to escape Pillager'
+[12:33:56] [Server thread/INFO]: SonNatso13 has made the advancement [Stone Age]
+[12:33:56] [Server thread/INFO]: Villager Villager['Villager'/72, uuid='731abcd2-40be-483a-bd4d-f44314b2c22f', l='ServerLevel[world]', x=-1321.74, y=71.00, z=273.60, cpos=[-83, 17], tl=75403, v=true] died, message: 'Villager was shot by Pillager'
+[12:34:26] [Server thread/INFO]: SonNatso13 has made the advancement [Getting an Upgrade]
+[12:40:28] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as SonNatso13 disconnected
+[12:40:28] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] SonNatso13 has disconnected from the Java server because of Bedrock client disconnected
+[12:40:28] [Server thread/INFO]: SonNatso13 lost connection: Disconnected
+[12:40:28] [Server thread/INFO]: SonNatso13 left the game
+[12:41:16] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username SonNatso13
+[12:41:16] [localSession-7-4/INFO]: [Geyser-Spigot] SonNatso13 (logged in as: SonNatso13) has connected to the Java server
+[12:41:16] [User Authenticator #2/INFO]: UUID of player SonNatso13 is acd53237-451c-386e-9942-b62ac8031568
+[12:41:16] [Server thread/INFO]: SonNatso13 joined the game
+[12:41:16] [Server thread/INFO]: SonNatso13[/187.13.40.197:0] logged in with entity id 14695 at ([world]-1266.5, 70.0, 272.5)
+[12:41:37] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] SonNatso13 has disconnected from the Java server because of Bedrock client disconnected
+[12:41:38] [Server thread/INFO]: SonNatso13 lost connection: Disconnected
+[12:41:38] [Server thread/INFO]: SonNatso13 left the game
+[12:41:54] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username SonNatso13
+[12:41:54] [localSession-7-1/INFO]: [Geyser-Spigot] SonNatso13 (logged in as: SonNatso13) has connected to the Java server
+[12:41:55] [Server thread/INFO]: [floodgate] Floodgate player logged in as SonNatso13 joined (UUID: 00000000-0000-0000-0009-01f0aea0fdd9)
+[12:41:55] [Server thread/INFO]: SonNatso13 joined the game
+[12:41:55] [Server thread/INFO]: SonNatso13[/187.13.40.197:0] logged in with entity id 14774 at ([world]-1221.482, 68.0, 289.18256)
+[12:47:33] [Async Chat Thread - #7/INFO]: [Not Secure] <Alencar73> guys fiz 2 tipos de poste escolhem 1 pfvr
+[12:49:20] [Async Chat Thread - #9/INFO]: [Not Secure] <Alencar73> analista de poste
+[12:49:51] [Async Chat Thread - #9/INFO]: [Not Secure] <SonNatso13> acho que eu preferi esse
+[12:49:56] [Async Chat Thread - #9/INFO]: [Not Secure] <Alencar73> pdp
+[12:50:28] [Async Chat Thread - #9/INFO]: [Not Secure] <SonNatso13> o bloco em cima no outro não me agradou
+[12:50:49] [Async Chat Thread - #9/INFO]: [Not Secure] <Alencar73> tb dei uma estranhada
+[12:52:24] [Async Chat Thread - #11/INFO]: [Not Secure] <SonNatso13> já tem farm aqui?
+[12:52:31] [Async Chat Thread - #11/INFO]: [Not Secure] <Alencar73> de ferro apenas
+[12:52:40] [Async Chat Thread - #11/INFO]: [Not Secure] <SonNatso13> onde?
+[12:52:50] [Async Chat Thread - #11/INFO]: [Not Secure] <Alencar73> atras da casa de troca
+[12:52:52] [Async Chat Thread - #11/INFO]: [Not Secure] <Alencar73> to aq
+[12:53:55] [Server thread/INFO]: SonNatso13 has made the advancement [Acquire Hardware]
+[12:56:45] [Async Chat Thread - #13/INFO]: [Not Secure] <Alencar73> fiz outro tipo de poste preciso da sua nota son kkkkk
+[12:57:38] [Async Chat Thread - #13/INFO]: [Not Secure] <SonNatso13> gostei
+[12:57:45] [Async Chat Thread - #13/INFO]: [Not Secure] <Alencar73> bele
+[12:58:04] [Async Chat Thread - #13/INFO]: [Not Secure] <Alencar73> agr tenho q farma madeira vermelha
+[12:59:22] [Server thread/INFO]: SonNatso13 has made the advancement [Isn't It Iron Pick]
+[13:02:25] [Server thread/INFO]: Narrador3 lost connection: Disconnected
+[13:02:25] [Server thread/INFO]: Narrador3 left the game
+[13:02:50] [User Authenticator #3/INFO]: UUID of player miauzinto is 7beeffc0-74d6-3ca7-b0d2-83dda4b42169
+[13:02:50] [Server thread/INFO]: miauzinto joined the game
+[13:02:51] [Server thread/INFO]: miauzinto[/186.223.169.147:1971] logged in with entity id 20890 at ([world]-1644.3232531275055, 70.5625, 964.6999999880791)
+[13:11:34] [Server thread/WARN]: SonNatso13 moved wrongly!
+[13:16:05] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] SonNatso13 has disconnected from the Java server because of Bedrock client disconnected
+[13:16:05] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as SonNatso13 disconnected
+[13:16:05] [Server thread/INFO]: SonNatso13 lost connection: Disconnected
+[13:16:05] [Server thread/INFO]: SonNatso13 left the game
+[13:21:00] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username SonNatso13
+[13:21:00] [localSession-7-2/INFO]: [Geyser-Spigot] SonNatso13 (logged in as: SonNatso13) has connected to the Java server
+[13:21:01] [Server thread/INFO]: [floodgate] Floodgate player logged in as SonNatso13 joined (UUID: 00000000-0000-0000-0009-01f0aea0fdd9)
+[13:21:01] [Server thread/INFO]: SonNatso13 joined the game
+[13:21:01] [Server thread/INFO]: SonNatso13[/187.13.40.197:0] logged in with entity id 39405 at ([world]-1224.7927, -48.0, 404.69999)
+[13:23:29] [Server thread/WARN]: SonNatso13 moved wrongly!
+[13:23:34] [Server thread/INFO]: SonNatso13 has made the advancement [Diamonds!]
+[13:23:41] [Server thread/INFO]: Alencar73 has made the advancement [The Cutest Predator]
+[13:29:14] [User Authenticator #4/INFO]: UUID of player Narrador3 is c6b40a19-7f47-3478-9285-c19fd506627e
+[13:29:14] [Server thread/INFO]: Narrador3 joined the game
+[13:29:14] [Server thread/INFO]: Narrador3[/45.172.69.25:12156] logged in with entity id 43747 at ([world]-1328.5806903390237, 71.0, 250.80180093003892)
+[13:30:44] [Server thread/INFO]: Alencar73 lost connection: Disconnected
+[13:30:44] [Server thread/INFO]: Alencar73 left the game
+[13:37:50] [Server thread/WARN]: SonNatso13 moved wrongly!
+[13:38:29] [User Authenticator #5/INFO]: UUID of player Vintin is 742d656d-0826-3cc4-a58f-590439d9ab38
+[13:38:30] [Server thread/INFO]: Vintin joined the game
+[13:38:30] [Server thread/INFO]: Vintin[/45.160.232.205:55235] logged in with entity id 47577 at ([world]-1245.0483840122897, 69.0, 302.44800167065665)
+[13:38:42] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> salve
+[13:38:49] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> to na call alencar tmj
+[13:38:56] [Async Chat Thread - #15/INFO]: [Not Secure] <SonNatso13> ah não
+[13:38:59] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> oxi
+[13:39:47] [Async Chat Thread - #15/INFO]: [Not Secure] <Vintin> alencar nem ta aqui
+[13:42:02] [User Authenticator #6/INFO]: UUID of player Alencar73 is 028a82f5-20fe-3357-8797-b427ea04a6c1
+[13:42:03] [Server thread/INFO]: Alencar73 joined the game
+[13:42:03] [Server thread/INFO]: Alencar73[/177.152.86.165:45075] logged in with entity id 49407 at ([world]3645.0100766625287, 70.0, 2355.95266932145)
+[13:48:59] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as SonNatso13 disconnected
+[13:48:59] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] SonNatso13 has disconnected from the Java server because of Bedrock client disconnected
+[13:48:59] [Server thread/INFO]: SonNatso13 lost connection: Disconnected
+[13:48:59] [Server thread/INFO]: SonNatso13 left the game
+[13:49:14] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username SonNatso13
+[13:49:14] [localSession-7-3/INFO]: [Geyser-Spigot] SonNatso13 (logged in as: SonNatso13) has connected to the Java server
+[13:49:15] [Server thread/INFO]: [floodgate] Floodgate player logged in as SonNatso13 joined (UUID: 00000000-0000-0000-0009-01f0aea0fdd9)
+[13:49:15] [Server thread/INFO]: SonNatso13 joined the game
+[13:49:15] [Server thread/INFO]: SonNatso13[/187.13.40.197:0] logged in with entity id 58489 at ([world]-1104.69999, -54.0, 408.30001)
+[13:49:33] [Server thread/WARN]: SonNatso13 moved wrongly!
+[13:51:31] [Server thread/INFO]: Alencar73 lost connection: Disconnected
+[13:51:31] [Server thread/INFO]: Alencar73 left the game
+[13:51:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2617ms or 52 ticks behind
+[13:53:50] [User Authenticator #7/INFO]: UUID of player Alencar73 is 028a82f5-20fe-3357-8797-b427ea04a6c1
+[13:53:50] [Server thread/INFO]: Alencar73 joined the game
+[13:53:50] [Server thread/INFO]: Alencar73[/177.152.86.165:45081] logged in with entity id 62615 at ([world]1252.300000011921, 63.0, 1479.699999988079)
+[13:59:17] [Server thread/INFO]: Alencar73 lost connection: Disconnected
+[13:59:17] [Server thread/INFO]: Alencar73 left the game
+[14:00:27] [User Authenticator #8/INFO]: UUID of player Alencar73 is 028a82f5-20fe-3357-8797-b427ea04a6c1
+[14:00:27] [Server thread/INFO]: Alencar73 joined the game
+[14:00:27] [Server thread/INFO]: Alencar73[/177.152.86.165:44936] logged in with entity id 69382 at ([world]8.275545389592414, 67.0, 767.4324722061386)
+[14:01:08] [Server thread/INFO]: Villager Villager['Villager'/70057, uuid='f68d8e1f-9f4d-4697-87fa-98409aa20861', l='ServerLevel[world]', x=-343.37, y=68.56, z=895.28, cpos=[-22, 55], tl=191, v=true] died, message: 'Villager suffocated in a wall'
+[14:09:48] [Server thread/WARN]: SonNatso13 moved wrongly!
+[14:12:50] [Async Chat Thread - #17/INFO]: [Not Secure] <Vintin> skin feia
+[14:12:59] [Async Chat Thread - #17/INFO]: [Not Secure] <SonNatso13> nem tô usando skin
+[14:15:09] [Server thread/INFO]: Alencar73 lost connection: Disconnected
+[14:15:09] [Server thread/INFO]: Alencar73 left the game
+[14:17:11] [Server thread/INFO]: SonNatso13 has made the advancement [Cover Me with Diamonds]
+[14:17:27] [Server thread/INFO]: Vintin lost connection: Timed out
+[14:17:27] [Server thread/INFO]: Vintin left the game
+[14:21:18] [Server thread/INFO]: SonNatso13 has made the advancement [Sweet Dreams]
+[14:21:42] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] SonNatso13 has disconnected from the Java server because of Bedrock client disconnected
+[14:21:42] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as SonNatso13 disconnected
+[14:21:42] [Server thread/INFO]: SonNatso13 lost connection: Disconnected
+[14:21:42] [Server thread/INFO]: SonNatso13 left the game
+[14:23:58] [User Authenticator #9/INFO]: UUID of player Alencar73 is 028a82f5-20fe-3357-8797-b427ea04a6c1
+[14:23:58] [Server thread/INFO]: Alencar73 joined the game
+[14:23:58] [Server thread/INFO]: Alencar73[/177.152.86.165:44545] logged in with entity id 79883 at ([world]-1236.3020440378461, 69.0, 291.1264001528183)
+[14:27:16] [Async Chat Thread - #19/INFO]: [Not Secure] <Narrador3> 7e
+[14:29:47] [Async Chat Thread - #21/INFO]: [Not Secure] <Alencar73> quem fez portal?
+[14:30:11] [Async Chat Thread - #21/INFO]: [Not Secure] <Alencar73> foda
+[14:33:33] [User Authenticator #10/INFO]: UUID of player Vintin is 742d656d-0826-3cc4-a58f-590439d9ab38
+[14:33:34] [Server thread/INFO]: Vintin joined the game
+[14:33:34] [Server thread/INFO]: Vintin[/45.160.232.205:56853] logged in with entity id 83084 at ([world]-1263.9104406153904, 69.0, 425.963786196576)
+[14:33:53] [Async Chat Thread - #23/INFO]: [Not Secure] <Vintin> voltei
+[14:40:17] [Server thread/INFO]: Narrador3 lost connection: Disconnected
+[14:40:17] [Server thread/INFO]: Narrador3 left the game
+[14:47:32] [Server thread/INFO]: Villager Villager['Villager'/28, uuid='5de686cf-df12-4c3d-858a-baf212fd1720', l='ServerLevel[world]', x=-1245.70, y=70.00, z=268.30, cpos=[-78, 16], tl=557961, v=true] died, message: 'Villager was slain by Zombie'
+[14:49:39] [User Authenticator #11/INFO]: UUID of player Narrador3 is c6b40a19-7f47-3478-9285-c19fd506627e
+[14:49:39] [Server thread/INFO]: Narrador3 joined the game
+[14:49:39] [Server thread/INFO]: Narrador3[/45.172.69.25:12545] logged in with entity id 88865 at ([world]-1334.4379929084014, 72.0, 242.65747915253644)
+[14:50:54] [Async Chat Thread - #25/INFO]: [Not Secure] <Narrador3> 6
+[14:54:48] [Server thread/INFO]: miauzinto lost connection: Disconnected
+[14:54:48] [Server thread/INFO]: miauzinto left the game
+[14:59:32] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Eren yeiga
+[14:59:32] [localSession-7-4/INFO]: [Geyser-Spigot] Eren yeiga (logged in as: Eren_yeiga) has connected to the Java server
+[14:59:33] [Server thread/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga joined (UUID: 00000000-0000-0000-0009-01f93862b926)
+[14:59:33] [Server thread/INFO]: Eren_yeiga joined the game
+[14:59:33] [Server thread/INFO]: Eren_yeiga[/179.125.214.54:0] logged in with entity id 92000 at ([world]-1166.29, 66.0, 268.544)
+[15:01:35] [Server thread/INFO]: Vintin lost connection: Disconnected
+[15:01:35] [Server thread/INFO]: Vintin left the game
+[15:01:41] [User Authenticator #12/INFO]: UUID of player Vintin is 742d656d-0826-3cc4-a58f-590439d9ab38
+[15:01:42] [Server thread/INFO]: Vintin joined the game
+[15:01:42] [Server thread/INFO]: Vintin[/45.160.232.205:56945] logged in with entity id 92504 at ([world]-1304.699999988079, 68.0, 294.37211599849184)
+[15:03:22] [Server thread/INFO]: Eren_yeiga was slain by Zombie
+[15:03:41] [Async Chat Thread - #27/INFO]: [Not Secure] <Narrador3> suuuuu
+[15:11:28] [Async Chat Thread - #29/INFO]: [Not Secure] <Eren_yeiga> ué?
+[15:11:38] [Async Chat Thread - #29/INFO]: [Not Secure] <Vintin> ue
+[15:11:47] [Async Chat Thread - #29/INFO]: [Not Secure] <Eren_yeiga> a gabbis roubo minha casa ?
+[15:12:04] [Async Chat Thread - #29/INFO]: [Not Secure] <Vintin> ue eren
+[15:12:10] [Async Chat Thread - #29/INFO]: [Not Secure] <Alencar73> ue albedo
+[15:12:13] [Async Chat Thread - #29/INFO]: [Not Secure] <Alencar73> vandalo???
+[15:12:19] [Async Chat Thread - #29/INFO]: [Not Secure] <Vintin> oxi é teu??
+[15:12:20] [Async Chat Thread - #29/INFO]: [Not Secure] <Alencar73> kkk
+[15:12:20] [Async Chat Thread - #29/INFO]: [Not Secure] <Eren_yeiga> eu que tava construindo desde ontem
+[15:12:36] [Async Chat Thread - #29/INFO]: [Not Secure] <Alencar73> o documento do ipva consta outra coisa kkkk
+[15:12:44] [Async Chat Thread - #29/INFO]: [Not Secure] <Alencar73> iptu*
+[15:13:16] [Async Chat Thread - #29/INFO]: [Not Secure] <Eren_yeiga> perguntei ontem onde podia construir a casa dai falaram qualquer canto
+[15:13:24] [Async Chat Thread - #29/INFO]: [Not Secure] <Alencar73> ta certo
+[15:13:29] [Async Chat Thread - #29/INFO]: [Not Secure] <Eren_yeiga> daí comecei a construir aqui
+[15:13:31] [Async Chat Thread - #29/INFO]: [Not Secure] <Alencar73> a
+[15:14:37] [Server thread/INFO]: Eren_yeiga has made the advancement [Sweet Dreams]
+[15:29:31] [Server thread/INFO]: Alencar73 lost connection: Disconnected
+[15:29:31] [Server thread/INFO]: Alencar73 left the game
+[15:29:51] [Server thread/INFO]: Vintin was shot by Skeleton
+[15:46:28] [Async Chat Thread - #31/INFO]: [Not Secure] <Narrador3> r
+[15:46:35] [Async Chat Thread - #31/INFO]: [Not Secure] <Vintin> r?w
+[15:46:58] [Server thread/INFO]: Narrador3 lost connection: Disconnected
+[15:46:58] [Server thread/INFO]: Narrador3 left the game
+[15:54:30] [User Authenticator #13/INFO]: UUID of player Alencar73 is 028a82f5-20fe-3357-8797-b427ea04a6c1
+[15:54:31] [Server thread/INFO]: Alencar73 joined the game
+[15:54:31] [Server thread/INFO]: Alencar73[/177.152.86.165:44982] logged in with entity id 113307 at ([world]-1242.6923106233235, 70.0, 270.30000001192093)
+[15:54:36] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username SonNatso13
+[15:54:36] [localSession-7-1/INFO]: [Geyser-Spigot] SonNatso13 (logged in as: SonNatso13) has connected to the Java server
+[15:54:37] [Server thread/INFO]: [floodgate] Floodgate player logged in as SonNatso13 joined (UUID: 00000000-0000-0000-0009-01f0aea0fdd9)
+[15:54:37] [Server thread/INFO]: SonNatso13 joined the game
+[15:54:37] [Server thread/INFO]: SonNatso13[/187.13.40.197:0] logged in with entity id 113315 at ([world]-1131.345, 80.0, 303.61942)
+[15:58:16] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username KSantos77363
+[15:58:16] [localSession-7-2/INFO]: [Geyser-Spigot] KSantos77363 (logged in as: KSantos77363) has connected to the Java server
+[15:58:16] [Server thread/INFO]: [floodgate] Floodgate player logged in as KSantos77363 joined (UUID: 00000000-0000-0000-0009-01fcd0333658)
+[15:58:16] [Server thread/INFO]: KSantos77363 joined the game
+[15:58:16] [Server thread/INFO]: KSantos77363[/143.255.109.108:0] logged in with entity id 113917 at ([world]-1165.4471, 64.0, 332.47958)
+[15:58:26] [User Authenticator #14/INFO]: UUID of player ShapelierC15 is 95eebe6f-dfa4-33e4-ab20-cd7b96b3b8a4
+[15:58:27] [Server thread/INFO]: ShapelierC15 joined the game
+[15:58:27] [Server thread/INFO]: ShapelierC15[/45.226.75.92:55345] logged in with entity id 113944 at ([world]-1231.6201360150556, 70.0, 267.51249998807907)
+[15:58:47] [Async Chat Thread - #33/INFO]: [Not Secure] <Alencar73> q susto poha
+[15:58:59] [Async Chat Thread - #33/INFO]: [Not Secure] <Alencar73> c viu o mapa?
+[15:59:05] [Async Chat Thread - #33/INFO]: [Not Secure] <ShapelierC15> vi nao
+[15:59:07] [Async Chat Thread - #33/INFO]: [Not Secure] <ShapelierC15> perai
+[15:59:18] [Async Chat Thread - #34/INFO]: [Not Secure] <ShapelierC15> caraca mlkl
+[15:59:29] [Async Chat Thread - #34/INFO]: [Not Secure] <ShapelierC15> mapa ta bonitao agr
+[15:59:40] [Async Chat Thread - #34/INFO]: [Not Secure] <Alencar73> vai ficar ainda melhor po
+[16:00:14] [Async Chat Thread - #34/INFO]: [Not Secure] <ShapelierC15> deu certo os villagers?
+[16:00:19] [Async Chat Thread - #34/INFO]: [Not Secure] <Vintin> 30%
+[16:00:25] [Async Chat Thread - #34/INFO]: [Not Secure] <Alencar73> sim vlw pela ajuda ontem salvo eu
+[16:00:32] [Async Chat Thread - #34/INFO]: [Not Secure] <ShapelierC15> tmj bro
+[16:01:09] [Async Chat Thread - #34/INFO]: [Not Secure] <Vintin> TRABALHA VILLAERS
+[16:05:05] [Async Chat Thread - #35/INFO]: [Not Secure] <KSantos77363> o mapa tá muito foda
+[16:05:13] [Async Chat Thread - #35/INFO]: [Not Secure] <Vintin> denada
+[16:09:15] [Async Chat Thread - #37/INFO]: [Not Secure] <Alencar73> SHAPELIER CHEGA AE
+[16:09:24] [Async Chat Thread - #37/INFO]: [Not Secure] <Alencar73> ops capslock tava on kk
+[16:09:36] [Async Chat Thread - #37/INFO]: [Not Secure] <ShapelierC15> achei q eu tinha feito merda
+[16:09:38] [Async Chat Thread - #37/INFO]: [Not Secure] <KSantos77363> alguém tem um pouco de lã??
+[16:09:43] [Async Chat Thread - #37/INFO]: [Not Secure] <Alencar73> kkkk
+[16:09:47] [Async Chat Thread - #37/INFO]: [Not Secure] <Vintin> usei tudo
+[16:09:51] [Async Chat Thread - #37/INFO]: [Not Secure] <Alencar73> tem ovelha presa ali
+[16:10:03] [Async Chat Thread - #37/INFO]: [Not Secure] <Alencar73> me ajuda a ter encatamentos bons desses caras
+[16:10:18] [Async Chat Thread - #37/INFO]: [Not Secure] <ShapelierC15> de quem?
+[16:10:28] [Async Chat Thread - #37/INFO]: [Not Secure] <Alencar73> desses 3 aq
+[16:12:29] [Async Chat Thread - #39/INFO]: [Not Secure] <ShapelierC15> carga rapida é bom?
+[16:12:33] [Async Chat Thread - #39/INFO]: [Not Secure] <Alencar73> n
+[16:14:15] [Async Chat Thread - #41/INFO]: [Not Secure] <ShapelierC15> chama é bom?
+[16:14:20] [Async Chat Thread - #41/INFO]: [Not Secure] <Alencar73> n
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -11.137399999999843,-4.423549999999992,-13.197930000000042
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:02] [Server thread/WARN]: SonNatso13 moved too quickly! -10.987999999999829,-4.756749999999997,-12.875200000000007
+[16:16:10] [Server thread/WARN]: SonNatso13 moved too quickly! -7.024300000000039,-1.4200000000000017,8.275199999999984
+[16:16:10] [Server thread/WARN]: SonNatso13 moved too quickly! -7.024300000000039,-1.4200000000000017,8.275199999999984
+[16:16:10] [Server thread/WARN]: SonNatso13 moved too quickly! -7.024300000000039,-1.4200000000000017,8.275199999999984
+[16:16:10] [Server thread/WARN]: SonNatso13 moved too quickly! -7.024300000000039,-1.4200000000000017,8.275199999999984
+[16:16:10] [Server thread/WARN]: SonNatso13 moved too quickly! -7.024300000000039,-1.4200000000000017,8.275199999999984
+[16:16:10] [Server thread/WARN]: SonNatso13 moved too quickly! -7.024300000000039,-1.4200000000000017,8.275199999999984
+[16:16:10] [Server thread/WARN]: SonNatso13 moved too quickly! -7.024300000000039,-1.4200000000000017,8.275199999999984
+[16:16:10] [Server thread/WARN]: SonNatso13 moved too quickly! -7.024300000000039,-1.4200000000000017,8.275199999999984
+[16:16:10] [Server thread/WARN]: SonNatso13 moved too quickly! -7.024300000000039,-1.4200000000000017,8.275199999999984
+[16:16:10] [Server thread/WARN]: SonNatso13 moved too quickly! -7.024300000000039,-1.4200000000000017,8.275199999999984
+[16:16:10] [Server thread/WARN]: SonNatso13 moved too quickly! -7.024300000000039,-1.4200000000000017,8.275199999999984
+[16:16:10] [Server thread/WARN]: SonNatso13 moved too quickly! -7.024300000000039,-1.4200000000000017,8.275199999999984
+[16:16:10] [Server thread/WARN]: SonNatso13 moved too quickly! -7.024300000000039,-1.4200000000000017,8.275199999999984
+[16:16:10] [Server thread/WARN]: SonNatso13 moved too quickly! -7.024300000000039,-1.4200000000000017,8.275199999999984
+[16:16:10] [Server thread/WARN]: SonNatso13 moved too quickly! -7.024300000000039,-1.4200000000000017,8.275199999999984
+[16:16:10] [Server thread/WARN]: SonNatso13 moved too quickly! -7.024300000000039,-1.4200000000000017,8.275199999999984
+[16:16:10] [Server thread/WARN]: SonNatso13 moved too quickly! -7.024300000000039,-1.4200000000000017,8.275199999999984
+[16:16:10] [Server thread/WARN]: SonNatso13 moved too quickly! -7.024300000000039,-1.4200000000000017,8.275199999999984
+[16:16:10] [Server thread/WARN]: SonNatso13 moved too quickly! -7.024300000000039,-1.4200000000000017,8.275199999999984
+[16:16:10] [Server thread/WARN]: SonNatso13 moved too quickly! -7.024300000000039,-1.4200000000000017,8.275199999999984
+[16:16:10] [Server thread/WARN]: SonNatso13 moved too quickly! -7.024300000000039,-1.4200000000000017,8.275199999999984
+[16:16:54] [Async Chat Thread - #43/INFO]: [Not Secure] <Vintin> empalamento por UM PACK? maluco
+[16:17:33] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Eren yeiga has disconnected from the Java server because of Bedrock client disconnected
+[16:17:33] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga disconnected
+[16:17:33] [Server thread/INFO]: Eren_yeiga lost connection: Disconnected
+[16:17:33] [Server thread/INFO]: Eren_yeiga left the game
+[16:18:38] [Async Chat Thread - #45/INFO]: [Not Secure] <Vintin> infinidade apenas por 10 ou menos
+[16:19:03] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] SonNatso13 has disconnected from the Java server because of Bedrock client disconnected
+[16:19:03] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as SonNatso13 disconnected
+[16:19:03] [Server thread/INFO]: SonNatso13 lost connection: Disconnected
+[16:19:03] [Server thread/INFO]: SonNatso13 left the game
+[16:19:05] [Async Chat Thread - #45/INFO]: [Not Secure] <Vintin> pera
+[16:19:09] [Async Chat Thread - #45/INFO]: [Not Secure] <Vintin> ah passou
+[16:19:14] [Server thread/INFO]: Villager Villager['Librarian'/16, uuid='af2c2902-e125-4277-b86a-5f68474fccfb', l='ServerLevel[world]', x=-1235.31, y=70.00, z=261.31, cpos=[-78, 16], tl=668015, v=true] died, message: 'Librarian was slain by Alencar73'
+[16:19:26] [Server thread/INFO]: Villager Villager['Librarian'/14, uuid='18bc8859-bfcd-411b-89f3-35960cc118a5', l='ServerLevel[world]', x=-1233.30, y=70.00, z=261.30, cpos=[-78, 16], tl=668245, v=true] died, message: 'Librarian was slain by Alencar73'
+[16:19:30] [Async Chat Thread - #45/INFO]: [Not Secure] <Alencar73> k
+[16:19:35] [Async Chat Thread - #45/INFO]: [Not Secure] <Alencar73> to matando os ruins
+[16:20:04] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username SonNatso13
+[16:20:04] [localSession-7-3/INFO]: [Geyser-Spigot] SonNatso13 (logged in as: SonNatso13) has connected to the Java server
+[16:20:04] [Server thread/INFO]: [floodgate] Floodgate player logged in as SonNatso13 joined (UUID: 00000000-0000-0000-0009-01f0aea0fdd9)
+[16:20:04] [Server thread/INFO]: SonNatso13 joined the game
+[16:20:04] [Server thread/INFO]: SonNatso13[/187.13.40.197:0] logged in with entity id 118286 at ([world]-1247.1415, 70.0, 301.421)
+[16:21:48] [Server thread/WARN]: KSantos77363 moved wrongly!
+[16:22:28] [Async Chat Thread - #47/INFO]: [Not Secure] <ShapelierC15> serio q julgamento é bom?
+[16:22:41] [Async Chat Thread - #47/INFO]: [Not Secure] <Alencar73> tem afiação né
+[16:22:43] [Server thread/WARN]: KSantos77363 moved wrongly!
+[16:22:45] [Async Chat Thread - #47/INFO]: [Not Secure] <Alencar73> esqueci
+[16:22:45] [Async Chat Thread - #47/INFO]: [Not Secure] <ShapelierC15> sim
+[16:22:48] [Async Chat Thread - #47/INFO]: [Not Secure] <Alencar73> troca ele
+[16:22:51] [Async Chat Thread - #47/INFO]: [Not Secure] <ShapelierC15> blz
+[16:23:14] [Server thread/INFO]: Villager Villager['Librarian'/18, uuid='5fb94ac7-0bc2-4c60-967a-69aac6c1b104', l='ServerLevel[world]', x=-1241.50, y=70.00, z=266.30, cpos=[-78, 16], tl=672799, v=true] died, message: 'Librarian was slain by Alencar73'
+[16:23:14] [Async Chat Thread - #47/INFO]: [Not Secure] <ShapelierC15> me roubaro
+[16:23:23] [Async Chat Thread - #47/INFO]: [Not Secure] <Alencar73> foi o 20tin
+[16:23:26] [Async Chat Thread - #47/INFO]: [Not Secure] <Vintin> uai
+[16:23:30] [Async Chat Thread - #47/INFO]: [Not Secure] <KSantos77363> pra achar lula iluminosa é camada 30 pra baixo né?
+[16:23:42] [Async Chat Thread - #47/INFO]: [Not Secure] <Alencar73> n
+[16:23:45] [Async Chat Thread - #47/INFO]: [Not Secure] <Vintin> tava barato po
+[16:23:53] [Async Chat Thread - #47/INFO]: [Not Secure] <Alencar73> so precisa de uma agua na caverna
+[16:24:00] [Async Chat Thread - #47/INFO]: [Not Secure] <Alencar73> caindo
+[16:24:12] [Async Chat Thread - #47/INFO]: [Not Secure] <KSantos77363> pqp vou morrer de fome
+[16:24:19] [Server thread/INFO]: KSantos77363 starved to death
+[16:24:59] [Async Chat Thread - #47/INFO]: [Not Secure] <Alencar73> ele ta falando q era impacto divino
+[16:25:04] [Async Chat Thread - #47/INFO]: [Not Secure] <Alencar73> esse noia
+[16:25:04] [Async Chat Thread - #47/INFO]: [Not Secure] <Vintin> mas era
+[16:25:07] [Async Chat Thread - #47/INFO]: [Not Secure] <Vintin> agr ta morto
+[16:25:13] [Async Chat Thread - #47/INFO]: [Not Secure] <Alencar73> agr ja fo i
+[16:25:35] [Async Chat Thread - #47/INFO]: [Not Secure] <Alencar73> dps tem q pegar mais
+[16:25:45] [Async Chat Thread - #47/INFO]: [Not Secure] <Alencar73> vamo fazer com esses aq
+[16:26:18] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Eren yeiga
+[16:26:18] [localSession-7-4/INFO]: [Geyser-Spigot] Eren yeiga (logged in as: Eren_yeiga) has connected to the Java server
+[16:26:19] [User Authenticator #15/INFO]: UUID of player Eren_yeiga is 60083b67-9225-363d-a294-13d30f7fc996
+[16:26:19] [Server thread/INFO]: Eren_yeiga joined the game
+[16:26:19] [Server thread/INFO]: Eren_yeiga[/179.125.214.54:0] logged in with entity id 119750 at ([world]-1261.5, 79.0, 268.5)
+[16:26:31] [Async Chat Thread - #47/INFO]: [Not Secure] <KSantos77363> valeu
+[16:26:57] [Server thread/INFO]: Alencar73 lost connection: Disconnected
+[16:26:57] [Server thread/INFO]: Alencar73 left the game
+[16:26:58] [User Authenticator #15/INFO]: UUID of player Alencar73 is 028a82f5-20fe-3357-8797-b427ea04a6c1
+[16:26:59] [Server thread/INFO]: Alencar73 joined the game
+[16:26:59] [Server thread/INFO]: Alencar73[/177.152.86.165:44846] logged in with entity id 119887 at ([world]-1234.586643839796, 70.0, 271.4526605908691)
+[16:27:16] [Server thread/INFO]: Vintin lost connection: Disconnected
+[16:27:16] [Server thread/INFO]: Vintin left the game
+[16:27:32] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Eren yeiga has disconnected from the Java server because of Bedrock client disconnected
+[16:27:32] [Server thread/INFO]: Eren_yeiga lost connection: Disconnected
+[16:27:32] [Server thread/INFO]: Eren_yeiga left the game
+[16:28:17] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] KSantos77363 has disconnected from the Java server because of Bedrock client disconnected
+[16:28:17] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as KSantos77363 disconnected
+[16:28:17] [Server thread/INFO]: KSantos77363 lost connection: Disconnected
+[16:28:17] [Server thread/INFO]: KSantos77363 left the game
+[16:28:19] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username Eren yeiga
+[16:28:19] [localSession-7-1/INFO]: [Geyser-Spigot] Eren yeiga (logged in as: Eren_yeiga) has connected to the Java server
+[16:28:19] [Server thread/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga joined (UUID: 00000000-0000-0000-0009-01f93862b926)
+[16:28:19] [Server thread/INFO]: Eren_yeiga joined the game
+[16:28:20] [Server thread/INFO]: Eren_yeiga[/179.125.214.54:0] logged in with entity id 120251 at ([world]-1166.4321, 66.0, 266.65024)
+[16:28:42] [Async Chat Thread - #49/INFO]: [Not Secure] <Alencar73> po começa simbor a
+[16:30:08] [User Authenticator #16/INFO]: UUID of player miauzinto is 7beeffc0-74d6-3ca7-b0d2-83dda4b42169
+[16:30:09] [Server thread/INFO]: miauzinto joined the game
+[16:30:09] [Server thread/INFO]: miauzinto[/186.223.169.147:1767] logged in with entity id 120624 at ([world]-1644.8140305587733, 71.0, 964.5980642618081)
+[16:32:32] [Async Chat Thread - #51/INFO]: [Not Secure] <Alencar73> bati no narigudo vei pqp
+[16:35:21] [User Authenticator #17/INFO]: UUID of player Narrador3 is c6b40a19-7f47-3478-9285-c19fd506627e
+[16:35:21] [Server thread/INFO]: Narrador3 joined the game
+[16:35:21] [Server thread/INFO]: Narrador3[/45.172.69.25:12732] logged in with entity id 122710 at ([world]-1359.0912995845208, 70.0, 249.00548495157096)
+[16:35:31] [Server thread/INFO]: Narrador3 lost connection: Disconnected
+[16:35:31] [Server thread/INFO]: Narrador3 left the game
+[16:35:58] [Server thread/INFO]: ShapelierC15 issued server command: /tell Alencar73 chama é bom?
+[16:36:07] [Async Chat Thread - #54/INFO]: [Not Secure] <Alencar73> nah
+[16:36:42] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Eren yeiga has disconnected from the Java server because of Bedrock client disconnected
+[16:36:42] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga disconnected
+[16:36:42] [Server thread/INFO]: Eren_yeiga lost connection: Disconnected
+[16:36:42] [Server thread/INFO]: Eren_yeiga left the game
+[16:36:59] [Async Chat Thread - #54/INFO]: [Not Secure] <Alencar73> qual q é?
+[16:37:17] [Server thread/INFO]: ShapelierC15 issued server command: /tell Alencar73 condutividade nao é bom pra creeper charge?
+[16:37:25] [Async Chat Thread - #53/INFO]: [Not Secure] <Alencar73> pega
+[16:37:29] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Eren yeiga
+[16:37:29] [localSession-7-2/INFO]: [Geyser-Spigot] Eren yeiga (logged in as: Eren_yeiga) has connected to the Java server
+[16:37:30] [Server thread/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga joined (UUID: 00000000-0000-0000-0009-01f93862b926)
+[16:37:30] [Server thread/INFO]: Eren_yeiga joined the game
+[16:37:30] [Server thread/INFO]: Eren_yeiga[/179.125.214.54:0] logged in with entity id 123306 at ([world]-1163.1798, 66.0, 266.08945)
+[16:38:30] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username KSantos77363
+[16:38:30] [localSession-7-3/INFO]: [Geyser-Spigot] KSantos77363 (logged in as: KSantos77363) has connected to the Java server
+[16:38:30] [Server thread/INFO]: [floodgate] Floodgate player logged in as KSantos77363 joined (UUID: 00000000-0000-0000-0009-01fcd0333658)
+[16:38:30] [Server thread/INFO]: KSantos77363 joined the game
+[16:38:30] [Server thread/INFO]: KSantos77363[/143.255.109.108:0] logged in with entity id 123729 at ([world]-1183.3625, 70.0, 331.85226)
+[16:39:30] [Async Chat Thread - #55/INFO]: [Not Secure] <Alencar73> jaja eu volto
+[16:39:31] [Server thread/INFO]: Alencar73 lost connection: Disconnected
+[16:39:31] [Server thread/INFO]: Alencar73 left the game
+[16:39:43] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Eren yeiga has disconnected from the Java server because of Bedrock client disconnected
+[16:39:43] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga disconnected
+[16:39:43] [Server thread/INFO]: Eren_yeiga lost connection: Disconnected
+[16:39:43] [Server thread/INFO]: Eren_yeiga left the game
+[16:43:43] [Server thread/INFO]: KSantos77363 has made the advancement [A Seedy Place]
+[16:45:02] [Async Chat Thread - #57/INFO]: [Not Secure] <ShapelierC15> alguem tem couro? preciso de 1 so
+[16:45:23] [Async Chat Thread - #57/INFO]: [Not Secure] <SonNatso13> tô indo atrás agr
+[16:45:49] [Async Chat Thread - #57/INFO]: [Not Secure] <miauzinto> tenho 1 pack de couro
+[16:46:04] [Async Chat Thread - #57/INFO]: [Not Secure] <ShapelierC15> caraca
+[16:46:12] [Async Chat Thread - #57/INFO]: [Not Secure] <ShapelierC15> e onde tu ta?
+[16:46:45] [Server thread/INFO]: KSantos77363 has made the advancement [The Parrots and the Bats]
+[16:46:55] [Async Chat Thread - #57/INFO]: [Not Secure] <miauzinto> -1700 870
+[16:47:27] [Async Chat Thread - #57/INFO]: [Not Secure] <ShapelierC15> meio longe
+[16:47:37] [Async Chat Thread - #57/INFO]: [Not Secure] <ShapelierC15> deixa quieto
+[16:47:42] [Async Chat Thread - #57/INFO]: [Not Secure] <miauzinto> ok
+[16:47:47] [Async Chat Thread - #57/INFO]: [Not Secure] <ShapelierC15> mas vlw
+[16:51:11] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] SonNatso13 has disconnected from the Java server because of Bedrock client disconnected
+[16:51:11] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as SonNatso13 disconnected
+[16:51:11] [Server thread/INFO]: SonNatso13 lost connection: Disconnected
+[16:51:11] [Server thread/INFO]: SonNatso13 left the game
+[16:51:43] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username SonNatso13
+[16:51:43] [localSession-7-4/INFO]: [Geyser-Spigot] SonNatso13 (logged in as: SonNatso13) has connected to the Java server
+[16:51:44] [Server thread/INFO]: [floodgate] Floodgate player logged in as SonNatso13 joined (UUID: 00000000-0000-0000-0009-01f0aea0fdd9)
+[16:51:44] [Server thread/INFO]: SonNatso13 joined the game
+[16:51:44] [Server thread/INFO]: SonNatso13[/187.13.40.197:0] logged in with entity id 128994 at ([world]-1113.3062, 75.0, 385.30002)
+[16:54:01] [User Authenticator #18/INFO]: UUID of player Vintin is 742d656d-0826-3cc4-a58f-590439d9ab38
+[16:54:02] [Server thread/INFO]: Vintin joined the game
+[16:54:02] [Server thread/INFO]: Vintin[/45.160.232.205:57299] logged in with entity id 129558 at ([world]-1238.0435137506488, 70.0, 271.08546465251356)
+[16:54:14] [Async Chat Thread - #59/INFO]: [Not Secure] <ShapelierC15> vintin
+[16:54:18] [Async Chat Thread - #59/INFO]: [Not Secure] <Vintin> fala
+[16:54:23] [Async Chat Thread - #59/INFO]: [Not Secure] <ShapelierC15> da uma oiada aq
+[16:54:30] [Async Chat Thread - #59/INFO]: [Not Secure] <ShapelierC15> é bom?
+[16:54:37] [Async Chat Thread - #59/INFO]: [Not Secure] <Vintin> uai
+[16:54:40] [Async Chat Thread - #59/INFO]: [Not Secure] <ShapelierC15> coloquei no errado pérai
+[16:54:58] [Async Chat Thread - #59/INFO]: [Not Secure] <ShapelierC15> puts
+[16:55:06] [Async Chat Thread - #59/INFO]: [Not Secure] <Vintin> KSSKKSSKSKS eles trocaram
+[16:55:30] [Async Chat Thread - #59/INFO]: [Not Secure] <ShapelierC15> mas aspecto flamejante é bom ne?
+[16:55:53] [Async Chat Thread - #59/INFO]: [Not Secure] <Vintin> ate que sim, mas precisa ser bem baratin tlg, mais que 20 ja é meio meh
+[16:56:16] [Async Chat Thread - #59/INFO]: [Not Secure] <ShapelierC15> e o remendo ali?
+[16:56:24] [Async Chat Thread - #59/INFO]: [Not Secure] <ShapelierC15> trocou tbm
+[16:56:27] [Async Chat Thread - #59/INFO]: [Not Secure] <Vintin> burro
+[16:56:28] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] KSantos77363 has disconnected from the Java server because of Bedrock client disconnected
+[16:56:28] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as KSantos77363 disconnected
+[16:56:28] [Server thread/INFO]: KSantos77363 lost connection: Disconnected
+[16:56:28] [Server thread/INFO]: KSantos77363 left the game
+[16:56:28] [Async Chat Thread - #59/INFO]: [Not Secure] <ShapelierC15> ah vei
+[16:56:43] [Async Chat Thread - #59/INFO]: [Not Secure] <Vintin> tem que fazer troca pra manter tlg
+[16:56:46] [Async Chat Thread - #59/INFO]: [Not Secure] <ShapelierC15> :(
+[16:56:50] [Async Chat Thread - #59/INFO]: [Not Secure] <Vintin> F
+[16:58:25] [Async Chat Thread - #61/INFO]: [Not Secure] <ShapelierC15> o remendo tava 9 esmeraldas
+[16:58:40] [Async Chat Thread - #61/INFO]: [Not Secure] <Vintin> oloko
+[16:58:41] [Async Chat Thread - #61/INFO]: [Not Secure] <Vintin> baratin
+[17:12:48] [Server thread/INFO]: Vintin has made the advancement [Those Were the Days]
+[17:14:28] [User Authenticator #19/INFO]: UUID of player Alencar73 is 028a82f5-20fe-3357-8797-b427ea04a6c1
+[17:14:28] [Server thread/INFO]: Alencar73 joined the game
+[17:14:28] [Server thread/INFO]: Alencar73[/177.152.86.165:45075] logged in with entity id 137257 at ([world]-1241.5842497685917, 70.875, 269.69999998807907)
+[17:15:06] [Server thread/INFO]: miauzinto lost connection: Disconnected
+[17:15:06] [Server thread/INFO]: miauzinto left the game
+[17:20:08] [Async Chat Thread - #63/INFO]: [Not Secure] <Alencar73> DESISTOO
+[17:20:20] [Async Chat Thread - #63/INFO]: [Not Secure] <Alencar73> ESTE MERDA É UMA BOOOOOOOOOOSTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[17:20:30] [Async Chat Thread - #63/INFO]: [Not Secure] <SonNatso13> que isso
+[17:20:31] [Async Chat Thread - #63/INFO]: [Not Secure] <ShapelierC15> estou sofrendo
+[17:20:46] [Async Chat Thread - #63/INFO]: [Not Secure] <ShapelierC15> so tem livro repetido
+[17:21:06] [Async Chat Thread - #63/INFO]: [Not Secure] <Alencar73> meus olhos estao fundos e escuros eu n aguento mais
+[17:22:37] [Server thread/INFO]: Vintin fell from a high place
+[17:24:07] [Async Chat Thread - #65/INFO]: [Not Secure] <ShapelierC15> aspecto flamejante por 17 pila
+[17:24:20] [Async Chat Thread - #65/INFO]: [Not Secure] <Vintin> é aspecto II?
+[17:24:24] [Async Chat Thread - #65/INFO]: [Not Secure] <Alencar73> si
+[17:24:29] [Async Chat Thread - #65/INFO]: [Not Secure] <Vintin> pega
+[17:24:34] [Async Chat Thread - #65/INFO]: [Not Secure] <Alencar73> so vai ate o 2
+[17:24:42] [Async Chat Thread - #65/INFO]: [Not Secure] <ShapelierC15> to sem livro
+[17:24:47] [Async Chat Thread - #65/INFO]: [Not Secure] <Alencar73> calmo
+[17:24:50] [Async Chat Thread - #65/INFO]: [Not Secure] <Alencar73> clica nele
+[17:25:30] [Async Chat Thread - #65/INFO]: [Not Secure] <ShapelierC15> pelo menos um foi
+[17:25:35] [Async Chat Thread - #65/INFO]: [Not Secure] <Alencar73> gloria
+[17:26:24] [Async Chat Thread - #65/INFO]: [Not Secure] <ShapelierC15> Presente rsrs
+[17:26:27] [Async Chat Thread - #65/INFO]: [Not Secure] <Alencar73> a
+[17:26:57] [Async Chat Thread - #65/INFO]: [Not Secure] <Alencar73> negao
+[17:26:58] [Async Chat Thread - #65/INFO]: [Not Secure] <ShapelierC15> preto?
+[17:27:01] [Async Chat Thread - #65/INFO]: [Not Secure] <Alencar73> kkkkk
+[17:27:53] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username Eren yeiga
+[17:27:53] [localSession-7-1/INFO]: [Geyser-Spigot] Eren yeiga (logged in as: Eren_yeiga) has connected to the Java server
+[17:27:54] [Server thread/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga joined (UUID: 00000000-0000-0000-0009-01f93862b926)
+[17:27:54] [Server thread/INFO]: Eren_yeiga joined the game
+[17:27:54] [Server thread/INFO]: Eren_yeiga[/179.125.214.54:0] logged in with entity id 140549 at ([world]-1166.2123, 66.0, 265.39603)
+[17:28:44] [Server thread/INFO]: Vintin was slain by Piglin
+[17:28:50] [Async Chat Thread - #67/INFO]: [Not Secure] <Alencar73> tem q aguarda o 20tin
+[17:28:51] [Async Chat Thread - #67/INFO]: [Not Secure] <ShapelierC15> negrao indomavel
+[17:28:52] [Async Chat Thread - #68/INFO]: [Not Secure] <Alencar73> a
+[17:30:00] [Server thread/WARN]: SonNatso13 moved wrongly!
+[17:30:25] [Server thread/INFO]: Vintin was slain by Piglin
+[17:30:43] [Async Chat Thread - #69/INFO]: [Not Secure] <ShapelierC15> parece uma barata
+[17:31:01] [Server thread/INFO]: ShapelierC15 lost connection: Disconnected
+[17:31:01] [Server thread/INFO]: ShapelierC15 left the game
+[17:31:32] [Server thread/INFO]: Vintin has made the advancement [Cover Me with Diamonds]
+[17:32:37] [Async Chat Thread - #71/INFO]: [Not Secure] <Alencar73> vem aq nos cavalo shape
+[17:33:22] [Async Chat Thread - #71/INFO]: [Not Secure] <Alencar73> ele saiu eu nem vi cara
+[17:33:24] [Async Chat Thread - #71/INFO]: [Not Secure] <Alencar73> f...
+[17:33:30] [Async Chat Thread - #71/INFO]: [Not Secure] <Vintin> SKSSKSKSKSK
+[17:34:42] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Eren yeiga has disconnected from the Java server because of Bedrock client disconnected
+[17:34:42] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga disconnected
+[17:34:42] [Server thread/INFO]: Eren_yeiga lost connection: Disconnected
+[17:34:42] [Server thread/INFO]: Eren_yeiga left the game
+[17:37:04] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Eren yeiga
+[17:37:04] [localSession-7-2/INFO]: [Geyser-Spigot] Eren yeiga (logged in as: Eren_yeiga) has connected to the Java server
+[17:37:04] [Server thread/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga joined (UUID: 00000000-0000-0000-0009-01f93862b926)
+[17:37:04] [Server thread/INFO]: Eren_yeiga joined the game
+[17:37:04] [Server thread/INFO]: Eren_yeiga[/179.125.214.54:0] logged in with entity id 142389 at ([world]-1171.1055, 76.0, 263.4751)
+[17:39:35] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga disconnected
+[17:39:35] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Eren yeiga has disconnected from the Java server because of Bedrock client timed out
+[17:39:35] [Server thread/INFO]: Eren_yeiga lost connection: Disconnected
+[17:39:35] [Server thread/INFO]: Eren_yeiga left the game
+[17:40:17] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Eren yeiga
+[17:40:17] [localSession-7-3/INFO]: [Geyser-Spigot] Eren yeiga (logged in as: Eren_yeiga) has connected to the Java server
+[17:40:18] [Server thread/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga joined (UUID: 00000000-0000-0000-0009-01f93862b926)
+[17:40:18] [Server thread/INFO]: Eren_yeiga joined the game
+[17:40:18] [Server thread/INFO]: Eren_yeiga[/179.125.214.54:0] logged in with entity id 143526 at ([world]-1258.2467, 69.9375, 284.96936)
+[17:41:06] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Patinhoskk
+[17:41:06] [localSession-7-4/INFO]: [Geyser-Spigot] Patinhoskk (logged in as: Patinhoskk) has connected to the Java server
+[17:41:07] [User Authenticator #20/INFO]: UUID of player Patinhoskk is c06899ba-fd36-3ea4-a20f-752c22fea279
+[17:41:07] [Server thread/INFO]: Patinhoskk joined the game
+[17:41:07] [Server thread/INFO]: Patinhoskk[/206.43.70.97:0] logged in with entity id 143824 at ([world]-1242.5312, 69.0, 301.38074)
+[17:41:47] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Patinhoskk has disconnected from the Java server because of Bedrock client disconnected
+[17:41:47] [Server thread/INFO]: Patinhoskk lost connection: Disconnected
+[17:41:47] [Server thread/INFO]: Patinhoskk left the game
+[17:42:06] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username Patinhoskk
+[17:42:06] [localSession-7-1/INFO]: [Geyser-Spigot] Patinhoskk (logged in as: Patinhoskk) has connected to the Java server
+[17:42:06] [Server thread/INFO]: [floodgate] Floodgate player logged in as Patinhoskk joined (UUID: 00000000-0000-0000-0009-01f1ae1b4cb8)
+[17:42:06] [Server thread/INFO]: Patinhoskk joined the game
+[17:42:06] [Server thread/INFO]: Patinhoskk[/206.43.70.97:0] logged in with entity id 144263 at ([world]-1305.4203, 70.0, 249.10744)
+[17:42:38] [Async Chat Thread - #73/INFO]: [Not Secure] <Patinhoskk> quem ajuda a minera ?
+[17:42:49] [Async Chat Thread - #73/INFO]: [Not Secure] <Alencar73> eu
+[17:42:55] [Async Chat Thread - #73/INFO]: [Not Secure] <Alencar73> to com fortune 3
+[17:43:00] [Async Chat Thread - #73/INFO]: [Not Secure] <Alencar73> calmo
+[17:43:06] [Async Chat Thread - #73/INFO]: [Not Secure] <Patinhoskk> vambora
+[17:43:21] [Async Chat Thread - #73/INFO]: [Not Secure] <Patinhoskk> fala uma caverna ai
+[17:43:36] [Async Chat Thread - #73/INFO]: [Not Secure] <Alencar73> tem q ser longe
+[17:43:42] [Async Chat Thread - #73/INFO]: [Not Secure] <Patinhoskk> bele
+[17:43:43] [Async Chat Thread - #73/INFO]: [Not Secure] <Alencar73> ja rapei td daqui k
+[17:44:28] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Eren yeiga has disconnected from the Java server because of Bedrock client disconnected
+[17:44:28] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga disconnected
+[17:44:28] [Server thread/INFO]: Eren_yeiga lost connection: Disconnected
+[17:44:28] [Server thread/INFO]: Eren_yeiga left the game
+[17:45:17] [Async Chat Thread - #75/INFO]: [Not Secure] <Alencar73> tem nada aq
+[17:46:20] [User Authenticator #21/INFO]: UUID of player miauzinto is 7beeffc0-74d6-3ca7-b0d2-83dda4b42169
+[17:46:21] [Server thread/INFO]: miauzinto joined the game
+[17:46:21] [Server thread/INFO]: miauzinto[/186.223.169.147:1631] logged in with entity id 145914 at ([world]-1643.8830038765414, 71.0, 964.6541939753807)
+[17:48:13] [Async Chat Thread - #77/INFO]: [Not Secure] <Alencar73> vo cava pra baixo amem
+[17:48:17] [Async Chat Thread - #77/INFO]: [Not Secure] <Alencar73> a
+[17:50:42] [Async Chat Thread - #79/INFO]: [Not Secure] <Alencar73> desce
+[17:50:46] [Async Chat Thread - #79/INFO]: [Not Secure] <Alencar73> coloquei agua
+[17:51:15] [Async Chat Thread - #79/INFO]: [Not Secure] <Alencar73> vou pegar dima na silk touch
+[17:52:17] [Async Chat Thread - #81/INFO]: [Not Secure] <Patinhoskk> tem carvão ae ?
+[17:52:24] [Async Chat Thread - #81/INFO]: [Not Secure] <Alencar73> nop
+[17:52:34] [Server thread/INFO]: Patinhoskk was shot by Skeleton
+[17:52:37] [Async Chat Thread - #81/INFO]: [Not Secure] <Vintin> to indo nessa
+[17:52:39] [Async Chat Thread - #81/INFO]: [Not Secure] <Alencar73> f
+[17:52:46] [Async Chat Thread - #81/INFO]: [Not Secure] <Alencar73> eu vou minerar pra vc
+[17:52:46] [Async Chat Thread - #81/INFO]: [Not Secure] <Vintin> fiz minhas coisinhas ja
+[17:52:50] [Async Chat Thread - #81/INFO]: [Not Secure] <Alencar73> se tu quisert
+[17:52:50] [Async Chat Thread - #81/INFO]: [Not Secure] <Patinhoskk> f
+[17:53:04] [Async Chat Thread - #81/INFO]: [Not Secure] <Patinhoskk> tenta pegar meus itens
+[17:53:09] [Async Chat Thread - #81/INFO]: [Not Secure] <Alencar73> cords -785 -306
+[17:53:20] [Server thread/INFO]: SonNatso13 has made the advancement [A Seedy Place]
+[17:53:31] [Server thread/INFO]: Vintin lost connection: Disconnected
+[17:53:31] [Server thread/INFO]: Vintin left the game
+[17:53:33] [User Authenticator #22/INFO]: UUID of player j13013j is ce345b66-6787-3b61-aa59-8047f5f80d80
+[17:53:34] [Server thread/INFO]: j13013j joined the game
+[17:53:34] [Server thread/INFO]: j13013j[/168.232.161.61:41152] logged in with entity id 150580 at ([world]-1236.2403638022026, 70.0, 270.2054113021508)
+[17:56:37] [Async Chat Thread - #83/INFO]: [Not Secure] <Patinhoskk> ro descendo
+[17:57:35] [Server thread/INFO]: Alencar73 has made the advancement [Sneak 100]
+[17:57:39] [Async Chat Thread - #85/INFO]: [Not Secure] <Patinhoskk> warden
+[17:57:45] [Async Chat Thread - #85/INFO]: [Not Secure] <Alencar73> si
+[17:58:06] [Async Chat Thread - #85/INFO]: [Not Secure] <Alencar73> mas rlx so bloquino
+[17:58:14] [Async Chat Thread - #85/INFO]: [Not Secure] <Alencar73> vc ta encima de mim
+[17:58:15] [Async Chat Thread - #85/INFO]: [Not Secure] <Patinhoskk> to aqui
+[17:59:44] [Server thread/INFO]: Patinhoskk has made the advancement [Monster Hunter]
+[17:59:59] [Async Chat Thread - #87/INFO]: [Not Secure] <Alencar73> voorta
+[18:00:03] [User Authenticator #23/INFO]: UUID of player SayGabbis is d414d361-18a6-31ef-96af-690e2149ba53
+[18:00:04] [Server thread/INFO]: SayGabbis joined the game
+[18:00:04] [Server thread/INFO]: SayGabbis[/189.50.232.11:18465] logged in with entity id 154340 at ([world]-1253.6237344490924, 66.0, 394.3778577466194)
+[18:00:04] [Async Chat Thread - #87/INFO]: [Not Secure] <Alencar73> vai da bom n k
+[18:00:15] [Async Chat Thread - #87/INFO]: [Not Secure] <SayGabbis> alencar tem dima
+[18:00:25] [Async Chat Thread - #87/INFO]: [Not Secure] <Alencar73> sim
+[18:00:30] [Async Chat Thread - #87/INFO]: [Not Secure] <Alencar73> no meu bau
+[18:00:37] [Async Chat Thread - #87/INFO]: [Not Secure] <Alencar73> pega fortuna
+[18:00:43] [Async Chat Thread - #87/INFO]: [Not Secure] <SayGabbis> oki obrigada
+[18:01:10] [Server thread/INFO]: Patinhoskk was slain by Zombie
+[18:01:23] [Async Chat Thread - #87/INFO]: [Not Secure] <Patinhoskk> muito bicho kakkaka
+[18:01:50] [Async Chat Thread - #87/INFO]: [Not Secure] <Alencar73> 1hp
+[18:01:53] [Async Chat Thread - #88/INFO]: [Not Secure] <Alencar73> lkkkkkkkkkkkkkkkk
+[18:02:02] [Async Chat Thread - #88/INFO]: [Not Secure] <Patinhoskk> volta rapido
+[18:02:08] [Async Chat Thread - #88/INFO]: [Not Secure] <Alencar73> rlx
+[18:02:36] [Async Chat Thread - #88/INFO]: [Not Secure] <Patinhoskk> pego meus itens ?
+[18:02:39] [Async Chat Thread - #88/INFO]: [Not Secure] <Alencar73> si
+[18:02:55] [Async Chat Thread - #88/INFO]: [Not Secure] <Patinhoskk> que droga tinha muito bicho
+[18:03:45] [Async Chat Thread - #89/INFO]: [Not Secure] <Alencar73> qnd se tiver perto fala
+[18:05:44] [Async Chat Thread - #90/INFO]: [Not Secure] <Patinhoskk> to aqu ja
+[18:05:51] [Async Chat Thread - #90/INFO]: [Not Secure] <Alencar73> chegando
+[18:06:31] [Async Chat Thread - #90/INFO]: [Not Secure] <SayGabbis> voltei
+[18:06:51] [Async Chat Thread - #90/INFO]: [Not Secure] <Alencar73> to aq onde se morreu
+[18:07:09] [Async Chat Thread - #90/INFO]: [Not Secure] <Patinhoskk> eu não consigo ir pra ae
+[18:07:18] [Async Chat Thread - #90/INFO]: [Not Secure] <Alencar73> subindo
+[18:07:22] [Async Chat Thread - #90/INFO]: [Not Secure] <Patinhoskk> 3 de hp
+[18:07:31] [Async Chat Thread - #90/INFO]: [Not Secure] <SayGabbis> onde é sua casa alencar
+[18:07:35] [Async Chat Thread - #90/INFO]: [Not Secure] <Alencar73> xiii
+[18:07:42] [Async Chat Thread - #90/INFO]: [Not Secure] <Alencar73> n tengo casita
+[18:07:43] [Async Chat Thread - #90/INFO]: [Not Secure] <Alencar73> ...
+[18:07:49] [Async Chat Thread - #90/INFO]: [Not Secure] <SayGabbis> onde ta seus bau
+[18:07:58] [Async Chat Thread - #90/INFO]: [Not Secure] <Patinhoskk> Alencar vou esquentar os ferros
+[18:08:00] [Async Chat Thread - #90/INFO]: [Not Secure] <Alencar73> moro de favor no meu proprio estabelecimento
+[18:08:04] [Async Chat Thread - #90/INFO]: [Not Secure] <Alencar73> jae
+[18:08:29] [Async Chat Thread - #90/INFO]: [Not Secure] <Patinhoskk> ai vou pegar essas pedras pra meu barraco
+[18:08:31] [Async Chat Thread - #90/INFO]: [Not Secure] <SayGabbis> algm tem comida
+[18:09:38] [Server thread/INFO]: Patinhoskk has made the advancement [Diamonds!]
+[18:09:41] [Async Chat Thread - #92/INFO]: [Not Secure] <Patinhoskk> oloko valeu
+[18:09:46] [Async Chat Thread - #92/INFO]: [Not Secure] <SayGabbis> cade vces
+[18:10:04] [Async Chat Thread - #92/INFO]: [Not Secure] <Patinhoskk> rem comida ae ?
+[18:10:23] [Async Chat Thread - #92/INFO]: [Not Secure] <Alencar73> quer continuar minerar?
+[18:10:39] [Async Chat Thread - #92/INFO]: [Not Secure] <Patinhoskk> so pega ferro e essas pedras
+[18:10:45] [Async Chat Thread - #92/INFO]: [Not Secure] <Alencar73> jae
+[18:10:49] [Async Chat Thread - #92/INFO]: [Not Secure] <SayGabbis> ondestao
+[18:11:03] [Async Chat Thread - #92/INFO]: [Not Secure] <Patinhoskk> numa caverna
+[18:11:17] [Async Chat Thread - #92/INFO]: [Not Secure] <Alencar73> gabs eu tenho um ngc pra geral tu n vai acreditar kkkkkkkk
+[18:11:18] [Async Chat Thread - #92/INFO]: [Not Secure] <Patinhoskk> meio longe
+[18:11:20] [Async Chat Thread - #92/INFO]: [Not Secure] <SayGabbis> cade seus bau Alencar73
+[18:11:32] [Async Chat Thread - #92/INFO]: [Not Secure] <Alencar73> vou voltar caalmo
+[18:11:40] [Async Chat Thread - #92/INFO]: [Not Secure] <Alencar73> patinho vem cmg
+[18:11:43] [Async Chat Thread - #92/INFO]: [Not Secure] <SayGabbis> ia construir minha casa ontem
+[18:11:48] [Async Chat Thread - #92/INFO]: [Not Secure] <SayGabbis> mas perdi tudo morrendo na lava
+[18:11:50] [Async Chat Thread - #92/INFO]: [Not Secure] <SayGabbis> kitei
+[18:12:25] [Async Chat Thread - #92/INFO]: [Not Secure] <Alencar73> tenho mt ferro pra ti patinho la em casa
+[18:13:24] [Async Chat Thread - #92/INFO]: [Not Secure] <SayGabbis> volte
+[18:13:26] [Async Chat Thread - #92/INFO]: [Not Secure] <SayGabbis> i
+[18:13:34] [Async Chat Thread - #92/INFO]: [Not Secure] <Alencar73> a caminho estou
+[18:13:46] [Async Chat Thread - #92/INFO]: [Not Secure] <SayGabbis> onde ta o portal é onde vai ser minhacasa
+[18:13:52] [Async Chat Thread - #92/INFO]: [Not Secure] <SayGabbis> coloquei la pra ninguem roba o lugar
+[18:14:30] [Async Chat Thread - #92/INFO]: [Not Secure] <Patinhoskk> sem querer
+[18:14:54] [Async Chat Thread - #92/INFO]: [Not Secure] <Patinhoskk> vai indo
+[18:14:59] [Async Chat Thread - #92/INFO]: [Not Secure] <Alencar73> hm
+[18:15:13] [Async Chat Thread - #92/INFO]: [Not Secure] <Alencar73> sabe o caminho?
+[18:15:18] [Async Chat Thread - #92/INFO]: [Not Secure] <Patinhoskk> pega lan
+[18:15:20] [Async Chat Thread - #92/INFO]: [Not Secure] <Patinhoskk> sei
+[18:15:27] [Async Chat Thread - #92/INFO]: [Not Secure] <Alencar73> jae
+[18:15:52] [Async Chat Thread - #92/INFO]: [Not Secure] <Alencar73> dps leva os dima pra eu tacar fortuna neles
+[18:16:34] [Async Chat Thread - #92/INFO]: [Not Secure] <SayGabbis> estoy no aguardo
+[18:17:11] [Async Chat Thread - #92/INFO]: [Not Secure] <SayGabbis> vou tentar reconstruir a casa que perdi
+[18:17:25] [Async Chat Thread - #92/INFO]: [Not Secure] <SayGabbis> precisar da ajuda da minha memoria
+[18:17:49] [Async Chat Thread - #92/INFO]: [Not Secure] <SayGabbis> ta porra
+[18:18:06] [Async Chat Thread - #92/INFO]: [Not Secure] <Alencar73> im viniciys 13
+[18:18:14] [Async Chat Thread - #92/INFO]: [Not Secure] <SayGabbis> sai do fake viniccius
+[18:18:17] [Async Chat Thread - #92/INFO]: [Not Secure] <Alencar73> vinicius*
+[18:18:26] [Async Chat Thread - #92/INFO]: [Not Secure] <SayGabbis> vo quebra os dima
+[18:18:37] [Async Chat Thread - #92/INFO]: [Not Secure] <Alencar73> quebra ae leva tudo
+[18:18:56] [Async Chat Thread - #92/INFO]: [Not Secure] <SayGabbis> olok
+[18:19:08] [Async Chat Thread - #92/INFO]: [Not Secure] <Alencar73> kd os upgrade me da os resto vou dfestribuir pra geral
+[18:20:03] [Async Chat Thread - #92/INFO]: [Not Secure] <Patinhoskk> ai sim
+[18:20:30] [Async Chat Thread - #92/INFO]: [Not Secure] <SayGabbis> tem mesa de encantamentos?
+[18:20:38] [Async Chat Thread - #92/INFO]: [Not Secure] <Alencar73> n
+[18:20:42] [Async Chat Thread - #92/INFO]: [Not Secure] <Alencar73> mas da pra fazer
+[18:20:55] [Async Chat Thread - #92/INFO]: [Not Secure] <Alencar73> tem 34 obsidian no bau la
+[18:20:56] [Async Chat Thread - #92/INFO]: [Not Secure] <Patinhoskk> quem tem carvão?
+[18:21:12] [Async Chat Thread - #92/INFO]: [Not Secure] <Alencar73> aq
+[18:22:08] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username NicolasDaflon
+[18:22:08] [localSession-7-2/INFO]: [Geyser-Spigot] NicolasDaflon (logged in as: NicolasDaflon) has connected to the Java server
+[18:22:09] [Server thread/INFO]: [floodgate] Floodgate player logged in as NicolasDaflon joined (UUID: 00000000-0000-0000-0009-01fad6b104ec)
+[18:22:09] [Server thread/INFO]: NicolasDaflon joined the game
+[18:22:09] [Server thread/INFO]: NicolasDaflon[/191.250.52.232:0] logged in with entity id 167462 at ([world]-1260.5, 80.0, 267.5)
+[18:23:37] [Async Chat Thread - #94/INFO]: [Not Secure] <Patinhoskk> ai tem aquelas cerras de bloco la ?
+[18:24:38] [Server thread/INFO]: NicolasDaflon has made the advancement [Stone Age]
+[18:24:44] [Server thread/INFO]: NicolasDaflon has made the advancement [Getting an Upgrade]
+[18:24:47] [Server thread/INFO]: Patinhoskk has made the advancement [Cover Me with Diamonds]
+[18:25:42] [Async Chat Thread - #96/INFO]: [Not Secure] <Patinhoskk> upgrade é so pra netherite mesmo né?
+[18:25:49] [Async Chat Thread - #96/INFO]: [Not Secure] <Alencar73> si
+[18:25:59] [Async Chat Thread - #96/INFO]: [Not Secure] <Patinhoskk> ata jae
+[18:26:02] [Async Chat Thread - #96/INFO]: [Not Secure] <Alencar73> e personalizar ela tb
+[18:26:25] [Async Chat Thread - #96/INFO]: [Not Secure] <Patinhoskk> jae
+[18:28:08] [Server thread/INFO]: j13013j lost connection: Disconnected
+[18:28:08] [Server thread/INFO]: j13013j left the game
+[18:29:19] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as SonNatso13 disconnected
+[18:29:19] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] SonNatso13 has disconnected from the Java server because of Bedrock client disconnected
+[18:29:19] [Server thread/INFO]: SonNatso13 lost connection: Disconnected
+[18:29:19] [Server thread/INFO]: SonNatso13 left the game
+[18:30:20] [Async Chat Thread - #98/INFO]: [Not Secure] <Patinhoskk> flw galera vou sair
+[18:30:27] [Async Chat Thread - #98/INFO]: [Not Secure] <Alencar73> flw
+[18:30:28] [Async Chat Thread - #98/INFO]: [Not Secure] <SayGabbis> bye
+[18:30:36] [Async Chat Thread - #99/INFO]: [Not Secure] <Patinhoskk> flw
+[18:31:01] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Patinhoskk has disconnected from the Java server because of Bedrock client timed out
+[18:31:01] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as Patinhoskk disconnected
+[18:31:01] [Server thread/INFO]: Patinhoskk lost connection: Disconnected
+[18:31:01] [Server thread/INFO]: Patinhoskk left the game
+[18:31:32] [Server thread/INFO]: SayGabbis has made the advancement [What a Deal!]
+[18:34:53] [Server thread/WARN]: miauzinto moved too quickly! 4.547229409564352,0.5813359922251635,-12.670995380829936
+[18:36:20] [Async Chat Thread - #100/INFO]: [Not Secure] <Alencar73> AAAAAAAAAAAAAAAAAAAAA
+[18:36:30] [Async Chat Thread - #100/INFO]: [Not Secure] <Alencar73> CABOU OS BLOCOS NO FINAAAL
+[18:37:06] [Async Chat Thread - #100/INFO]: [Not Secure] <Alencar73> gabs help
+[18:37:09] [Async Chat Thread - #100/INFO]: [Not Secure] <SayGabbis> oioi
+[18:37:21] [Async Chat Thread - #100/INFO]: [Not Secure] <Alencar73> minerar blocos nether
+[18:37:24] [Server thread/INFO]: NicolasDaflon has made the advancement [Acquire Hardware]
+[18:37:27] [Async Chat Thread - #100/INFO]: [Not Secure] <SayGabbis> necessito de 5 de xp
+[18:37:44] [Async Chat Thread - #100/INFO]: [Not Secure] <Alencar73> preciso so de eficiencia 5 na picareta consegue pra mim?
+[18:37:51] [Async Chat Thread - #100/INFO]: [Not Secure] <SayGabbis> ja peguei
+[18:37:51] [Async Chat Thread - #100/INFO]: [Not Secure] <Alencar73> to sem nada de esmeralda
+[18:38:00] [Async Chat Thread - #100/INFO]: [Not Secure] <Alencar73> esmpresta ae eu encanto
+[18:38:27] [Async Chat Thread - #100/INFO]: [Not Secure] <Alencar73> nice vou minerar e te devolvo
+[18:38:31] [Async Chat Thread - #100/INFO]: [Not Secure] <SayGabbis> oki
+[18:38:36] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Eren yeiga
+[18:38:36] [localSession-7-3/INFO]: [Geyser-Spigot] Eren yeiga (logged in as: Eren_yeiga) has connected to the Java server
+[18:38:39] [Server thread/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga joined (UUID: 00000000-0000-0000-0009-01f93862b926)
+[18:38:39] [Server thread/INFO]: Eren_yeiga joined the game
+[18:38:39] [Server thread/INFO]: Eren_yeiga[/179.125.214.54:0] logged in with entity id 174400 at ([world]-1166.7928, 70.0, 271.2551)
+[18:39:03] [Async Chat Thread - #100/INFO]: [Not Secure] <SayGabbis> vou sair de noite se da
+[18:39:14] [Async Chat Thread - #100/INFO]: [Not Secure] <Alencar73> blz
+[18:39:16] [Async Chat Thread - #100/INFO]: [Not Secure] <Alencar73> tmj
+[18:39:16] [Async Chat Thread - #100/INFO]: [Not Secure] <SayGabbis> na vdd deixa no bau dessa casa temporaria
+[18:39:23] [Async Chat Thread - #100/INFO]: [Not Secure] <Alencar73> ta
+[18:39:25] [Server thread/INFO]: SayGabbis lost connection: Disconnected
+[18:39:25] [Server thread/INFO]: SayGabbis left the game
+[18:39:57] [Server thread/INFO]: NicolasDaflon was slain by Zombie
+[18:41:03] [Server thread/INFO]: miauzinto lost connection: Disconnected
+[18:41:03] [Server thread/INFO]: miauzinto left the game
+[18:44:36] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Eren yeiga has disconnected from the Java server because of Bedrock client disconnected
+[18:44:36] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga disconnected
+[18:44:36] [Server thread/INFO]: Eren_yeiga lost connection: Disconnected
+[18:44:36] [Server thread/INFO]: Eren_yeiga left the game
+[18:44:51] [Server thread/INFO]: Alencar73 lost connection: Disconnected
+[18:44:51] [Server thread/INFO]: Alencar73 left the game
+[18:50:05] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username WeskerIkrausse
+[18:50:05] [localSession-7-4/INFO]: [Geyser-Spigot] WeskerIkrausse (logged in as: WeskerIkrausse) has connected to the Java server
+[18:50:06] [User Authenticator #25/INFO]: UUID of player Alencar73 is 028a82f5-20fe-3357-8797-b427ea04a6c1
+[18:50:06] [User Authenticator #24/INFO]: UUID of player WeskerIkrausse is 2a3f30a0-0b0d-336c-a37e-2ced572fb28d
+[18:50:06] [Server thread/INFO]: Alencar73 joined the game
+[18:50:06] [Server thread/INFO]: Alencar73[/177.152.86.165:44548] logged in with entity id 178596 at ([world_nether]-387.69999998807907, 94.0, 120.23315253738518)
+[18:50:06] [Server thread/INFO]: WeskerIkrausse joined the game
+[18:50:06] [Server thread/INFO]: WeskerIkrausse[/200.6.90.237:0] logged in with entity id 178597 at ([world]-1257.5, 78.0, 270.5)
+[18:50:19] [Async Chat Thread - #102/INFO]: [Not Secure] <Alencar73> nice wesker
+[18:50:49] [Async Chat Thread - #102/INFO]: [Not Secure] <WeskerIkrausse> ae krlh
+[18:54:52] [Server thread/INFO]: Villager Villager['Librarian'/31, uuid='a5def325-f72d-4de9-a72d-ac357b4e1369', l='ServerLevel[world]', x=-1243.30, y=70.00, z=268.30, cpos=[-78, 16], tl=854760, v=true] died, message: 'Librarian was slain by Zombie'
+[18:56:54] [Server thread/INFO]: Villager Villager['Librarian'/75, uuid='15ba5a98-bc8d-434e-a6f3-25fa35895124', l='ServerLevel[world]', x=-1231.30, y=70.00, z=261.30, cpos=[-77, 16], tl=522440, v=true] died, message: 'Librarian was slain by Zombie'
+[18:57:07] [Async Chat Thread - #104/INFO]: [Not Secure] <NicolasDaflon> alguém tem vidro?
+[18:57:12] [Server thread/INFO]: WeskerIkrausse was slain by Zombie
+[18:57:26] [Async Chat Thread - #104/INFO]: [Not Secure] <Alencar73> tenho villager q vende serve?
+[18:57:29] [User Authenticator #26/INFO]: UUID of player miauzinto is 7beeffc0-74d6-3ca7-b0d2-83dda4b42169
+[18:57:30] [Server thread/INFO]: miauzinto joined the game
+[18:57:30] [Server thread/INFO]: miauzinto[/186.223.169.147:1696] logged in with entity id 182141 at ([world]-1644.5939980670908, 70.5625, 963.8310741160019)
+[18:57:35] [Async Chat Thread - #104/INFO]: [Not Secure] <NicolasDaflon> sou pobre
+[18:57:42] [Async Chat Thread - #104/INFO]: [Not Secure] <Alencar73> tem farm rlx
+[18:57:50] [Async Chat Thread - #104/INFO]: [Not Secure] <NicolasDaflon> blz
+[18:57:52] [Async Chat Thread - #104/INFO]: [Not Secure] <Alencar73> farm de ferro atras da casa dos villagers
+[18:57:56] [Async Chat Thread - #104/INFO]: [Not Secure] <NicolasDaflon> to indo ai
+[19:00:22] [Async Chat Thread - #106/INFO]: [Not Secure] <Alencar73> se arma bro
+[19:00:40] [Async Chat Thread - #106/INFO]: [Not Secure] <Alencar73> chega ae nicolas
+[19:01:21] [Async Chat Thread - #106/INFO]: [Not Secure] <Alencar73> farma esmeralda compra oq vcs precisarem
+[19:01:43] [Async Chat Thread - #106/INFO]: [Not Secure] <NicolasDaflon> vlw
+[19:01:54] [Async Chat Thread - #106/INFO]: [Not Secure] <WeskerIkrausse> jovo lagou legal
+[19:02:18] [Server thread/INFO]: NicolasDaflon has made the advancement [What a Deal!]
+[19:02:31] [Async Chat Thread - #106/INFO]: [Not Secure] <WeskerIkrausse> socorro
+[19:02:45] [Async Chat Thread - #106/INFO]: [Not Secure] <Alencar73> onde
+[19:02:45] [Async Chat Thread - #106/INFO]: [Not Secure] <WeskerIkrausse> fiquei preso numa poças de agua
+[19:02:51] [Async Chat Thread - #106/INFO]: [Not Secure] <WeskerIkrausse> que bug sinistro
+[19:02:54] [Server thread/WARN]: NicolasDaflon moved wrongly!
+[19:03:37] [Async Chat Thread - #106/INFO]: [Not Secure] <WeskerIkrausse> carai
+[19:03:47] [Async Chat Thread - #106/INFO]: [Not Secure] <Alencar73> como tu sobe tao rapido??
+[19:03:51] [Async Chat Thread - #106/INFO]: [Not Secure] <Alencar73> k
+[19:03:59] [Async Chat Thread - #106/INFO]: [Not Secure] <WeskerIkrausse> puro bug
+[19:04:03] [Async Chat Thread - #106/INFO]: [Not Secure] <Alencar73> a
+[19:04:44] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] WeskerIkrausse has disconnected from the Java server because of Bedrock client disconnected
+[19:04:44] [Server thread/INFO]: WeskerIkrausse lost connection: Disconnected
+[19:04:44] [Server thread/INFO]: WeskerIkrausse left the game
+[19:05:26] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username WeskerIkrausse
+[19:05:26] [localSession-7-1/INFO]: [Geyser-Spigot] WeskerIkrausse (logged in as: WeskerIkrausse) has connected to the Java server
+[19:05:26] [Server thread/INFO]: [floodgate] Floodgate player logged in as WeskerIkrausse joined (UUID: 00000000-0000-0000-0009-01f71aba736a)
+[19:05:26] [Server thread/INFO]: WeskerIkrausse joined the game
+[19:05:26] [Server thread/INFO]: WeskerIkrausse[/200.6.90.237:0] logged in with entity id 185852 at ([world]-1254.5, 77.0, 283.5)
+[19:06:04] [Async Chat Thread - #108/INFO]: [Not Secure] <WeskerIkrausse> toda vez que eu saiu e v9lto eu renicio?
+[19:06:24] [Async Chat Thread - #108/INFO]: [Not Secure] <Alencar73> n era pra ta acontecendo isso
+[19:07:02] [Server thread/INFO]: WeskerIkrausse has made the advancement [Acquire Hardware]
+[19:07:10] [Server thread/INFO]: WeskerIkrausse has made the advancement [Suit Up]
+[19:09:20] [Server thread/WARN]: WeskerIkrausse moved wrongly!
+[19:10:13] [Server thread/INFO]: NicolasDaflon has made the advancement [Sweet Dreams]
+[19:10:18] [Server thread/INFO]: WeskerIkrausse has made the advancement [Isn't It Iron Pick]
+[19:10:38] [Server thread/INFO]: NicolasDaflon has made the advancement [Isn't It Iron Pick]
+[19:11:50] [Async Chat Thread - #110/INFO]: [Not Secure] <WeskerIkrausse> so peguei comida, rlx
+[19:12:00] [Async Chat Thread - #110/INFO]: [Not Secure] <Alencar73> de boa fica a vontade
+[19:12:09] [Async Chat Thread - #110/INFO]: [Not Secure] <Alencar73> tudo de geral nesta casa
+[19:12:18] [Async Chat Thread - #110/INFO]: [Not Secure] <WeskerIkrausse> a
+[19:13:02] [Async Chat Thread - #110/INFO]: [Not Secure] <WeskerIkrausse> o resto do mapa nao ta carregando
+[19:13:21] [Async Chat Thread - #110/INFO]: [Not Secure] <Alencar73> q resto?
+[19:13:34] [Async Chat Thread - #110/INFO]: [Not Secure] <Alencar73> ainda falta 4 ou 5 pra colocar ae
+[19:13:45] [Async Chat Thread - #110/INFO]: [Not Secure] <WeskerIkrausse> meio que so a vila ta sendo carregada, o resto nao da pra passar
+[19:13:56] [Async Chat Thread - #110/INFO]: [Not Secure] <Alencar73> aumenta a chunk view
+[19:15:26] [Async Chat Thread - #112/INFO]: [Not Secure] <WeskerIkrausse> kqdqlho eu to limitado
+[19:15:37] [Async Chat Thread - #112/INFO]: [Not Secure] <WeskerIkrausse> nao da pra a Avançar
+[19:15:45] [Async Chat Thread - #112/INFO]: [Not Secure] <Alencar73> o server so vai ate 15 de visao
+[19:15:46] [Server thread/INFO]: NicolasDaflon fell from a high place
+[19:16:00] [Async Chat Thread - #112/INFO]: [Not Secure] <WeskerIkrausse> nao to falando disso
+[19:16:04] [Async Chat Thread - #112/INFO]: [Not Secure] <Alencar73> hm
+[19:16:37] [Async Chat Thread - #112/INFO]: [Not Secure] <WeskerIkrausse> é como se so existisse esse pedaco da vilA, o resto nao existe e nao da pra avançar
+[19:16:48] [Async Chat Thread - #112/INFO]: [Not Secure] <Alencar73> slk
+[19:20:18] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Eren yeiga
+[19:20:18] [localSession-7-2/INFO]: [Geyser-Spigot] Eren yeiga (logged in as: Eren_yeiga) has connected to the Java server
+[19:20:18] [Server thread/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga joined (UUID: 00000000-0000-0000-0009-01f93862b926)
+[19:20:18] [Server thread/INFO]: Eren_yeiga joined the game
+[19:20:18] [Server thread/INFO]: Eren_yeiga[/179.125.214.54:0] logged in with entity id 193663 at ([world]-1166.5612, 69.0, 273.37585)
+[19:22:37] [Server thread/WARN]: NicolasDaflon moved wrongly!
+[19:22:38] [Server thread/WARN]: NicolasDaflon moved wrongly!
+[19:22:40] [Server thread/WARN]: NicolasDaflon moved wrongly!
+[19:24:07] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Eren yeiga has disconnected from the Java server because of Bedrock client disconnected
+[19:24:07] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga disconnected
+[19:24:07] [Server thread/INFO]: Eren_yeiga lost connection: Disconnected
+[19:24:07] [Server thread/INFO]: Eren_yeiga left the game
+[19:25:28] [Server thread/INFO]: Alencar73 lost connection: Disconnected
+[19:25:28] [Server thread/INFO]: Alencar73 left the game
+[19:26:21] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Eren yeiga
+[19:26:21] [localSession-7-3/INFO]: [Geyser-Spigot] Eren yeiga (logged in as: Eren_yeiga) has connected to the Java server
+[19:26:21] [Server thread/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga joined (UUID: 00000000-0000-0000-0009-01f93862b926)
+[19:26:21] [Server thread/INFO]: Eren_yeiga joined the game
+[19:26:22] [Server thread/INFO]: Eren_yeiga[/179.125.214.54:0] logged in with entity id 196058 at ([world]-1156.2153, 69.0, 285.6849)
+[19:26:55] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] NicolasDaflon has disconnected from the Java server because of Bedrock client timed out
+[19:26:55] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as NicolasDaflon disconnected
+[19:26:56] [Server thread/INFO]: NicolasDaflon lost connection: Disconnected
+[19:26:56] [Server thread/INFO]: NicolasDaflon left the game
+[19:27:20] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username NicolasDaflon
+[19:27:20] [localSession-7-4/INFO]: [Geyser-Spigot] NicolasDaflon (logged in as: NicolasDaflon) has connected to the Java server
+[19:27:21] [Server thread/INFO]: [floodgate] Floodgate player logged in as NicolasDaflon joined (UUID: 00000000-0000-0000-0009-01fad6b104ec)
+[19:27:21] [Server thread/INFO]: NicolasDaflon joined the game
+[19:27:21] [Server thread/INFO]: NicolasDaflon[/191.250.52.232:0] logged in with entity id 196445 at ([world]-780.30001, 104.0, 453.67004)
+[19:27:55] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] WeskerIkrausse has disconnected from the Java server because of Bedrock client disconnected
+[19:27:55] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as WeskerIkrausse disconnected
+[19:27:55] [Server thread/INFO]: WeskerIkrausse lost connection: Disconnected
+[19:27:55] [Server thread/INFO]: WeskerIkrausse left the game
+[19:28:39] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username WeskerIkrausse
+[19:28:39] [localSession-7-1/INFO]: [Geyser-Spigot] WeskerIkrausse (logged in as: WeskerIkrausse) has connected to the Java server
+[19:28:40] [Server thread/INFO]: [floodgate] Floodgate player logged in as WeskerIkrausse joined (UUID: 00000000-0000-0000-0009-01f71aba736a)
+[19:28:40] [Server thread/INFO]: WeskerIkrausse joined the game
+[19:28:40] [Server thread/INFO]: WeskerIkrausse[/200.6.90.237:0] logged in with entity id 197518 at ([world]-1256.6212, 70.0, 277.9651)
+[19:29:44] [Server thread/INFO]: WeskerIkrausse was doomed to fall
+[19:33:52] [Server thread/WARN]: NicolasDaflon moved wrongly!
+[19:37:16] [Server thread/WARN]: WeskerIkrausse moved wrongly!
+[19:44:46] [User Authenticator #27/INFO]: UUID of player Alencar73 is 028a82f5-20fe-3357-8797-b427ea04a6c1
+[19:44:46] [Server thread/INFO]: Alencar73 joined the game
+[19:44:46] [Server thread/INFO]: Alencar73[/177.152.86.165:44528] logged in with entity id 205883 at ([world]-1406.339658658194, 63.0, 174.27263343729922)
+[19:45:00] [Async Chat Thread - #114/INFO]: [Not Secure] <WeskerIkrausse> alguém tem pólvora? não direi oque irei fazer
+[19:46:00] [Server thread/WARN]: NicolasDaflon moved wrongly!
+[19:47:06] [Server thread/INFO]: miauzinto was blown up by Creeper
+[19:47:33] [Server thread/INFO]: WeskerIkrausse has made the advancement [Stone Age]
+[19:47:58] [User Authenticator #28/INFO]: UUID of player j13013j is ce345b66-6787-3b61-aa59-8047f5f80d80
+[19:47:59] [Server thread/INFO]: j13013j joined the game
+[19:47:59] [Server thread/INFO]: j13013j[/168.232.161.61:41565] logged in with entity id 208010 at ([world]-1261.6681760105976, 105.0, 462.4896379238594)
+[19:49:50] [Async Chat Thread - #116/INFO]: [Not Secure] <WeskerIkrausse> meda comida ae
+[19:50:11] [Async Chat Thread - #116/INFO]: [Not Secure] <Alencar73> compre
+[19:50:13] [Async Chat Thread - #116/INFO]: [Not Secure] <Alencar73> l
+[19:50:17] [Async Chat Thread - #116/INFO]: [Not Secure] <Alencar73> k
+[19:50:22] [Async Chat Thread - #116/INFO]: [Not Secure] <Alencar73> eu tb n tenho
+[19:50:36] [Server thread/INFO]: miauzinto was shot by Skeleton
+[19:51:34] [Async Chat Thread - #118/INFO]: [Not Secure] <Alencar73> QUEM O SEM MAE Q TA DEIXANDO AS ARVORES VOANDO
+[19:51:46] [Async Chat Thread - #118/INFO]: [Not Secure] <Alencar73> PREGUISA DU KRAAAAAAI
+[19:51:48] [Async Chat Thread - #118/INFO]: [Not Secure] <WeskerIkrausse> nao fui eu
+[19:52:42] [Server thread/INFO]: miauzinto lost connection: Disconnected
+[19:52:42] [Server thread/INFO]: miauzinto left the game
+[19:53:59] [Server thread/INFO]: WeskerIkrausse fell from a high place
+[19:54:00] [Server thread/INFO]: Eren_yeiga was shot by Skeleton
+[19:54:19] [Server thread/INFO]: Eren_yeiga fell from a high place
+[19:54:21] [Async Chat Thread - #120/INFO]: [Not Secure] <WeskerIkrausse> KAKAKAKAKAKAKAKQ
+[19:54:28] [Async Chat Thread - #120/INFO]: [Not Secure] <Eren_yeiga> sai irmao
+[19:54:29] [Async Chat Thread - #120/INFO]: [Not Secure] <WeskerIkrausse> foi mal cara
+[19:54:36] [Async Chat Thread - #120/INFO]: [Not Secure] <Eren_yeiga> chato pa karai
+[19:57:58] [Server thread/WARN]: WeskerIkrausse moved wrongly!
+[19:58:13] [Async Chat Thread - #122/INFO]: [Not Secure] <WeskerIkrausse> ta com item meu?
+[19:58:14] [Async Chat Thread - #122/INFO]: [Not Secure] <Eren_yeiga> sai
+[19:58:36] [Async Chat Thread - #122/INFO]: [Not Secure] <Eren_yeiga> tudo que n era meu
+[19:58:57] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as NicolasDaflon disconnected
+[19:58:57] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] NicolasDaflon has disconnected from the Java server because of Bedrock client timed out
+[19:58:57] [Server thread/INFO]: NicolasDaflon lost connection: Disconnected
+[19:58:57] [Server thread/INFO]: NicolasDaflon left the game
+[19:59:11] [Async Chat Thread - #122/INFO]: [Not Secure] <j13013j> EREN, PASSA CORD
+[19:59:18] [User Authenticator #29/INFO]: UUID of player miauzinto is 7beeffc0-74d6-3ca7-b0d2-83dda4b42169
+[19:59:18] [Server thread/INFO]: miauzinto joined the game
+[19:59:18] [Server thread/INFO]: miauzinto[/186.223.169.147:1759] logged in with entity id 213046 at ([world]-1644.5416698757535, 70.5625, 964.6999999880791)
+[19:59:18] [Async Chat Thread - #122/INFO]: [Not Secure] <Eren_yeiga> pq
+[19:59:22] [Async Chat Thread - #122/INFO]: [Not Secure] <j13013j> AGORA
+[19:59:27] [Async Chat Thread - #122/INFO]: [Not Secure] <Eren_yeiga> to na vila
+[19:59:28] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username NicolasDaflon
+[19:59:28] [localSession-7-2/INFO]: [Geyser-Spigot] NicolasDaflon (logged in as: NicolasDaflon) has connected to the Java server
+[19:59:29] [Server thread/INFO]: [floodgate] Floodgate player logged in as NicolasDaflon joined (UUID: 00000000-0000-0000-0009-01fad6b104ec)
+[19:59:29] [Server thread/INFO]: NicolasDaflon joined the game
+[19:59:29] [Server thread/INFO]: NicolasDaflon[/191.250.52.232:0] logged in with entity id 213398 at ([world]-787.48145, 103.0, 448.58582)
+[19:59:39] [Async Chat Thread - #122/INFO]: [Not Secure] <Eren_yeiga> -1166
+[19:59:46] [Async Chat Thread - #122/INFO]: [Not Secure] <Eren_yeiga> 265
+[20:01:36] [Server thread/INFO]: j13013j issued server command: /tell Eren_yeiga oque esse mano fez?
+[20:01:46] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] NicolasDaflon has disconnected from the Java server because of Bedrock client timed out
+[20:01:46] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as NicolasDaflon disconnected
+[20:01:46] [Server thread/INFO]: NicolasDaflon lost connection: Disconnected
+[20:01:46] [Server thread/INFO]: NicolasDaflon left the game
+[20:02:21] [Server thread/INFO]: Eren_yeiga issued server command: /tell J13013j veio me matar
+[20:02:50] [Server thread/INFO]: Eren_yeiga issued server command: /tell J13013j dai caimo num buraco e dps fugiu
+[20:03:25] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Patinhoskk
+[20:03:25] [localSession-7-3/INFO]: [Geyser-Spigot] Patinhoskk (logged in as: Patinhoskk) has connected to the Java server
+[20:03:25] [Server thread/INFO]: [floodgate] Floodgate player logged in as Patinhoskk joined (UUID: 00000000-0000-0000-0009-01f1ae1b4cb8)
+[20:03:25] [Server thread/INFO]: Patinhoskk joined the game
+[20:03:25] [Server thread/INFO]: Patinhoskk[/206.43.70.97:0] logged in with entity id 215005 at ([world]-1275.4249, 69.0, 313.30087)
+[20:03:41] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] WeskerIkrausse has disconnected from the Java server because of Bedrock client disconnected
+[20:03:41] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as WeskerIkrausse disconnected
+[20:03:41] [Server thread/INFO]: WeskerIkrausse lost connection: Disconnected
+[20:03:41] [Server thread/INFO]: WeskerIkrausse left the game
+[20:04:18] [Server thread/INFO]: Eren_yeiga issued server command: /tell j13013j acho que queria roubar uns item sla
+[20:04:43] [Server thread/INFO]: j13013j issued server command: /tell Eren_yeiga eu e alencar tamo de olho
+[20:05:06] [Server thread/INFO]: Eren_yeiga issued server command: /tell j13013j tendi qualquer coisa passo a call pra vcs
+[20:06:03] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username KSantos77363
+[20:06:03] [localSession-7-4/INFO]: [Geyser-Spigot] KSantos77363 (logged in as: KSantos77363) has connected to the Java server
+[20:06:04] [User Authenticator #30/INFO]: UUID of player KSantos77363 is 057216a4-a6cc-3c20-879b-13101bc9ea5f
+[20:06:04] [Server thread/INFO]: KSantos77363 joined the game
+[20:06:04] [Server thread/INFO]: KSantos77363[/143.255.109.108:0] logged in with entity id 216507 at ([world]-5.7446437, 106.0, -6.4486227)
+[20:06:09] [Async Chat Thread - #128/INFO]: [Not Secure] <Patinhoskk> fazer minha casa
+[20:08:03] [Async Chat Thread - #130/INFO]: [Not Secure] <Patinhoskk> agora que eu percebi
+[20:08:18] [Async Chat Thread - #130/INFO]: [Not Secure] <Patinhoskk> tem gente deixando árvore voando
+[20:08:37] [Server thread/INFO]: KSantos77363 drowned
+[20:09:27] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Eren yeiga has disconnected from the Java server because of Bedrock client timed out
+[20:09:27] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga disconnected
+[20:09:27] [Server thread/INFO]: Eren_yeiga lost connection: Disconnected
+[20:09:27] [Server thread/INFO]: Eren_yeiga left the game
+[20:10:14] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username Eren yeiga
+[20:10:14] [localSession-7-1/INFO]: [Geyser-Spigot] Eren yeiga (logged in as: Eren_yeiga) has connected to the Java server
+[20:10:14] [Server thread/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga joined (UUID: 00000000-0000-0000-0009-01f93862b926)
+[20:10:14] [Server thread/INFO]: Eren_yeiga joined the game
+[20:10:14] [Server thread/INFO]: Eren_yeiga[/179.125.214.54:0] logged in with entity id 220089 at ([world]-1158.4993, 75.5, 273.14142)
+[20:10:53] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Eren yeiga has disconnected from the Java server because of Bedrock client timed out
+[20:10:53] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga disconnected
+[20:10:53] [Server thread/INFO]: Eren_yeiga lost connection: Disconnected
+[20:10:53] [Server thread/INFO]: Eren_yeiga left the game
+[20:11:12] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Eren yeiga
+[20:11:12] [localSession-7-2/INFO]: [Geyser-Spigot] Eren yeiga (logged in as: Eren_yeiga) has connected to the Java server
+[20:11:12] [Server thread/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga joined (UUID: 00000000-0000-0000-0009-01f93862b926)
+[20:11:12] [Server thread/INFO]: Eren_yeiga joined the game
+[20:11:12] [Server thread/INFO]: Eren_yeiga[/179.125.214.54:0] logged in with entity id 220852 at ([world]-1158.4993, 75.5, 273.14142)
+[20:11:27] [Server thread/INFO]: miauzinto lost connection: Disconnected
+[20:11:27] [Server thread/INFO]: miauzinto left the game
+[20:11:47] [Server thread/WARN]: Patinhoskk moved wrongly!
+[20:12:51] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Patinhoskk has disconnected from the Java server because of Bedrock client disconnected
+[20:12:51] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as Patinhoskk disconnected
+[20:12:51] [Server thread/INFO]: Patinhoskk lost connection: Disconnected
+[20:12:51] [Server thread/INFO]: Patinhoskk left the game
+[20:13:08] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Patinhoskk
+[20:13:08] [localSession-7-3/INFO]: [Geyser-Spigot] Patinhoskk (logged in as: Patinhoskk) has connected to the Java server
+[20:13:08] [Server thread/INFO]: [floodgate] Floodgate player logged in as Patinhoskk joined (UUID: 00000000-0000-0000-0009-01f1ae1b4cb8)
+[20:13:08] [Server thread/INFO]: Patinhoskk joined the game
+[20:13:08] [Server thread/INFO]: Patinhoskk[/206.43.70.97:0] logged in with entity id 221854 at ([world]-1280.9012, 66.0, 335.65387)
+[20:15:47] [Async Chat Thread - #132/INFO]: [Not Secure] <Eren_yeiga> alguém tem corante preto ou bolsa de tinta ?
+[20:17:29] [User Authenticator #31/INFO]: UUID of player miauzinto is 7beeffc0-74d6-3ca7-b0d2-83dda4b42169
+[20:17:29] [Server thread/INFO]: miauzinto joined the game
+[20:17:29] [Server thread/INFO]: miauzinto[/186.223.169.147:1936] logged in with entity id 223755 at ([world]-1643.8139738066666, 71.0, 964.5771585088485)
+[20:20:18] [Async Chat Thread - #134/INFO]: [Not Secure] <Patinhoskk> Alencar
+[20:20:21] [Async Chat Thread - #134/INFO]: [Not Secure] <Alencar73> oi
+[20:20:33] [Async Chat Thread - #134/INFO]: [Not Secure] <Patinhoskk> aqui tem aquelas cerras?
+[20:20:43] [Async Chat Thread - #134/INFO]: [Not Secure] <Patinhoskk> pra mexer com pedra
+[20:20:46] [Async Chat Thread - #134/INFO]: [Not Secure] <Alencar73> n tenho esse ai
+[20:20:54] [Async Chat Thread - #134/INFO]: [Not Secure] <Alencar73> mas tem item pra fazer
+[20:21:00] [Async Chat Thread - #134/INFO]: [Not Secure] <Alencar73> pega ae faz pra ti
+[20:21:17] [Async Chat Thread - #134/INFO]: [Not Secure] <Patinhoskk> bele
+[20:25:02] [Server thread/INFO]: KSantos77363 has made the advancement [A Seedy Place]
+[20:28:54] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Patinhoskk has disconnected from the Java server because of Bedrock client timed out
+[20:28:54] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as Patinhoskk disconnected
+[20:28:54] [Server thread/INFO]: Patinhoskk lost connection: Disconnected
+[20:28:54] [Server thread/INFO]: Patinhoskk left the game
+[20:30:33] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Patinhoskk
+[20:30:33] [localSession-7-4/INFO]: [Geyser-Spigot] Patinhoskk (logged in as: Patinhoskk) has connected to the Java server
+[20:30:34] [User Authenticator #32/INFO]: UUID of player Patinhoskk is c06899ba-fd36-3ea4-a20f-752c22fea279
+[20:30:34] [Server thread/INFO]: Patinhoskk joined the game
+[20:30:34] [Server thread/INFO]: Patinhoskk[/206.43.70.97:0] logged in with entity id 230117 at ([world]-1242.5312, 69.0, 301.38074)
+[20:30:49] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Patinhoskk has disconnected from the Java server because of Bedrock client disconnected
+[20:30:49] [Server thread/INFO]: Patinhoskk lost connection: Disconnected
+[20:30:49] [Server thread/INFO]: Patinhoskk left the game
+[20:31:06] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username Patinhoskk
+[20:31:06] [localSession-7-1/INFO]: [Geyser-Spigot] Patinhoskk (logged in as: Patinhoskk) has connected to the Java server
+[20:31:06] [Server thread/INFO]: [floodgate] Floodgate player logged in as Patinhoskk joined (UUID: 00000000-0000-0000-0009-01f1ae1b4cb8)
+[20:31:06] [Server thread/INFO]: Patinhoskk joined the game
+[20:31:06] [Server thread/INFO]: Patinhoskk[/206.43.70.97:0] logged in with entity id 230547 at ([world]-1273.9469, 69.0, 312.98383)
+[20:31:30] [Async Chat Thread - #136/INFO]: [Not Secure] <Patinhoskk> quem tem aquelas pedras normais ?
+[20:31:38] [Async Chat Thread - #136/INFO]: [Not Secure] <Patinhoskk> sem ser o pedregulho
+[20:31:43] [Async Chat Thread - #136/INFO]: [Not Secure] <Eren_yeiga> pedra lisa ?
+[20:32:12] [Async Chat Thread - #136/INFO]: [Not Secure] <Eren_yeiga> se for tenho uma
+[20:32:27] [Async Chat Thread - #136/INFO]: [Not Secure] <Patinhoskk> cadê tu ?
+[20:32:35] [Async Chat Thread - #136/INFO]: [Not Secure] <Eren_yeiga> to na vila
+[20:32:42] [Async Chat Thread - #136/INFO]: [Not Secure] <Eren_yeiga> -1166 215
+[20:33:10] [Async Chat Thread - #136/INFO]: [Not Secure] <Eren_yeiga> se precisar ta nesse baú
+[20:33:19] [Async Chat Thread - #136/INFO]: [Not Secure] <Eren_yeiga> ai so tem pedra
+[20:33:43] [Async Chat Thread - #136/INFO]: [Not Secure] <Patinhoskk> é dessa aqui
+[20:33:57] [Async Chat Thread - #136/INFO]: [Not Secure] <Eren_yeiga> so tenho uma infelizmente
+[20:34:01] [Async Chat Thread - #136/INFO]: [Not Secure] <Eren_yeiga> kkkkkkk
+[20:34:07] [Async Chat Thread - #136/INFO]: [Not Secure] <Patinhoskk> como wue consegue?
+[20:34:19] [Async Chat Thread - #136/INFO]: [Not Secure] <Eren_yeiga> so esquenta pedregulho na fornalha
+[20:34:28] [Async Chat Thread - #136/INFO]: [Not Secure] <Patinhoskk> bele
+[20:35:28] [Server thread/INFO]: j13013j has made the advancement [What a Deal!]
+[20:35:46] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga disconnected
+[20:35:46] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Eren yeiga has disconnected from the Java server because of Bedrock client disconnected
+[20:35:46] [Server thread/INFO]: Eren_yeiga lost connection: Disconnected
+[20:35:46] [Server thread/INFO]: Eren_yeiga left the game
+[20:35:59] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Patinhoskk has disconnected from the Java server because of Bedrock client disconnected
+[20:35:59] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as Patinhoskk disconnected
+[20:35:59] [Server thread/INFO]: Patinhoskk lost connection: Disconnected
+[20:35:59] [Server thread/INFO]: Patinhoskk left the game
+[20:42:07] [Server thread/INFO]: j13013j issued server command: /tell Alencar73 ja n gostei desse merda
+[20:43:59] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username WeskerIkrausse
+[20:43:59] [localSession-7-2/INFO]: [Geyser-Spigot] WeskerIkrausse (logged in as: WeskerIkrausse) has connected to the Java server
+[20:44:00] [Server thread/INFO]: [floodgate] Floodgate player logged in as WeskerIkrausse joined (UUID: 00000000-0000-0000-0009-01f71aba736a)
+[20:44:00] [Server thread/INFO]: WeskerIkrausse joined the game
+[20:44:00] [Server thread/INFO]: WeskerIkrausse[/200.6.90.237:0] logged in with entity id 236870 at ([world]-1243.6115, 69.9375, 278.07205)
+[20:44:29] [Async Chat Thread - #140/INFO]: [Not Secure] <WeskerIkrausse> perdoa ai alencar
+[20:44:37] [Async Chat Thread - #140/INFO]: [Not Secure] <WeskerIkrausse> me perdir
+[20:44:59] [Async Chat Thread - #140/INFO]: [Not Secure] <WeskerIkrausse> sou preto
+[20:45:02] [Async Chat Thread - #140/INFO]: [Not Secure] <j13013j> segue aqui
+[20:45:48] [Async Chat Thread - #140/INFO]: [Not Secure] <j13013j> espera ele voltar
+[20:47:02] [Server thread/INFO]: j13013j issued server command: /tell Alencar73 cd tu
+[20:47:42] [Async Chat Thread - #143/INFO]: [Not Secure] <Alencar73> cara
+[20:47:48] [Async Chat Thread - #143/INFO]: [Not Secure] <WeskerIkrausse> parei ja
+[20:47:51] [Async Chat Thread - #143/INFO]: [Not Secure] <Alencar73> tu vai ser banido n é nem de zoa
+[20:48:02] [Async Chat Thread - #143/INFO]: [Not Secure] <WeskerIkrausse> perdoa ai
+[20:48:04] [Async Chat Thread - #143/INFO]: [Not Secure] <Alencar73> tu vai ter q conversar com o Luisgamer
+[20:48:05] [Async Chat Thread - #143/INFO]: [Not Secure] <WeskerIkrausse> eu parei
+[20:48:10] [Async Chat Thread - #143/INFO]: [Not Secure] <Alencar73> n posso fazer nada
+[20:48:11] [Async Chat Thread - #143/INFO]: [Not Secure] <WeskerIkrausse> nao vou fazer dnv
+[20:48:18] [Async Chat Thread - #143/INFO]: [Not Secure] <WeskerIkrausse> precisa nao
+[20:48:23] [Async Chat Thread - #143/INFO]: [Not Secure] <Alencar73> vou ver oq vai acontecer aq
+[20:48:39] [Async Chat Thread - #143/INFO]: [Not Secure] <WeskerIkrausse> vou falar Nada
+[20:50:25] [Server thread/INFO]: KSantos77363 was slain by Zombie
+[20:51:35] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username NicolasDaflon
+[20:51:35] [localSession-7-3/INFO]: [Geyser-Spigot] NicolasDaflon (logged in as: NicolasDaflon) has connected to the Java server
+[20:51:36] [Server thread/INFO]: [floodgate] Floodgate player logged in as NicolasDaflon joined (UUID: 00000000-0000-0000-0009-01fad6b104ec)
+[20:51:36] [Server thread/INFO]: NicolasDaflon joined the game
+[20:51:36] [Server thread/INFO]: NicolasDaflon[/191.250.52.232:0] logged in with entity id 240213 at ([world]-788.72705, 103.0, 450.55914)
+[20:52:32] [Async Chat Thread - #144/INFO]: [Not Secure] <j13013j> aguarda ai
+[20:54:06] [Server thread/INFO]: NicolasDaflon fell from a high place
+[20:54:55] [Async Chat Thread - #146/INFO]: [Not Secure] <Alencar73> deu ruim
+[20:55:04] [Async Chat Thread - #146/INFO]: [Not Secure] <WeskerIkrausse> sem problemas
+[20:55:14] [Async Chat Thread - #146/INFO]: [Not Secure] <j13013j> calma, n sai
+[20:55:22] [Async Chat Thread - #146/INFO]: [Not Secure] <Alencar73> carnaval avaliou e deu seu veredito ta banido.
+[20:55:36] [Async Chat Thread - #146/INFO]: [Not Secure] <WeskerIkrausse> speedwan de servidor
+[20:56:57] [Server thread/INFO]: WeskerIkrausse was slain by j13013j
+[20:57:05] [Async Chat Thread - #148/INFO]: [Not Secure] <j13013j> maldito
+[20:57:11] [Async Chat Thread - #148/INFO]: [Not Secure] <WeskerIkrausse> ?
+[20:57:53] [Server thread/INFO]: WeskerIkrausse was slain by j13013j
+[20:58:12] [Async Chat Thread - #150/INFO]: [Not Secure] <WeskerIkrausse> é o veredito pra sair?
+[20:58:30] [Server thread/INFO]: WeskerIkrausse was slain by j13013j
+[20:58:32] [Async Chat Thread - #150/INFO]: [Not Secure] <Alencar73> o ban no server do dc ja foi
+[20:58:36] [Async Chat Thread - #150/INFO]: [Not Secure] <miauzinto> oque ta acontecedo?
+[20:58:40] [Server thread/INFO]: WeskerIkrausse was slain by j13013j
+[20:58:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2502ms or 50 ticks behind
+[20:58:44] [Async Chat Thread - #150/INFO]: [Not Secure] <Alencar73> a gabs vai te banir por veredito do carnaval
+[20:58:46] [Server thread/INFO]: WeskerIkrausse was slain by j13013j
+[20:58:49] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] NicolasDaflon has disconnected from the Java server because of Bedrock client timed out
+[20:58:49] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as NicolasDaflon disconnected
+[20:58:49] [Server thread/INFO]: NicolasDaflon lost connection: Disconnected
+[20:58:49] [Server thread/INFO]: NicolasDaflon left the game
+[20:59:13] [Async Chat Thread - #150/INFO]: [Not Secure] <miauzinto> pq o weskekrause ta sendo banido?
+[20:59:13] [Server thread/INFO]: WeskerIkrausse was slain by Zombie
+[20:59:28] [Async Chat Thread - #150/INFO]: [Not Secure] <Alencar73> racismo
+[20:59:33] [Async Chat Thread - #150/INFO]: [Not Secure] <WeskerIkrausse> falei bost
+[20:59:36] [Async Chat Thread - #150/INFO]: [Not Secure] <miauzinto> oloko
+[20:59:37] [Async Chat Thread - #150/INFO]: [Not Secure] <j13013j> PQ ELE É UM MERDA
+[20:59:38] [Async Chat Thread - #150/INFO]: [Not Secure] <KSantos77363> banimento por racismo
+[20:59:41] [Async Chat Thread - #150/INFO]: [Not Secure] <j13013j> N PRESTA
+[20:59:45] [Async Chat Thread - #150/INFO]: [Not Secure] <j13013j> MERECE
+[20:59:58] [Async Chat Thread - #150/INFO]: [Not Secure] <WeskerIkrausse> QUE ISSO
+[21:00:04] [Async Chat Thread - #150/INFO]: [Not Secure] <j13013j> QUE ISSO O CARALHO
+[21:00:09] [Async Chat Thread - #150/INFO]: [Not Secure] <j13013j> RACISTA DE MERDA
+[21:00:25] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] WeskerIkrausse has disconnected from the Java server because of Bedrock client disconnected
+[21:00:25] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as WeskerIkrausse disconnected
+[21:00:25] [Server thread/INFO]: WeskerIkrausse lost connection: Disconnected
+[21:00:25] [Server thread/INFO]: WeskerIkrausse left the game
+[21:02:03] [Server thread/INFO]: KSantos77363 was shot by Skeleton
+[21:02:37] [Server thread/INFO]: KSantos77363 was slain by Zombie
+[21:12:03] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] KSantos77363 has disconnected from the Java server because of Bedrock client disconnected
+[21:12:03] [Server thread/INFO]: KSantos77363 lost connection: Disconnected
+[21:12:03] [Server thread/INFO]: KSantos77363 left the game
+[21:24:37] [Async Chat Thread - #152/INFO]: [Not Secure] <j13013j> n dorme
+[21:24:39] [Async Chat Thread - #152/INFO]: [Not Secure] <Alencar73> N DOR,ME
+[21:24:42] [Async Chat Thread - #152/INFO]: [Not Secure] <Alencar73> N DURMAMA A MA
+[21:24:46] [Async Chat Thread - #152/INFO]: [Not Secure] <miauzinto> ok
+[21:29:39] [Server thread/INFO]: j13013j has made the advancement [Best Friends Forever]
+[21:29:58] [Async Chat Thread - #154/INFO]: [Not Secure] <j13013j> DORME PFV
+[21:30:01] [Async Chat Thread - #154/INFO]: [Not Secure] <j13013j> DORME AAAAAAAAAAAAA
+[21:30:19] [Server thread/INFO]: Villager Villager['Librarian'/253647, uuid='1e9d622f-e7bb-4252-9a00-64328d048cc9', l='ServerLevel[world]', x=-1432.31, y=68.00, z=1003.69, cpos=[-90, 62], tl=5437, v=true] died, message: 'Librarian was slain by Zombie'
+[21:30:25] [Server thread/INFO]: miauzinto was slain by Zombie
+[21:33:56] [Server thread/INFO]: Alencar73 lost connection: Disconnected
+[21:33:56] [Server thread/INFO]: Alencar73 left the game
+[21:36:07] [User Authenticator #33/INFO]: UUID of player ShapelierC15 is 95eebe6f-dfa4-33e4-ab20-cd7b96b3b8a4
+[21:36:07] [Server thread/INFO]: ShapelierC15 joined the game
+[21:36:07] [Server thread/INFO]: ShapelierC15[/45.226.75.92:54704] logged in with entity id 260550 at ([world]-1260.8162143931108, 70.0, 296.0415309704119)
+[21:40:07] [User Authenticator #34/INFO]: UUID of player Alencar73 is 028a82f5-20fe-3357-8797-b427ea04a6c1
+[21:40:07] [Server thread/INFO]: Alencar73 joined the game
+[21:40:07] [Server thread/INFO]: Alencar73[/177.152.86.165:45330] logged in with entity id 262676 at ([world]-1242.0611143314725, 70.0, 272.23404155750694)
+[21:41:15] [Server thread/INFO]: [Not Secure] [Server] O usuário "WeskerIkrausse" será banido por: Racismo; Duração da punição: PERMANENTE
+[21:41:21] [Server thread/INFO]: Invalid IP address or unknown player
+[21:41:24] [Async Chat Thread - #156/INFO]: [Not Secure] <ShapelierC15> vixi
+[21:41:39] [Server thread/INFO]: Banned WeskerIkrausse: Banned by an operator.
+[21:43:02] [Async Chat Thread - #158/INFO]: [Not Secure] <Alencar73> kkkkkkkkkkkkkkkk
+[21:43:18] [Async Chat Thread - #158/INFO]: [Not Secure] <j13013j> kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+[21:43:28] [Async Chat Thread - #158/INFO]: [Not Secure] <j13013j> TEM QUE SE FUDER MESMO
+[21:43:31] [Async Chat Thread - #158/INFO]: [Not Secure] <Alencar73> n uma coisa n tem nada haver com a outra mn uma coisa é ironia outra é discurso de odio bro
+[21:43:56] [Async Chat Thread - #158/INFO]: [Not Secure] <Alencar73> rlx shapelier tu viu o video?
+[21:44:02] [Async Chat Thread - #158/INFO]: [Not Secure] <ShapelierC15> nao
+[21:44:08] [Async Chat Thread - #158/INFO]: [Not Secure] <Alencar73> vou mandar no dc
+[21:44:13] [Async Chat Thread - #158/INFO]: [Not Secure] <ShapelierC15> blz
+[21:44:32] [Server thread/INFO]: [Not Secure] [Server] Se houver casos de descumprimento das regras, não esqueçam de denúnciar abrindo um ticket no servidor do Discord.
+[21:46:26] [Async Chat Thread - #160/INFO]: [Not Secure] <ShapelierC15> vi agr
+[21:46:30] [Async Chat Thread - #160/INFO]: [Not Secure] <ShapelierC15> oloko
+[21:47:10] [Async Chat Thread - #160/INFO]: [Not Secure] <Alencar73> kkkkkk
+[21:47:18] [Async Chat Thread - #160/INFO]: [Not Secure] <ShapelierC15> quase me caguei
+[21:47:21] [Async Chat Thread - #160/INFO]: [Not Secure] <Alencar73> ta vendo a diferencia?
+[21:47:36] [Async Chat Thread - #160/INFO]: [Not Secure] <ShapelierC15> sim man
+[21:47:51] [Async Chat Thread - #160/INFO]: [Not Secure] <ShapelierC15> mas bateu um medin brabo com a mensagem do chat
+[21:47:55] [Async Chat Thread - #160/INFO]: [Not Secure] <ShapelierC15> nmrl
+[21:48:57] [Async Chat Thread - #162/INFO]: [Not Secure] <Alencar73> ent n ha prooblema falar de uma cor ao menos q vc n esteja fznd um discurso de odio assim como o sujeito (leia bem oq eu disse n qr me banir)
+[21:50:14] [Server thread/INFO]: miauzinto lost connection: Disconnected
+[21:50:14] [Server thread/INFO]: miauzinto left the game
+[21:55:00] [User Authenticator #35/INFO]: UUID of player CartolaQuadrado is ac9cb4f9-a1f9-3677-8684-8043bfbff71b
+[21:55:01] [Server thread/INFO]: CartolaQuadrado joined the game
+[21:55:01] [Server thread/INFO]: CartolaQuadrado[/45.165.222.185:12536] logged in with entity id 268650 at ([world]-484.56358839706394, 54.0, -777.4041380527977)
+[22:02:09] [Server thread/INFO]: Alencar73 lost connection: Disconnected
+[22:02:09] [Server thread/INFO]: Alencar73 left the game
+[22:02:26] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Eren yeiga
+[22:02:26] [localSession-7-4/INFO]: [Geyser-Spigot] Eren yeiga (logged in as: Eren_yeiga) has connected to the Java server
+[22:02:26] [Server thread/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga joined (UUID: 00000000-0000-0000-0009-01f93862b926)
+[22:02:26] [Server thread/INFO]: Eren_yeiga joined the game
+[22:02:26] [Server thread/INFO]: Eren_yeiga[/179.125.214.54:0] logged in with entity id 273133 at ([world]-1141.9103, 63.0, 196.53204)
+[22:04:40] [User Authenticator #36/INFO]: UUID of player Alencar73 is 028a82f5-20fe-3357-8797-b427ea04a6c1
+[22:04:41] [Server thread/INFO]: Alencar73 joined the game
+[22:04:41] [Server thread/INFO]: Alencar73[/177.152.86.165:44736] logged in with entity id 273925 at ([world]-1260.3172337672215, 104.0, 442.1258164318709)
+[22:05:29] [Server thread/INFO]: CartolaQuadrado lost connection: Disconnected
+[22:05:29] [Server thread/INFO]: CartolaQuadrado left the game
+[22:05:38] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username NicolasDaflon
+[22:05:38] [localSession-7-1/INFO]: [Geyser-Spigot] NicolasDaflon (logged in as: NicolasDaflon) has connected to the Java server
+[22:05:39] [Server thread/INFO]: [floodgate] Floodgate player logged in as NicolasDaflon joined (UUID: 00000000-0000-0000-0009-01fad6b104ec)
+[22:05:39] [Server thread/INFO]: NicolasDaflon joined the game
+[22:05:39] [Server thread/INFO]: NicolasDaflon[/191.250.52.232:0] logged in with entity id 274409 at ([world]-780.69999, 103.0, 442.0473)
+[22:05:48] [Server thread/INFO]: j13013j has made the advancement [Sweet Dreams]
+[22:08:34] [Async Chat Thread - #164/INFO]: [Not Secure] <Alencar73> vlw
+[22:10:54] [Server thread/INFO]: NicolasDaflon was shot by Skeleton
+[22:11:00] [User Authenticator #37/INFO]: UUID of player CartolaQuadrado is ac9cb4f9-a1f9-3677-8684-8043bfbff71b
+[22:11:00] [Server thread/INFO]: CartolaQuadrado joined the game
+[22:11:00] [Server thread/INFO]: CartolaQuadrado[/45.165.222.185:12402] logged in with entity id 277009 at ([world]-503.2112565744046, 71.0, -850.8166883338439)
+[22:11:11] [Async Chat Thread - #166/INFO]: [Not Secure] <CartolaQuadrado> agora eu to preparado
+[22:11:14] [Async Chat Thread - #166/INFO]: [Not Secure] <Eren_yeiga> oi linda
+[22:11:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2531ms or 50 ticks behind
+[22:11:35] [Async Chat Thread - #166/INFO]: [Not Secure] <NicolasDaflon> alguma tem quadros?
+[22:11:48] [Async Chat Thread - #166/INFO]: [Not Secure] <Eren_yeiga> to sem Esmeralda
+[22:11:56] [Async Chat Thread - #166/INFO]: [Not Secure] <Eren_yeiga> vou farm
+[22:12:18] [Async Chat Thread - #166/INFO]: [Not Secure] <NicolasDaflon> tem para trocar?
+[22:12:33] [Async Chat Thread - #166/INFO]: [Not Secure] <Eren_yeiga> graveto por esmeralda sim
+[22:12:43] [Async Chat Thread - #166/INFO]: [Not Secure] <NicolasDaflon> ata
+[22:13:31] [Server thread/WARN]: NicolasDaflon moved wrongly!
+[22:13:53] [User Authenticator #38/INFO]: UUID of player miauzinto is 7beeffc0-74d6-3ca7-b0d2-83dda4b42169
+[22:13:54] [Server thread/INFO]: miauzinto joined the game
+[22:13:54] [Server thread/INFO]: miauzinto[/186.223.169.147:1962] logged in with entity id 279033 at ([world]-1661.887313162497, 64.0, 1372.904947140846)
+[22:15:53] [Server thread/INFO]: ShapelierC15 lost connection: Disconnected
+[22:15:53] [Server thread/INFO]: ShapelierC15 left the game
+[22:16:37] [User Authenticator #39/INFO]: UUID of player ShapelierC15 is 95eebe6f-dfa4-33e4-ab20-cd7b96b3b8a4
+[22:16:37] [Server thread/INFO]: ShapelierC15 joined the game
+[22:16:37] [Server thread/INFO]: ShapelierC15[/45.226.75.92:53558] logged in with entity id 281130 at ([world]-1279.300000011921, 70.0, 290.9984974487316)
+[22:16:40] [Server thread/INFO]: NicolasDaflon has made the advancement [A Seedy Place]
+[22:17:10] [Async Chat Thread - #168/INFO]: [Not Secure] <Alencar73> estou sem rumo
+[22:17:14] [Async Chat Thread - #168/INFO]: [Not Secure] <ShapelierC15> tambem to
+[22:17:18] [Async Chat Thread - #168/INFO]: [Not Secure] <Alencar73> kkkkkkkkkk
+[22:17:26] [Async Chat Thread - #168/INFO]: [Not Secure] <ShapelierC15> quero trabaia
+[22:17:28] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Eren yeiga has disconnected from the Java server because of Bedrock client disconnected
+[22:17:28] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga disconnected
+[22:17:28] [Server thread/INFO]: Eren_yeiga lost connection: Disconnected
+[22:17:28] [Server thread/INFO]: Eren_yeiga left the game
+[22:17:29] [Async Chat Thread - #168/INFO]: [Not Secure] <Alencar73> netherite?
+[22:17:32] [Async Chat Thread - #168/INFO]: [Not Secure] <ShapelierC15> bora
+[22:17:37] [Async Chat Thread - #168/INFO]: [Not Secure] <Alencar73> jae vamo [
+[22:17:46] [Async Chat Thread - #170/INFO]: [Not Secure] <Alencar73> calmo
+[22:17:52] [Async Chat Thread - #170/INFO]: [Not Secure] <Alencar73> j13 vai
+[22:18:36] [Async Chat Thread - #170/INFO]: [Not Secure] <NicolasDaflon> alguem te coro
+[22:19:11] [Async Chat Thread - #171/INFO]: [Not Secure] <NicolasDaflon> tem*
+[22:20:07] [Async Chat Thread - #171/INFO]: [Not Secure] <ShapelierC15> ifood
+[22:20:15] [Server thread/INFO]: j13013j has made the advancement [We Need to Go Deeper]
+[22:20:17] [Server thread/INFO]: ShapelierC15 has made the advancement [We Need to Go Deeper]
+[22:22:17] [Async Chat Thread - #172/INFO]: [Not Secure] <Alencar73> aq deu ruim
+[22:23:05] [Async Chat Thread - #172/INFO]: [Not Secure] <Alencar73> aq
+[22:25:20] [Async Chat Thread - #174/INFO]: [Not Secure] <Alencar73> achei o 1
+[22:25:50] [Server thread/INFO]: Alencar73 has made the advancement [Hidden in the Depths]
+[22:26:20] [Async Chat Thread - #176/INFO]: [Not Secure] <ShapelierC15> mano
+[22:26:24] [Async Chat Thread - #177/INFO]: [Not Secure] <ShapelierC15> olha aq
+[22:26:39] [Server thread/INFO]: ShapelierC15 has made the advancement [Hidden in the Depths]
+[22:26:50] [Async Chat Thread - #177/INFO]: [Not Secure] <Alencar73> ja temos uma barra
+[22:27:33] [Async Chat Thread - #177/INFO]: [Not Secure] <ShapelierC15> peguei mais 2
+[22:30:35] [Server thread/INFO]: j13013j has made the advancement [Hidden in the Depths]
+[22:32:00] [Async Chat Thread - #178/INFO]: [Not Secure] <ShapelierC15> picareta ta miada
+[22:32:09] [Async Chat Thread - #178/INFO]: [Not Secure] <ShapelierC15> peguei 7
+[22:32:12] [Async Chat Thread - #178/INFO]: [Not Secure] <Alencar73> volta recupera
+[22:32:16] [Async Chat Thread - #178/INFO]: [Not Secure] <Alencar73> ta poha
+[22:32:24] [Async Chat Thread - #178/INFO]: [Not Secure] <Alencar73> to com 5
+[22:32:37] [Async Chat Thread - #178/INFO]: [Not Secure] <Alencar73> achei 2
+[22:36:47] [Server thread/INFO]: CartolaQuadrado has made the advancement [Isn't It Iron Pick]
+[22:37:27] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Patinhoskk
+[22:37:27] [localSession-7-2/INFO]: [Geyser-Spigot] Patinhoskk (logged in as: Patinhoskk) has connected to the Java server
+[22:37:27] [Server thread/INFO]: [floodgate] Floodgate player logged in as Patinhoskk joined (UUID: 00000000-0000-0000-0009-01f1ae1b4cb8)
+[22:37:27] [Server thread/INFO]: Patinhoskk joined the game
+[22:37:27] [Server thread/INFO]: Patinhoskk[/206.43.70.97:0] logged in with entity id 304981 at ([world]-1274.213, 69.0, 312.9445)
+[22:37:57] [Async Chat Thread - #180/INFO]: [Not Secure] <CartolaQuadrado> se eu morrer pra mais um esquelto eu irei fazer uma farm de esqueletos só pra desprezar toda a minha raiva
+[22:38:09] [Async Chat Thread - #181/INFO]: [Not Secure] <Alencar73> noob?
+[22:38:21] [Async Chat Thread - #181/INFO]: [Not Secure] <CartolaQuadrado> em todos os jogos
+[22:38:28] [Async Chat Thread - #181/INFO]: [Not Secure] <Alencar73> a
+[22:38:32] [Async Chat Thread - #181/INFO]: [Not Secure] <j13013j> b
+[22:38:35] [Async Chat Thread - #181/INFO]: [Not Secure] <ShapelierC15> c
+[22:38:38] [Async Chat Thread - #181/INFO]: [Not Secure] <Alencar73> s
+[22:38:46] [Async Chat Thread - #181/INFO]: [Not Secure] <Alencar73> e
+[22:38:48] [Async Chat Thread - #181/INFO]: [Not Secure] <Alencar73> x
+[22:38:51] [Async Chat Thread - #181/INFO]: [Not Secure] <Alencar73> o
+[22:38:55] [Async Chat Thread - #181/INFO]: [Not Secure] <ShapelierC15> quero
+[22:39:27] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Patinhoskk has disconnected from the Java server because of Bedrock client disconnected
+[22:39:27] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as Patinhoskk disconnected
+[22:39:27] [Server thread/INFO]: Patinhoskk lost connection: Disconnected
+[22:39:27] [Server thread/INFO]: Patinhoskk left the game
+[22:39:54] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Patinhoskk
+[22:39:54] [localSession-7-3/INFO]: [Geyser-Spigot] Patinhoskk (logged in as: Patinhoskk) has connected to the Java server
+[22:39:55] [Server thread/INFO]: [floodgate] Floodgate player logged in as Patinhoskk joined (UUID: 00000000-0000-0000-0009-01f1ae1b4cb8)
+[22:39:55] [Server thread/INFO]: Patinhoskk joined the game
+[22:39:55] [Server thread/INFO]: Patinhoskk[/206.43.70.97:0] logged in with entity id 307755 at ([world]-1273.5739, 66.9375, 327.30001)
+[22:41:33] [Server thread/INFO]: j13013j lost connection: Disconnected
+[22:41:33] [Server thread/INFO]: j13013j left the game
+[22:43:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2552ms or 51 ticks behind
+[22:43:37] [Async Chat Thread - #182/INFO]: [Not Secure] <ShapelierC15> 10
+[22:43:43] [Async Chat Thread - #182/INFO]: [Not Secure] <Alencar73> aq tb
+[22:43:48] [Async Chat Thread - #182/INFO]: [Not Secure] <Patinhoskk> mano
+[22:43:51] [Async Chat Thread - #182/INFO]: [Not Secure] <Alencar73> acho q por hj deu
+[22:43:54] [Async Chat Thread - #182/INFO]: [Not Secure] <Alencar73> to cansadao
+[22:43:59] [Async Chat Thread - #182/INFO]: [Not Secure] <Alencar73> tenho boxe ainda
+[22:44:03] [Async Chat Thread - #183/INFO]: [Not Secure] <Patinhoskk> eu vou precisar minerar muito
+[22:44:11] [Async Chat Thread - #183/INFO]: [Not Secure] <Patinhoskk> quem amanhã ta disponível?
+[22:44:14] [Async Chat Thread - #183/INFO]: [Not Secure] <ShapelierC15> pdp man
+[22:44:18] [Async Chat Thread - #183/INFO]: [Not Secure] <Alencar73> volta la na vila se arma mlhor
+[22:44:25] [Async Chat Thread - #183/INFO]: [Not Secure] <Alencar73> amanha se pa to off
+[22:44:35] [Async Chat Thread - #183/INFO]: [Not Secure] <Patinhoskk> oloko
+[22:44:35] [Async Chat Thread - #183/INFO]: [Not Secure] <Alencar73> flw guys tmj
+[22:44:39] [Async Chat Thread - #183/INFO]: [Not Secure] <Patinhoskk> jae
+[22:44:39] [Async Chat Thread - #183/INFO]: [Not Secure] <ShapelierC15> flw man
+[22:44:41] [Async Chat Thread - #183/INFO]: [Not Secure] <CartolaQuadrado> flw
+[22:44:41] [Async Chat Thread - #183/INFO]: [Not Secure] <ShapelierC15> tmj
+[22:44:44] [Server thread/INFO]: Alencar73 lost connection: Disconnected
+[22:44:44] [Server thread/INFO]: Alencar73 left the game
+[22:44:44] [Async Chat Thread - #183/INFO]: [Not Secure] <Patinhoskk> flw man
+[22:45:00] [Server thread/INFO]: ShapelierC15 lost connection: Disconnected
+[22:45:00] [Server thread/INFO]: ShapelierC15 left the game
+[22:45:39] [Server thread/INFO]: CartolaQuadrado has made the advancement [Diamonds!]
+[22:45:48] [Async Chat Thread - #184/INFO]: [Not Secure] <CartolaQuadrado> OH MÃE
+[22:45:59] [Async Chat Thread - #184/INFO]: [Not Secure] <CartolaQuadrado> EU ACHEI UMA CHUNK DE 4 DIMA
+[22:46:06] [Async Chat Thread - #184/INFO]: [Not Secure] <Patinhoskk> oloko
+[22:46:13] [Async Chat Thread - #184/INFO]: [Not Secure] <CartolaQuadrado> ERREI
+[22:46:16] [Async Chat Thread - #184/INFO]: [Not Secure] <CartolaQuadrado> 5
+[22:46:37] [Async Chat Thread - #184/INFO]: [Not Secure] <Patinhoskk> eu real não sei fazer casa
+[22:52:12] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Patinhoskk has disconnected from the Java server because of Bedrock client disconnected
+[22:52:12] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as Patinhoskk disconnected
+[22:52:12] [Server thread/INFO]: Patinhoskk lost connection: Disconnected
+[22:52:12] [Server thread/INFO]: Patinhoskk left the game
+[22:59:35] [Server thread/INFO]: CartolaQuadrado lost connection: Disconnected
+[22:59:35] [Server thread/INFO]: CartolaQuadrado left the game
+[23:00:57] [User Authenticator #40/INFO]: UUID of player PomboObeso is 094d96a5-49f9-3622-8b4c-3b31833720f6
+[23:00:58] [Server thread/INFO]: PomboObeso joined the game
+[23:00:58] [Server thread/INFO]: PomboObeso[/177.115.33.230:60346] logged in with entity id 321235 at ([world]-1337.275396327345, 78.0, 227.9889532388178)
+[23:12:12] [User Authenticator #41/INFO]: UUID of player CartolaQuadrado is ac9cb4f9-a1f9-3677-8684-8043bfbff71b
+[23:12:12] [Server thread/INFO]: CartolaQuadrado joined the game
+[23:12:12] [Server thread/INFO]: CartolaQuadrado[/45.165.222.185:12712] logged in with entity id 324827 at ([world]-521.3520465722751, -12.0, -624.0759986550878)
+[23:12:26] [Server thread/INFO]: miauzinto has made the advancement [Take Aim]
+[23:12:42] [Server thread/WARN]: NicolasDaflon moved wrongly!
+[23:22:20] [User Authenticator #42/INFO]: UUID of player Toruma1 is 46f7d4de-643b-3589-a56c-43a902aa5053
+[23:22:21] [Server thread/INFO]: Toruma1 joined the game
+[23:22:21] [Server thread/INFO]: Toruma1[/138.97.187.7:28902] logged in with entity id 331461 at ([world]-1269.699999988079, 31.0, 215.25146090124966)
+[23:23:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2543ms or 50 ticks behind
+[23:24:30] [Server thread/INFO]: NicolasDaflon was slain by Zombie
+[23:25:41] [Async Chat Thread - #186/INFO]: [Not Secure] <CartolaQuadrado> chicken jockey
+[23:25:56] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username SonNatso13
+[23:25:56] [localSession-7-4/INFO]: [Geyser-Spigot] SonNatso13 (logged in as: SonNatso13) has connected to the Java server
+[23:25:56] [Server thread/INFO]: [floodgate] Floodgate player logged in as SonNatso13 joined (UUID: 00000000-0000-0000-0009-01f0aea0fdd9)
+[23:25:56] [Server thread/INFO]: SonNatso13 joined the game
+[23:25:56] [Server thread/INFO]: SonNatso13[/187.13.40.197:0] logged in with entity id 334285 at ([world]-1149.4213, 78.5625, 324.88052)
+[23:27:43] [User Authenticator #43/INFO]: UUID of player ShapelierC15 is 95eebe6f-dfa4-33e4-ab20-cd7b96b3b8a4
+[23:27:44] [Server thread/INFO]: ShapelierC15 joined the game
+[23:27:44] [Server thread/INFO]: ShapelierC15[/45.226.75.92:53722] logged in with entity id 335474 at ([world_nether]-174.86208744393565, 15.0, 13.712284808808564)
+[23:27:50] [Server thread/INFO]: ShapelierC15 lost connection: Disconnected
+[23:27:50] [Server thread/INFO]: ShapelierC15 left the game
+[23:28:20] [Server thread/INFO]: Toruma1 lost connection: Disconnected
+[23:28:20] [Server thread/INFO]: Toruma1 left the game
+[23:28:22] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username Eren yeiga
+[23:28:22] [localSession-7-1/INFO]: [Geyser-Spigot] Eren yeiga (logged in as: Eren_yeiga) has connected to the Java server
+[23:28:22] [Server thread/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga joined (UUID: 00000000-0000-0000-0009-01f93862b926)
+[23:28:22] [Server thread/INFO]: Eren_yeiga joined the game
+[23:28:22] [Server thread/INFO]: Eren_yeiga[/179.125.214.54:0] logged in with entity id 335935 at ([world]-1277.0585, 70.0, 275.1986)
+[23:28:58] [Server thread/INFO]: miauzinto lost connection: Disconnected
+[23:28:58] [Server thread/INFO]: miauzinto left the game
+[23:30:11] [User Authenticator #44/INFO]: UUID of player ShapelierC15 is 95eebe6f-dfa4-33e4-ab20-cd7b96b3b8a4
+[23:30:11] [Server thread/INFO]: ShapelierC15 joined the game
+[23:30:11] [Server thread/INFO]: ShapelierC15[/45.226.75.92:53472] logged in with entity id 336827 at ([world_nether]-178.51964237454507, 15.0, 20.73696562580161)
+[23:31:55] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Eren yeiga has disconnected from the Java server because of Bedrock client disconnected
+[23:31:55] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga disconnected
+[23:31:55] [Server thread/INFO]: Eren_yeiga lost connection: Disconnected
+[23:31:55] [Server thread/INFO]: Eren_yeiga left the game
+[23:40:48] [Server thread/WARN]: SonNatso13 moved too quickly! 11.410000000000082,2.8476600000000047,5.344400000000064
+[23:40:48] [Server thread/WARN]: SonNatso13 moved too quickly! 11.132800000000088,3.0,5.320100000000025
+[23:40:48] [Server thread/WARN]: SonNatso13 moved too quickly! 11.132800000000088,3.0,5.320100000000025
+[23:40:48] [Server thread/WARN]: SonNatso13 moved too quickly! 11.132800000000088,3.0,5.320100000000025
+[23:40:48] [Server thread/WARN]: SonNatso13 moved too quickly! 11.132800000000088,3.0,5.320100000000025
+[23:40:48] [Server thread/WARN]: SonNatso13 moved too quickly! 11.132800000000088,3.0,5.320100000000025
+[23:40:48] [Server thread/WARN]: SonNatso13 moved too quickly! 11.132800000000088,3.0,5.320100000000025
+[23:40:48] [Server thread/WARN]: SonNatso13 moved too quickly! 11.132800000000088,3.0,5.320100000000025
+[23:40:48] [Server thread/WARN]: SonNatso13 moved too quickly! 11.132800000000088,3.0,5.320100000000025
+[23:40:48] [Server thread/WARN]: SonNatso13 moved too quickly! 11.132800000000088,3.0,5.320100000000025
+[23:40:48] [Server thread/WARN]: SonNatso13 moved too quickly! 11.132800000000088,3.0,5.320100000000025
+[23:40:48] [Server thread/WARN]: SonNatso13 moved too quickly! 11.132800000000088,3.0,5.320100000000025
+[23:41:12] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as SonNatso13 disconnected
+[23:41:12] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] SonNatso13 has disconnected from the Java server because of Bedrock client disconnected
+[23:41:12] [Server thread/INFO]: SonNatso13 lost connection: Disconnected
+[23:41:12] [Server thread/INFO]: SonNatso13 left the game
+[23:41:42] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username SonNatso13
+[23:41:42] [localSession-7-2/INFO]: [Geyser-Spigot] SonNatso13 (logged in as: SonNatso13) has connected to the Java server
+[23:41:42] [Server thread/INFO]: [floodgate] Floodgate player logged in as SonNatso13 joined (UUID: 00000000-0000-0000-0009-01f0aea0fdd9)
+[23:41:42] [Server thread/INFO]: SonNatso13 joined the game
+[23:41:42] [Server thread/INFO]: SonNatso13[/187.13.40.197:0] logged in with entity id 345034 at ([world]-1280.9006, 79.0, 663.4555)
+[23:45:30] [Server thread/WARN]: SonNatso13 moved too quickly! 8.63400999999999,5.252200000000002,0.42969999999996844
+[23:46:04] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] NicolasDaflon has disconnected from the Java server because of Bedrock client timed out
+[23:46:04] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as NicolasDaflon disconnected
+[23:46:05] [Server thread/INFO]: NicolasDaflon lost connection: Disconnected
+[23:46:05] [Server thread/INFO]: NicolasDaflon left the game
+[23:46:16] [Server thread/WARN]: SonNatso13 moved wrongly!
+[23:46:16] [Server thread/WARN]: SonNatso13 moved wrongly!
+[23:53:35] [Server thread/INFO]: CartolaQuadrado has made the advancement [Suit Up]
+[23:55:10] [User Authenticator #45/INFO]: UUID of player Alencar73 is 028a82f5-20fe-3357-8797-b427ea04a6c1
+[23:55:10] [Server thread/INFO]: Alencar73 joined the game
+[23:55:10] [Server thread/INFO]: Alencar73[/177.152.86.165:44510] logged in with entity id 349899 at ([world_nether]-200.07826631200504, 15.0, 21.494506374824596)
+[23:55:19] [Async Chat Thread - #188/INFO]: [Not Secure] <ShapelierC15> Salve fi
+[23:55:20] [Async Chat Thread - #188/INFO]: [Not Secure] <Alencar73> THE TRUE
+[23:55:32] [Async Chat Thread - #188/INFO]: [Not Secure] <Alencar73> IS RUNNING IN MY BLOOD
+[23:55:53] [Async Chat Thread - #188/INFO]: [Not Secure] <Alencar73> partiu pegar mais??
+[23:56:01] [Async Chat Thread - #189/INFO]: [Not Secure] <Alencar73> n tem box hj kkkkkk
+[23:56:11] [Async Chat Thread - #189/INFO]: [Not Secure] <ShapelierC15> ja to indo
+[23:56:24] [Async Chat Thread - #189/INFO]: [Not Secure] <Alencar73> jae
+[23:56:34] [Async Chat Thread - #189/INFO]: [Not Secure] <ShapelierC15> essa intro do tazercraft é muito pika
+[23:56:37] [Async Chat Thread - #189/INFO]: [Not Secure] <Alencar73> vou tentar pegar mt pra geral msm
+[23:57:47] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] SonNatso13 has disconnected from the Java server because of Bedrock client disconnected
+[23:57:47] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as SonNatso13 disconnected
+[23:57:48] [Server thread/INFO]: SonNatso13 lost connection: Disconnected
+[23:57:48] [Server thread/INFO]: SonNatso13 left the game
+[23:58:33] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username SonNatso13
+[23:58:33] [localSession-7-3/INFO]: [Geyser-Spigot] SonNatso13 (logged in as: SonNatso13) has connected to the Java server
+[23:58:33] [Server thread/INFO]: [floodgate] Floodgate player logged in as SonNatso13 joined (UUID: 00000000-0000-0000-0009-01f0aea0fdd9)
+[23:58:33] [Server thread/INFO]: SonNatso13 joined the game
+[23:58:33] [Server thread/INFO]: SonNatso13[/187.13.40.197:0] logged in with entity id 352232 at ([world]-1134.69999, 84.09456764752272, 306.30001)
+[23:59:48] [User Authenticator #46/INFO]: UUID of player Vintin is 742d656d-0826-3cc4-a58f-590439d9ab38
+[23:59:49] [Server thread/INFO]: Vintin joined the game
+[23:59:49] [Server thread/INFO]: Vintin[/45.160.232.205:63223] logged in with entity id 353874 at ([world]-1261.911340019525, 69.0, 425.96552632989847)

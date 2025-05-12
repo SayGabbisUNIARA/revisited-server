@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "ip": "200.6.90.237",
+    "created": "2025-05-11 22:58:06 +0000",
+    "source": "SayGabbis",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "ip": "191.37.36.224",
+    "created": "2025-05-11 22:55:33 +0000",
+    "source": "SayGabbis",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]
