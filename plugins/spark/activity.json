@@ -1,6 +1,18 @@
 [
   {
     "user": {
+      "type": "other",
+      "name": "CONSOLE"
+    },
+    "time": 1747143861881,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/lgBUq8cvdB"
+    }
+  },
+  {
+    "user": {
       "type": "player",
       "name": "SayGabbis",
       "uniqueId": "d414d361-18a6-31ef-96af-690e2149ba53"
