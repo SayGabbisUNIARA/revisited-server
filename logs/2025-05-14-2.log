@@ -1,0 +1,1544 @@
+[07:02:47] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu122.04; Ubuntu null) on Linux 6.8.0-1029-gcp (amd64)
+[07:02:47] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-22-main@6c2b037 (2025-04-16T18:32:47Z) for Minecraft 1.21.5
+[07:02:48] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[07:02:49] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[07:02:49] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+ - Geyser-Spigot (2.7.1-SNAPSHOT), LuckPerms (5.4.164), SkinsRestorer (15.6.3), Timber (1.6.3), ViaBackwards (5.3.2), ViaVersion (5.3.2), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
+[07:02:56] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07:02:59] [ServerMain/INFO]: Loaded 1373 recipes
+[07:02:59] [ServerMain/INFO]: Loaded 1484 advancements
+[07:02:59] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[07:02:59] [Server thread/INFO]: Loading properties
+[07:02:59] [Server thread/INFO]: This server is running Paper version 1.21.5-22-main@6c2b037 (2025-04-16T18:32:47Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
+[07:03:00] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[07:03:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:03:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:03:01] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[07:03:01] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[07:03:02] [Server thread/INFO]: Default game type: SURVIVAL
+[07:03:02] [Server thread/INFO]: Generating keypair
+[07:03:02] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:03:02] [Server thread/INFO]: Using epoll channel type
+[07:03:02] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[07:03:02] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[07:03:03] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+[07:03:03] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[07:03:04] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[07:03:04] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[07:03:05] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[07:03:05] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[07:03:06] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[07:03:07] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[07:03:07] [Server thread/INFO]: [floodgate] Took 1,086ms to boot Floodgate
+[07:03:07] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
+[07:03:07] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
+[07:03:08] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[07:03:08] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[07:03:08] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.164
+[07:03:08] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.3
+[07:03:08] [Server thread/INFO]: [Timber] Loading server plugin Timber v1.6.3
+[07:03:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:03:08] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.164
+[07:03:09] [Server thread/INFO]:         __    
+[07:03:09] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.164
+[07:03:09] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[07:03:09] [Server thread/INFO]: 
+[07:03:09] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[07:03:09] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[07:03:10] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[07:03:10] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[07:03:10] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1713ms)
+[07:03:10] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.3
+[07:03:11] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.5.
+[07:03:11] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[07:03:12] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[07:03:12] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:03:12] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:03:12] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:03:12] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:03:12] [Server thread/INFO]: Preparing level "world"
+[07:03:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[07:03:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[07:03:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[07:03:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[07:03:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[07:03:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[07:03:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[07:03:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.3
+[07:03:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7eb6dc6
+[07:03:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[07:03:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[07:03:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[07:03:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[07:03:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:03:14] [Server thread/INFO]: Preparing spawn area: 0%
+[07:03:14] [Server thread/INFO]: Preparing spawn area: 0%
+[07:03:15] [Server thread/INFO]: Preparing spawn area: 0%
+[07:03:15] [Server thread/INFO]: Preparing spawn area: 0%
+[07:03:15] [Server thread/INFO]: Preparing spawn area: 0%
+[07:03:15] [Server thread/INFO]: Time elapsed: 2083 ms
+[07:03:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[07:03:15] [Server thread/INFO]: Preparing spawn area: 0%
+[07:03:15] [Server thread/INFO]: Time elapsed: 336 ms
+[07:03:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[07:03:15] [Server thread/INFO]: Preparing spawn area: 0%
+[07:03:15] [Server thread/INFO]: Time elapsed: 172 ms
+[07:03:15] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[07:03:16] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.5 (770)
+[07:03:16] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[07:03:16] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
+[07:03:16] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
+[07:03:17] [Server thread/INFO]: [Timber] Enabling Timber v1.6.3
+[07:03:18] [Server thread/INFO]: [spark] Starting background profiler...
+[07:03:19] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[07:03:19] [Server thread/INFO]: [Geyser-Spigot] 
+[07:03:19] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b824 (git-master-b296f10)
+[07:03:19] [Server thread/INFO]: [Geyser-Spigot] 
+[07:03:19] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[07:03:21] [pool-14-thread-1/WARN]: [floodgate] 
+**********************************
+* You specified an empty prefix in your Floodgate config for Bedrock players!
+* Should a Java player join and a Bedrock player join with the same username, unwanted results and conflicts will happen!
+* We strongly recommend using . as the prefix, but other alternatives that will not conflict include: +, - and *
+**********************************
+[07:03:25] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[07:03:25] [Server thread/INFO]: [Geyser-Spigot] Done (6.227s)! Run /geyser help for help!
+[07:03:25] [Server thread/INFO]: Done preparing level "world" (12.959s)
+[07:03:25] [Server thread/INFO]: Running delayed init tasks
+[07:03:25] [Craft Scheduler Thread - 1 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[07:03:25] [Server thread/INFO]: Done (39.510s)! For help, type "help"
+[13:29:12] [User Authenticator #0/INFO]: UUID of player miauzinto is 7beeffc0-74d6-3ca7-b0d2-83dda4b42169
+[13:29:14] [Server thread/INFO]: miauzinto joined the game
+[13:29:14] [Server thread/INFO]: miauzinto[/186.223.169.147:1639] logged in with entity id 127 at ([world]-1644.7080728372252, 71.0, 964.6999999880791)
+[13:49:42] [Server thread/INFO]: Villager Villager['Villager'/398, uuid='7b49b0f2-66ef-4a3a-b934-1148594e507e', l='ServerLevel[world]', x=-1419.48, y=68.00, z=994.29, cpos=[-89, 62], tl=12987, v=true] died, message: 'Villager was slain by miauzinto'
+[13:50:44] [Server thread/INFO]: Villager Villager['Librarian'/365, uuid='b7616c7b-7d7a-4938-8032-6a600a0dab95', l='ServerLevel[world]', x=-1421.60, y=68.00, z=985.45, cpos=[-89, 61], tl=14223, v=true] died, message: 'Librarian was slain by miauzinto'
+[14:24:16] [Server thread/INFO]: Villager Villager['Nitwit'/8023, uuid='db399735-159e-4da0-ab1a-8475ca5fc0b4', l='ServerLevel[world]', x=-2057.40, y=60.77, z=-86.69, cpos=[-129, -6], tl=18969, v=true] died, message: 'Nitwit was slain by Drowned'
+[14:35:17] [Server thread/INFO]: miauzinto lost connection: Disconnected
+[14:35:17] [Server thread/INFO]: miauzinto left the game
+[14:36:13] [User Authenticator #1/INFO]: UUID of player CartolaQuadrado is ac9cb4f9-a1f9-3677-8684-8043bfbff71b
+[14:36:14] [Server thread/INFO]: CartolaQuadrado joined the game
+[14:36:14] [Server thread/INFO]: CartolaQuadrado[/45.165.222.185:12412] logged in with entity id 13388 at ([world]-1261.6581424253034, 66.0, 338.1576787082041)
+[15:00:40] [User Authenticator #2/INFO]: UUID of player Alencar73 is 028a82f5-20fe-3357-8797-b427ea04a6c1
+[15:00:41] [Server thread/INFO]: Alencar73 joined the game
+[15:00:41] [Server thread/INFO]: Alencar73[/177.152.86.155:36219] logged in with entity id 18131 at ([world]3081.843691387461, 154.0, 943.2243442655551)
+[15:34:56] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username MilesFlavio
+[15:34:56] [localSession-7-2/INFO]: [Geyser-Spigot] MilesFlavio (logged in as: MilesFlavio) has connected to the Java server
+[15:34:57] [Server thread/INFO]: [floodgate] Floodgate player logged in as MilesFlavio joined (UUID: 00000000-0000-0000-0009-01fda9c6fd96)
+[15:34:57] [Server thread/INFO]: MilesFlavio joined the game
+[15:34:57] [Server thread/INFO]: MilesFlavio[/179.97.121.226:0] logged in with entity id 32199 at ([world]-1169.6387, 71.0, 308.99426)
+[15:36:02] [Async Chat Thread - #0/INFO]: [Not Secure] <MilesFlavio> Eae seus gays
+[15:36:16] [Async Chat Thread - #0/INFO]: [Not Secure] <CartolaQuadrado> cu
+[15:36:19] [Async Chat Thread - #0/INFO]: [Not Secure] <Alencar73> disse a bixa
+[15:36:31] [Async Chat Thread - #0/INFO]: [Not Secure] <MilesFlavio> hj o projeto torre dos vinbroxas começa a da sinal
+[15:37:13] [Async Chat Thread - #0/INFO]: [Not Secure] <MilesFlavio> porra é essa, o Alencar vuando igual un fantasma do meu lado
+[15:37:37] [Async Chat Thread - #1/INFO]: [Not Secure] <Alencar73> eu sou a velocidade
+[15:38:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2661ms or 53 ticks behind
+[15:39:03] [Server thread/INFO]: MilesFlavio was slain by Zombie
+[15:40:41] [Server thread/INFO]: MilesFlavio was shot by Skeleton
+[15:40:50] [Async Chat Thread - #2/INFO]: [Not Secure] <MilesFlavio> Tudo me mata
+[15:49:32] [Async Chat Thread - #4/INFO]: [Not Secure] <MilesFlavio> Tem alguma mina livre?
+[15:50:00] [Async Chat Thread - #4/INFO]: [Not Secure] <Alencar73> as mina perto da vil n valem a pena tem q minerar longe msm
+[15:50:10] [Async Chat Thread - #4/INFO]: [Not Secure] <Alencar73> vila*
+[15:51:09] [Async Chat Thread - #4/INFO]: [Not Secure] <MilesFlavio> uma vaca escapou do serero
+[15:51:15] [Async Chat Thread - #4/INFO]: [Not Secure] <MilesFlavio> selero*
+[15:51:20] [Async Chat Thread - #4/INFO]: [Not Secure] <Alencar73> d boa
+[15:51:38] [Async Chat Thread - #4/INFO]: [Not Secure] <MilesFlavio> vou comer ela aqui só pra rir
+[15:52:40] [Server thread/INFO]: MilesFlavio has made the advancement [Monster Hunter]
+[15:53:04] [Server thread/INFO]: MilesFlavio was slain by Zombie
+[15:53:06] [Async Chat Thread - #6/INFO]: [Not Secure] <CartolaQuadrado> caralho Miles
+[15:53:27] [Async Chat Thread - #6/INFO]: [Not Secure] <MilesFlavio> A PORRA DE UM MINI ZUMBI ME MATOU PQP
+[15:54:20] [Server thread/INFO]: MilesFlavio was slain by Spider
+[15:54:28] [Async Chat Thread - #8/INFO]: [Not Secure] <MilesFlavio> AAAAAAAA
+[15:54:28] [Async Chat Thread - #8/INFO]: [Not Secure] <Alencar73> sou desse cara kk
+[15:54:33] [Async Chat Thread - #8/INFO]: [Not Secure] <Alencar73> fã*
+[15:55:01] [Async Chat Thread - #8/INFO]: [Not Secure] <Alencar73> slk o q eu escrevi parece q eu sou uma vagabunda
+[15:55:17] [Async Chat Thread - #8/INFO]: [Not Secure] <MilesFlavio> isso gostosa me elogia, assim que eu gosto
+[15:55:22] [Async Chat Thread - #8/INFO]: [Not Secure] <Alencar73> ban
+[15:56:08] [Async Chat Thread - #8/INFO]: [Not Secure] <MilesFlavio> gole inútil da porra
+[15:56:20] [Async Chat Thread - #8/INFO]: [Not Secure] <CartolaQuadrado> não fala mal do brunao
+[15:57:04] [Async Chat Thread - #8/INFO]: [Not Secure] <MilesFlavio> eu morro na frente dele e ele não faz nada
+[15:57:14] [Async Chat Thread - #8/INFO]: [Not Secure] <CartolaQuadrado> ele só ataca mobs hostis
+[15:57:21] [Async Chat Thread - #8/INFO]: [Not Secure] <Alencar73> pq ele ta preso na corda kkkkkkkkk
+[15:57:54] [Async Chat Thread - #9/INFO]: [Not Secure] <CartolaQuadrado> O MILES MORREU NO PORTAL
+[15:58:03] [Async Chat Thread - #9/INFO]: [Not Secure] <MilesFlavio> Sim
+[15:58:16] [Async Chat Thread - #9/INFO]: [Not Secure] <MilesFlavio> o mini zumbi me matou
+[15:58:17] [Async Chat Thread - #9/INFO]: [Not Secure] <CartolaQuadrado> o cara tem nenhuma ferramenta de pedra mane
+[15:58:38] [Async Chat Thread - #9/INFO]: [Not Secure] <Alencar73> caraca miles faz troca com o villager men
+[15:58:41] [Server thread/INFO]: MilesFlavio was shot by Skeleton
+[15:58:49] [Async Chat Thread - #9/INFO]: [Not Secure] <MilesFlavio> A mano
+[15:59:39] [Async Chat Thread - #9/INFO]: [Not Secure] <CartolaQuadrado> vou soltar o bruno
+[15:59:40] [Async Chat Thread - #9/INFO]: [Not Secure] <MilesFlavio> que porra é essa
+[15:59:49] [Async Chat Thread - #9/INFO]: [Not Secure] <CartolaQuadrado> KKKKKKKKKKKKKKKKKK
+[16:00:15] [Async Chat Thread - #9/INFO]: [Not Secure] <MilesFlavio> ERA PRA RIR BRUNÃO
+[16:00:50] [Async Chat Thread - #9/INFO]: [Not Secure] <MilesFlavio> que porra de skin é essa
+[16:01:07] [Async Chat Thread - #9/INFO]: [Not Secure] <MilesFlavio> oi
+[16:01:21] [Async Chat Thread - #9/INFO]: [Not Secure] <MilesFlavio> ei cartola
+[16:01:24] [Async Chat Thread - #9/INFO]: [Not Secure] <CartolaQuadrado> CU
+[16:01:31] [Async Chat Thread - #9/INFO]: [Not Secure] <MilesFlavio> ME AJUDA A MINERA
+[16:01:41] [Server thread/INFO]: MilesFlavio has made the advancement [Suit Up]
+[16:03:27] [Async Chat Thread - #10/INFO]: [Not Secure] <CartolaQuadrado> porque ce ta me seguindo?
+[16:03:39] [Async Chat Thread - #10/INFO]: [Not Secure] <MilesFlavio> tô explorando o mapa...
+[16:03:43] [Async Chat Thread - #10/INFO]: [Not Secure] <CartolaQuadrado> ta...
+[16:04:22] [Server thread/INFO]: MilesFlavio was slain by Enderman
+[16:04:26] [Async Chat Thread - #10/INFO]: [Not Secure] <CartolaQuadrado> pqp
+[16:04:33] [User Authenticator #3/INFO]: UUID of player ShapelierC15 is 95eebe6f-dfa4-33e4-ab20-cd7b96b3b8a4
+[16:04:33] [Server thread/INFO]: ShapelierC15 joined the game
+[16:04:33] [Server thread/INFO]: ShapelierC15[/45.226.75.92:54758] logged in with entity id 50541 at ([world]3083.2074901321507, 154.0, 896.792122411909)
+[16:04:48] [Async Chat Thread - #10/INFO]: [Not Secure] <MilesFlavio> odeio esses mobs
+[16:04:55] [Async Chat Thread - #10/INFO]: [Not Secure] <Alencar73> q pro
+[16:05:30] [Async Chat Thread - #10/INFO]: [Not Secure] <CartolaQuadrado> eu sou um Espartano comparado ao Miles
+[16:05:53] [Async Chat Thread - #10/INFO]: [Not Secure] <MilesFlavio> eu sou a puta que o kratos comer
+[16:05:58] [Async Chat Thread - #10/INFO]: [Not Secure] <CartolaQuadrado> A
+[16:06:01] [Async Chat Thread - #10/INFO]: [Not Secure] <Alencar73> eu sou um jegue atras dele
+[16:06:18] [Async Chat Thread - #10/INFO]: [Not Secure] <MilesFlavio> Vou emprestar uma picareta do desconhecido
+[16:06:28] [Async Chat Thread - #10/INFO]: [Not Secure] <CartolaQuadrado> emprestar ou roubar
+[16:06:38] [Async Chat Thread - #10/INFO]: [Not Secure] <Alencar73> pegar emprestado?
+[16:06:44] [Async Chat Thread - #10/INFO]: [Not Secure] <MilesFlavio> Rouba temporalmente
+[16:06:50] [Async Chat Thread - #10/INFO]: [Not Secure] <Alencar73> ta certo
+[16:06:50] [Async Chat Thread - #10/INFO]: [Not Secure] <CartolaQuadrado> preciso só de areia
+[16:07:02] [Async Chat Thread - #10/INFO]: [Not Secure] <ShapelierC15> areia pra que?
+[16:07:03] [Async Chat Thread - #10/INFO]: [Not Secure] <CartolaQuadrado> QUERIA TAAAAAAAAAAAANTO UM DESERTO
+[16:07:15] [Async Chat Thread - #10/INFO]: [Not Secure] <CartolaQuadrado> areia pra vidro
+[16:07:28] [Async Chat Thread - #10/INFO]: [Not Secure] <Alencar73> troca com os villagers hehe
+[16:07:36] [Async Chat Thread - #10/INFO]: [Not Secure] <Alencar73> eles trocam vidro tb
+[16:07:38] [Async Chat Thread - #12/INFO]: [Not Secure] <CartolaQuadrado> preciso lotar este bau de packs de vidro
+[16:07:58] [Async Chat Thread - #12/INFO]: [Not Secure] <CartolaQuadrado> qual villager?
+[16:08:13] [Server thread/WARN]: MilesFlavio moved wrongly!
+[16:08:13] [Server thread/WARN]: MilesFlavio moved wrongly!
+[16:08:14] [Server thread/WARN]: MilesFlavio moved wrongly!
+[16:08:14] [Server thread/WARN]: MilesFlavio moved wrongly!
+[16:08:19] [Async Chat Thread - #12/INFO]: [Not Secure] <Alencar73> na casa de trocas centro da vila com os bibliotecarios
+[16:09:39] [Server thread/INFO]: ShapelierC15 lost connection: Disconnected
+[16:09:39] [Server thread/INFO]: ShapelierC15 left the game
+[16:10:46] [Server thread/INFO]: MilesFlavio tried to swim in lava
+[16:10:46] [User Authenticator #4/INFO]: UUID of player ShapelierC15 is 95eebe6f-dfa4-33e4-ab20-cd7b96b3b8a4
+[16:10:47] [Server thread/INFO]: ShapelierC15 joined the game
+[16:10:47] [Server thread/INFO]: ShapelierC15[/45.226.75.92:55175] logged in with entity id 53694 at ([world]3083.917521164405, 154.0, 939.117442744979)
+[16:11:02] [Async Chat Thread - #13/INFO]: [Not Secure] <CartolaQuadrado> A
+[16:11:26] [Async Chat Thread - #13/INFO]: [Not Secure] <MilesFlavio> próxima vez eu nem tento pula
+[16:13:22] [Async Chat Thread - #15/INFO]: [Not Secure] <MilesFlavio> Essses fragmentos roxo serve pra alguma?
+[16:13:33] [Async Chat Thread - #15/INFO]: [Not Secure] <CartolaQuadrado> pra fazer aquele binoculo la
+[16:13:39] [Async Chat Thread - #15/INFO]: [Not Secure] <CartolaQuadrado> eu nem preciso
+[16:13:44] [Async Chat Thread - #15/INFO]: [Not Secure] <Alencar73> e fazer vidro escuro
+[16:14:22] [Async Chat Thread - #15/INFO]: [Not Secure] <Alencar73> FARM DE FERRO PRONTA
+[16:14:35] [Async Chat Thread - #15/INFO]: [Not Secure] <CartolaQuadrado> ja vou indo pegar pro Miles
+[16:14:36] [Async Chat Thread - #15/INFO]: [Not Secure] <Alencar73> abahtuuukaaaaaaaaaaaaaannnnnnnnnnnnnn
+[16:14:40] [Async Chat Thread - #15/INFO]: [Not Secure] <MilesFlavio> fds
+[16:15:02] [Async Chat Thread - #15/INFO]: [Not Secure] <MilesFlavio> eu vou CONSTRUIR A MINHA CASA COM TERRA
+[16:15:15] [Async Chat Thread - #15/INFO]: [Not Secure] <MilesFlavio> a não pera, não tenho terra
+[16:15:15] [Async Chat Thread - #15/INFO]: [Not Secure] <Alencar73> eu sou um genio Deus
+[16:15:18] [Async Chat Thread - #15/INFO]: [Not Secure] <Alencar73> sexo sexo
+[16:15:25] [Async Chat Thread - #15/INFO]: [Not Secure] <ShapelierC15> essa aq parece q ta melhor q a outra
+[16:15:32] [Async Chat Thread - #15/INFO]: [Not Secure] <MilesFlavio> anal anal
+[16:16:00] [Async Chat Thread - #16/INFO]: [Not Secure] <Alencar73> ta melhor pq estamos no mar e ta alta dai n nasce em volta
+[16:16:29] [Async Chat Thread - #16/INFO]: [Not Secure] <Alencar73> jaja eu volto
+[16:16:31] [Server thread/INFO]: Alencar73 lost connection: Disconnected
+[16:16:31] [Server thread/INFO]: Alencar73 left the game
+[16:18:16] [Async Chat Thread - #17/INFO]: [Not Secure] <CartolaQuadrado> TESAUM
+[16:18:45] [Async Chat Thread - #17/INFO]: [Not Secure] <CartolaQuadrado> ...
+[16:18:53] [Async Chat Thread - #17/INFO]: [Not Secure] <MilesFlavio> quer que deu
+[16:21:52] [Async Chat Thread - #19/INFO]: [Not Secure] <CartolaQuadrado> fiz merda
+[16:21:55] [Async Chat Thread - #19/INFO]: [Not Secure] <CartolaQuadrado> calma
+[16:22:51] [Async Chat Thread - #19/INFO]: [Not Secure] <CartolaQuadrado> esqueci da minha espada...
+[16:23:18] [Async Chat Thread - #19/INFO]: [Not Secure] <CartolaQuadrado> que que ce ta fazendo aí
+[16:23:28] [Async Chat Thread - #19/INFO]: [Not Secure] <ShapelierC15> afk pra farmar o ferro
+[16:23:34] [Async Chat Thread - #19/INFO]: [Not Secure] <CartolaQuadrado> Tendi...
+[16:23:47] [Async Chat Thread - #19/INFO]: [Not Secure] <CartolaQuadrado> GARANTIA
+[16:23:54] [Async Chat Thread - #19/INFO]: [Not Secure] <CartolaQuadrado> ESQUECI MINHA ESPADA NO BAU
+[16:24:17] [Async Chat Thread - #19/INFO]: [Not Secure] <ShapelierC15> muito noob
+[16:24:35] [Async Chat Thread - #20/INFO]: [Not Secure] <CartolaQuadrado> quem errou as flechas foi você
+[16:24:53] [Async Chat Thread - #20/INFO]: [Not Secure] <ShapelierC15> quem?
+[16:24:57] [Async Chat Thread - #20/INFO]: [Not Secure] <CartolaQuadrado> nada
+[16:34:39] [Async Chat Thread - #21/INFO]: [Not Secure] <CartolaQuadrado> terminei
+[16:34:52] [Async Chat Thread - #21/INFO]: [Not Secure] <ShapelierC15> terminou nao
+[16:34:56] [Async Chat Thread - #21/INFO]: [Not Secure] <CartolaQuadrado> terminei sim
+[16:34:56] [Async Chat Thread - #21/INFO]: [Not Secure] <ShapelierC15> falta ali
+[16:37:54] [Async Chat Thread - #23/INFO]: [Not Secure] <ShapelierC15> cade
+[16:37:58] [Async Chat Thread - #23/INFO]: [Not Secure] <CartolaQuadrado> ja peguei
+[16:38:04] [Async Chat Thread - #23/INFO]: [Not Secure] <CartolaQuadrado> é meu ue
+[16:38:14] [Async Chat Thread - #23/INFO]: [Not Secure] <ShapelierC15> so to vendo uai
+[16:38:19] [Async Chat Thread - #23/INFO]: [Not Secure] <ShapelierC15> rlx fi
+[16:38:30] [Async Chat Thread - #23/INFO]: [Not Secure] <CartolaQuadrado> preciso de areia pra krl e de carvao pra krl
+[16:39:20] [Async Chat Thread - #23/INFO]: [Not Secure] <ShapelierC15> tu ja viu a fornalha que o viniccius13 fez?
+[16:39:22] [User Authenticator #5/INFO]: UUID of player Toruma1 is 46f7d4de-643b-3589-a56c-43a902aa5053
+[16:39:23] [Server thread/INFO]: Toruma1 joined the game
+[16:39:23] [Server thread/INFO]: Toruma1[/138.97.187.39:31979] logged in with entity id 65122 at ([world]-1220.2009401575194, 68.0, 280.01041261704154)
+[16:39:23] [Async Chat Thread - #23/INFO]: [Not Secure] <CartolaQuadrado> ja
+[16:39:31] [Async Chat Thread - #23/INFO]: [Not Secure] <ShapelierC15> ela usa tapete como combustivel
+[16:39:46] [Async Chat Thread - #23/INFO]: [Not Secure] <MilesFlavio> entrou um random chamado toruma1
+[16:39:51] [Async Chat Thread - #23/INFO]: [Not Secure] <ShapelierC15> nao daria pra fazer igual a dele pra economizar carvao?
+[16:39:58] [Async Chat Thread - #23/INFO]: [Not Secure] <Toruma1> não sou random cara
+[16:40:09] [Async Chat Thread - #23/INFO]: [Not Secure] <MilesFlavio> então revele quem é vc
+[16:40:11] [Async Chat Thread - #23/INFO]: [Not Secure] <ShapelierC15> nao fala assim do goat toruma
+[16:40:37] [Async Chat Thread - #23/INFO]: [Not Secure] <CartolaQuadrado> tem como fazer combustivel infinito
+[16:41:11] [Async Chat Thread - #23/INFO]: [Not Secure] <MilesFlavio> da pra encata picareta?
+[16:41:16] [Async Chat Thread - #23/INFO]: [Not Secure] <Toruma1> sim
+[16:41:20] [Async Chat Thread - #23/INFO]: [Not Secure] <CartolaQuadrado> NÃO IMAGINA
+[16:41:27] [Async Chat Thread - #23/INFO]: [Not Secure] <ShapelierC15> e pq nao daria?
+[16:41:41] [Async Chat Thread - #23/INFO]: [Not Secure] <MilesFlavio> minha pergunta é a onde tem pra encatar
+[16:41:51] [Async Chat Thread - #23/INFO]: [Not Secure] <MilesFlavio> vai se fude cartola seu merda
+[16:42:04] [Async Chat Thread - #23/INFO]: [Not Secure] <CartolaQuadrado> ENTÃO FAÇA A PERGUNTA DIREITO
+[16:42:18] [Async Chat Thread - #24/INFO]: [Not Secure] <Toruma1> na vila no lugar do alencar tem aldeãe de troca lá
+[16:42:27] [User Authenticator #6/INFO]: UUID of player Alencar73 is 028a82f5-20fe-3357-8797-b427ea04a6c1
+[16:42:27] [Server thread/INFO]: Alencar73 joined the game
+[16:42:27] [Server thread/INFO]: Alencar73[/177.152.86.155:35547] logged in with entity id 67261 at ([world]3083.6212297370703, 154.0, 954.0353166311471)
+[16:42:33] [Server thread/WARN]: MilesFlavio moved wrongly!
+[16:42:54] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Patinhoskk
+[16:42:54] [localSession-7-3/INFO]: [Geyser-Spigot] Patinhoskk (logged in as: Patinhoskk) has connected to the Java server
+[16:42:54] [Server thread/INFO]: [floodgate] Floodgate player logged in as Patinhoskk joined (UUID: 00000000-0000-0000-0009-01f1ae1b4cb8)
+[16:42:55] [Server thread/INFO]: Patinhoskk joined the game
+[16:42:55] [Server thread/INFO]: Patinhoskk[/206.43.29.125:0] logged in with entity id 67838 at ([world]-1267.3359, 71.0, 349.26355)
+[16:43:08] [Async Chat Thread - #24/INFO]: [Not Secure] <MilesFlavio> PATINHOOOOOOOO SEU LINFO
+[16:43:13] [Async Chat Thread - #24/INFO]: [Not Secure] <MilesFlavio> lindo*
+[16:43:18] [Async Chat Thread - #24/INFO]: [Not Secure] <CartolaQuadrado> vish
+[16:43:20] [Async Chat Thread - #24/INFO]: [Not Secure] <ShapelierC15> linde*
+[16:43:26] [Async Chat Thread - #24/INFO]: [Not Secure] <CartolaQuadrado> LINDE
+[16:43:30] [Async Chat Thread - #24/INFO]: [Not Secure] <CartolaQuadrado> AH NAO
+[16:44:08] [Server thread/INFO]: Toruma1 lost connection: Timed out
+[16:44:08] [Server thread/INFO]: Toruma1 left the game
+[16:44:27] [User Authenticator #7/INFO]: UUID of player Toruma1 is 46f7d4de-643b-3589-a56c-43a902aa5053
+[16:44:27] [Server thread/INFO]: Toruma1 joined the game
+[16:44:27] [Server thread/INFO]: Toruma1[/138.97.187.39:32124] logged in with entity id 69707 at ([world_nether]47.9351832953045, 74.50531330381531, 97.89543818078741)
+[16:44:29] [Async Chat Thread - #24/INFO]: [Not Secure] <Patinhoskk> tô lagadasso
+[16:45:21] [Async Chat Thread - #24/INFO]: [Not Secure] <Patinhoskk> cês sabem que sou ei desconhecido?
+[16:45:53] [Async Chat Thread - #24/INFO]: [Not Secure] <ShapelierC15> ja renovou o membro?
+[16:46:00] [Async Chat Thread - #24/INFO]: [Not Secure] <Patinhoskk> claro
+[16:46:25] [Async Chat Thread - #24/INFO]: [Not Secure] <MilesFlavio> desconhecido, roubei alguma coisa tuas ai temporalmente
+[16:46:35] [Async Chat Thread - #24/INFO]: [Not Secure] <Patinhoskk> oque?
+[16:46:49] [Async Chat Thread - #24/INFO]: [Not Secure] <MilesFlavio> Uma picareta de ferro
+[16:46:56] [Async Chat Thread - #24/INFO]: [Not Secure] <CartolaQuadrado> PICA DE FERRO
+[16:46:56] [Async Chat Thread - #24/INFO]: [Not Secure] <MilesFlavio> pedra*
+[16:47:03] [Async Chat Thread - #24/INFO]: [Not Secure] <CartolaQuadrado> PICA DE PEDRA
+[16:47:14] [Async Chat Thread - #23/INFO]: [Not Secure] <Patinhoskk> pode não man
+[16:47:15] [Async Chat Thread - #23/INFO]: [Not Secure] <MilesFlavio> A porra, não vi
+[16:47:20] [Async Chat Thread - #23/INFO]: [Not Secure] <Patinhoskk> preciso fazer o L
+[16:48:32] [Async Chat Thread - #25/INFO]: [Not Secure] <Patinhoskk> to de Corinthians
+[16:52:15] [Async Chat Thread - #27/INFO]: [Not Secure] <ShapelierC15> CARACA
+[16:52:23] [Async Chat Thread - #28/INFO]: [Not Secure] <ShapelierC15> acertei em cheio
+[16:52:31] [Async Chat Thread - #28/INFO]: [Not Secure] <Patinhoskk> a mano quem pego minha cama
+[16:52:38] [Async Chat Thread - #28/INFO]: [Not Secure] <Patinhoskk> tão roubando minhas coisas
+[16:52:56] [Async Chat Thread - #28/INFO]: [Not Secure] <Patinhoskk> meus ferro sumiu
+[16:53:14] [Async Chat Thread - #28/INFO]: [Not Secure] <CartolaQuadrado> estou supunhetando que foi o Miles
+[16:53:52] [Async Chat Thread - #28/INFO]: [Not Secure] <Patinhoskk> a mano olha essas placas
+[16:54:07] [Server thread/INFO]: MilesFlavio was slain by Zombie
+[16:54:12] [Server thread/INFO]: Patinhoskk was slain by Spider
+[16:54:20] [Async Chat Thread - #28/INFO]: [Not Secure] <CartolaQuadrado> DOUBLE KILL
+[16:54:25] [Server thread/INFO]: Toruma1 was impaled by Drowned
+[16:54:29] [Async Chat Thread - #28/INFO]: [Not Secure] <CartolaQuadrado> caralho
+[16:54:32] [Async Chat Thread - #28/INFO]: [Not Secure] <CartolaQuadrado> TRIPLE KILL
+[16:54:40] [Server thread/WARN]: Patinhoskk moved too quickly! 7.296900000000051,-0.12127999999999872,-15.686500000000024
+[16:54:44] [Server thread/INFO]: Patinhoskk was shot by Skeleton
+[16:54:51] [Async Chat Thread - #28/INFO]: [Not Secure] <CartolaQuadrado> CARALHOU
+[16:55:04] [Async Chat Thread - #28/INFO]: [Not Secure] <Alencar73> tu matou o cara mn klkkkkkk
+[16:55:09] [Async Chat Thread - #28/INFO]: [Not Secure] <ShapelierC15> serio?????????
+[16:55:16] [Async Chat Thread - #28/INFO]: [Not Secure] <Toruma1> vacilão
+[16:55:21] [Async Chat Thread - #28/INFO]: [Not Secure] <MilesFlavio> MLK
+[16:55:22] [Async Chat Thread - #28/INFO]: [Not Secure] <Toruma1> kkkkk
+[16:55:26] [Async Chat Thread - #28/INFO]: [Not Secure] <Alencar73> ele caiu na frente de um afogado com tridente
+[16:55:39] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Patinhoskk has disconnected from the Java server because of Bedrock client timed out
+[16:55:39] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as Patinhoskk disconnected
+[16:55:39] [Server thread/INFO]: Patinhoskk lost connection: Disconnected
+[16:55:39] [Server thread/INFO]: Patinhoskk left the game
+[16:55:40] [Async Chat Thread - #28/INFO]: [Not Secure] <MilesFlavio> QUE PORRA É ESSA, CADÊ O GOLE DESSA VILA? PQP
+[16:55:52] [Async Chat Thread - #28/INFO]: [Not Secure] <CartolaQuadrado> Respeite o horario do Bruno
+[16:56:04] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Patinhoskk
+[16:56:04] [localSession-7-4/INFO]: [Geyser-Spigot] Patinhoskk (logged in as: Patinhoskk) has connected to the Java server
+[16:56:05] [Server thread/INFO]: [floodgate] Floodgate player logged in as Patinhoskk joined (UUID: 00000000-0000-0000-0009-01f1ae1b4cb8)
+[16:56:05] [Server thread/INFO]: Patinhoskk joined the game
+[16:56:05] [Server thread/INFO]: Patinhoskk[/206.43.29.125:0] logged in with entity id 78555 at ([world]-1282.3308, 70.12128, 299.826)
+[16:56:11] [Async Chat Thread - #28/INFO]: [Not Secure] <ShapelierC15> chega ai toruma
+[16:56:16] [Async Chat Thread - #28/INFO]: [Not Secure] <Toruma1> to indo
+[16:56:18] [Async Chat Thread - #28/INFO]: [Not Secure] <ShapelierC15> pensei que era outro cara
+[16:56:24] [Server thread/INFO]: MilesFlavio was slain by Zombie
+[16:57:31] [Async Chat Thread - #29/INFO]: [Not Secure] <ShapelierC15> desculpa
+[16:57:36] [Async Chat Thread - #30/INFO]: [Not Secure] <Toruma1> de boa kkkk
+[16:57:37] [Async Chat Thread - #30/INFO]: [Not Secure] <ShapelierC15> fica com esses dima ai
+[16:57:51] [Async Chat Thread - #30/INFO]: [Not Secure] <CartolaQuadrado> alguém pode dormir por favor?
+[16:58:03] [Async Chat Thread - #30/INFO]: [Not Secure] <CartolaQuadrado> é nessa hora que todo mundo fala não
+[16:58:39] [Async Chat Thread - #30/INFO]: [Not Secure] <CartolaQuadrado> OBRIGADO DEUS
+[16:59:00] [Async Chat Thread - #30/INFO]: [Not Secure] <MilesFlavio> fique com todas as crianças do desconhecido
+[16:59:26] [Async Chat Thread - #30/INFO]: [Not Secure] <MilesFlavio> cara, pq meu corretor traduziu coisas pra crianças
+[16:59:27] [Async Chat Thread - #30/INFO]: [Not Secure] <CartolaQuadrado> se algum dia o Nick entrar no server vou botar na casa dele "qui si foda era dentro"
+[17:00:18] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as Patinhoskk disconnected
+[17:00:18] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Patinhoskk has disconnected from the Java server because of Bedrock client disconnected
+[17:00:18] [Server thread/INFO]: Patinhoskk lost connection: Disconnected
+[17:00:18] [Server thread/INFO]: Patinhoskk left the game
+[17:01:42] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Patinhoskk
+[17:01:42] [localSession-7-1/INFO]: [Geyser-Spigot] Patinhoskk (logged in as: Patinhoskk) has connected to the Java server
+[17:01:42] [Server thread/INFO]: [floodgate] Floodgate player logged in as Patinhoskk joined (UUID: 00000000-0000-0000-0009-01f1ae1b4cb8)
+[17:01:42] [Server thread/INFO]: Patinhoskk joined the game
+[17:01:42] [Server thread/INFO]: Patinhoskk[/206.43.29.125:0] logged in with entity id 81942 at ([world]-1274.3904, 70.0, 309.42188)
+[17:02:07] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as MilesFlavio disconnected
+[17:02:07] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] MilesFlavio has disconnected from the Java server because of Bedrock client disconnected
+[17:02:07] [Server thread/INFO]: MilesFlavio lost connection: Disconnected
+[17:02:07] [Server thread/INFO]: MilesFlavio left the game
+[17:03:44] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username MilesFlavio
+[17:03:44] [localSession-7-2/INFO]: [Geyser-Spigot] MilesFlavio (logged in as: MilesFlavio) has connected to the Java server
+[17:03:45] [Server thread/INFO]: [floodgate] Floodgate player logged in as MilesFlavio joined (UUID: 00000000-0000-0000-0009-01fda9c6fd96)
+[17:03:45] [Server thread/INFO]: MilesFlavio joined the game
+[17:03:45] [Server thread/INFO]: MilesFlavio[/179.97.121.226:0] logged in with entity id 82693 at ([world]-1244.0319, 63.0, 178.71904)
+[17:04:21] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Patinhoskk has disconnected from the Java server because of Bedrock client disconnected
+[17:04:21] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as Patinhoskk disconnected
+[17:04:21] [Server thread/INFO]: Patinhoskk lost connection: Disconnected
+[17:04:21] [Server thread/INFO]: Patinhoskk left the game
+[17:06:15] [Async Chat Thread - #31/INFO]: [Not Secure] <CartolaQuadrado> o bau duplo fica o combustivel
+[17:06:26] [Async Chat Thread - #31/INFO]: [Not Secure] <CartolaQuadrado> o do carrinho fica o que você vai esquentar
+[17:06:55] [Server thread/INFO]: ShapelierC15 issued server command: /tell CartolaQuadrado tem uma comidinha ai n?
+[17:06:57] [Async Chat Thread - #32/INFO]: [Not Secure] <Alencar73> n dormem favor
+[17:07:05] [Server thread/INFO]: ShapelierC15 issued server command: /tell CartolaQuadrado deus lhe pague
+[17:07:10] [Async Chat Thread - #31/INFO]: [Not Secure] <CartolaQuadrado> denada
+[17:09:58] [Async Chat Thread - #33/INFO]: [Not Secure] <Alencar73> n dorme
+[17:10:00] [Async Chat Thread - #33/INFO]: [Not Secure] <Alencar73> n
+[17:10:03] [Async Chat Thread - #33/INFO]: [Not Secure] <Alencar73> PQPQPQPQPQPQ
+[17:10:05] [Async Chat Thread - #33/INFO]: [Not Secure] <CartolaQuadrado> KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+[17:11:50] [Server thread/INFO]: MilesFlavio was slain by Bruno
+[17:12:01] [Async Chat Thread - #35/INFO]: [Not Secure] <CartolaQuadrado> boa bruno
+[17:18:09] [Paper I/O Worker #0/ERROR]: [ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO] Failed to write chunk data for task: Task for world: 'world_the_end' at (5,-27) type: CHUNK_DATA, hash: 982236859
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.Uni[17:18:28] [Server thread/ERROR]: Failed to save level ./world_nether
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105) ~[?:?]
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125) ~[?:?]
+	at java.base/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:252) ~[?:?]
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240) ~[?:?]
+	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:184) ~[?:?]
+	at java.base/java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:272) ~[?:?]
+	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:193) ~[?:?]
+	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:193) ~[?:?]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:87) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:80) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:526) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:518) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1336) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1549) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+	Suppressed: java.io.IOException: No space left on device
+		at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method) ~[?:?]
+		at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65) ~[?:?]
+		at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+		at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+		at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+		at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300) ~[?:?]
+		at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68) ~[?:?]
+		at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:252) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240) ~[?:?]
+		at java.base/java.util.zip.DeflaterOutputStream.flush(DeflaterOutputStream.java:320) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:253) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240) ~[?:?]
+		at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:184) ~[?:?]
+		at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:193) ~[?:?]
+		at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:87) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:80) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:526) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:518) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1336) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1549) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+	Suppressed: java.io.IOException: No space left on device
+		at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method) ~[?:?]
+		at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65) ~[?:?]
+		at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+		at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+		at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+		at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300) ~[?:?]
+		at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68) ~[?:?]
+		at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:252) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240) ~[?:?]
+		at java.base/java.util.zip.DeflaterOutputStream.flush(DeflaterOutputStream.java:320) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:253) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240) ~[?:?]
+		at java.base/java.io.DataOutputStream.flush(DataOutputStream.java:131) ~[?:?]
+		at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:184) ~[?:?]
+		at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:87) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:80) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:526) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:518) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1336) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1549) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:18:28] [Dimension-Data-IO-Worker-1/ERROR]: Could not save data to raids_end.dat
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105) ~[?:?]
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125) ~[?:?]
+	at java.base/java.i[17:23:45] [Server thread/WARN]: Failed to save player data for MilesFlavio
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105) ~[?:?]
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125) ~[?:?]
+	at java.base/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:252) ~[?:?]
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240) ~[?:?]
+	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:184) ~[?:?]
+	at java.base/java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:272) ~[?:?]
+	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:193) ~[?:?]
+	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:193) ~[?:?]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:87) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:80) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:39) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.save(PlayerList.java:490) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.lambda$saveAll$6(PlayerList.java:1083) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:132) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1077) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1545) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+	Suppressed: java.io.IOException: No space left on device
+		at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method) ~[?:?]
+		at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65) ~[?:?]
+		at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+		at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+		at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+		at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300) ~[?:?]
+		at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68) ~[?:?]
+		at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:252) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240) ~[?:?]
+		at java.base/java.util.zip.DeflaterOutputStream.flush(DeflaterOutputStream.java:320) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:253) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240) ~[?:?]
+		at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:184) ~[?:?]
+		at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:193) ~[?:?]
+		at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:87) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at net.minecraft.nbt.NbtIo.writeCompressed(Nbt[18:03:28] [Server thread/ERROR]: Failed to save level ./world
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105) ~[?:?]
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125) ~[?:?]
+	at java.base/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:252) ~[?:?]
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240) ~[?:?]
+	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:184) ~[?:?]
+	at java.base/java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:272) ~[?:?]
+	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:193) ~[?:?]
+	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:193) ~[?:?]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:87) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:80) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:526) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:518) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1336) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1549) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+	Suppressed: java.io.IOException: No space left on device
+		at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method) ~[?:?]
+		at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65) ~[?:?]
+		at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+		at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+		at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+		at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300) ~[?:?]
+		at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68) ~[?:?]
+		at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:252) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240) ~[?:?]
+		at java.base/java.util.zip.DeflaterOutputStream.flush(DeflaterOutputStream.java:320) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:253) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240) ~[?:?]
+		at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:184) ~[?:?]
+		at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:193) ~[?:?]
+		at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:87) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:80) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:526) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:518) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1336) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1549) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+	Suppressed: java.io.IOException: No space left on device
+		at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method) ~[?:?]
+		at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65) ~[?:?]
+		at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+		at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+		at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+		at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300) ~[?:?]
+		at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68) ~[?:?]
+		at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:252) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240) ~[?:?]
+		at java.base/java.util.zip.DeflaterOutputStream.flush(DeflaterOutputStream.java:320) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:253) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240) ~[?:?]
+		at java.base/java.io.DataOutputStream.flush(DataOutputStream.java:131) ~[?:?]
+		at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:184) ~[?:?]
+		at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:87) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:80) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:526) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:518) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1336) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1549) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+		at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[18:03:28] [Dimension-Data-IO-Worker-4/ERROR]: Could not save data to raids.dat
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105) ~[?:?]
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125) ~[?:?]
+	at java.base/java.io.BufferedO[18:03:53] [Async Chat Thread - #45/INFO]: [Not Secure] <Alencar73> a farmde ferro ja ta zuada
+[18:04:19] [spark-async-sampler-worker-thread/WARN]: [spark] Exception occurred while rotating profiler job
+me.lucko.spark.paper.common.sampler.async.JfrParsingException: Error parsing JFR data from profiler output - file plugins/spark/tmp-client/spark-5d1c6db58ed4-profile-data.jfr.tmp does not exist!
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:223) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncSampler.rotateProfilerJob(AsyncSampler.java:160) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.io.IOException: Not a valid JFR file
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.readChunk(JfrReader.java:263) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.<init>(JfrReader.java:87) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:210) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	... 7 more
+[18:04:25] [Async Chat Thread - #45/INFO]: [Not Secure] <Alencar73> o villager ve q o zumbi n pega eles dai n spawna iron golem
+[18:04:27] [Server thread/WARN]: Failed to save player data for Toruma1
+java.nio.file.FileSystemException: ./world/playerdata/46f7d4de-643b-3589-a56c-43a902aa5053-17812762828909480280.dat: No space left on device
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.base/java.nio.file.Files.createFile(Files.java:658) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159) ~[?:?]
+	at java.base/java.nio.file.Files.createTempFile(Files.java:879) ~[?:?]
+	at net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:38) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.save(PlayerList.java:490) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.lambda$saveAll$6(PlayerList.java:1083) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:132) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1077) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1545) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[18:05:08] [Async Chat Thread - #45/INFO]: [Not Secure] <Alencar73> tenho q fazer um sistema q o zumbi fica aparevendo e sumindo na frente deles
+[18:05:19] [spark-async-sampler-worker-thread/WARN]: [spark] Exception occurred while rotating profiler job
+me.lucko.s[18:27:19] [spark-async-sampler-worker-thread/WARN]: [spark] Exception occurred while rotating profiler job
+me.lucko.spark.paper.common.sampler.async.JfrParsingException: Error parsing JFR data from profiler output
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:221) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncSampler.rotateProfilerJob(AsyncSampler.java:160) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.io.IOException: Not a valid JFR file
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.readChunk(JfrReader.java:263) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.<init>(JfrReader.java:87) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:210) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	... 7 more
+[18:28:19] [spark-async-sampler-worker-thread/WARN]: [spark] Exception occurred while rotating profiler job
+me.lucko.spark.paper.common.sampler.async.JfrParsingException: Error parsing JFR data from profiler output
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:221) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncSampler.rotateProfilerJob(AsyncSampler.java:160) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.nio.BufferUnderflowException
+	at java.base/java.nio.Buffer.nextGetIndex(Buffer.java:713) ~[?:?]
+	at java.base/java.nio.DirectByteBuffer.get(DirectByteBuffer.java:334) ~[?:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.getVarint(JfrReader.java:578) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.readConstantPool(JfrReader.java:365) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.readChunk(JfrReader.java:298) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.<init>(JfrReader.java:87) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:210) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	... 7 more
+[18:28:28] [Dimension-Data-IO-Worker-2/ERROR]: Could not save data to raids.dat
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.w[18:37:19] [spark-async-sampler-worker-thread/WARN]: [spark] Exception occurred while rotating profiler job
+me.lucko.spark.paper.common.sampler.async.JfrParsingException: Error parsing JFR data from profiler output
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:221) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncSampler.rotateProfilerJob(AsyncSampler.java:160) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.io.IOException: Not a valid JFR file
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.readChunk(JfrReader.java:263) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.<init>(JfrReader.java:87) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:210) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	... 7 more
+[18:38:19] [spark-async-sampler-worker-thread/WARN]: [spark] Exception occurred while rotating profiler job
+me.lucko.spark.paper.common.sampler.async.JfrParsingException: Error parsing JFR data from profiler output
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:221) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncSampler.rotateProfilerJob(AsyncSampler.java:160) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.nio.BufferUnderflowException
+	at java.base/java.nio.Buffer.nextGetIndex(Buffer.java:713) ~[?:?]
+	at java.base/java.nio.DirectByteBuffer.get(DirectByteBuffer.java:334) ~[?:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.getVarint(JfrReader.java:578) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.readConstantPool(JfrReader.java:365) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.readChunk(JfrReader.java:298) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.<init>(JfrReader.java:87) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:210) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	... 7 more
+[18:38:28] [Dimension-Data-IO-Worker-2/ERROR]: Could not save data to random_sequences.dat
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileCh[18:57:19] [spark-async-sampler-worker-thread/WARN]: [spark] Failed to stop previous profiler job
+java.lang.IllegalStateException: Profiler job no longer active!
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.checkActive(AsyncProfilerJob.java:117) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.stop(AsyncProfilerJob.java:192) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncSampler.rotateProfilerJob(AsyncSampler.java:139) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[18:57:19] [spark-async-sampler-worker-thread/WARN]: [spark] Exception occurred while rotating profiler job
+me.lucko.spark.paper.common.sampler.async.JfrParsingException: Error parsing JFR data from profiler output - file plugins/spark/tmp-client/spark-5f1357895315-profile-data.jfr.tmp does not exist!
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:223) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncSampler.rotateProfilerJob(AsyncSampler.java:160) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.io.IOException: Not a valid JFR file
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.readChunk(JfrReader.java:263) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.<init>(JfrReader.java:87) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:210) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	... 7 more
+[18:57:41] [Paper I/O Worker #0/ERROR]: [ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO] Failed to write chunk data for task: Task for world: 'world' at (220,7) type: CHUNK_DATA, hash: 1286072586
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.pwrite(UnixFileDispatcherImpl.java:71) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1026) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1010) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFile.write(RegionFile.java:809) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.moonrise$write(RegionFile.java:908) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.world.level.chunk.storage.RegionFileStorage.moonrise$finishWrite(RegionFileStorage.java:189) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_syste[19:06:16] [Paper I/O Worker #0/ERROR]: [ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO] Failed to write chunk data for task: Task for world: 'world' at (195,-49) type: CHUNK_DATA, hash: 288700678
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.pwrite(UnixFileDispatcherImpl.java:71) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1026) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1010) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFile.write(RegionFile.java:809) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.moonrise$write(RegionFile.java:908) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.world.level.chunk.storage.RegionFileStorage.moonrise$finishWrite(RegionFileStorage.java:189) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.datacontroller.ChunkDataController.finishWrite(ChunkDataController.java:38) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO$ChunkIOTask.runWriteIO(MoonriseRegionFileIO.java:1260) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO$ChunkIOTask.lambda$scheduleWriteIO$4(MoonriseRegionFileIO.java:1246) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO$RegionIOTasks.run(MoonriseRegionFileIO.java:1557) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue$PrioritisedQueuedTask.execute(PrioritisedTaskQueue.java:281) ~[concurrentutil-0.0.3.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue.executeTask(PrioritisedTaskQueue.java:101) ~[concurrentutil-0.0.3.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.PrioritisedThreadPool$ExecutorGroup$ThreadPoolExecutor.executeTask(PrioritisedThreadPool.java:533) ~[concurrentutil-0.0.3.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.PrioritisedThreadPool$PrioritisedThread.pollTasks(PrioritisedThreadPool.java:354) ~[concurrentutil-0.0.3.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.PrioritisedQueueExecutorThread.doRun(PrioritisedQueueExecutorThread.java:60) ~[concurrentutil-0.0.3.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.PrioritisedQueueExecutorThread.run(PrioritisedQueueExecutorThread.java:49) ~[concurrentutil-0.0.3.jar:?]
+[19:06:16] [Server thread/ERROR]: Couldn't save player advancements to ./world/advancements/ac9cb4f9-a1f9-3677-8684-8043bfbff71b.json
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105) ~[?:?]
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:309) ~[?:?]
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:381) ~[?:?]
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:357) ~[?:?]
+	at java.base/sun.nio.cs.StreamEncoder.lockedWrite(StreamEncoder.java:158) ~[?:?]
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:139) ~[?:?]
+	at java.base/java.io.OutputStreamWriter[19:07:19] [spark-async-sampler-worker-thread/WARN]: [spark] Exception occurred while rotating profiler job
+me.lucko.spark.paper.common.sampler.async.JfrParsingException: Error parsing JFR data from profiler output
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:221) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncSampler.rotateProfilerJob(AsyncSampler.java:160) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.io.IOException: Not a valid JFR file
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.readChunk(JfrReader.java:263) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.<init>(JfrReader.java:87) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:210) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	... 7 more
+[19:07:44] [Paper I/O Worker #0/ERROR]: [ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO] Failed to write chunk data for task: Task for world: 'world' at (192,31) type: CHUNK_DATA, hash: 1250891936
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.pwrite(UnixFileDispatcherImpl.java:71) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1026) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1010) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFile.write(RegionFile.java:809) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.moonrise$write(RegionFile.java:908) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.world.level.chunk.storage.RegionFileStorage.moonrise$finishWrite(RegionFileStorage.java:189) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.datacontroller.ChunkDataController.finishWrite(ChunkDataController.java:38) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO$ChunkIOTask.runWriteIO(MoonriseRegionFileIO.java:1260) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO$ChunkIOTask.lambda$scheduleWriteIO$4(MoonriseRegionFileIO.java:1246) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO$RegionIOTasks.run(MoonriseRegionFileIO.java:1557) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue$PrioritisedQueuedTask.execute(PrioritisedTaskQueue.java:281) ~[concurrentutil-0.0.3.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue.executeTask(PrioritisedTaskQueue.java:101) ~[concurrentutil-0.0.3.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.PrioritisedThreadPool$ExecutorGroup$ThreadPoolExecutor.executeTask(PrioritisedThreadPool.java:533) ~[concurrentutil-0.0.3.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.PrioritisedThreadPool$PrioritisedThread.pollTasks(PrioritisedThreadPool.java:354) ~[concurrentutil-0.0.3[19:27:19] [spark-async-sampler-worker-thread/WARN]: [spark] Exception occurred while rotating profiler job
+me.lucko.spark.paper.common.sampler.async.JfrParsingException: Error parsing JFR data from profiler output
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:221) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncSampler.rotateProfilerJob(AsyncSampler.java:160) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.io.IOException: Not a valid JFR file
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.readChunk(JfrReader.java:263) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.<init>(JfrReader.java:87) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:210) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	... 7 more
+[19:28:19] [spark-async-sampler-worker-thread/WARN]: [spark] Exception occurred while rotating profiler job
+me.lucko.spark.paper.common.sampler.async.JfrParsingException: Error parsing JFR data from profiler output
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:221) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncSampler.rotateProfilerJob(AsyncSampler.java:160) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.nio.BufferUnderflowException
+	at java.base/java.nio.Buffer.nextGetIndex(Buffer.java:713) ~[?:?]
+	at java.base/java.nio.DirectByteBuffer.get(DirectByteBuffer.java:334) ~[?:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.getVarint(JfrReader.java:578) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.readConstantPool(JfrReader.java:365) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.readChunk(JfrReader.java:298) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.<init>(JfrReader.java:87) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:210) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	... 7 more
+[19:28:28] [Dimension-Data-IO-Worker-3/ERROR]: Could not save data to random_sequences.dat
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileCh[19:37:19] [spark-async-sampler-worker-thread/WARN]: [spark] Exception occurred while rotating profiler job
+me.lucko.spark.paper.common.sampler.async.JfrParsingException: Error parsing JFR data from profiler output
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:221) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncSampler.rotateProfilerJob(AsyncSampler.java:160) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.io.IOException: Not a valid JFR file
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.readChunk(JfrReader.java:263) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.<init>(JfrReader.java:87) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:210) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	... 7 more
+[19:38:19] [spark-async-sampler-worker-thread/WARN]: [spark] Exception occurred while rotating profiler job
+me.lucko.spark.paper.common.sampler.async.JfrParsingException: Error parsing JFR data from profiler output
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:221) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncSampler.rotateProfilerJob(AsyncSampler.java:160) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.nio.BufferUnderflowException
+	at java.base/java.nio.Buffer.nextGetIndex(Buffer.java:713) ~[?:?]
+	at java.base/java.nio.DirectByteBuffer.get(DirectByteBuffer.java:334) ~[?:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.getVarint(JfrReader.java:578) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.readConstantPool(JfrReader.java:365) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.readChunk(JfrReader.java:298) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.<init>(JfrReader.java:87) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:210) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	... 7 more
+[19:38:28] [Dimension-Data-IO-Worker-1/ERROR]: Could not save data to chunks.dat
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.[19:47:19] [spark-async-sampler-worker-thread/WARN]: [spark] Exception occurred while rotating profiler job
+me.lucko.spark.paper.common.sampler.async.JfrParsingException: Error parsing JFR data from profiler output
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:221) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncSampler.rotateProfilerJob(AsyncSampler.java:160) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.io.IOException: Not a valid JFR file
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.readChunk(JfrReader.java:263) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.<init>(JfrReader.java:87) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:210) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	... 7 more
+[19:47:30] [Paper I/O Worker #0/ERROR]: [ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO] Failed to write chunk data for task: Task for world: 'world' at (192,-34) type: CHUNK_DATA, hash: 1596524818
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.pwrite(UnixFileDispatcherImpl.java:71) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1026) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1010) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFile.write(RegionFile.java:809) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.moonrise$write(RegionFile.java:908) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.world.level.chunk.storage.RegionFileStorage.moonrise$finishWrite(RegionFileStorage.java:189) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.datacontroller.ChunkDataController.finishWrite(ChunkDataController.java:38) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO$ChunkIOTask.runWriteIO(MoonriseRegionFileIO.java:1260) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO$ChunkIOTask.lambda$scheduleWriteIO$4(MoonriseRegionFileIO.java:1246) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO$RegionIOTasks.run(MoonriseRegionFileIO.java:1557) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue$PrioritisedQueuedTask.execute(PrioritisedTaskQueue.java:281) ~[concurrentutil-0.0.3.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue.executeTask(PrioritisedTaskQueue.java:101) ~[concurrentutil-0.0.3.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.PrioritisedThreadPool$ExecutorGroup$ThreadPoolExecutor.executeTask(PrioritisedThreadPool.java:533) ~[concurrentutil-0.0.3.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.PrioritisedThreadPool$PrioritisedThread.pollTasks(PrioritisedThreadPool.java:354) ~[concurrentutil-0.0.[20:27:19] [spark-async-sampler-worker-thread/WARN]: [spark] Failed to stop previous profiler job
+java.lang.IllegalStateException: Profiler job no longer active!
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.checkActive(AsyncProfilerJob.java:117) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.stop(AsyncProfilerJob.java:192) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncSampler.rotateProfilerJob(AsyncSampler.java:139) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:27:19] [spark-async-sampler-worker-thread/WARN]: [spark] Exception occurred while rotating profiler job
+me.lucko.spark.paper.common.sampler.async.JfrParsingException: Error parsing JFR data from profiler output - file plugins/spark/tmp-client/spark-64ce2c34b1b6-profile-data.jfr.tmp does not exist!
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:223) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncSampler.rotateProfilerJob(AsyncSampler.java:160) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.io.IOException: Not a valid JFR file
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.readChunk(JfrReader.java:263) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.<init>(JfrReader.java:87) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:210) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	... 7 more
+[20:28:19] [spark-async-sampler-worker-thread/WARN]: [spark] Exception occurred while rotating profiler job
+me.lucko.spark.paper.common.sampler.async.JfrParsingException: Error parsing JFR data from profiler output
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:221) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncSampler.rotateProfilerJob(AsyncSampler.java:160) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.nio.BufferUnderflowException
+	at java.base/java.nio.Buffer.nextGetIndex(Buffer.java:713) ~[?:?]
+	at java.base/java.nio.DirectByteBuffer.get(DirectByteBuffer.java:3[20:37:19] [spark-async-sampler-worker-thread/WARN]: [spark] Exception occurred while rotating profiler job
+me.lucko.spark.paper.common.sampler.async.JfrParsingException: Error parsing JFR data from profiler output
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:221) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncSampler.rotateProfilerJob(AsyncSampler.java:160) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.io.IOException: Not a valid JFR file
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.readChunk(JfrReader.java:263) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.<init>(JfrReader.java:87) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:210) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	... 7 more
+[20:37:23] [Paper I/O Worker #0/ERROR]: [ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO] Failed to write chunk data for task: Task for world: 'world_nether' at (8,-21) type: CHUNK_DATA, hash: 1130755389
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.pwrite(UnixFileDispatcherImpl.java:71) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1026) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1010) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFile.write(RegionFile.java:809) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.moonrise$write(RegionFile.java:908) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.world.level.chunk.storage.RegionFileStorage.moonrise$finishWrite(RegionFileStorage.java:189) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.datacontroller.ChunkDataController.finishWrite(ChunkDataController.java:38) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO$ChunkIOTask.runWriteIO(MoonriseRegionFileIO.java:1260) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO$ChunkIOTask.lambda$scheduleWriteIO$4(MoonriseRegionFileIO.java:1246) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO$RegionIOTasks.run(MoonriseRegionFileIO.java:1557) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue$PrioritisedQueuedTask.execute(PrioritisedTaskQueue.java:281) ~[concurrentutil-0.0.3.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue.executeTask(PrioritisedTaskQueue.java:101) ~[concurrentutil-0.0.3.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.PrioritisedThreadPool$ExecutorGroup$ThreadPoolExecutor.executeTask(PrioritisedThreadPool.java:533) ~[concurrentutil-0.0.3.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.PrioritisedThreadPool$PrioritisedThread.pollTasks(PrioritisedThreadPool.java:354) ~[concurrentutil[20:47:19] [spark-async-sampler-worker-thread/WARN]: [spark] Exception occurred while rotating profiler job
+me.lucko.spark.paper.common.sampler.async.JfrParsingException: Error parsing JFR data from profiler output
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:221) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncSampler.rotateProfilerJob(AsyncSampler.java:160) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.io.IOException: Not a valid JFR file
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.readChunk(JfrReader.java:263) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.<init>(JfrReader.java:87) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:210) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	... 7 more
+[20:47:35] [Paper I/O Worker #0/ERROR]: [ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO] Failed to write chunk data for task: Task for world: 'world_nether' at (20,-1) type: CHUNK_DATA, hash: 1770358791
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.pwrite(UnixFileDispatcherImpl.java:71) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1026) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1010) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFile.write(RegionFile.java:809) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.moonrise$write(RegionFile.java:908) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.world.level.chunk.storage.RegionFileStorage.moonrise$finishWrite(RegionFileStorage.java:189) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.datacontroller.ChunkDataController.finishWrite(ChunkDataController.java:38) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO$ChunkIOTask.runWriteIO(MoonriseRegionFileIO.java:1260) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO$ChunkIOTask.lambda$scheduleWriteIO$4(MoonriseRegionFileIO.java:1246) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO$RegionIOTasks.run(MoonriseRegionFileIO.java:1557) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue$PrioritisedQueuedTask.execute(PrioritisedTaskQueue.java:281) ~[concurrentutil-0.0.3.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue.executeTask(PrioritisedTaskQueue.java:101) ~[concurrentutil-0.0.3.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.PrioritisedThreadPool$ExecutorGroup$ThreadPoolExecutor.executeTask(PrioritisedThreadPool.java:533) ~[concurrentutil-0.0.3.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.PrioritisedThreadPool$PrioritisedThread.pollTasks(PrioritisedThreadPool.java:354) ~[concurrentutil[20:57:19] [spark-async-sampler-worker-thread/WARN]: [spark] Exception occurred while rotating profiler job
+me.lucko.spark.paper.common.sampler.async.JfrParsingException: Error parsing JFR data from profiler output
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:221) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncSampler.rotateProfilerJob(AsyncSampler.java:160) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.io.IOException: Not a valid JFR file
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.readChunk(JfrReader.java:263) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.<init>(JfrReader.java:87) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:210) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	... 7 more
+[20:57:27] [Paper I/O Worker #0/ERROR]: [ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO] Failed to write chunk data for task: Task for world: 'world_nether' at (49,-28) type: CHUNK_DATA, hash: 2105998149
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.pwrite(UnixFileDispatcherImpl.java:71) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1026) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1010) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFile.write(RegionFile.java:809) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.moonrise$write(RegionFile.java:908) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.world.level.chunk.storage.RegionFileStorage.moonrise$finishWrite(RegionFileStorage.java:189) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.datacontroller.ChunkDataController.finishWrite(ChunkDataController.java:38) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO$ChunkIOTask.runWriteIO(MoonriseRegionFileIO.java:1260) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO$ChunkIOTask.lambda$scheduleWriteIO$4(MoonriseRegionFileIO.java:1246) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO$RegionIOTasks.run(MoonriseRegionFileIO.java:1557) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue$PrioritisedQueuedTask.execute(PrioritisedTaskQueue.java:281) ~[concurrentutil-0.0.3.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue.executeTask(PrioritisedTaskQueue.java:101) ~[concurrentutil-0.0.3.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.PrioritisedThreadPool$ExecutorGroup$ThreadPoolExecutor.executeTask(PrioritisedThreadPool.java:533) ~[concurrentutil-0.0.3.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.PrioritisedThreadPool$PrioritisedThread.pollTasks(PrioritisedThreadPool.java:354) ~[concurrentuti[21:07:19] [spark-async-sampler-worker-thread/WARN]: [spark] Exception occurred while rotating profiler job
+me.lucko.spark.paper.common.sampler.async.JfrParsingException: Error parsing JFR data from profiler output
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:221) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncSampler.rotateProfilerJob(AsyncSampler.java:160) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.io.IOException: Not a valid JFR file
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.readChunk(JfrReader.java:263) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.<init>(JfrReader.java:87) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:210) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	... 7 more
+[21:07:35] [Paper I/O Worker #0/ERROR]: [ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO] Failed to write chunk data for task: Task for world: 'world_nether' at (20,-1) type: CHUNK_DATA, hash: 1672760549
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.pwrite(UnixFileDispatcherImpl.java:71) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1026) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1010) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFile.write(RegionFile.java:809) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.moonrise$write(RegionFile.java:908) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.world.level.chunk.storage.RegionFileStorage.moonrise$finishWrite(RegionFileStorage.java:189) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.datacontroller.ChunkDataController.finishWrite(ChunkDataController.java:38) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO$ChunkIOTask.runWriteIO(MoonriseRegionFileIO.java:1260) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO$ChunkIOTask.lambda$scheduleWriteIO$4(MoonriseRegionFileIO.java:1246) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO$RegionIOTasks.run(MoonriseRegionFileIO.java:1557) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue$PrioritisedQueuedTask.execute(PrioritisedTaskQueue.java:281) ~[concurrentutil-0.0.3.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue.executeTask(PrioritisedTaskQueue.java:101) ~[concurrentutil-0.0.3.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.PrioritisedThreadPool$ExecutorGroup$ThreadPoolExecutor.executeTask(PrioritisedThreadPool.java:533) ~[concurrentutil-0.0.3.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.PrioritisedThreadPool$PrioritisedThread.pollTasks(PrioritisedThreadPool.java:354) ~[concurrentutil[21:27:19] [spark-async-sampler-worker-thread/WARN]: [spark] Exception occurred while rotating profiler job
+me.lucko.spark.paper.common.sampler.async.JfrParsingException: Error parsing JFR data from profiler output
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:221) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncSampler.rotateProfilerJob(AsyncSampler.java:160) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.io.IOException: Not a valid JFR file
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.readChunk(JfrReader.java:263) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.<init>(JfrReader.java:87) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:210) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	... 7 more
+[21:27:25] [Paper I/O Worker #0/ERROR]: [ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO] Failed to write chunk data for task: Task for world: 'world_nether' at (25,-11) type: CHUNK_DATA, hash: 1815506042
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.pwrite(UnixFileDispatcherImpl.java:71) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1026) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1010) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFile.write(RegionFile.java:809) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.moonrise$write(RegionFile.java:908) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.world.level.chunk.storage.RegionFileStorage.moonrise$finishWrite(RegionFileStorage.java:189) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.datacontroller.ChunkDataController.finishWrite(ChunkDataController.java:38) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO$ChunkIOTask.runWriteIO(MoonriseRegionFileIO.java:1260) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO$ChunkIOTask.lambda$scheduleWriteIO$4(MoonriseRegionFileIO.java:1246) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO$RegionIOTasks.run(MoonriseRegionFileIO.java:1557) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue$PrioritisedQueuedTask.execute(PrioritisedTaskQueue.java:281) ~[concurrentutil-0.0.3.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue.executeTask(PrioritisedTaskQueue.java:101) ~[concurrentutil-0.0.3.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.PrioritisedThreadPool$ExecutorGroup$ThreadPoolExecutor.executeTask(PrioritisedThreadPool.java:533) ~[concurrentutil-0.0.3.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.PrioritisedThreadPool$PrioritisedThread.pollTasks(PrioritisedThreadPool.java:354) ~[concurrentuti[21:41:58] [Server thread/WARN]: Failed to save player data for ShapelierC15
+java.nio.file.FileSystemException: ./world/playerdata/95eebe6f-dfa4-33e4-ab20-cd7b96b3b8a4-6120948096744990825.dat: No space left on device
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.base/java.nio.file.Files.createFile(Files.java:658) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159) ~[?:?]
+	at java.base/java.nio.file.Files.createTempFile(Files.java:879) ~[?:?]
+	at net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:38) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.save(PlayerList.java:490) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:540) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:504) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.removePlayerFromWorld(ServerGamePacketListenerImpl.java:2164) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2143) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2129) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.network.Connection.handleDisconnection(Connection.java:866) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:270) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickConnection(MinecraftServer.java:1760) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:385) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1736) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1527) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[21:41:58] [Server thread/ERROR]: Couldn't save player advancements to ./world/advancements/95eebe6f-dfa4-33e4-ab20-cd7b96b3b8a4.json
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105) ~[?:?]
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:309) ~[?:?]
+	at java.base/sun.nio.cs.StreamEncoder.implClose(StreamEncoder.java:432) ~[?:?]
+	at java.base/sun.nio.cs.StreamEncoder.lockedClose(StreamEncoder.java:237) ~[?:?]
+	at java.base/sun.nio.cs.StreamEncoder.close(StreamEncoder.java:222) ~[?:?]
+	at java.base/java.io.OutputStre[21:44:57] [Server thread/WARN]: Failed to save player data for ShapelierC15
+java.nio.file.FileSystemException: ./world/playerdata/95eebe6f-dfa4-33e4-ab20-cd7b96b3b8a4-15440552581575552595.dat: No space left on device
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.base/java.nio.file.Files.createFile(Files.java:658) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159) ~[?:?]
+	at java.base/java.nio.file.Files.createTempFile(Files.java:879) ~[?:?]
+	at net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:38) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.save(PlayerList.java:490) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:540) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:504) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.removePlayerFromWorld(ServerGamePacketListenerImpl.java:2164) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2143) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2129) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.network.Connection.handleDisconnection(Connection.java:866) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:270) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickConnection(MinecraftServer.java:1760) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:385) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1736) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1527) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[21:44:57] [Server thread/ERROR]: Couldn't save stats
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105) ~[?:?]
+	at java.base/java.nio.channels.Channels$WritableByteChannelImpl.write(Channels.java:392) ~[?:?]
+	at org.apache.commons.io.IOUtils.write(IOUtils.java:3619) ~[commons-io-2.17.0.jar:2.17.0]
+	at org.apache.commons.io.FileUtils.writeStringToFile(FileUtils.java:3480) ~[commons-io-2.17.0.jar:2.17.0]
+	at org.apache.commons.io.FileUtils.writeStringToFile(FileUtils.java:3432) ~[commons-io-2.17.0.jar:2.17.0]
+	at net.minecraft.stats.Serv[21:52:24] [Server thread/WARN]: Failed to save player data for miauzinto
+java.nio.file.FileSystemException: ./world/playerdata/7beeffc0-74d6-3ca7-b0d2-83dda4b42169-11656229874955770572.dat: No space left on device
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.base/java.nio.file.Files.createFile(Files.java:658) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159) ~[?:?]
+	at java.base/java.nio.file.Files.createTempFile(Files.java:879) ~[?:?]
+	at net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:38) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.save(PlayerList.java:490) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:540) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:504) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.removePlayerFromWorld(ServerGamePacketListenerImpl.java:2164) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2143) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2129) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.network.Connection.handleDisconnection(Connection.java:866) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:270) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickConnection(MinecraftServer.java:1760) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:385) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1736) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1527) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[21:52:24] [Server thread/ERROR]: Couldn't save stats
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105) ~[?:?]
+	at java.base/java.nio.channels.Channels$WritableByteChannelImpl.write(Channels.java:392) ~[?:?]
+	at org.apache.commons.io.IOUtils.write(IOUtils.java:3619) ~[commons-io-2.17.0.jar:2.17.0]
+	at org.apache.commons.io.FileUtils.writeStringToFile(FileUtils.java:3480) ~[commons-io-2.17.0.jar:2.17.0]
+	at org.apache.commons.io.FileUtils.writeStringToFile(FileUtils.java:3432) ~[commons-io-2.17.0.jar:2.17.0]
+	at net.minecraft.stats.ServerS[22:07:23] [Server thread/INFO]: miauzinto left the game
+[22:07:25] [User Authenticator #23/INFO]: UUID of player miauzinto is 7beeffc0-74d6-3ca7-b0d2-83dda4b42169
+[22:07:25] [Server thread/ERROR]: Unable to parse Stat data from ./world/stats/7beeffc0-74d6-3ca7-b0d2-83dda4b42169.json
+[22:07:25] [Server thread/INFO]: miauzinto joined the game
+[22:07:25] [Server thread/INFO]: miauzinto[/186.223.169.147:1555] logged in with entity id 192741 at ([world]-1644.3733166969394, 70.5625, 964.6999999880791)
+[22:07:26] [Async Chat Thread - #81/INFO]: [Not Secure] <ShapelierC15> BOA
+[22:07:29] [Async Chat Thread - #81/INFO]: [Not Secure] <CartolaQuadrado> otimo
+[22:07:30] [Server thread/INFO]: ShapelierC15 lost connection: Disconnected
+[22:07:30] [Server thread/WARN]: Failed to save player data for ShapelierC15
+java.nio.file.FileSystemException: ./world/playerdata/95eebe6f-dfa4-33e4-ab20-cd7b96b3b8a4-8320974653065289140.dat: No space left on device
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.base/java.nio.file.Files.createFile(Files.java:658) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159) ~[?:?]
+	at java.base/java.nio.file.Files.createTempFile(Files.java:879) ~[?:?]
+	at net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:38) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.save(PlayerList.java:490) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:540) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:504) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.removePlayerFromWorld(ServerGamePacketListenerImpl.java:2164) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2143) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2129) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.network.Connection.handleDisconnection(Connection.java:866) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:270) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickConnection(MinecraftServer.java:1760) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:385) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1736) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1527) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[22:07:30] [Server thread/ERROR]: Couldn't save stats
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.n[22:31:50] [Async Chat Thread - #89/INFO]: [Not Secure] <ShapelierC15> guarda em bau a armadur
+[22:31:51] [Async Chat Thread - #89/INFO]: [Not Secure] <CartolaQuadrado> tem no baú do desconhecido
+[22:31:57] [Async Chat Thread - #89/INFO]: [Not Secure] <ShapelierC15> se nao vai sumir dnv
+[22:32:11] [Server thread/WARN]: Failed to save player data for miauzinto
+java.nio.file.FileSystemException: ./world/playerdata/7beeffc0-74d6-3ca7-b0d2-83dda4b42169-2061429818169393599.dat: No space left on device
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.base/java.nio.file.Files.createFile(Files.java:658) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159) ~[?:?]
+	at java.base/java.nio.file.Files.createTempFile(Files.java:879) ~[?:?]
+	at net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:38) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.save(PlayerList.java:490) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.lambda$saveAll$6(PlayerList.java:1083) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:132) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1077) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1545) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[22:32:11] [Server thread/ERROR]: Couldn't save stats
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105) ~[?:?]
+	at java.base/java.nio.channels.Channels$WritableByteChannelImpl.write(Channels.java:392) ~[?:?]
+	at org.apache.commons.io.IOUtils.write(IOUtils.java:3619) ~[commons-io-2.17.0.jar:2.17.0]
+	at org.apache.commons.io.FileUtils.writeStringToFile(FileUtils.java:3480) ~[commons-io-2.17.0.jar:2.17.0]
+	at org.apache.commons.io.FileUtils.writeStringToFile(FileUtils.java:3432) ~[commons-io-2.17.0.jar:2.17.0]
+	at net.minecraft.stats.ServerStatsCounter.save(ServerStatsCounter.java:89) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.save(PlayerList.java:493) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.lambda$saveAll$6(PlayerList.java:1083) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:132) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1077) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1545) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.runServer[23:14:52] [Server thread/WARN]: Failed to save player data for CartolaQuadrado
+java.nio.file.FileSystemException: ./world/playerdata/ac9cb4f9-a1f9-3677-8684-8043bfbff71b-14935145868310061844.dat: No space left on device
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.base/java.nio.file.Files.createFile(Files.java:658) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159) ~[?:?]
+	at java.base/java.nio.file.Files.createTempFile(Files.java:879) ~[?:?]
+	at net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:38) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.save(PlayerList.java:490) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.lambda$saveAll$6(PlayerList.java:1083) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:132) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1077) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1545) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:15:19] [spark-async-sampler-worker-thread/WARN]: [spark] Exception occurred while rotating profiler job
+me.lucko.spark.paper.common.sampler.async.JfrParsingException: Error parsing JFR data from profiler output
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:221) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncSampler.rotateProfilerJob(AsyncSampler.java:160) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.io.IOException: Not a valid JFR file
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.readChunk(JfrReader.java:263) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.<init>(JfrReader.java:87) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:210) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	... 7 more
+[23:15:22] [Server thread/INFO]: ShapelierC15 has made the advancement [Take Aim]
+[23:15:25] [Async Chat Thread - #109/INFO]: [Not Secure] <MilesFlavio> Esse e a foi fosa
+[23:15:28] [Async Chat Thread - #109/INFO]: [Not Secure] <MilesFlavio> foda
+[23:15:40] [Server thread/INFO]: Toruma1 was slain by Enderman
+[23:15:43] [Server thread/INFO]: Toruma1 lost connection: Disconnected
+[23:15:43] [Server thread/WARN]: Failed to save player data for Toruma1
+java.nio.file.FileSystemException: ./world/playerdata/46f7d4de-643b-3589-a56c-43a902aa5053-9869313055135422658.da[23:29:52] [Server thread/WARN]: Failed to save player data for CartolaQuadrado
+java.nio.file.FileSystemException: ./world/playerdata/ac9cb4f9-a1f9-3677-8684-8043bfbff71b-14648812833185261202.dat: No space left on device
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.base/java.nio.file.Files.createFile(Files.java:658) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159) ~[?:?]
+	at java.base/java.nio.file.Files.createTempFile(Files.java:879) ~[?:?]
+	at net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:38) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.save(PlayerList.java:490) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.lambda$saveAll$6(PlayerList.java:1083) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:132) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1077) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1545) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:29:52] [Server thread/ERROR]: Couldn't save stats
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105) ~[?:?]
+	at java.base/java.nio.channels.Channels$WritableByteChannelImpl.write(Channels.java:392) ~[?:?]
+	at org.apache.commons.io.IOUtils.write(IOUtils.java:3619) ~[commons-io-2.17.0.jar:2.17.0]
+	at org.apache.commons.io.FileUtils.writeStringToFile(FileUtils.java:3480) ~[commons-io-2.17.0.jar:2.17.0]
+	at org.apache.commons.io.FileUtils.writeStringToFile(FileUtils.java:3432) ~[commons-io-2.17.0.jar:2.17.0]
+	at net.minecraft.stats.ServerStatsCounter.save(ServerStatsCounter.java:89) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.save(PlayerList.java:493) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.lambda$saveAll$6(PlayerList.java:1083) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:132) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1077) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1545) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:30:01] [Server thread/INFO]: Toru[23:48:49] [User Authenticator #46/INFO]: UUID of player Toruma1 is 46f7d4de-643b-3589-a56c-43a902aa5053
+[23:48:49] [Server thread/ERROR]: Couldn't parse player advancements in ./world/advancements/46f7d4de-643b-3589-a56c-43a902aa5053.json
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated string at line 1 column 53249 path $.minecraft:recipes/redstone/dark_oak_fence_gate.criteria.has_planks
+See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
+	at com.google.gson.internal.Streams.parse(Streams.java:58) ~[gson-2.11.0.jar:?]
+	at net.minecraft.server.PlayerAdvancements.load(PlayerAdvancements.java:117) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.PlayerAdvancements.<init>(PlayerAdvancements.java:72) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.getPlayerAdvancements(PlayerList.java:1329) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.level.ServerPlayer.<init>(ServerPlayer.java:469) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.canPlayerLogin(PlayerList.java:630) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.verifyLoginAndFinishConnectionSetup(ServerLoginPacketListenerImpl.java:227) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.tick(ServerLoginPacketListenerImpl.java:114) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.network.Connection.tick(Connection.java:607) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:256) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickConnection(MinecraftServer.java:1760) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:385) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1736) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1527) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated string at line 1 column 53249 path $.minecraft:recipes/redstone/dark_oak_fence_gate.criteria.has_planks
+See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1754) ~[gson-2.11.0.jar:?]
+	at com.google.gson.stream.JsonReader.nextQuotedValue(JsonReader.java:1120) ~[gson-2.11.0.jar:?]
+	at com.google.gson.stream.JsonReader.nextString(JsonReader.java:907) ~[gson-2.11.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.readTerminal(TypeAdapters.java:842) ~[gson-2.11.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:887) ~[gson-2.11.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:820) ~[gson-2.11.0.jar:?]
+	at com.google.gson.internal.Streams.parse(Streams.java:46) ~[gson-2.11.0.jar:?]
+	... 16 more
+[23:48:49] [Server thread/INFO]: Toruma1 joined the game
+[23:48:49] [Server thread/INFO]: Toruma1 has made the advancement [Diamonds!]
+[23:48:49] [Server thread/INFO]: Toruma1[/138.97.187.39:31333] logged in with entity id 242048 at ([world]-1207.8429691066997, 70.0, 418.49868375177977)
+[23:49:14] [User Authenticator #46/INFO]: UUID of player ShapelierC15 is 95eebe6f-dfa4-33e4-ab20-cd7b96b3b8a4
+[23:49:14] [Server thread/ERROR]: Unable to parse Stat data from ./world/stats/95eebe6f-dfa4-33e4-ab20-cd7b96b3b8a4.json
+[23:49:14] [Server thread/ERROR]: Couldn't parse player advancements in ./world/advancements/95eebe6f-dfa4-33e4[23:50:00] [Server thread/INFO]: Toruma1 left the game
+[23:50:02] [User Authenticator #46/INFO]: UUID of player Toruma1 is 46f7d4de-643b-3589-a56c-43a902aa5053
+[23:50:02] [Server thread/INFO]: Toruma1 joined the game
+[23:50:02] [Server thread/INFO]: Toruma1[/138.97.187.39:31457] logged in with entity id 242636 at ([world]-1207.8429691066997, 70.0, 418.49868375177977)
+[23:50:19] [spark-async-sampler-worker-thread/WARN]: [spark] Failed to stop previous profiler job
+java.lang.IllegalStateException: Profiler job no longer active!
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.checkActive(AsyncProfilerJob.java:117) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.stop(AsyncProfilerJob.java:192) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncSampler.rotateProfilerJob(AsyncSampler.java:139) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:50:19] [spark-async-sampler-worker-thread/WARN]: [spark] Exception occurred while rotating profiler job
+java.lang.RuntimeException: Unable to create temporary output file
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.start(AsyncProfilerJob.java:142) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncSampler.rotateProfilerJob(AsyncSampler.java:148) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.nio.file.FileSystemException: plugins/spark/tmp-client/spark-700bf59c67d5-profile-data.jfr.tmp: No space left on device
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.base/java.nio.file.Files.createFile(Files.java:658) ~[?:?]
+	at me.lucko.spark.paper.common.util.TemporaryFiles.create(TemporaryFiles.java:78) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.start(AsyncProfilerJob.java:140) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	... 7 more
+[23:51:12] [Server thread/INFO]: Toruma1 lost connection: Disconnected
+[23:51:12] [Server thread/ERROR]: Could not pass event PlayerQuitEvent to Timber v1.6.3
+java.lang.RuntimeException: java.io.IOException: No space left on device
+	at Timber-1.6.3.jar/ifly.treecapitator.PlayerConfig.saveData(PlayerConfig.java:68) ~[Timber-1.6.3.jar:?]
+	at Timber-1.6.3.jar/ifly.treecapitator.listener.LogBreakEvent.leave(LogBreakEvent.java:54) ~[Timber-1.6.3.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	

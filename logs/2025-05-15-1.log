@@ -1,0 +1,209 @@
+[00:00:11] [Server thread/ERROR]: Could not pass event PlayerQuitEvent to Timber v1.6.3
+java.lang.RuntimeException: java.io.IOException: No space left on device
+	at Timber-1.6.3.jar/ifly.treecapitator.PlayerConfig.saveData(PlayerConfig.java:68) ~[Timber-1.6.3.jar:?]
+	at Timber-1.6.3.jar/ifly.treecapitator.listener.LogBreakEvent.leave(LogBreakEvent.java:54) ~[Timber-1.6.3.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:517) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:504) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.removePlayerFromWorld(ServerGamePacketListenerImpl.java:2164) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2143) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2129) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.network.Connection.handleDisconnection(Connection.java:866) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:270) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickConnection(MinecraftServer.java:1760) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:385) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1736) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1527) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.io.IOException: No space left on device
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:367) ~[?:?]
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:309) ~[?:?]
+	at java.base/sun.nio.cs.StreamEncoder.implClose(StreamEncoder.java:432) ~[?:?]
+	at java.base/sun.nio.cs.StreamEncoder.lockedClose(StreamEncoder.java:237) ~[?:?]
+	at java.base/sun.nio.cs.StreamEncoder.close(StreamEncoder.java:222) ~[?:?]
+	at java.base/java.io.OutputStreamWriter.close(OutputStreamWriter.java:266) ~[?:?]
+	at org.bukkit.configuration.file.FileConfiguration.save(FileConfiguration.java:72) ~[paper-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at Timber-1.6.3.jar/ifly.treecapitator.PlayerConfig.saveData(PlayerConfig.java:66) ~[Timber-1.6.3.jar:?]
+	... 20 more
+[00:00:11] [Server thread/WARN]: Failed to save player data for Toruma1
+java.nio.file.FileSystemException: ./world/playerdata/46f7d4de-643b-3589-a56c-43a902aa5053-15520949743378161239.dat: No space left on device
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.Un[00:01:44] [Server thread/WARN]: Failed to save player data for Toruma1
+java.nio.file.FileSystemException: ./world/playerdata/46f7d4de-643b-3589-a56c-43a902aa5053-2417213006978844135.dat: No space left on device
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.base/java.nio.file.Files.createFile(Files.java:658) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159) ~[?:?]
+	at java.base/java.nio.file.Files.createTempFile(Files.java:879) ~[?:?]
+	at net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:38) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.save(PlayerList.java:490) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:540) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:504) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.removePlayerFromWorld(ServerGamePacketListenerImpl.java:2164) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2143) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2129) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.network.Connection.handleDisconnection(Connection.java:866) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:270) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickConnection(MinecraftServer.java:1760) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:385) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1736) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1527) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[00:01:44] [Server thread/INFO]: Toruma1 left the game
+[00:01:50] [User Authenticator #51/INFO]: UUID of player Toruma1 is 46f7d4de-643b-3589-a56c-43a902aa5053
+[00:01:51] [Server thread/INFO]: Toruma1 joined the game
+[00:01:51] [Server thread/INFO]: Toruma1[/138.97.187.39:31914] logged in with entity id 248144 at ([world]-1207.8429691066997, 70.0, 418.49868375177977)
+[00:02:15] [Server thread/INFO]: CartolaQuadrado has made the advancement [What a Deal!]
+[00:02:19] [spark-async-sampler-worker-thread/WARN]: [spark] Failed to stop previous profiler job
+java.lang.IllegalStateException: Profiler job no longer active!
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.checkActive(AsyncProfilerJob.java:117) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.stop(AsyncProfilerJob.java:192) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncSampler.rotateProfilerJob(AsyncSampler.java:139) ~[spark-paper-1.10.133-20250413.112336-1.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.ba[00:05:01] [Server thread/WARN]: Failed to save player data for Toruma1
+java.nio.file.FileSystemException: ./world/playerdata/46f7d4de-643b-3589-a56c-43a902aa5053-1682029652404733175.dat: No space left on device
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.base/java.nio.file.Files.createFile(Files.java:658) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159) ~[?:?]
+	at java.base/java.nio.file.Files.createTempFile(Files.java:879) ~[?:?]
+	at net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:38) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.save(PlayerList.java:490) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:540) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:504) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.removePlayerFromWorld(ServerGamePacketListenerImpl.java:2164) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2143) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2129) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.network.Connection.handleDisconnection(Connection.java:866) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:270) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickConnection(MinecraftServer.java:1760) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:385) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1736) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1527) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[00:05:01] [Server thread/ERROR]: Couldn't save player advancements to ./world/advancements/46f7d4de-643b-3589-a56c-43a902aa5053.json
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105) ~[?:?]
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:309) ~[?:?]
+	at java.base/sun.nio.cs.StreamEncoder.implClose(StreamEncoder.java:432) ~[?:?]
+	at java.base/sun.nio.cs.StreamEncoder.lockedClose(StreamEncoder.java:237) ~[?:?]
+	at java.base/sun.nio.cs.StreamEncoder.close(StreamEncoder.java:222) ~[?:?]
+	at java.base/java.io.OutputStreamWri[00:08:59] [Server thread/WARN]: Failed to save player data for Toruma1
+java.nio.file.FileSystemException: ./world/playerdata/46f7d4de-643b-3589-a56c-43a902aa5053-16821100799119312572.dat: No space left on device
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.base/java.nio.file.Files.createFile(Files.java:658) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159) ~[?:?]
+	at java.base/java.nio.file.Files.createTempFile(Files.java:879) ~[?:?]
+	at net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:38) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.save(PlayerList.java:490) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:540) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:504) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.removePlayerFromWorld(ServerGamePacketListenerImpl.java:2164) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2143) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2129) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.network.Connection.handleDisconnection(Connection.java:866) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:270) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickConnection(MinecraftServer.java:1760) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:385) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1736) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1527) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[00:08:59] [Server thread/ERROR]: Couldn't save stats
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105) ~[?:?]
+	at java.base/java.nio.channels.Channels$WritableByteChannelImpl.write(Channels.java:392) ~[?:?]
+	at org.apache.commons.io.IOUtils.write(IOUtils.java:3619) ~[commons-io-2.17.0.jar:2.17.0]
+	at org.apache.commons.io.FileUtils.writeStringToFile(FileUtils.java:3480) ~[commons-io-2.17.0.jar:2.17.0]
+	at org.apache.commons.io.FileUtils.writeStringToFile(FileUtils.java:3432) ~[commons-io-2.17.0.jar:2.17.0]
+	at net.minecraft.stats.ServerSta[02:56:30] [Server thread/INFO]: CartolaQuadrado left the game
+[02:56:33] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:33] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:33] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:33] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:34] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:34] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:34] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:34] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:34] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:34] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:34] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:34] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:34] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:34] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:34] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:34] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:34] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:34] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:34] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:34] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:34] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:34] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:34] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:34] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:35] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:35] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:35] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:35] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:35] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:35] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:35] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:35] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:35] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:35] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:35] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:35] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:35] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:35] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:35] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:35] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:35] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:35] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:35] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:35] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:36] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:36] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:36] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:36] [Server thread/WARN]: CartolaQuadrado was kicked for floating too long!
+[02:56:36] [Server thread/WARN]: CartolaQuadrado 
