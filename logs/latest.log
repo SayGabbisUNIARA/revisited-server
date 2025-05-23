@@ -1,104 +1,19 @@
-[00:00:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2510ms or 50 ticks behind
-[00:00:50] [Server thread/INFO]: ShapelierC15 lost connection: Disconnected
-[00:00:50] [Server thread/INFO]: ShapelierC15 left the game
-[00:03:12] [Server thread/WARN]: Toruma1 moved wrongly!
-[00:13:52] [User Authenticator #23/INFO]: UUID of player Alencar73 is 028a82f5-20fe-3357-8797-b427ea04a6c1
-[00:13:52] [Server thread/INFO]: Alencar73 joined the game
-[00:13:52] [Server thread/INFO]: Alencar73[/177.152.86.73:62232] logged in with entity id 378403 at ([world]-1265.05683824378, 67.0, 179.69999998807907)
-[00:36:32] [Server thread/INFO]: Alencar73 lost connection: Disconnected
-[00:36:32] [Server thread/INFO]: Alencar73 left the game
-[00:37:30] [Server thread/INFO]: Toruma1 lost connection: Disconnected
-[00:37:30] [Server thread/INFO]: Toruma1 left the game
-[00:37:42] [User Authenticator #24/INFO]: UUID of player Toruma1 is 46f7d4de-643b-3589-a56c-43a902aa5053
-[00:37:42] [Server thread/INFO]: Toruma1 joined the game
-[00:37:42] [Server thread/INFO]: Toruma1[/138.97.187.92:27528] logged in with entity id 407136 at ([world]3303.1404534351527, 189.0, 1595.3233729993947)
-[00:39:51] [Server thread/INFO]: Toruma1 lost connection: Disconnected
-[00:39:51] [Server thread/INFO]: Toruma1 left the game
-[00:56:34] [Server thread/INFO]: Villager Villager['Cartographer'/429358, uuid='57abbea5-e63f-4281-bf05-766030305942', l='ServerLevel[world]', x=-1553.41, y=68.00, z=893.50, cpos=[-98, 55], tl=774, v=true] died, message: 'Cartographer was slain by Zombie'
-[00:56:47] [Server thread/INFO]: Villager Villager['Villager'/429355, uuid='8ea6f140-2c5e-41f4-a804-2dc29793ae51', l='ServerLevel[world]', x=-1552.51, y=67.68, z=885.47, cpos=[-98, 55], tl=1019, v=true] died, message: 'Villager was slain by Zombie'
-[00:56:54] [Server thread/INFO]: Villager Villager['Cartographer'/429353, uuid='ebcacc0f-c3b0-4960-995c-22641655210b', l='ServerLevel[world]', x=-1552.70, y=67.68, z=885.43, cpos=[-98, 55], tl=1150, v=true] died, message: 'Cartographer was slain by Zombie Villager'
-[00:57:09] [Server thread/INFO]: Villager Villager['Villager'/429356, uuid='ca391c73-1ce6-488b-aef6-460a9fae00f7', l='ServerLevel[world]', x=-1548.61, y=67.46, z=886.29, cpos=[-97, 55], tl=1476, v=true] died, message: 'Villager was slain by Zombie Villager'
-[00:57:17] [Server thread/INFO]: Villager Villager['Cartographer'/429379, uuid='3dcf29a2-f38a-43c3-822f-9b866f2d0ec1', l='ServerLevel[world]', x=-1552.70, y=67.10, z=885.35, cpos=[-98, 55], tl=1609, v=true] died, message: 'Cartographer was slain by Zombie Villager'
-[00:57:24] [Server thread/INFO]: Villager Villager['Villager'/429354, uuid='dd8286f7-73f9-4dcb-97de-2b7a8cee6e43', l='ServerLevel[world]', x=-1552.10, y=67.50, z=885.76, cpos=[-98, 55], tl=1760, v=true] died, message: 'Villager was slain by Zombie Villager'
-[01:12:59] [Server thread/WARN]: miauzinto was kicked for floating too long!
-[01:12:59] [Server thread/INFO]: miauzinto lost connection: Flying is not enabled on this server
-[01:12:59] [Server thread/INFO]: miauzinto left the game
-[01:13:10] [User Authenticator #25/INFO]: UUID of player miauzinto is 7beeffc0-74d6-3ca7-b0d2-83dda4b42169
-[01:13:10] [Server thread/INFO]: miauzinto joined the game
-[01:13:10] [Server thread/INFO]: miauzinto[/186.223.169.147:3980] logged in with entity id 436812 at ([world]-1748.8701476583656, 69.62470548087349, 733.5498027291083)
-[01:51:34] [Server thread/INFO]: Villager Villager['Villager'/447318, uuid='7bac69f6-53d3-4e1d-9871-96080410b7d9', l='ServerLevel[world]', x=-1553.32, y=69.00, z=888.52, cpos=[-98, 55], tl=7770, v=true] died, message: 'Villager suffocated in a wall'
-[02:07:14] [Server thread/INFO]: miauzinto lost connection: Disconnected
-[02:07:14] [Server thread/INFO]: miauzinto left the game
-[02:14:12] [User Authenticator #26/INFO]: UUID of player miauzinto is 7beeffc0-74d6-3ca7-b0d2-83dda4b42169
-[02:14:13] [Server thread/INFO]: miauzinto joined the game
-[02:14:13] [Server thread/INFO]: miauzinto[/186.223.169.147:3888] logged in with entity id 455996 at ([world]-1740.5270728234107, 63.0, 760.6999999880791)
-[02:58:46] [Server thread/INFO]: Villager Villager['Cartographer'/469040, uuid='f6a383b1-b896-4219-88f6-b4054ed36e68', l='ServerLevel[world]', x=-1552.65, y=67.14, z=886.12, cpos=[-98, 55], tl=11872, v=true] died, message: 'Cartographer was slain by Zombie'
-[02:59:07] [Server thread/INFO]: Villager Villager['Cartographer'/469038, uuid='3ff8882d-1a6e-4444-a4c2-7a3b3f88b5be', l='ServerLevel[world]', x=-1549.70, y=67.50, z=885.71, cpos=[-97, 55], tl=12298, v=true] died, message: 'Cartographer was slain by Zombie Villager'
-[02:59:24] [Server thread/INFO]: Villager Villager['Cartographer'/469045, uuid='ca4341d4-47cc-4b9b-9324-840ffdab3e54', l='ServerLevel[world]', x=-1552.14, y=67.50, z=885.75, cpos=[-98, 55], tl=12614, v=true] died, message: 'Cartographer was slain by Zombie Villager'
-[02:59:24] [Server thread/INFO]: Villager Villager['Cartographer'/469034, uuid='f571a908-6fa2-4b3e-a002-11125a44ee5f', l='ServerLevel[world]', x=-1552.70, y=67.48, z=885.48, cpos=[-98, 55], tl=12628, v=true] died, message: 'Cartographer was slain by Zombie Villager'
-[02:59:32] [Server thread/INFO]: Villager Villager['Cartographer'/469039, uuid='ef445814-6a6b-431a-8c94-22e7e94dc5e0', l='ServerLevel[world]', x=-1553.48, y=68.00, z=894.40, cpos=[-98, 55], tl=12788, v=true] died, message: 'Cartographer was slain by Zombie Villager'
-[02:59:49] [Server thread/INFO]: CartolaQuadrado was slain by Iron Golem
-[02:59:54] [Async Chat Thread - #19/INFO]: [Not Secure] <CartolaQuadrado> impossivel
-[02:59:57] [Async Chat Thread - #19/INFO]: [Not Secure] <miauzinto> oxi
-[02:59:59] [Async Chat Thread - #19/INFO]: [Not Secure] <CartolaQuadrado> CARA
-[03:00:03] [Async Chat Thread - #19/INFO]: [Not Secure] <miauzinto> como?
-[03:00:08] [Async Chat Thread - #19/INFO]: [Not Secure] <CartolaQuadrado> EU ODEIO ESSES BUGS MALDITOS
-[03:05:25] [Async Chat Thread - #21/INFO]: [Not Secure] <CartolaQuadrado> recuperei
-[03:05:28] [Async Chat Thread - #21/INFO]: [Not Secure] <miauzinto> boa
-[03:05:37] [Async Chat Thread - #21/INFO]: [Not Secure] <CartolaQuadrado> porra toma no cu mane
-[03:05:38] [Server thread/INFO]: Villager Villager['Nitwit'/476422, uuid='2f551d50-ef8e-4fb4-8daa-215a08962050', l='ServerLevel[world]', x=2421.70, y=125.28, z=1260.50, cpos=[151, 78], tl=3000, v=true] died, message: 'Nitwit froze to death'
-[03:05:41] [Async Chat Thread - #21/INFO]: [Not Secure] <CartolaQuadrado> FUI LA NA MORAL
-[03:05:47] [Async Chat Thread - #21/INFO]: [Not Secure] <CartolaQuadrado> AJUDAR O IRON GOLEM
-[03:05:55] [Async Chat Thread - #21/INFO]: [Not Secure] <CartolaQuadrado> ELE TAVA NUMA CAVERNA
-[03:06:02] [Async Chat Thread - #21/INFO]: [Not Secure] <CartolaQuadrado> AÍ EU CAI NA CAVERNA
-[03:06:14] [Async Chat Thread - #21/INFO]: [Not Secure] <CartolaQuadrado> FUI USAR ENDER PEARL E DEU DANO NELE
-[03:06:25] [Async Chat Thread - #21/INFO]: [Not Secure] <miauzinto> ai e pika
-[03:06:31] [Server thread/INFO]: CartolaQuadrado was slain by Iron Golem
-[03:06:35] [Async Chat Thread - #21/INFO]: [Not Secure] <CartolaQuadrado> MATEI
-[03:06:37] [Async Chat Thread - #21/INFO]: [Not Secure] <CartolaQuadrado> FDS
-[03:06:44] [Async Chat Thread - #22/INFO]: [Not Secure] <CartolaQuadrado> recupero denovo tbm
-[03:06:49] [Async Chat Thread - #22/INFO]: [Not Secure] <CartolaQuadrado> deixa la na shulker
-[03:10:08] [Server thread/INFO]: CartolaQuadrado hit the ground too hard
-[03:10:13] [Async Chat Thread - #23/INFO]: [Not Secure] <CartolaQuadrado> :)
-[03:10:25] [Async Chat Thread - #23/INFO]: [Not Secure] <miauzinto> quer ajuda?
-[03:11:02] [Async Chat Thread - #23/INFO]: [Not Secure] <CartolaQuadrado> cara a gente tem que ver o lado bom nas coisas
-[03:11:16] [Async Chat Thread - #23/INFO]: [Not Secure] <CartolaQuadrado> por exemplo
-[03:11:23] [Async Chat Thread - #23/INFO]: [Not Secure] <CartolaQuadrado> o merda
-[03:11:32] [Async Chat Thread - #23/INFO]: [Not Secure] <CartolaQuadrado> esqueci de um bagulho aqui
-[03:12:05] [Async Chat Thread - #23/INFO]: [Not Secure] <CartolaQuadrado> agora sim
-[03:12:19] [Async Chat Thread - #23/INFO]: [Not Secure] <CartolaQuadrado> COF COF CONTINUANDO
-[03:12:34] [Async Chat Thread - #23/INFO]: [Not Secure] <CartolaQuadrado> TEMOS QUE VER O LADO BOM NAS COISAS
-[03:12:44] [Async Chat Thread - #23/INFO]: [Not Secure] <CartolaQuadrado> POR EXEMPLO
-[03:12:57] [Async Chat Thread - #23/INFO]: [Not Secure] <CartolaQuadrado> OS MEUS ITENS NÃO VÃO DESESPAWNAR
-[03:13:16] [Async Chat Thread - #23/INFO]: [Not Secure] <CartolaQuadrado> então eu tenho todo o tempo do mundo
-[03:13:32] [Async Chat Thread - #23/INFO]: [Not Secure] <CartolaQuadrado> correto?
-[03:13:34] [Async Chat Thread - #23/INFO]: [Not Secure] <miauzinto> sim
-[03:47:32] [Server thread/INFO]: CartolaQuadrado has made the advancement [Best Friends Forever]
-[03:54:19] [Server thread/INFO]: CartolaQuadrado fell from a high place
-[03:54:25] [Async Chat Thread - #26/INFO]: [Not Secure] <CartolaQuadrado> OQUE?
-[03:54:29] [Async Chat Thread - #26/INFO]: [Not Secure] <CartolaQuadrado> não não não
-[03:54:33] [Async Chat Thread - #26/INFO]: [Not Secure] <CartolaQuadrado> aí ja e roubo
-[03:55:12] [Async Chat Thread - #26/INFO]: [Not Secure] <CartolaQuadrado> impossivel eu ter tomado aquele dano mane
-[03:55:16] [Async Chat Thread - #26/INFO]: [Not Secure] <CartolaQuadrado> EU TAVA COM A VIDA CHEIA
-[03:55:22] [Async Chat Thread - #26/INFO]: [Not Secure] <miauzinto> tu tem peso pena IV na botas?
-[03:55:23] [Async Chat Thread - #26/INFO]: [Not Secure] <CartolaQuadrado> minha velocidade tava lenta
-[03:55:35] [Async Chat Thread - #26/INFO]: [Not Secure] <CartolaQuadrado> eu tava de elytra e tava lentinho
-[03:56:14] [Async Chat Thread - #26/INFO]: [Not Secure] <miauzinto> entao foi bug
-[03:56:20] [Async Chat Thread - #26/INFO]: [Not Secure] <CartolaQuadrado> to falando cara
-[03:56:29] [Async Chat Thread - #26/INFO]: [Not Secure] <CartolaQuadrado> deixa eu pegar meus itens
-[04:11:41] [Server thread/INFO]: Villager Villager['Villager'/496867, uuid='fd26eb6d-ff99-4b8d-b281-e4fe53d6269e', l='ServerLevel[world]', x=-1552.88, y=69.00, z=890.37, cpos=[-98, 55], tl=24214, v=true] died, message: 'Villager suffocated in a wall'
-[04:13:08] [Server thread/INFO]: miauzinto lost connection: Disconnected
-[04:13:08] [Server thread/INFO]: miauzinto left the game
-[04:24:19] [User Authenticator #27/INFO]: UUID of player miauzinto is 7beeffc0-74d6-3ca7-b0d2-83dda4b42169
-[04:24:19] [Server thread/INFO]: Connection closed during protocol change
-[04:24:19] [Server thread/INFO]: com.mojang.authlib.GameProfile@6d05aaa4[id=7beeffc0-74d6-3ca7-b0d2-83dda4b42169,name=miauzinto,properties={}] lost connection: Disconnected
-[04:24:31] [User Authenticator #27/INFO]: UUID of player miauzinto is 7beeffc0-74d6-3ca7-b0d2-83dda4b42169
-[04:24:32] [Server thread/INFO]: miauzinto joined the game
-[04:24:32] [Server thread/INFO]: miauzinto[/186.223.169.147:4029] logged in with entity id 510125 at ([world]-1733.6810930112204, 68.0, 770.936551751527)
-[04:30:14] [Server thread/INFO]: miauzinto lost connection: Disconnected
-[04:30:14] [Server thread/INFO]: miauzinto left the game
-[04:42:06] [Server thread/INFO]: CartolaQuadrado lost connection: Disconnected
-[04:42:06] [Server thread/INFO]: CartolaQuadrado left the game
+[01:31:42] [Server thread/WARN]: CartolaQuadrado moved wrongly!
+[01:49:04] [Server thread/INFO]: miauzinto lost connection: Disconnected
+[01:49:04] [Server thread/INFO]: miauzinto left the game
+[01:59:46] [User Authenticator #9/INFO]: UUID of player miauzinto is 7beeffc0-74d6-3ca7-b0d2-83dda4b42169
+[01:59:47] [Server thread/INFO]: miauzinto joined the game
+[01:59:47] [Server thread/INFO]: miauzinto[/186.223.169.147:3994] logged in with entity id 205327 at ([world]-1628.6993049145763, 74.0, 970.2510528227845)
+[02:04:32] [Server thread/INFO]: miauzinto lost connection: Disconnected
+[02:04:32] [Server thread/INFO]: miauzinto left the game
+[02:05:59] [User Authenticator #10/INFO]: UUID of player miauzinto is 7beeffc0-74d6-3ca7-b0d2-83dda4b42169
+[02:06:00] [Server thread/INFO]: miauzinto joined the game
+[02:06:00] [Server thread/INFO]: miauzinto[/186.223.169.147:4062] logged in with entity id 206734 at ([world]-1624.2146565340454, 74.0, 966.7526565602498)
+[04:06:55] [Server thread/INFO]: miauzinto lost connection: Disconnected
+[04:06:55] [Server thread/INFO]: miauzinto left the game
+[04:20:54] [Server thread/INFO]: CartolaQuadrado has made the advancement [A Throwaway Joke]
+[04:23:26] [Server thread/INFO]: CartolaQuadrado lost connection: Disconnected
+[04:23:26] [Server thread/INFO]: CartolaQuadrado left the game
 [07:00:01] [SIGCONT handler/WARN]: Exception in thread "SIGCONT handler" java.io.IOError: java.io.IOException: Error calling ioctl(TIOCGWINSZ): return code is -1
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:65)
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.Terminal.getBufferSize(Terminal.java:273)
@@ -165,34 +80,34 @@ Caused by: java.io.IOException: Input/output error
 [07:00:01] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
 [07:00:01] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
 [07:00:01] [Server thread/INFO]: Saving players
-[07:00:01] [WebSocketConnectReadThread-1614/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[07:00:01] [WebSocketConnectReadThread-1763/INFO]: [Geyser-Spigot] The skin uploader has been closed
 [07:00:01] [Server thread/INFO]: Saving worlds
 [07:00:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
 [07:00:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
 [07:00:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
 [07:00:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 88 entity chunks, 0 poi chunks in world 'world' in 0.15s
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 95 entity chunks, 0 poi chunks in world 'world' in 0.07s
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
 [07:00:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 26 block chunks, 173 entity chunks, 0 poi chunks in world 'world_nether' in 0.16s
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 25 block chunks, 151 entity chunks, 0 poi chunks in world 'world_nether' in 0.09s
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
 [07:00:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 32 entity chunks, 0 poi chunks in world 'world_the_end' in 0.04s
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 36 entity chunks, 0 poi chunks in world 'world_the_end' in 0.04s
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[07:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[07:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[07:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[07:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[07:00:03] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[07:00:03] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[07:00:03] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[07:00:03] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:00:02] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[07:00:02] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[07:00:02] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[07:00:02] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
