@@ -1,19 +1,23 @@
-[01:31:42] [Server thread/WARN]: CartolaQuadrado moved wrongly!
-[01:49:04] [Server thread/INFO]: miauzinto lost connection: Disconnected
-[01:49:04] [Server thread/INFO]: miauzinto left the game
-[01:59:46] [User Authenticator #9/INFO]: UUID of player miauzinto is 7beeffc0-74d6-3ca7-b0d2-83dda4b42169
-[01:59:47] [Server thread/INFO]: miauzinto joined the game
-[01:59:47] [Server thread/INFO]: miauzinto[/186.223.169.147:3994] logged in with entity id 205327 at ([world]-1628.6993049145763, 74.0, 970.2510528227845)
-[02:04:32] [Server thread/INFO]: miauzinto lost connection: Disconnected
-[02:04:32] [Server thread/INFO]: miauzinto left the game
-[02:05:59] [User Authenticator #10/INFO]: UUID of player miauzinto is 7beeffc0-74d6-3ca7-b0d2-83dda4b42169
-[02:06:00] [Server thread/INFO]: miauzinto joined the game
-[02:06:00] [Server thread/INFO]: miauzinto[/186.223.169.147:4062] logged in with entity id 206734 at ([world]-1624.2146565340454, 74.0, 966.7526565602498)
-[04:06:55] [Server thread/INFO]: miauzinto lost connection: Disconnected
-[04:06:55] [Server thread/INFO]: miauzinto left the game
-[04:20:54] [Server thread/INFO]: CartolaQuadrado has made the advancement [A Throwaway Joke]
-[04:23:26] [Server thread/INFO]: CartolaQuadrado lost connection: Disconnected
-[04:23:26] [Server thread/INFO]: CartolaQuadrado left the game
+[00:07:03] [User Authenticator #16/INFO]: UUID of player miauzinto is 7beeffc0-74d6-3ca7-b0d2-83dda4b42169
+[00:07:04] [Server thread/INFO]: miauzinto joined the game
+[00:07:04] [Server thread/INFO]: miauzinto[/186.223.169.147:3833] logged in with entity id 242953 at ([world]-1642.699999988079, 20.0, 1008.6999999880791)
+[00:36:40] [Async Chat Thread - #18/INFO]: [Not Secure] <miauzinto> conseguir cavalos esqueletos :D
+[00:47:31] [Async Chat Thread - #20/INFO]: [Not Secure] <CartolaQuadrado> A
+[01:42:28] [Server thread/INFO]: miauzinto has completed the challenge [Sniper Duel]
+[01:49:10] [Server thread/INFO]: miauzinto lost connection: Disconnected
+[01:49:10] [Server thread/INFO]: miauzinto left the game
+[01:57:38] [User Authenticator #17/INFO]: UUID of player miauzinto is 7beeffc0-74d6-3ca7-b0d2-83dda4b42169
+[01:57:39] [Server thread/INFO]: miauzinto joined the game
+[01:57:39] [Server thread/INFO]: miauzinto[/186.223.169.147:3768] logged in with entity id 300731 at ([world]-1621.1792886919823, 87.5, 972.3219808910006)
+[02:35:34] [Server thread/INFO]: CartolaQuadrado lost connection: Disconnected
+[02:35:34] [Server thread/INFO]: CartolaQuadrado left the game
+[04:00:13] [Server thread/INFO]: miauzinto lost connection: Disconnected
+[04:00:13] [Server thread/INFO]: miauzinto left the game
+[04:00:17] [User Authenticator #18/INFO]: UUID of player miauzinto is 7beeffc0-74d6-3ca7-b0d2-83dda4b42169
+[04:00:17] [Server thread/INFO]: miauzinto joined the game
+[04:00:17] [Server thread/INFO]: miauzinto[/186.223.169.147:3947] logged in with entity id 337504 at ([world]-1628.5710810658302, 74.0, 970.6999999880791)
+[04:00:34] [Server thread/INFO]: miauzinto lost connection: Disconnected
+[04:00:34] [Server thread/INFO]: miauzinto left the game
 [07:00:01] [SIGCONT handler/WARN]: Exception in thread "SIGCONT handler" java.io.IOError: java.io.IOException: Error calling ioctl(TIOCGWINSZ): return code is -1
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:65)
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.Terminal.getBufferSize(Terminal.java:273)
@@ -30,7 +34,6 @@
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:63)
 [07:00:01] [SIGCONT handler/WARN]: 	... 9 more
 [07:00:01] [Server thread/INFO]: Stopping server
-[07:00:01] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.3
 [07:00:01] [Server console handler/ERROR]: Caught previously unhandled exception :
 java.io.IOError: java.io.IOException: Input/output error
 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170) ~[jline-reader-3.20.0.jar:?]
@@ -54,6 +57,7 @@ Caused by: java.io.IOException: Input/output error
 	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:56) ~[jline-terminal-3.27.1.jar:?]
 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160) ~[jline-reader-3.20.0.jar:?]
 	... 9 more
+[07:00:01] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.3
 [07:00:01] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.164
 [07:00:01] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
 [07:00:01] [Server thread/INFO]: [LuckPerms] Closing storage...
@@ -80,34 +84,34 @@ Caused by: java.io.IOException: Input/output error
 [07:00:01] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
 [07:00:01] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
 [07:00:01] [Server thread/INFO]: Saving players
-[07:00:01] [WebSocketConnectReadThread-1763/INFO]: [Geyser-Spigot] The skin uploader has been closed
 [07:00:01] [Server thread/INFO]: Saving worlds
 [07:00:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
 [07:00:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
 [07:00:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
 [07:00:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 95 entity chunks, 0 poi chunks in world 'world' in 0.07s
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[07:00:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 25 block chunks, 151 entity chunks, 0 poi chunks in world 'world_nether' in 0.09s
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[07:00:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 36 entity chunks, 0 poi chunks in world 'world_the_end' in 0.04s
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[07:00:02] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[07:00:02] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[07:00:02] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[07:00:02] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[07:00:01] [WebSocketConnectReadThread-2021/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Saved 4 block chunks, 91 entity chunks, 4 poi chunks in world 'world' in 0.08s
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[07:00:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Saved 26 block chunks, 139 entity chunks, 0 poi chunks in world 'world_nether' in 0.10s
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[07:00:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 30 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[07:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:00:01] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[07:00:01] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[07:00:01] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[07:00:01] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
