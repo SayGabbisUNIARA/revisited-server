@@ -1,13 +1,20 @@
-[04:03:45] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Eren yeiga
-[04:03:45] [localSession-7-3/INFO]: [Geyser-Spigot] Eren yeiga (logged in as: Eren_yeiga) has connected to the Java server
-[04:03:46] [Server thread/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga joined (UUID: 00000000-0000-0000-0009-01f93862b926)
-[04:03:46] [Server thread/INFO]: Eren_yeiga joined the game
-[04:03:46] [Server thread/INFO]: Eren_yeiga[/179.125.215.209:0] logged in with entity id 47621 at ([world]-1229.6277, 67.5, 158.19359)
-[04:05:24] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Eren yeiga has disconnected from the Java server because of Bedrock client disconnected
-[04:05:24] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as Eren_yeiga disconnected
-[04:05:24] [Server thread/INFO]: Eren_yeiga lost connection: Disconnected
-[04:05:24] [Server thread/INFO]: Eren_yeiga left the game
-[04:48:08] [Server thread/INFO]: /191.101.31.23:42910 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: Failed to decode packet 'serverbound/minecraft:hello'
+[01:41:19] [User Authenticator #8/INFO]: UUID of player KyrunDark is 12c5890a-1cf6-3e99-921b-04a95cf33604
+[01:41:20] [Server thread/INFO]: KyrunDark joined the game
+[01:41:21] [Server thread/INFO]: KyrunDark[/201.71.221.129:45841] logged in with entity id 76814 at ([world]-1324.9518449221925, 76.0, 287.45231056315635)
+[02:28:13] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Heitorff0105
+[02:28:13] [localSession-7-3/INFO]: [Geyser-Spigot] Heitorff0105 (logged in as: Heitorff0105) has connected to the Java server
+[02:28:14] [Server thread/INFO]: [floodgate] Floodgate player logged in as Heitorff0105 joined (UUID: 00000000-0000-0000-0009-01f4118b5786)
+[02:28:14] [Server thread/INFO]: Heitorff0105 joined the game
+[02:28:14] [Server thread/INFO]: Heitorff0105[/187.59.27.122:0] logged in with entity id 83720 at ([world]-1272.5, 70.0, 282.5)
+[02:29:53] [Server thread/INFO]: Heitorff0105 issued server command: /gamemod 1
+[02:31:27] [Async Chat Thread - #1/INFO]: [Not Secure] <KyrunDark> salve Heitor
+[02:31:35] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Heitorff0105 has disconnected from the Java server because of Bedrock client disconnected
+[02:31:35] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as Heitorff0105 disconnected
+[02:31:35] [Server thread/INFO]: Heitorff0105 lost connection: Disconnected
+[02:31:35] [Server thread/INFO]: Heitorff0105 left the game
+[03:27:25] [Server thread/WARN]: Oak Boat (vehicle of KyrunDark) moved wrongly! 0.29516650722825943
+[03:52:41] [Server thread/INFO]: KyrunDark lost connection: Disconnected
+[03:52:41] [Server thread/INFO]: KyrunDark left the game
 [07:00:01] [SIGCONT handler/WARN]: Exception in thread "SIGCONT handler" java.io.IOError: java.io.IOException: Error calling ioctl(TIOCGWINSZ): return code is -1
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:65)
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.Terminal.getBufferSize(Terminal.java:273)
@@ -23,8 +30,6 @@
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.jni.JniNativePty.getSize(JniNativePty.java:155)
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:63)
 [07:00:01] [SIGCONT handler/WARN]: 	... 9 more
-[07:00:01] [Server thread/INFO]: Stopping server
-[07:00:01] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.3
 [07:00:01] [Server console handler/ERROR]: Caught previously unhandled exception :
 java.io.IOError: java.io.IOException: Input/output error
 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170) ~[jline-reader-3.20.0.jar:?]
@@ -48,46 +53,62 @@ Caused by: java.io.IOException: Input/output error
 	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:56) ~[jline-terminal-3.27.1.jar:?]
 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160) ~[jline-reader-3.20.0.jar:?]
 	... 9 more
+[07:00:01] [Server thread/INFO]: Stopping server
+[07:00:01] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.3
 [07:00:01] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.164
 [07:00:01] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
 [07:00:01] [Server thread/INFO]: [LuckPerms] Closing storage...
 [07:00:01] [Server thread/INFO]: [LuckPerms] Goodbye!
 [07:00:01] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
 [07:00:01] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[07:00:02] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[07:00:02] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
-[07:00:02] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[07:00:02] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
-[07:00:02] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[07:00:02] [Server thread/INFO]: Saving players
-[07:00:02] [Server thread/INFO]: Saving worlds
-[07:00:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 2 block chunks, 142 entity chunks, 0 poi chunks in world 'world' in 0.13s
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[07:00:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 9 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[07:00:02] [WebSocketConnectReadThread-113/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[07:00:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 20 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[07:00:02] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[07:00:02] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[07:00:02] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[07:00:02] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[07:00:01] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[07:00:01] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
+[07:00:01] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[07:00:01] [Thread-6/WARN]: Exception in thread "Thread-6" java.lang.NoClassDefFoundError: org/h2/api/ErrorCode
+[07:00:01] [Thread-6/WARN]: 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:475)
+[07:00:01] [Thread-6/WARN]: 	at org.h2.message.DbException.get(DbException.java:212)
+[07:00:01] [Thread-6/WARN]: 	at org.h2.mvstore.db.Store.close(Store.java:402)
+[07:00:01] [Thread-6/WARN]: 	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1261)
+[07:00:01] [Thread-6/WARN]: 	at org.h2.engine.Database.closeImpl(Database.java:1225)
+[07:00:01] [Thread-6/WARN]: 	at org.h2.engine.Database.close(Database.java:1144)
+[07:00:01] [Thread-6/WARN]: 	at org.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+[07:00:01] [Thread-6/WARN]: 	at org.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+[07:00:01] [Thread-6/WARN]: Caused by: java.lang.ClassNotFoundException: org.h2.api.ErrorCode
+[07:00:01] [Thread-6/WARN]: 	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+[07:00:01] [Thread-6/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+[07:00:01] [Thread-6/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+[07:00:01] [Thread-6/WARN]: 	... 8 more
+[07:00:01] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+[07:00:01] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[07:00:01] [Server thread/INFO]: Saving players
+[07:00:01] [Server thread/INFO]: Saving worlds
+[07:00:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 91 entity chunks, 0 poi chunks in world 'world' in 0.05s
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[07:00:01] [WebSocketConnectReadThread-1799/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[07:00:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Saved 25 block chunks, 129 entity chunks, 0 poi chunks in world 'world_nether' in 0.09s
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[07:00:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 35 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[07:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:00:01] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[07:00:01] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[07:00:01] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[07:00:01] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
