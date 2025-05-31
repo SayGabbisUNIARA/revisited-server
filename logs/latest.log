@@ -1,23 +1,211 @@
-[00:19:12] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username MilesFlavio
-[00:19:12] [localSession-7-2/INFO]: [Geyser-Spigot] MilesFlavio (logged in as: MilesFlavio) has connected to the Java server
-[00:19:13] [Server thread/INFO]: [floodgate] Floodgate player logged in as MilesFlavio joined (UUID: 00000000-0000-0000-0009-01fda9c6fd96)
-[00:19:13] [Server thread/INFO]: MilesFlavio joined the game
-[00:19:13] [Server thread/INFO]: MilesFlavio[/179.97.123.45:0] logged in with entity id 11442 at ([world]-1252.3134, 69.0, 419.3)
-[00:19:46] [Async Chat Thread - #0/INFO]: [Not Secure] <MilesFlavio> ae liberdade, tô sozinho
-[00:24:58] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] MilesFlavio has disconnected from the Java server because of Bedrock client disconnected
-[00:24:58] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as MilesFlavio disconnected
-[00:24:58] [Server thread/INFO]: MilesFlavio lost connection: Disconnected
-[00:24:58] [Server thread/INFO]: MilesFlavio left the game
-[00:26:35] [User Authenticator #5/INFO]: UUID of player Vintin is 742d656d-0826-3cc4-a58f-590439d9ab38
-[00:26:37] [Server thread/INFO]: Vintin joined the game
-[00:26:37] [Server thread/INFO]: Vintin[/45.160.235.205:57873] logged in with entity id 12741 at ([world]-1250.0085954609685, 69.0, 423.02702393992377)
-[00:27:52] [Server thread/INFO]: Vintin lost connection: Disconnected
-[00:27:52] [Server thread/INFO]: Vintin left the game
-[01:57:20] [User Authenticator #6/INFO]: UUID of player Narrador3 is c6b40a19-7f47-3478-9285-c19fd506627e
-[01:57:21] [Server thread/INFO]: Narrador3 joined the game
-[01:57:21] [Server thread/INFO]: Narrador3[/45.172.69.25:12871] logged in with entity id 12949 at ([world]-1341.2181560883269, 64.0, 248.6772338583255)
-[03:06:08] [Server thread/INFO]: Narrador3 lost connection: Disconnected
-[03:06:08] [Server thread/INFO]: Narrador3 left the game
+[00:00:40] [Async Chat Thread - #3/INFO]: [Not Secure] <Narrador3> ksksksks
+[00:00:44] [Async Chat Thread - #3/INFO]: [Not Secure] <luco_omega5> coe
+[00:00:55] [Async Chat Thread - #3/INFO]: [Not Secure] <Narrador3> pô mano
+[00:01:00] [Async Chat Thread - #3/INFO]: [Not Secure] <PomboObeso> oque foi
+[00:01:04] [Async Chat Thread - #3/INFO]: [Not Secure] <luco_omega5> fui te da oi e cai no abismo
+[00:01:11] [Async Chat Thread - #3/INFO]: [Not Secure] <Narrador3> eu vi
+[00:01:15] [Async Chat Thread - #3/INFO]: [Not Secure] <PomboObeso> fazuely
+[00:01:22] [Async Chat Thread - #3/INFO]: [Not Secure] <luco_omega5> ollloooco
+[00:01:58] [Server thread/INFO]: NicolasDaflon fell from a high place
+[00:02:12] [Server thread/INFO]: NicolasDaflon fell from a high place
+[00:02:45] [Server thread/INFO]: NicolasDaflon fell from a high place
+[00:03:44] [Server thread/INFO]: NicolasDaflon hit the ground too hard
+[00:04:37] [Server thread/INFO]: NicolasDaflon fell from a high place
+[00:04:52] [Server thread/INFO]: NicolasDaflon fell from a high place
+[00:05:13] [Server thread/INFO]: NicolasDaflon fell from a high place
+[00:15:30] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as NicolasDaflon disconnected
+[00:15:30] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] NicolasDaflon has disconnected from the Java server because of Bedrock client timed out
+[00:15:30] [Server thread/INFO]: NicolasDaflon lost connection: Disconnected
+[00:15:30] [Server thread/INFO]: NicolasDaflon left the game
+[00:20:50] [Server thread/INFO]: luco_omega5 has made the advancement [Enchanter]
+[00:22:04] [Async Chat Thread - #5/INFO]: [Not Secure] <luco_omega5> salve pombo
+[00:22:13] [Async Chat Thread - #5/INFO]: [Not Secure] <PomboObeso> SALVE
+[00:22:15] [Async Chat Thread - #5/INFO]: [Not Secure] <luco_omega5> como ta
+[00:22:24] [Async Chat Thread - #5/INFO]: [Not Secure] <PomboObeso> COMI
+[00:26:02] [Server thread/INFO]: PomboObeso lost connection: Disconnected
+[00:26:02] [Server thread/INFO]: PomboObeso left the game
+[00:26:55] [Server thread/INFO]: luco_omega5 was shot by Skeleton
+[00:35:50] [Async Chat Thread - #7/INFO]: [Not Secure] <luco_omega5> mais 1
+[00:36:09] [Async Chat Thread - #7/INFO]: [Not Secure] <Narrador3> uii
+[00:36:17] [Async Chat Thread - #7/INFO]: [Not Secure] <luco_omega5> bora trepa
+[00:36:21] [Async Chat Thread - #7/INFO]: [Not Secure] <luco_omega5> nessa cama??
+[00:36:36] [Async Chat Thread - #7/INFO]: [Not Secure] <Narrador3> pô
+[00:36:40] [Async Chat Thread - #7/INFO]: [Not Secure] <luco_omega5> oi
+[00:36:42] [Async Chat Thread - #7/INFO]: [Not Secure] <Narrador3> aa..
+[00:36:46] [Async Chat Thread - #7/INFO]: [Not Secure] <Narrador3> Bora
+[00:36:55] [Async Chat Thread - #7/INFO]: [Not Secure] <luco_omega5> eeeeeeeebaaa
+[00:53:27] [Async Chat Thread - #9/INFO]: [Not Secure] <LuarZm> eae
+[00:53:32] [Async Chat Thread - #9/INFO]: [Not Secure] <Narrador3> blz
+[00:53:38] [Server thread/INFO]: luco_omega5 was shot by Narrador3
+[00:53:40] [Async Chat Thread - #9/INFO]: [Not Secure] <LuarZm> klkkkkkkkkkk
+[00:53:43] [Async Chat Thread - #9/INFO]: [Not Secure] <Narrador3> ksksks
+[00:53:45] [Async Chat Thread - #9/INFO]: [Not Secure] <LuarZm> foi Certinho kkkkk
+[00:53:53] [Async Chat Thread - #9/INFO]: [Not Secure] <Narrador3> a mira tá em dia
+[00:53:57] [Async Chat Thread - #9/INFO]: [Not Secure] <LuarZm> slk
+[00:54:05] [User Authenticator #6/INFO]: UUID of player PomboObeso is 094d96a5-49f9-3622-8b4c-3b31833720f6
+[00:54:07] [Server thread/INFO]: PomboObeso joined the game
+[00:54:07] [Server thread/INFO]: PomboObeso[/201.27.143.22:52180] logged in with entity id 39013 at ([world]-1316.719477760817, 70.0, 221.29110605020844)
+[00:55:00] [Server thread/INFO]: PomboObeso lost connection: Disconnected
+[00:55:00] [Server thread/INFO]: PomboObeso left the game
+[01:01:23] [Server thread/INFO]: Narrador3 lost connection: Disconnected
+[01:01:23] [Server thread/INFO]: Narrador3 left the game
+[01:05:48] [User Authenticator #7/INFO]: UUID of player Alencar73 is 028a82f5-20fe-3357-8797-b427ea04a6c1
+[01:05:49] [Server thread/INFO]: Alencar73 joined the game
+[01:05:49] [Server thread/INFO]: Alencar73[/177.152.86.148:45044] logged in with entity id 40744 at ([world]-1687.7452548236672, 60.0, 216.23750001192093)
+[01:06:07] [Server thread/INFO]: Alencar73 issued server command: /whitelist add PlushArc30014052
+[01:06:07] [Server thread/INFO]: [Alencar73: Added PlushArc30014052 to the whitelist]
+[01:07:17] [User Authenticator #8/INFO]: UUID of player Narrador3 is c6b40a19-7f47-3478-9285-c19fd506627e
+[01:07:18] [Server thread/INFO]: Narrador3 joined the game
+[01:07:18] [Server thread/INFO]: Narrador3[/45.172.69.25:12790] logged in with entity id 41272 at ([world]-1354.864413995531, 64.0, 258.6493500421404)
+[01:09:11] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username PlushArc3014052
+[01:09:11] [localSession-7-4/INFO]: [Geyser-Spigot] PlushArc3014052 (logged in as: PlushArc3014052) has connected to the Java server
+[01:09:12] [Server thread/INFO]: [floodgate] Floodgate player logged in as PlushArc3014052 joined (UUID: 00000000-0000-0000-0009-01ffd9d87623)
+[01:09:12] [Server thread/INFO]: PlushArc3014052 joined the game
+[01:09:12] [Server thread/INFO]: PlushArc3014052[/177.84.10.126:0] logged in with entity id 41491 at ([world]-1257.5, 62.0, 285.5)
+[01:12:20] [User Authenticator #9/INFO]: UUID of player PomboObeso is 094d96a5-49f9-3622-8b4c-3b31833720f6
+[01:12:20] [Server thread/INFO]: PomboObeso joined the game
+[01:12:20] [Server thread/INFO]: PomboObeso[/201.27.143.22:54487] logged in with entity id 42008 at ([world]-1315.6198050317091, 70.0, 219.88385449399883)
+[01:12:49] [Async Chat Thread - #11/INFO]: [Not Secure] <PomboObeso> sai dai
+[01:18:38] [Async Chat Thread - #13/INFO]: [Not Secure] <Narrador3> opa
+[01:18:41] [Async Chat Thread - #13/INFO]: [Not Secure] <luco_omega5> opa
+[01:19:26] [Server thread/WARN]: luco_omega5 moved wrongly!
+[01:20:33] [Server thread/INFO]: PlushArc3014052 has made the advancement [Acquire Hardware]
+[01:26:51] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username NicolasDaflon
+[01:26:51] [localSession-7-1/INFO]: [Geyser-Spigot] NicolasDaflon (logged in as: NicolasDaflon) has connected to the Java server
+[01:26:52] [Server thread/INFO]: [floodgate] Floodgate player logged in as NicolasDaflon joined (UUID: 00000000-0000-0000-0009-01fad6b104ec)
+[01:26:52] [Server thread/INFO]: NicolasDaflon joined the game
+[01:26:52] [Server thread/INFO]: NicolasDaflon[/191.250.59.136:0] logged in with entity id 47455 at ([world]-1212.30001, 81.0, 317.39062)
+[01:27:58] [Async Chat Thread - #15/INFO]: [Not Secure] <luco_omega5> EU VI HEINKK
+[01:28:02] [Async Chat Thread - #15/INFO]: [Not Secure] <NicolasDaflon> susto
+[01:28:06] [Async Chat Thread - #15/INFO]: [Not Secure] <NicolasDaflon> shhhh
+[01:31:28] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as PlushArc3014052 disconnected
+[01:31:28] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] PlushArc3014052 has disconnected from the Java server because of Bedrock client disconnected
+[01:31:28] [Server thread/INFO]: PlushArc3014052 lost connection: Disconnected
+[01:31:28] [Server thread/INFO]: PlushArc3014052 left the game
+[01:32:09] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username PlushArc3014052
+[01:32:09] [localSession-7-2/INFO]: [Geyser-Spigot] PlushArc3014052 (logged in as: PlushArc3014052) has connected to the Java server
+[01:32:10] [Server thread/INFO]: [floodgate] Floodgate player logged in as PlushArc3014052 joined (UUID: 00000000-0000-0000-0009-01ffd9d87623)
+[01:32:10] [Server thread/INFO]: PlushArc3014052 joined the game
+[01:32:10] [Server thread/INFO]: PlushArc3014052[/177.84.10.126:0] logged in with entity id 50809 at ([world]-1366.7256, 69.0, 282.51144)
+[01:32:24] [Server thread/INFO]: PomboObeso has reached the goal [Sky's the Limit]
+[01:32:30] [Server thread/INFO]: Alencar73 lost connection: Disconnected
+[01:32:30] [Server thread/INFO]: Alencar73 left the game
+[01:35:20] [Server thread/INFO]: Narrador3 has made the advancement [Eye Spy]
+[01:35:26] [Server thread/INFO]: Narrador3 has made the advancement [The End?]
+[01:39:15] [Server thread/INFO]: PlushArc3014052 was blown up by Creeper
+[01:42:24] [Async Chat Thread - #17/INFO]: [Not Secure] <NicolasDaflon> apartamentos na torre dos vingadores estao abertos
+[01:44:44] [Server thread/INFO]: NicolasDaflon fell from a high place
+[01:44:47] [User Authenticator #10/INFO]: UUID of player ShapelierC15 is 95eebe6f-dfa4-33e4-ab20-cd7b96b3b8a4
+[01:44:50] [Server thread/INFO]: ShapelierC15 joined the game
+[01:44:50] [Server thread/INFO]: ShapelierC15[/45.226.73.138:56697] logged in with entity id 60172 at ([world]-1280.472916095365, 70.0, 295.16936568217113)
+[01:46:16] [Server thread/INFO]: PomboObeso lost connection: Disconnected
+[01:46:16] [Server thread/INFO]: PomboObeso left the game
+[01:46:45] [Async Chat Thread - #19/INFO]: [Not Secure] <ShapelierC15> rosinha igual meu penis
+[01:47:00] [Async Chat Thread - #19/INFO]: [Not Secure] <NicolasDaflon> eu ja imaginavakkk
+[01:49:55] [Server thread/INFO]: luco_omega5 lost connection: Disconnected
+[01:49:55] [Server thread/INFO]: luco_omega5 left the game
+[01:50:00] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] PlushArc3014052 has disconnected from the Java server because of Bedrock client disconnected
+[01:50:00] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as PlushArc3014052 disconnected
+[01:50:00] [Server thread/INFO]: PlushArc3014052 lost connection: Disconnected
+[01:50:00] [Server thread/INFO]: PlushArc3014052 left the game
+[01:50:09] [Server thread/WARN]: NicolasDaflon moved wrongly!
+[01:51:23] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] NicolasDaflon has disconnected from the Java server because of Bedrock client disconnected
+[01:51:23] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as NicolasDaflon disconnected
+[01:51:23] [Server thread/INFO]: NicolasDaflon lost connection: Disconnected
+[01:51:23] [Server thread/INFO]: NicolasDaflon left the game
+[01:51:56] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username NicolasDaflon
+[01:51:56] [localSession-7-3/INFO]: [Geyser-Spigot] NicolasDaflon (logged in as: NicolasDaflon) has connected to the Java server
+[01:51:56] [Server thread/INFO]: [floodgate] Floodgate player logged in as NicolasDaflon joined (UUID: 00000000-0000-0000-0009-01fad6b104ec)
+[01:51:56] [Server thread/INFO]: NicolasDaflon joined the game
+[01:51:56] [Server thread/INFO]: NicolasDaflon[/191.250.59.136:0] logged in with entity id 61690 at ([world]-1286.2168, 67.0, 192.30493)
+[01:52:25] [Server thread/INFO]: Narrador3 lost connection: Disconnected
+[01:52:25] [Server thread/INFO]: Narrador3 left the game
+[01:52:32] [Async Chat Thread - #21/INFO]: [Not Secure] <NicolasDaflon> sera que posso da uma melhorada nessa igreja?
+[02:05:17] [Async Chat Thread - #23/INFO]: [Not Secure] <ShapelierC15> pior q essa igreja ta precaria
+[02:05:23] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as NicolasDaflon disconnected
+[02:05:23] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] NicolasDaflon has disconnected from the Java server because of Bedrock client timed out
+[02:05:23] [Server thread/INFO]: NicolasDaflon lost connection: Disconnected
+[02:05:23] [Server thread/INFO]: NicolasDaflon left the game
+[02:06:02] [Server thread/INFO]: ShapelierC15 lost connection: Disconnected
+[02:06:02] [Server thread/INFO]: ShapelierC15 left the game
+[02:42:55] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username PlushArc3014052
+[02:42:55] [localSession-7-4/INFO]: [Geyser-Spigot] PlushArc3014052 (logged in as: PlushArc3014052) has connected to the Java server
+[02:42:56] [Server thread/INFO]: [floodgate] Floodgate player logged in as PlushArc3014052 joined (UUID: 00000000-0000-0000-0009-01ffd9d87623)
+[02:42:56] [Server thread/INFO]: PlushArc3014052 joined the game
+[02:42:56] [Server thread/INFO]: PlushArc3014052[/177.84.10.126:0] logged in with entity id 69140 at ([world]-1403.86, 67.0, 296.1344)
+[02:51:04] [Server thread/INFO]: PlushArc3014052 has made the advancement [Sweet Dreams]
+[02:51:47] [Server thread/INFO]: PlushArc3014052 has made the advancement [Monster Hunter]
+[03:16:38] [Server thread/INFO]: LuarZm has made the advancement [Stone Age]
+[03:20:42] [Server thread/INFO]: PlushArc3014052 has made the advancement [Isn't It Iron Pick]
+[03:21:12] [Server thread/INFO]: PlushArc3014052 has made the advancement [Stone Age]
+[03:49:05] [User Authenticator #11/INFO]: UUID of player luco_omega5 is d615adc7-7fe6-3532-9921-00298575e058
+[03:49:06] [Server thread/INFO]: luco_omega5 joined the game
+[03:49:06] [Server thread/INFO]: luco_omega5[/201.87.203.18:18206] logged in with entity id 78268 at ([world]-1301.0646542641177, 63.0, 184.08058501656777)
+[03:49:41] [Server thread/INFO]: LuarZm lost connection: Timed out
+[03:49:41] [Server thread/INFO]: LuarZm left the game
+[03:53:06] [User Authenticator #12/INFO]: UUID of player LuarZm is 2a2570ca-0321-3d41-bbdb-ea45fe7486f1
+[03:53:07] [Server thread/INFO]: LuarZm joined the game
+[03:53:07] [Server thread/INFO]: LuarZm[/189.127.59.148:59331] logged in with entity id 78777 at ([world]-1301.5817431123319, 63.0, 183.34291371550188)
+[03:57:22] [Server thread/INFO]: luco_omega5 was shot by Skeleton
+[03:58:20] [Server thread/INFO]: luco_omega5 was shot by Skeleton
+[03:58:54] [Server thread/INFO]: luco_omega5 was shot by Skeleton
+[04:06:38] [Server thread/INFO]: luco_omega5 was slain by Zombie
+[04:06:59] [User Authenticator #13/INFO]: UUID of player Narrador3 is c6b40a19-7f47-3478-9285-c19fd506627e
+[04:06:59] [Server thread/INFO]: Narrador3 joined the game
+[04:06:59] [Server thread/INFO]: Narrador3[/45.172.69.25:12478] logged in with entity id 81137 at ([world]-1336.7771387190737, 64.0, 246.4468271199608)
+[04:08:02] [Async Chat Thread - #25/INFO]: [Not Secure] <PlushArc3014052> vc tem madeira de carvalho?
+[04:08:12] [Async Chat Thread - #25/INFO]: [Not Secure] <Narrador3> não
+[04:08:20] [Async Chat Thread - #25/INFO]: [Not Secure] <PlushArc3014052> a
+[04:08:41] [Async Chat Thread - #25/INFO]: [Not Secure] <Narrador3> isso serve?
+[04:08:55] [Async Chat Thread - #25/INFO]: [Not Secure] <Narrador3> pera
+[04:09:03] [Async Chat Thread - #25/INFO]: [Not Secure] <PlushArc3014052> ta
+[04:10:00] [Async Chat Thread - #25/INFO]: [Not Secure] <Narrador3> essa aqui o
+[04:10:15] [Async Chat Thread - #25/INFO]: [Not Secure] <PlushArc3014052> sim
+[04:10:27] [Async Chat Thread - #25/INFO]: [Not Secure] <Narrador3> só pegar e plantar dnv as muda
+[04:11:42] [Server thread/INFO]: LuarZm has made the advancement [Diamonds!]
+[04:12:40] [Server thread/INFO]: LuarZm was slain by luco_omega5 using [PAU DE DIMA DO LUCO]
+[04:13:15] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as PlushArc3014052 disconnected
+[04:13:15] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] PlushArc3014052 has disconnected from the Java server because of Bedrock client disconnected
+[04:13:15] [Server thread/INFO]: PlushArc3014052 lost connection: Disconnected
+[04:13:15] [Server thread/INFO]: PlushArc3014052 left the game
+[04:13:30] [Server thread/INFO]: LuarZm was slain by Spider
+[04:14:26] [Server thread/INFO]: LuarZm was shot by Skeleton
+[04:15:17] [Server thread/INFO]: LuarZm was shot by Skeleton
+[04:19:30] [Async Chat Thread - #27/INFO]: [Not Secure] <LuarZm> eae narrador
+[04:19:38] [Async Chat Thread - #27/INFO]: [Not Secure] <Narrador3> oi
+[04:19:41] [Server thread/INFO]: luco_omega5 has made the advancement [Hot Stuff]
+[04:19:45] [Async Chat Thread - #27/INFO]: [Not Secure] <Narrador3> blz?
+[04:19:48] [Async Chat Thread - #27/INFO]: [Not Secure] <LuarZm> blz mano
+[04:19:58] [Async Chat Thread - #27/INFO]: [Not Secure] <luco_omega5> salve narrador
+[04:21:05] [Server thread/INFO]: Narrador3 has made the advancement [Ice Bucket Challenge]
+[04:21:08] [Server thread/INFO]: LuarZm has made the advancement [Not Today, Thank You]
+[04:44:09] [Async Chat Thread - #29/INFO]: [Not Secure] <Narrador3> er
+[04:45:24] [Server thread/INFO]: Narrador3 has made the advancement [A Terrible Fortress]
+[04:47:21] [Server thread/INFO]: Narrador3 has made the advancement [Into Fire]
+[04:49:48] [Server thread/INFO]: Narrador3 was slain by Zombified Piglin
+[04:57:28] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username PlushArc3014052
+[04:57:28] [localSession-7-1/INFO]: [Geyser-Spigot] PlushArc3014052 (logged in as: PlushArc3014052) has connected to the Java server
+[04:57:29] [Server thread/INFO]: [floodgate] Floodgate player logged in as PlushArc3014052 joined (UUID: 00000000-0000-0000-0009-01ffd9d87623)
+[04:57:29] [Server thread/INFO]: PlushArc3014052 joined the game
+[04:57:29] [Server thread/INFO]: PlushArc3014052[/177.84.10.126:0] logged in with entity id 92908 at ([world]-1342.9055, 64.0, 262.07892)
+[04:59:00] [Async Chat Thread - #31/INFO]: [Not Secure] <PlushArc3014052> eu posso pergar lã?
+[04:59:05] [Async Chat Thread - #31/INFO]: [Not Secure] <Narrador3> pode
+[04:59:23] [Async Chat Thread - #31/INFO]: [Not Secure] <PlushArc3014052> obg
+[05:01:50] [Async Chat Thread - #33/INFO]: [Not Secure] <Narrador3> rwe ae
+[05:22:00] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as PlushArc3014052 disconnected
+[05:22:00] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] PlushArc3014052 has disconnected from the Java server because of Bedrock client disconnected
+[05:22:00] [Server thread/INFO]: PlushArc3014052 lost connection: Disconnected
+[05:22:00] [Server thread/INFO]: PlushArc3014052 left the game
+[05:25:56] [Server thread/INFO]: luco_omega5 has made the advancement [Not Today, Thank You]
+[05:34:52] [Server thread/INFO]: luco_omega5 fell from a high place
+[05:40:31] [Server thread/INFO]: Narrador3 has made the advancement [Local Brewery]
+[05:45:15] [Async Chat Thread - #35/INFO]: [Not Secure] <luco_omega5> foi mal
+[05:45:24] [Async Chat Thread - #35/INFO]: [Not Secure] <Narrador3> tranquilo
+[05:46:17] [Server thread/INFO]: Narrador3 lost connection: Disconnected
+[05:46:17] [Server thread/INFO]: Narrador3 left the game
+[06:12:28] [Server thread/INFO]: luco_omega5 has made the advancement [Hidden in the Depths]
+[06:43:20] [Server thread/INFO]: LuarZm has made the advancement [Best Friends Forever]
+[06:50:52] [Server thread/INFO]: luco_omega5 was burned to a crisp while fighting LuarZm
 [07:00:01] [SIGCONT handler/WARN]: Exception in thread "SIGCONT handler" java.io.IOError: java.io.IOException: Error calling ioctl(TIOCGWINSZ): return code is -1
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:65)
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.Terminal.getBufferSize(Terminal.java:273)
@@ -33,6 +221,7 @@
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.jni.JniNativePty.getSize(JniNativePty.java:155)
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:63)
 [07:00:01] [SIGCONT handler/WARN]: 	... 9 more
+[07:00:01] [Server thread/INFO]: Stopping server
 [07:00:01] [Server console handler/ERROR]: Caught previously unhandled exception :
 java.io.IOError: java.io.IOException: Input/output error
 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170) ~[jline-reader-3.20.0.jar:?]
@@ -56,7 +245,6 @@ Caused by: java.io.IOException: Input/output error
 	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:56) ~[jline-terminal-3.27.1.jar:?]
 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160) ~[jline-reader-3.20.0.jar:?]
 	... 9 more
-[07:00:01] [Server thread/INFO]: Stopping server
 [07:00:01] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.4
 [07:00:01] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.164
 [07:00:01] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
@@ -67,9 +255,6 @@ Caused by: java.io.IOException: Input/output error
 [07:00:02] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
 [07:00:02] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
 [07:00:02] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[07:00:02] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
-[07:00:02] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[07:00:02] [Server thread/INFO]: Saving players
 [07:00:02] [Thread-6/WARN]: Exception in thread "Thread-6" java.lang.NoClassDefFoundError: org/h2/api/ErrorCode
 [07:00:02] [Thread-6/WARN]: 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:475)
 [07:00:02] [Thread-6/WARN]: 	at org.h2.message.DbException.get(DbException.java:212)
@@ -84,27 +269,34 @@ Caused by: java.io.IOException: Input/output error
 [07:00:02] [Thread-6/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
 [07:00:02] [Thread-6/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
 [07:00:02] [Thread-6/WARN]: 	... 8 more
+[07:00:02] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+[07:00:02] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[07:00:02] [Server thread/INFO]: Saving players
+[07:00:02] [Server thread/INFO]: LuarZm lost connection: O servidor está em manutenção para backup automático. Ele será reiniciado em breve! Entre novamente em 3 minutos; Aguarde...
+[07:00:02] [Server thread/INFO]: LuarZm left the game
+[07:00:02] [Server thread/INFO]: luco_omega5 lost connection: O servidor está em manutenção para backup automático. Ele será reiniciado em breve! Entre novamente em 3 minutos; Aguarde...
+[07:00:02] [Server thread/INFO]: luco_omega5 left the game
+[07:00:02] [WebSocketConnectReadThread-1476/INFO]: [Geyser-Spigot] The skin uploader has been closed
 [07:00:02] [Server thread/INFO]: Saving worlds
 [07:00:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 2 block chunks, 139 entity chunks, 0 poi chunks in world 'world' in 0.05s
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 45 block chunks, 253 entity chunks, 5 poi chunks in world 'world' in 0.25s
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[07:00:02] [WebSocketConnectReadThread-1971/INFO]: [Geyser-Spigot] The skin uploader has been closed
 [07:00:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 120 entity chunks, 0 poi chunks in world 'world_nether' in 0.03s
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 27 block chunks, 152 entity chunks, 0 poi chunks in world 'world_nether' in 0.10s
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
 [07:00:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 41 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 38 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
 [07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
