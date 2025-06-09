@@ -1,8 +1,0 @@
-{
-  "debug": false,
-  "secret": "eyJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiI2ODNmZDAyYWUxMzRiYmM1NDI3ZTAyOTciLCJvd25lciI6Imdvb2dsZXwxMDY3NDEyODE5NTE2MzY4NDU1NDEiLCJpYXQiOjE3NDkwMTI1MjIsImV4cCI6MjM4MDE2NDUyMn0.matkq10W9G77gRQxqG1d_ecDPjBqqOb9AsrvezZGnrc",
-  "detectMessage": "§cVPN Detected!\n§cPlease disable your VPN and rejoin.\n§cIf you believe this is a mistake, please contact an administrator.",
-  "shieldMessage": "§cShield is enabled!\n§cPlease wait a couple seconds before joining.\n§cIf you believe this is a mistake, please contact an administrator.",
-  "cacheTimeout": 120,
-  "level": "INFO"
-}
