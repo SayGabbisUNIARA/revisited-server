@@ -1,161 +1,38 @@
-[00:39:36] [Server thread/INFO]: Alencar73 lost connection: Disconnected
-[00:39:36] [Server thread/INFO]: Alencar73 left the game
-[00:55:55] [Server thread/INFO]: ShapelierC15 lost connection: Disconnected
-[00:55:55] [Server thread/INFO]: ShapelierC15 left the game
-[01:01:47] [User Authenticator #7/INFO]: UUID of player ShapelierC15 is 95eebe6f-dfa4-33e4-ab20-cd7b96b3b8a4
-[01:01:47] [Server thread/INFO]: ShapelierC15 45.226.73.31
-[01:01:47] [Server thread/INFO]: ShapelierC15 joined the game
-[01:01:47] [Server thread/INFO]: ShapelierC15[/45.226.73.31:64440] logged in with entity id 105641 at ([world]-1279.1857649544872, 70.0, 294.6113091306398)
-[01:02:01] [Craft Scheduler Thread - 207 - AuthMe/INFO]: [AuthMe] ShapelierC15 logged in 45.226.73.31
-[01:13:16] [Server thread/INFO]: ShapelierC15 lost connection: Disconnected
-[01:13:16] [Server thread/INFO]: ShapelierC15 left the game
-[01:14:31] [User Authenticator #8/INFO]: UUID of player ShapelierC15 is 95eebe6f-dfa4-33e4-ab20-cd7b96b3b8a4
-[01:14:31] [Server thread/INFO]: ShapelierC15 45.226.73.31
-[01:14:31] [Server thread/INFO]: ShapelierC15 joined the game
-[01:14:31] [Server thread/INFO]: ShapelierC15[/45.226.73.31:64132] logged in with entity id 108515 at ([world]-1277.300000011921, 70.0, 295.30000001192093)
-[01:14:43] [Craft Scheduler Thread - 214 - AuthMe/INFO]: [AuthMe] ShapelierC15 logged in 45.226.73.31
-[01:15:56] [User Authenticator #9/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
-[01:15:56] [Server thread/INFO]: Disconnecting Akyra_22 (/45.172.69.25:12147): You're not that awesome to be whitelisted.
-[01:15:56] [Server thread/INFO]: Akyra_22 (/45.172.69.25:12147) lost connection: You're not that awesome to be whitelisted.
-[01:16:02] [User Authenticator #9/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
-[01:16:02] [Server thread/INFO]: Disconnecting Akyra_22 (/45.172.69.25:13109): You're not that awesome to be whitelisted.
-[01:16:02] [Server thread/INFO]: Akyra_22 (/45.172.69.25:13109) lost connection: You're not that awesome to be whitelisted.
-[01:24:47] [Server thread/INFO]: ShapelierC15 has made the advancement [Best Friends Forever]
-[02:02:34] [Server thread/INFO]: ShapelierC15 lost connection: Disconnected
-[02:02:34] [Server thread/INFO]: ShapelierC15 left the game
-[02:10:11] [User Authenticator #10/INFO]: UUID of player Alencar73 is 028a82f5-20fe-3357-8797-b427ea04a6c1
-[02:10:11] [Server thread/INFO]: Alencar73 177.152.86.2
-[02:10:11] [Server thread/INFO]: Alencar73 joined the game
-[02:10:11] [Server thread/INFO]: Alencar73[/177.152.86.2:58856] logged in with entity id 117799 at ([world]-1250.799717965752, 68.0, 316.78237555654573)
-[02:10:21] [Craft Scheduler Thread - 229 - AuthMe/INFO]: [AuthMe] Alencar73 logged in 177.152.86.2
-[02:11:32] [Server thread/INFO]: Alencar73 issued server command: /whitelist add Akyra_22
-[02:11:32] [Server thread/INFO]: [Alencar73: Added Akyra_22 to the whitelist]
-[02:12:19] [User Authenticator #11/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
-[02:12:19] [Server thread/INFO]: Disconnecting Akyra_22 (/45.172.69.25:12708): You're not that awesome to be whitelisted.
-[02:12:19] [Server thread/INFO]: Akyra_22 (/45.172.69.25:12708) lost connection: You're not that awesome to be whitelisted.
-[02:14:07] [User Authenticator #12/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
-[02:14:07] [Server thread/INFO]: Disconnecting Akyra_22 (/45.172.69.25:12425): You're not that awesome to be whitelisted.
-[02:14:07] [Server thread/INFO]: Akyra_22 (/45.172.69.25:12425) lost connection: You're not that awesome to be whitelisted.
-[02:14:16] [User Authenticator #12/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
-[02:14:16] [Server thread/INFO]: Disconnecting Akyra_22 (/45.172.69.25:13087): You're not that awesome to be whitelisted.
-[02:14:16] [Server thread/INFO]: Akyra_22 (/45.172.69.25:13087) lost connection: You're not that awesome to be whitelisted.
-[02:14:50] [Server thread/INFO]: Alencar73 issued server command: /whitelist on
-[02:14:50] [Server thread/INFO]: [Alencar73: Whitelist is now turned on]
-[02:15:24] [User Authenticator #13/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
-[02:15:24] [Server thread/INFO]: Disconnecting Akyra_22 (/45.172.69.25:13092): You're not that awesome to be whitelisted.
-[02:15:25] [Server thread/INFO]: Akyra_22 (/45.172.69.25:13092) lost connection: You're not that awesome to be whitelisted.
-[02:15:29] [User Authenticator #13/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
-[02:15:29] [Server thread/INFO]: Disconnecting Akyra_22 (/45.172.69.25:12971): You're not that awesome to be whitelisted.
-[02:15:29] [Server thread/INFO]: Akyra_22 (/45.172.69.25:12971) lost connection: You're not that awesome to be whitelisted.
-[02:20:10] [User Authenticator #14/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
-[02:20:10] [Server thread/INFO]: Disconnecting Akyra_22 (/45.172.69.25:12425): You're not that awesome to be whitelisted.
-[02:20:10] [Server thread/INFO]: Akyra_22 (/45.172.69.25:12425) lost connection: You're not that awesome to be whitelisted.
-[02:20:25] [User Authenticator #14/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
-[02:20:25] [Server thread/INFO]: Disconnecting Akyra_22 (/45.172.69.25:12379): You're not that awesome to be whitelisted.
-[02:20:25] [Server thread/INFO]: Akyra_22 (/45.172.69.25:12379) lost connection: You're not that awesome to be whitelisted.
-[02:22:10] [User Authenticator #15/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
-[02:22:10] [Server thread/INFO]: Disconnecting Akyra_22 (/45.172.69.25:12802): You're not that awesome to be whitelisted.
-[02:22:10] [Server thread/INFO]: Akyra_22 (/45.172.69.25:12802) lost connection: You're not that awesome to be whitelisted.
-[02:22:29] [User Authenticator #15/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
-[02:22:29] [Server thread/INFO]: Disconnecting Akyra_22 (/45.172.69.25:13104): You're not that awesome to be whitelisted.
-[02:22:30] [Server thread/INFO]: Akyra_22 (/45.172.69.25:13104) lost connection: You're not that awesome to be whitelisted.
-[02:22:37] [User Authenticator #15/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
-[02:22:37] [Server thread/INFO]: Disconnecting Akyra_22 (/45.172.69.25:12266): You're not that awesome to be whitelisted.
-[02:22:37] [Server thread/INFO]: Akyra_22 (/45.172.69.25:12266) lost connection: You're not that awesome to be whitelisted.
-[02:22:52] [User Authenticator #15/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
-[02:22:52] [Server thread/INFO]: Disconnecting Akyra_22 (/45.172.69.25:12588): You're not that awesome to be whitelisted.
-[02:22:52] [Server thread/INFO]: Akyra_22 (/45.172.69.25:12588) lost connection: You're not that awesome to be whitelisted.
-[02:24:05] [Server thread/INFO]: Alencar73 issued server command: /whitelist add Akyra_22
-[02:25:00] [Server thread/INFO]: Alencar73 issued server command: /whitelist list
-[02:27:07] [Server thread/INFO]: Alencar73 lost connection: Disconnected
-[02:27:07] [Server thread/INFO]: Alencar73 left the game
-[02:27:40] [User Authenticator #16/INFO]: UUID of player Alencar73 is 028a82f5-20fe-3357-8797-b427ea04a6c1
-[02:27:40] [Server thread/INFO]: Alencar73 177.152.86.2
-[02:27:40] [Server thread/INFO]: Alencar73 joined the game
-[02:27:40] [Server thread/INFO]: Alencar73[/177.152.86.2:59399] logged in with entity id 121842 at ([world]-1285.576665320745, 130.07519558070072, 252.60667261805756)
-[02:27:50] [Craft Scheduler Thread - 236 - AuthMe/INFO]: [AuthMe] Alencar73 logged in 177.152.86.2
-[02:28:47] [Server thread/INFO]: Alencar73 issued server command: /easywl Akyra_22
-[02:28:57] [Server thread/INFO]: Alencar73 issued server command: /easywl add Akyra_22
-[02:29:55] [User Authenticator #17/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
-[02:29:56] [Server thread/INFO]: Akyra_22 45.172.69.25
-[02:29:56] [Server thread/INFO]: Akyra_22 joined the game
-[02:29:56] [Server thread/INFO]: Akyra_22[/45.172.69.25:12587] logged in with entity id 122455 at ([world]-1268.5, 69.0, 265.5)
-[02:30:26] [Server thread/INFO]: Akyra_22 lost connection: Excedeu o tempo para autenticação
-[02:30:26] [Server thread/INFO]: Akyra_22 left the game
-[02:30:30] [User Authenticator #17/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
-[02:30:30] [Server thread/INFO]: Akyra_22 45.172.69.25
-[02:30:30] [Server thread/INFO]: Akyra_22 joined the game
-[02:30:30] [Server thread/INFO]: Akyra_22[/45.172.69.25:12231] logged in with entity id 122596 at ([world]-1268.6831848350123, 69.0, 265.1319973363824)
-[02:31:00] [Server thread/INFO]: Akyra_22 lost connection: Excedeu o tempo para autenticação
-[02:31:00] [Server thread/INFO]: Akyra_22 left the game
-[02:31:17] [User Authenticator #17/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
-[02:31:18] [Server thread/INFO]: Akyra_22 45.172.69.25
-[02:31:18] [Server thread/INFO]: Akyra_22 joined the game
-[02:31:18] [Server thread/INFO]: Akyra_22[/45.172.69.25:12419] logged in with entity id 122744 at ([world]-1268.6831848350123, 69.0, 265.1319973363824)
-[02:31:48] [Server thread/INFO]: Akyra_22 lost connection: Excedeu o tempo para autenticação
-[02:31:48] [Server thread/INFO]: Akyra_22 left the game
-[02:32:05] [User Authenticator #17/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
-[02:32:05] [Server thread/INFO]: Akyra_22 45.172.69.25
-[02:32:05] [Server thread/INFO]: Akyra_22 joined the game
-[02:32:05] [Server thread/INFO]: Akyra_22[/45.172.69.25:12254] logged in with entity id 122857 at ([world]-1268.6831848350123, 69.0, 265.1319973363824)
-[02:32:18] [Async Chat Thread - #10/INFO]: [Not Secure] <Alencar73> aaaaa /register akyra akyra
-[02:32:35] [Server thread/INFO]: Akyra_22 lost connection: Excedeu o tempo para autenticação
-[02:32:35] [Server thread/INFO]: Akyra_22 left the game
-[02:32:57] [User Authenticator #17/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
-[02:32:57] [Server thread/INFO]: Akyra_22 45.172.69.25
-[02:32:57] [Server thread/INFO]: Akyra_22 joined the game
-[02:32:57] [Server thread/INFO]: Akyra_22[/45.172.69.25:12219] logged in with entity id 122934 at ([world]-1268.6831848350123, 69.0, 265.1319973363824)
-[02:33:27] [Server thread/INFO]: Akyra_22 lost connection: Excedeu o tempo para autenticação
-[02:33:27] [Server thread/INFO]: Akyra_22 left the game
-[02:33:30] [User Authenticator #17/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
-[02:33:30] [Server thread/INFO]: Akyra_22 45.172.69.25
-[02:33:30] [Server thread/INFO]: Akyra_22 joined the game
-[02:33:30] [Server thread/INFO]: Akyra_22[/45.172.69.25:12562] logged in with entity id 122985 at ([world]-1268.6831848350123, 69.0, 265.1319973363824)
-[02:33:49] [Server thread/INFO]: [AuthMe] Akyra_22 registered 45.172.69.25
-[02:33:49] [Craft Scheduler Thread - 259 - AuthMe/INFO]: [AuthMe] Akyra_22 logged in 45.172.69.25
-[02:34:32] [Server thread/INFO]: Akyra_22 has made the advancement [We Need to Go Deeper]
-[02:38:28] [Server thread/INFO]: Akyra_22 has made the advancement [Monster Hunter]
-[02:38:28] [Server thread/INFO]: Akyra_22 has made the advancement [Voluntary Exile]
-[02:41:12] [Server thread/INFO]: Akyra_22 has reached the goal [Sky's the Limit]
-[02:43:50] [Server thread/WARN]: Alencar73 moved wrongly!
-[02:43:50] [Server thread/WARN]: Alencar73 moved wrongly!
-[02:45:00] [Server thread/INFO]: Akyra_22 has completed the challenge [Hero of the Village]
-[02:46:44] [Server thread/INFO]: Alencar73 lost connection: Disconnected
-[02:46:44] [Server thread/INFO]: Alencar73 left the game
-[02:47:05] [Server thread/INFO]: Akyra_22 has made the advancement [What a Deal!]
-[02:47:06] [Server thread/INFO]: Akyra_22 has made the advancement [Cover Me with Diamonds]
-[02:48:44] [Server thread/INFO]: Akyra_22 has made the advancement [Diamonds!]
-[02:49:27] [Server thread/INFO]: Akyra_22 has made the advancement [Sweet Dreams]
-[02:50:58] [Server thread/INFO]: Akyra_22 has made the advancement [A Seedy Place]
-[03:25:43] [Server thread/INFO]: Akyra_22 has made the advancement [Acquire Hardware]
-[03:33:28] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Osamuh25
-[03:33:28] [localSession-7-2/INFO]: [Geyser-Spigot] Osamuh25 (logged in as: Osamuh25) has connected to the Java server
-[03:33:29] [Server thread/INFO]: Disconnecting /38.225.246.6:0: You are not whitelisted on this server!
-[03:33:29] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as Osamuh25 disconnected
-[03:33:29] [localSession-7-2/INFO]: [Geyser-Spigot] Osamuh25 has disconnected from the Java server because of You are not whitelisted on this server!
-[03:33:29] [Server thread/INFO]: /38.225.246.6:0 lost connection: You are not whitelisted on this server!
-[03:33:46] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Osamuh25
-[03:33:46] [localSession-7-3/INFO]: [Geyser-Spigot] Osamuh25 (logged in as: Osamuh25) has connected to the Java server
-[03:33:46] [Server thread/INFO]: Disconnecting /38.225.246.6:0: You are not whitelisted on this server!
-[03:33:46] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as Osamuh25 disconnected
-[03:33:46] [localSession-7-3/INFO]: [Geyser-Spigot] Osamuh25 has disconnected from the Java server because of You are not whitelisted on this server!
-[03:33:46] [Server thread/INFO]: /38.225.246.6:0 lost connection: You are not whitelisted on this server!
-[03:37:16] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username Osamuh25
-[03:37:16] [localSession-7-4/INFO]: [Geyser-Spigot] Osamuh25 (logged in as: Osamuh25) has connected to the Java server
-[03:37:17] [Server thread/INFO]: Disconnecting /38.225.246.6:0: You are not whitelisted on this server!
-[03:37:17] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as Osamuh25 disconnected
-[03:37:17] [localSession-7-4/INFO]: [Geyser-Spigot] Osamuh25 has disconnected from the Java server because of You are not whitelisted on this server!
-[03:37:17] [Server thread/INFO]: /38.225.246.6:0 lost connection: You are not whitelisted on this server!
-[03:39:18] [Server thread/INFO]: E - WhiteList > Whitelisted 'Osamuh25'
-[04:04:18] [Server thread/INFO]: Akyra_22 lost connection: Disconnected
-[04:04:18] [Server thread/INFO]: Akyra_22 left the game
-[04:04:21] [User Authenticator #18/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
-[04:04:21] [Server thread/INFO]: Akyra_22 45.172.69.25
-[04:04:21] [Server thread/INFO]: Akyra_22 joined the game
-[04:04:21] [Server thread/INFO]: Akyra_22[/45.172.69.25:12340] logged in with entity id 150250 at ([world]-1337.0871394535147, 64.0, 262.6336166966438)
-[04:04:39] [Craft Scheduler Thread - 282 - AuthMe/INFO]: [AuthMe] Akyra_22 logged in 45.172.69.25
-[04:04:43] [Server thread/INFO]: Akyra_22 lost connection: Disconnected
-[04:04:43] [Server thread/INFO]: Akyra_22 left the game
+[00:19:29] [User Authenticator #10/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
+[00:19:30] [Server thread/INFO]: Akyra_22 45.172.69.25
+[00:19:30] [Server thread/INFO]: Akyra_22 joined the game
+[00:19:30] [Server thread/INFO]: Akyra_22[/45.172.69.25:12560] logged in with entity id 320045 at ([world]-1336.0697545359683, 64.0, 250.51215751657375)
+[00:19:40] [Craft Scheduler Thread - 281 - AuthMe/INFO]: [AuthMe] Akyra_22 logged in 45.172.69.25
+[00:52:46] [Server thread/WARN]: Cherry Boat (vehicle of Akyra_22) moved wrongly! 0.512534781268414
+[00:52:46] [Server thread/WARN]: Cherry Boat (vehicle of Akyra_22) moved wrongly! 0.5279886110930647
+[00:52:46] [Server thread/WARN]: Cherry Boat (vehicle of Akyra_22) moved wrongly! 0.5422233811348178
+[00:52:46] [Server thread/WARN]: Cherry Boat (vehicle of Akyra_22) moved wrongly! 0.5553568326263303
+[01:34:48] [User Authenticator #11/INFO]: UUID of player ShapelierC15 is 95eebe6f-dfa4-33e4-ab20-cd7b96b3b8a4
+[01:34:51] [Server thread/INFO]: ShapelierC15 45.226.73.31
+[01:34:51] [Server thread/INFO]: ShapelierC15 joined the game
+[01:34:51] [Server thread/INFO]: ShapelierC15[/45.226.73.31:65499] logged in with entity id 333450 at ([world]-1280.2714147808274, 70.0, 294.82317257221206)
+[01:35:05] [Craft Scheduler Thread - 299 - AuthMe/INFO]: [AuthMe] ShapelierC15 logged in 45.226.73.31
+[01:36:29] [Server thread/INFO]: ShapelierC15 lost connection: Disconnected
+[01:36:29] [Server thread/INFO]: ShapelierC15 left the game
+[02:49:02] [Server thread/INFO]: Akyra_22 lost connection: Disconnected
+[02:49:02] [Server thread/INFO]: Akyra_22 left the game
+[03:10:50] [User Authenticator #12/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
+[03:10:51] [Server thread/INFO]: Akyra_22 45.172.69.25
+[03:10:51] [Server thread/INFO]: Akyra_22 joined the game
+[03:10:51] [Server thread/INFO]: Akyra_22[/45.172.69.25:12927] logged in with entity id 350414 at ([world]-1342.6313998591313, 55.0, 280.70433599628484)
+[03:11:00] [Craft Scheduler Thread - 323 - AuthMe/INFO]: [AuthMe] Akyra_22 logged in 45.172.69.25
+[04:09:25] [Server thread/INFO]: Akyra_22 lost connection: Disconnected
+[04:09:25] [Server thread/INFO]: Akyra_22 left the game
+[05:03:41] [User Authenticator #13/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
+[05:03:41] [Server thread/INFO]: Akyra_22 45.172.69.25
+[05:03:41] [Server thread/INFO]: Akyra_22 joined the game
+[05:03:41] [Server thread/INFO]: Akyra_22[/45.172.69.25:13018] logged in with entity id 372652 at ([world]-753.5866214716689, 64.0, -614.1617910568162)
+[05:03:51] [Craft Scheduler Thread - 350 - AuthMe/INFO]: [AuthMe] Akyra_22 logged in 45.172.69.25
+[05:13:08] [Server thread/INFO]: Akyra_22 has made the advancement [Hot Stuff]
+[05:13:16] [Server thread/INFO]: Akyra_22 has made the advancement [Ice Bucket Challenge]
+[06:12:39] [Server thread/INFO]: Akyra_22 lost connection: Disconnected
+[06:12:39] [Server thread/INFO]: Akyra_22 left the game
+[07:00:01] [Server thread/INFO]: Stopping server
 [07:00:01] [SIGCONT handler/WARN]: Exception in thread "SIGCONT handler" java.io.IOError: java.io.IOException: Error calling ioctl(TIOCGWINSZ): return code is -1
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:65)
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.Terminal.getBufferSize(Terminal.java:273)
@@ -171,8 +48,6 @@
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.jni.JniNativePty.getSize(JniNativePty.java:155)
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:63)
 [07:00:01] [SIGCONT handler/WARN]: 	... 9 more
-[07:00:01] [Server thread/INFO]: Stopping server
-[07:00:01] [Server thread/INFO]: [NoVpn] Disabling NoVpn v1.0.0
 [07:00:01] [Server console handler/ERROR]: Caught previously unhandled exception :
 java.io.IOError: java.io.IOException: Input/output error
 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170) ~[jline-reader-3.20.0.jar:?]
@@ -196,6 +71,7 @@ Caused by: java.io.IOException: Input/output error
 	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:56) ~[jline-terminal-3.27.1.jar:?]
 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160) ~[jline-reader-3.20.0.jar:?]
 	... 9 more
+[07:00:01] [Server thread/INFO]: [NoVpn] Disabling NoVpn v1.0.0
 [07:00:01] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.5
 [07:00:01] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
 [07:00:01] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
@@ -218,17 +94,17 @@ java.lang.NullPointerException: Cannot invoke "me.comphack.playerlogger.libs.web
 [07:00:01] [Server thread/INFO]: [FastLogin] Disabling FastLogin v1.10-git484855724b794de1fe057cf7360245362658b432
 [07:00:01] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
 [07:00:01] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[07:00:01] [Server thread/INFO]: [EasyWhitelist] Disabling EasyWhitelist v1.0.2
-[07:00:01] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
+[07:00:02] [Server thread/INFO]: [EasyWhitelist] Disabling EasyWhitelist v1.0.2
+[07:00:02] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
 [07:00:02] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
 [07:00:02] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
 [07:00:02] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
 [07:00:02] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.164
 [07:00:02] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[07:00:02] [WebSocketConnectReadThread-2933/INFO]: [Geyser-Spigot] The skin uploader has been closed
 [07:00:02] [Server thread/INFO]: [LuckPerms] Closing storage...
 [07:00:02] [Server thread/INFO]: [LuckPerms] Goodbye!
 [07:00:02] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[07:00:02] [WebSocketConnectReadThread-2537/INFO]: [Geyser-Spigot] The skin uploader has been closed
 [07:00:02] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
 [07:00:02] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
 [07:00:02] [Server thread/INFO]: Saving players
@@ -237,28 +113,28 @@ java.lang.NullPointerException: Cannot invoke "me.comphack.playerlogger.libs.web
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 148 entity chunks, 0 poi chunks in world 'world' in 0.12s
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 159 entity chunks, 4 poi chunks in world 'world' in 0.21s
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[07:00:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 27 block chunks, 158 entity chunks, 0 poi chunks in world 'world_nether' in 0.14s
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[07:00:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 32 entity chunks, 0 poi chunks in world 'world_the_end' in 0.08s
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[07:00:02] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[07:00:02] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[07:00:02] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[07:00:02] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[07:00:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saved 28 block chunks, 157 entity chunks, 0 poi chunks in world 'world_nether' in 0.18s
+[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[07:00:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 35 entity chunks, 0 poi chunks in world 'world_the_end' in 0.08s
+[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[07:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:00:03] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[07:00:03] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[07:00:03] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[07:00:03] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
