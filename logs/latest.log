@@ -1,37 +1,78 @@
-[00:19:29] [User Authenticator #10/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
-[00:19:30] [Server thread/INFO]: Akyra_22 45.172.69.25
-[00:19:30] [Server thread/INFO]: Akyra_22 joined the game
-[00:19:30] [Server thread/INFO]: Akyra_22[/45.172.69.25:12560] logged in with entity id 320045 at ([world]-1336.0697545359683, 64.0, 250.51215751657375)
-[00:19:40] [Craft Scheduler Thread - 281 - AuthMe/INFO]: [AuthMe] Akyra_22 logged in 45.172.69.25
-[00:52:46] [Server thread/WARN]: Cherry Boat (vehicle of Akyra_22) moved wrongly! 0.512534781268414
-[00:52:46] [Server thread/WARN]: Cherry Boat (vehicle of Akyra_22) moved wrongly! 0.5279886110930647
-[00:52:46] [Server thread/WARN]: Cherry Boat (vehicle of Akyra_22) moved wrongly! 0.5422233811348178
-[00:52:46] [Server thread/WARN]: Cherry Boat (vehicle of Akyra_22) moved wrongly! 0.5553568326263303
-[01:34:48] [User Authenticator #11/INFO]: UUID of player ShapelierC15 is 95eebe6f-dfa4-33e4-ab20-cd7b96b3b8a4
-[01:34:51] [Server thread/INFO]: ShapelierC15 45.226.73.31
-[01:34:51] [Server thread/INFO]: ShapelierC15 joined the game
-[01:34:51] [Server thread/INFO]: ShapelierC15[/45.226.73.31:65499] logged in with entity id 333450 at ([world]-1280.2714147808274, 70.0, 294.82317257221206)
-[01:35:05] [Craft Scheduler Thread - 299 - AuthMe/INFO]: [AuthMe] ShapelierC15 logged in 45.226.73.31
-[01:36:29] [Server thread/INFO]: ShapelierC15 lost connection: Disconnected
-[01:36:29] [Server thread/INFO]: ShapelierC15 left the game
-[02:49:02] [Server thread/INFO]: Akyra_22 lost connection: Disconnected
-[02:49:02] [Server thread/INFO]: Akyra_22 left the game
-[03:10:50] [User Authenticator #12/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
-[03:10:51] [Server thread/INFO]: Akyra_22 45.172.69.25
-[03:10:51] [Server thread/INFO]: Akyra_22 joined the game
-[03:10:51] [Server thread/INFO]: Akyra_22[/45.172.69.25:12927] logged in with entity id 350414 at ([world]-1342.6313998591313, 55.0, 280.70433599628484)
-[03:11:00] [Craft Scheduler Thread - 323 - AuthMe/INFO]: [AuthMe] Akyra_22 logged in 45.172.69.25
-[04:09:25] [Server thread/INFO]: Akyra_22 lost connection: Disconnected
-[04:09:25] [Server thread/INFO]: Akyra_22 left the game
-[05:03:41] [User Authenticator #13/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
-[05:03:41] [Server thread/INFO]: Akyra_22 45.172.69.25
-[05:03:41] [Server thread/INFO]: Akyra_22 joined the game
-[05:03:41] [Server thread/INFO]: Akyra_22[/45.172.69.25:13018] logged in with entity id 372652 at ([world]-753.5866214716689, 64.0, -614.1617910568162)
-[05:03:51] [Craft Scheduler Thread - 350 - AuthMe/INFO]: [AuthMe] Akyra_22 logged in 45.172.69.25
-[05:13:08] [Server thread/INFO]: Akyra_22 has made the advancement [Hot Stuff]
-[05:13:16] [Server thread/INFO]: Akyra_22 has made the advancement [Ice Bucket Challenge]
-[06:12:39] [Server thread/INFO]: Akyra_22 lost connection: Disconnected
-[06:12:39] [Server thread/INFO]: Akyra_22 left the game
+[00:05:06] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Osamuh25 has disconnected from the Java server because of Bedrock client timed out
+[00:05:06] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as Osamuh25 disconnected
+[00:05:06] [Server thread/INFO]: Osamuh25 lost connection: Disconnected
+[00:05:06] [Server thread/INFO]: Osamuh25 left the game
+[00:05:35] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Osamuh25
+[00:05:35] [localSession-7-4/INFO]: [Geyser-Spigot] Osamuh25 (logged in as: Osamuh25) has connected to the Java server
+[00:05:35] [User Authenticator #8/WARN]: [LuckPerms] LuckPerms already has data for player 'Osamuh25' - but this data is stored under a different UUID.
+[00:05:35] [User Authenticator #8/WARN]: [LuckPerms] 'Osamuh25' has previously used the unique ids [00000000-0000-0000-0009-01fd3ddce461] but is now connecting with '784cc786-364a-3a90-a4e5-274eec699cc3'
+[00:05:35] [User Authenticator #8/WARN]: [LuckPerms] The UUID the player is connecting with now is NOT Mojang-assigned (type 3). This implies that THIS server is not authenticating correctly, but one (or more) of the other servers/proxies in the network are.
+[00:05:35] [User Authenticator #8/WARN]: [LuckPerms] If you're using BungeeCord/Velocity, please ensure that IP-Forwarding is setup correctly on all of your backend servers!
+[00:05:35] [User Authenticator #8/WARN]: [LuckPerms] See here for more info: https://luckperms.net/wiki/Network-Installation#pre-setup
+[00:05:38] [User Authenticator #8/INFO]: UUID of player Osamuh25 is 784cc786-364a-3a90-a4e5-274eec699cc3
+[00:05:38] [Server thread/INFO]: Disconnecting Osamuh25 (/38.225.246.51:0): You are not whitelisted on this server!
+[00:05:38] [localSession-7-4/INFO]: [Geyser-Spigot] Osamuh25 has disconnected from the Java server because of You are not whitelisted on this server!
+[00:05:38] [Server thread/INFO]: Osamuh25 (/38.225.246.51:0) lost connection: You are not whitelisted on this server!
+[00:05:54] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username Osamuh25
+[00:05:54] [localSession-7-1/INFO]: [Geyser-Spigot] Osamuh25 (logged in as: Osamuh25) has connected to the Java server
+[00:05:54] [Geyser Spigot connection thread-6-2/WARN]: [LuckPerms] LuckPerms already has data for player 'Osamuh25' - but this data is stored under a different UUID.
+[00:05:54] [Geyser Spigot connection thread-6-2/WARN]: [LuckPerms] 'Osamuh25' has previously used the unique ids [784cc786-364a-3a90-a4e5-274eec699cc3] but is now connecting with '00000000-0000-0000-0009-01fd3ddce461'
+[00:05:54] [Geyser Spigot connection thread-6-2/WARN]: [LuckPerms] The UUID the player is connecting with now is NOT Mojang-assigned (type 0). This implies that THIS server is not authenticating correctly, but one (or more) of the other servers/proxies in the network are.
+[00:05:54] [Geyser Spigot connection thread-6-2/WARN]: [LuckPerms] If you're using BungeeCord/Velocity, please ensure that IP-Forwarding is setup correctly on all of your backend servers!
+[00:05:54] [Geyser Spigot connection thread-6-2/WARN]: [LuckPerms] See here for more info: https://luckperms.net/wiki/Network-Installation#pre-setup
+[00:05:54] [Server thread/INFO]: [floodgate] Floodgate player logged in as Osamuh25 joined (UUID: 00000000-0000-0000-0009-01fd3ddce461)
+[00:05:54] [Server thread/INFO]: Osamuh25 38.225.246.51
+[00:05:54] [Server thread/INFO]: Osamuh25 joined the game
+[00:05:54] [Server thread/INFO]: Osamuh25[/38.225.246.51:0] logged in with entity id 98727 at ([world]-1423.7367, 69.0, 239.47379)
+[00:06:14] [Craft Scheduler Thread - 264 - AuthMe/INFO]: [AuthMe] Osamuh25 logged in 38.225.246.51
+[00:13:54] [Async Chat Thread - #17/INFO]: [Not Secure] <Akyra_22> rapaz
+[00:14:07] [Async Chat Thread - #17/INFO]: [Not Secure] <Akyra_22> consegue mais?
+[00:14:22] [Async Chat Thread - #17/INFO]: [Not Secure] <ShapelierC15> Sim
+[00:14:38] [Async Chat Thread - #17/INFO]: [Not Secure] <Akyra_22> shape
+[00:14:41] [Async Chat Thread - #17/INFO]: [Not Secure] <ShapelierC15> diga
+[00:14:50] [Async Chat Thread - #17/INFO]: [Not Secure] <Akyra_22> quer entrar no meu serve do disc
+[00:14:59] [Async Chat Thread - #17/INFO]: [Not Secure] <ShapelierC15> pode ser mano
+[00:15:04] [Async Chat Thread - #17/INFO]: [Not Secure] <Akyra_22> blz
+[00:23:07] [Server thread/WARN]: Osamuh25 moved wrongly!
+[00:23:07] [Server thread/WARN]: Osamuh25 moved wrongly!
+[00:24:41] [Server thread/WARN]: Osamuh25 moved too quickly! -0.4783299999999997,1.2000000000000028,29.083165000000008
+[00:24:41] [Server thread/WARN]: Osamuh25 moved too quickly! -0.4414000000000158,1.2000000000000028,27.42951500000001
+[00:24:41] [Server thread/WARN]: Osamuh25 moved too quickly! -0.4414000000000158,1.2000000000000028,27.42951500000001
+[00:24:41] [Server thread/WARN]: Osamuh25 moved too quickly! -0.4414000000000158,1.2000000000000028,27.42951500000001
+[00:24:41] [Server thread/WARN]: Osamuh25 moved too quickly! -0.4414000000000158,1.2000000000000028,27.42951500000001
+[00:24:41] [Server thread/WARN]: Osamuh25 moved too quickly! -0.4414000000000158,1.2000000000000028,27.42951500000001
+[00:24:41] [Server thread/WARN]: Osamuh25 moved too quickly! -0.4414000000000158,1.2000000000000028,27.42951500000001
+[00:24:41] [Server thread/WARN]: Osamuh25 moved too quickly! -0.4414000000000158,1.2000000000000028,27.42951500000001
+[00:24:41] [Server thread/WARN]: Osamuh25 moved too quickly! -0.4414000000000158,1.2000000000000028,27.42951500000001
+[00:24:41] [Server thread/WARN]: Osamuh25 moved too quickly! -0.4414000000000158,1.2000000000000028,27.42951500000001
+[00:24:41] [Server thread/WARN]: Osamuh25 moved too quickly! -0.4414000000000158,1.2000000000000028,27.42951500000001
+[00:24:41] [Server thread/WARN]: Osamuh25 moved too quickly! -0.4414000000000158,1.2000000000000028,27.42951500000001
+[00:24:41] [Server thread/WARN]: Osamuh25 moved too quickly! -0.4414000000000158,1.2000000000000028,27.42951500000001
+[00:24:41] [Server thread/WARN]: Osamuh25 moved too quickly! -0.4414000000000158,1.2000000000000028,27.42951500000001
+[00:24:41] [Server thread/WARN]: Osamuh25 moved too quickly! -0.4414000000000158,1.2000000000000028,27.42951500000001
+[00:24:41] [Server thread/WARN]: Osamuh25 moved too quickly! -0.4414000000000158,1.2000000000000028,27.42951500000001
+[00:24:41] [Server thread/WARN]: Osamuh25 moved too quickly! -0.4414000000000158,1.2000000000000028,27.42951500000001
+[00:24:41] [Server thread/WARN]: Osamuh25 moved too quickly! -0.4414000000000158,1.2000000000000028,27.42951500000001
+[00:24:41] [Server thread/WARN]: Osamuh25 moved too quickly! -0.4414000000000158,1.2000000000000028,27.42951500000001
+[00:24:41] [Server thread/WARN]: Osamuh25 moved too quickly! -0.4414000000000158,1.2000000000000028,27.42951500000001
+[00:27:01] [Server thread/INFO]: ShapelierC15 issued server command: /tell Akyra_22 é muie? achei que era homi
+[01:07:40] [Server thread/WARN]: Osamuh25 moved wrongly!
+[01:11:28] [Server thread/WARN]: Osamuh25 moved wrongly!
+[01:11:58] [Server thread/WARN]: Osamuh25 moved wrongly!
+[01:12:04] [Server thread/WARN]: Osamuh25 moved wrongly!
+[01:12:05] [Server thread/INFO]: Osamuh25 has reached the goal [Postmortal]
+[01:12:06] [Server thread/WARN]: Osamuh25 moved wrongly!
+[01:12:06] [Server thread/WARN]: Osamuh25 moved wrongly!
+[01:12:06] [Server thread/WARN]: Osamuh25 moved wrongly!
+[01:12:06] [Server thread/WARN]: Osamuh25 moved wrongly!
+[01:37:38] [Server thread/INFO]: Akyra_22 lost connection: Disconnected
+[01:37:38] [Server thread/INFO]: Akyra_22 left the game
+[01:37:53] [Server thread/INFO]: ShapelierC15 lost connection: Disconnected
+[01:37:53] [Server thread/INFO]: ShapelierC15 left the game
+[01:46:22] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Osamuh25 has disconnected from the Java server because of Bedrock client disconnected
+[01:46:22] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as Osamuh25 disconnected
+[01:46:22] [Server thread/INFO]: Osamuh25 lost connection: Disconnected
+[01:46:22] [Server thread/INFO]: Osamuh25 left the game
 [07:00:01] [Server thread/INFO]: Stopping server
 [07:00:01] [SIGCONT handler/WARN]: Exception in thread "SIGCONT handler" java.io.IOError: java.io.IOException: Error calling ioctl(TIOCGWINSZ): return code is -1
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:65)
@@ -48,6 +89,7 @@
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.jni.JniNativePty.getSize(JniNativePty.java:155)
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:63)
 [07:00:01] [SIGCONT handler/WARN]: 	... 9 more
+[07:00:01] [Server thread/INFO]: [NoVpn] Disabling NoVpn v1.0.0
 [07:00:01] [Server console handler/ERROR]: Caught previously unhandled exception :
 java.io.IOError: java.io.IOException: Input/output error
 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170) ~[jline-reader-3.20.0.jar:?]
@@ -71,7 +113,6 @@ Caused by: java.io.IOException: Input/output error
 	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:56) ~[jline-terminal-3.27.1.jar:?]
 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160) ~[jline-reader-3.20.0.jar:?]
 	... 9 more
-[07:00:01] [Server thread/INFO]: [NoVpn] Disabling NoVpn v1.0.0
 [07:00:01] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.5
 [07:00:01] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
 [07:00:01] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
@@ -94,14 +135,14 @@ java.lang.NullPointerException: Cannot invoke "me.comphack.playerlogger.libs.web
 [07:00:01] [Server thread/INFO]: [FastLogin] Disabling FastLogin v1.10-git484855724b794de1fe057cf7360245362658b432
 [07:00:01] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
 [07:00:01] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[07:00:02] [Server thread/INFO]: [EasyWhitelist] Disabling EasyWhitelist v1.0.2
-[07:00:02] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
-[07:00:02] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[07:00:01] [Server thread/INFO]: [EasyWhitelist] Disabling EasyWhitelist v1.0.2
+[07:00:01] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
+[07:00:01] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
 [07:00:02] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[07:00:02] [WebSocketConnectReadThread-3274/INFO]: [Geyser-Spigot] The skin uploader has been closed
 [07:00:02] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
 [07:00:02] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.164
 [07:00:02] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[07:00:02] [WebSocketConnectReadThread-2933/INFO]: [Geyser-Spigot] The skin uploader has been closed
 [07:00:02] [Server thread/INFO]: [LuckPerms] Closing storage...
 [07:00:02] [Server thread/INFO]: [LuckPerms] Goodbye!
 [07:00:02] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
@@ -113,21 +154,21 @@ java.lang.NullPointerException: Cannot invoke "me.comphack.playerlogger.libs.web
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 159 entity chunks, 4 poi chunks in world 'world' in 0.21s
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 111 entity chunks, 0 poi chunks in world 'world' in 0.20s
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[07:00:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saved 28 block chunks, 157 entity chunks, 0 poi chunks in world 'world_nether' in 0.18s
+[07:00:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saved 28 block chunks, 125 entity chunks, 0 poi chunks in world 'world_nether' in 0.15s
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
 [07:00:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 35 entity chunks, 0 poi chunks in world 'world_the_end' in 0.08s
+[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 50 entity chunks, 0 poi chunks in world 'world_the_end' in 0.10s
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
 [07:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
