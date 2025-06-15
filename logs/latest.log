@@ -1,67 +1,36 @@
-[00:07:18] [Server thread/WARN]: ShapelierC15 moved wrongly!
-[00:07:46] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username NicolasDaflon
-[00:07:46] [localSession-7-2/INFO]: [Geyser-Spigot] NicolasDaflon (logged in as: NicolasDaflon) has connected to the Java server
-[00:07:47] [Geyser Spigot connection thread-6-3/WARN]: [LuckPerms] LuckPerms already has data for player 'NicolasDaflon' - but this data is stored under a different UUID.
-[00:07:47] [Geyser Spigot connection thread-6-3/WARN]: [LuckPerms] 'NicolasDaflon' has previously used the unique ids [b6fbd51b-e221-3a58-8aae-eee0c6d055fe] but is now connecting with '00000000-0000-0000-0009-01fad6b104ec'
-[00:07:47] [Geyser Spigot connection thread-6-3/WARN]: [LuckPerms] The UUID the player is connecting with now is NOT Mojang-assigned (type 0). This implies that THIS server is not authenticating correctly, but one (or more) of the other servers/proxies in the network are.
-[00:07:47] [Geyser Spigot connection thread-6-3/WARN]: [LuckPerms] If you're using BungeeCord/Velocity, please ensure that IP-Forwarding is setup correctly on all of your backend servers!
-[00:07:47] [Geyser Spigot connection thread-6-3/WARN]: [LuckPerms] See here for more info: https://luckperms.net/wiki/Network-Installation#pre-setup
-[00:07:47] [Server thread/INFO]: [floodgate] Floodgate player logged in as NicolasDaflon joined (UUID: 00000000-0000-0000-0009-01fad6b104ec)
-[00:07:47] [Server thread/INFO]: NicolasDaflon 191.250.60.137
-[00:07:47] [Server thread/INFO]: NicolasDaflon joined the game
-[00:07:47] [Server thread/INFO]: NicolasDaflon[/191.250.60.137:0] logged in with entity id 186469 at ([world]-1312.0679, 71.0, 431.30054)
-[00:08:17] [Server thread/INFO]: NicolasDaflon lost connection: Excedeu o tempo para autenticação
-[00:08:17] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as NicolasDaflon disconnected
-[00:08:17] [localSession-7-2/INFO]: [Geyser-Spigot] NicolasDaflon has disconnected from the Java server because of §r§fExcedeu o tempo para autenticação
-[00:08:17] [Server thread/INFO]: NicolasDaflon left the game
-[00:20:30] [User Authenticator #15/INFO]: UUID of player KittyScan is c1a0b203-8d1a-3980-970f-c7777f89a4d6
-[00:20:30] [Server thread/INFO]: Disconnecting KittyScan (/176.65.148.174:38168): You're not that awesome to be whitelisted.
-[00:20:30] [Server thread/INFO]: KittyScan (/176.65.148.174:38168) lost connection: You're not that awesome to be whitelisted.
-[00:36:02] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username NicolasDaflon
-[00:36:02] [localSession-7-3/INFO]: [Geyser-Spigot] NicolasDaflon (logged in as: NicolasDaflon) has connected to the Java server
-[00:36:02] [Server thread/INFO]: [floodgate] Floodgate player logged in as NicolasDaflon joined (UUID: 00000000-0000-0000-0009-01fad6b104ec)
-[00:36:02] [Server thread/INFO]: NicolasDaflon 191.250.60.137
-[00:36:02] [Server thread/INFO]: NicolasDaflon joined the game
-[00:36:02] [Server thread/INFO]: NicolasDaflon[/191.250.60.137:0] logged in with entity id 191285 at ([world]-1312.0679, 71.0, 431.30054)
-[00:36:27] [Async Chat Thread - #8/INFO]: [Not Secure] <Alencar73> a/register senha senha
-[00:36:32] [Server thread/INFO]: NicolasDaflon lost connection: Excedeu o tempo para autenticação
-[00:36:32] [localSession-7-3/INFO]: [Geyser-Spigot] NicolasDaflon has disconnected from the Java server because of §r§fExcedeu o tempo para autenticação
-[00:36:32] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as NicolasDaflon disconnected
-[00:36:32] [Server thread/INFO]: NicolasDaflon left the game
-[00:36:45] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username NicolasDaflon
-[00:36:45] [localSession-7-4/INFO]: [Geyser-Spigot] NicolasDaflon (logged in as: NicolasDaflon) has connected to the Java server
-[00:36:46] [Server thread/INFO]: [floodgate] Floodgate player logged in as NicolasDaflon joined (UUID: 00000000-0000-0000-0009-01fad6b104ec)
-[00:36:46] [Server thread/INFO]: NicolasDaflon 191.250.60.137
-[00:36:46] [Server thread/INFO]: NicolasDaflon joined the game
-[00:36:46] [Server thread/INFO]: NicolasDaflon[/191.250.60.137:0] logged in with entity id 191800 at ([world]-1312.0679, 71.0, 431.30054)
-[00:37:16] [Server thread/INFO]: NicolasDaflon lost connection: Excedeu o tempo para autenticação
-[00:37:16] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as NicolasDaflon disconnected
-[00:37:16] [localSession-7-4/INFO]: [Geyser-Spigot] NicolasDaflon has disconnected from the Java server because of §r§fExcedeu o tempo para autenticação
-[00:37:16] [Server thread/INFO]: NicolasDaflon left the game
-[00:39:02] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username NicolasDaflon
-[00:39:02] [localSession-7-1/INFO]: [Geyser-Spigot] NicolasDaflon (logged in as: NicolasDaflon) has connected to the Java server
-[00:39:03] [Server thread/INFO]: [floodgate] Floodgate player logged in as NicolasDaflon joined (UUID: 00000000-0000-0000-0009-01fad6b104ec)
-[00:39:03] [Server thread/INFO]: NicolasDaflon 191.250.60.137
-[00:39:03] [Server thread/INFO]: NicolasDaflon joined the game
-[00:39:03] [Server thread/INFO]: NicolasDaflon[/191.250.60.137:0] logged in with entity id 193587 at ([world]-1312.0679, 71.0, 431.30054)
-[00:39:13] [Server thread/INFO]: [AuthMe] NicolasDaflon registered 191.250.60.137
-[00:39:13] [Craft Scheduler Thread - 310 - AuthMe/INFO]: [AuthMe] NicolasDaflon logged in 191.250.60.137
-[00:39:19] [Async Chat Thread - #9/INFO]: [Not Secure] <NicolasDaflon> foi
-[00:39:23] [Async Chat Thread - #9/INFO]: [Not Secure] <Alencar73> boa
-[00:39:30] [Async Chat Thread - #9/INFO]: [Not Secure] <NicolasDaflon> vlw
-[00:39:45] [Async Chat Thread - #9/INFO]: [Not Secure] <Alencar73> toda vez q vc entra vai ter q colocar barra login senha
-[00:39:52] [Async Chat Thread - #9/INFO]: [Not Secure] <NicolasDaflon> ok
-[00:40:29] [Server thread/INFO]: Akyra_22 lost connection: Disconnected
-[00:40:29] [Server thread/INFO]: Akyra_22 left the game
-[00:44:22] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as NicolasDaflon disconnected
-[00:44:22] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] NicolasDaflon has disconnected from the Java server because of Bedrock client timed out
-[00:44:22] [Server thread/INFO]: NicolasDaflon lost connection: Disconnected
-[00:44:22] [Server thread/INFO]: NicolasDaflon left the game
-[01:09:14] [Server thread/INFO]: ShapelierC15 lost connection: Disconnected
-[01:09:14] [Server thread/INFO]: ShapelierC15 left the game
-[01:12:40] [Server thread/INFO]: Alencar73 lost connection: Disconnected
-[01:12:40] [Server thread/INFO]: Alencar73 left the game
-[07:00:01] [Server thread/INFO]: Stopping server
+[00:42:30] [Server thread/INFO]: Alencar73 was shot by Skeleton
+[00:49:12] [Server thread/INFO]: Alencar73 lost connection: Disconnected
+[00:49:12] [Server thread/INFO]: Alencar73 left the game
+[00:51:56] [Server thread/INFO]: Akyra_22 tried to swim in lava
+[00:56:45] [Server thread/INFO]: Akyra_22 lost connection: Disconnected
+[00:56:45] [Server thread/INFO]: Akyra_22 left the game
+[02:00:30] [User Authenticator #8/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
+[02:00:31] [Server thread/INFO]: Akyra_22 45.172.69.25
+[02:00:31] [Server thread/INFO]: Akyra_22 joined the game
+[02:00:31] [Server thread/INFO]: Akyra_22[/45.172.69.25:12324] logged in with entity id 41273 at ([world]-1344.6165739072287, 15.0, 324.75743860286406)
+[02:00:50] [Craft Scheduler Thread - 278 - AuthMe/INFO]: [AuthMe] Akyra_22 logged in 45.172.69.25
+[02:04:40] [Server thread/INFO]: Akyra_22 lost connection: Disconnected
+[02:04:40] [Server thread/INFO]: Akyra_22 left the game
+[03:33:56] [User Authenticator #9/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
+[03:33:56] [Server thread/INFO]: Akyra_22 45.172.69.25
+[03:33:56] [Server thread/INFO]: Akyra_22 joined the game
+[03:33:56] [Server thread/INFO]: Akyra_22[/45.172.69.25:12254] logged in with entity id 41736 at ([world]-1344.7314514494713, 15.0, 335.61931953371413)
+[03:34:08] [Craft Scheduler Thread - 301 - AuthMe/INFO]: [AuthMe] Akyra_22 logged in 45.172.69.25
+[03:35:34] [Server thread/INFO]: Akyra_22 issued server command: /skin clear
+[04:10:51] [Server thread/INFO]: Akyra_22 tried to swim in lava
+[04:14:35] [User Authenticator #10/INFO]: UUID of player Alencar73 is 028a82f5-20fe-3357-8797-b427ea04a6c1
+[04:14:36] [Server thread/INFO]: Alencar73 177.152.86.2
+[04:14:36] [Server thread/INFO]: Alencar73 joined the game
+[04:14:36] [Server thread/INFO]: Alencar73[/177.152.86.2:59091] logged in with entity id 56399 at ([world]-1346.5575326561843, 55.37983744324245, 281.30000001192093)
+[04:14:45] [Craft Scheduler Thread - 312 - AuthMe/INFO]: [AuthMe] Alencar73 logged in 177.152.86.2
+[04:47:22] [Server thread/INFO]: Akyra_22 issued server command: /skin set https://pt.namemc.com/skin/f731a2a969529a20
+[04:56:39] [Server thread/WARN]: Alencar73 moved wrongly!
+[05:02:47] [Server thread/INFO]: Alencar73 was shot by Akyra_22
+[05:06:15] [Server thread/INFO]: Akyra_22 was slain by Alencar73
+[05:08:30] [Server thread/INFO]: Akyra_22 lost connection: Disconnected
+[05:08:30] [Server thread/INFO]: Akyra_22 left the game
+[05:08:40] [Server thread/INFO]: Alencar73 lost connection: Disconnected
+[05:08:41] [Server thread/INFO]: Alencar73 left the game
 [07:00:01] [SIGCONT handler/WARN]: Exception in thread "SIGCONT handler" java.io.IOError: java.io.IOException: Error calling ioctl(TIOCGWINSZ): return code is -1
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:65)
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.Terminal.getBufferSize(Terminal.java:273)
@@ -77,6 +46,8 @@
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.jni.JniNativePty.getSize(JniNativePty.java:155)
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:63)
 [07:00:01] [SIGCONT handler/WARN]: 	... 9 more
+[07:00:01] [Server thread/INFO]: Stopping server
+[07:00:01] [Server thread/INFO]: [NoVpn] Disabling NoVpn v1.0.0
 [07:00:01] [Server console handler/ERROR]: Caught previously unhandled exception :
 java.io.IOError: java.io.IOException: Input/output error
 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170) ~[jline-reader-3.20.0.jar:?]
@@ -100,13 +71,12 @@ Caused by: java.io.IOException: Input/output error
 	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:56) ~[jline-terminal-3.27.1.jar:?]
 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160) ~[jline-reader-3.20.0.jar:?]
 	... 9 more
-[07:00:01] [Server thread/INFO]: [NoVpn] Disabling NoVpn v1.0.0
 [07:00:01] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.5
 [07:00:01] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
-[07:00:01] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
-[07:00:01] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
-[07:00:01] [Server thread/INFO]: [PlayerLogger] Disabling PlayerLogger v3.0.0
-[07:00:01] [Server thread/ERROR]: Error occurred while disabling PlayerLogger v3.0.0
+[07:00:02] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[07:00:02] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
+[07:00:02] [Server thread/INFO]: [PlayerLogger] Disabling PlayerLogger v3.0.0
+[07:00:02] [Server thread/ERROR]: Error occurred while disabling PlayerLogger v3.0.0
 java.lang.NullPointerException: Cannot invoke "me.comphack.playerlogger.libs.webhook.WebhookClient.close()" because "this.webhookClient" is null
 	at playerlogger-3.0.0.jar/me.comphack.playerlogger.PlayerLogger.onDisable(PlayerLogger.java:136) ~[playerlogger-3.0.0.jar:?]
 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:286) ~[paper-api-1.21.5-R0.1-SNAPSHOT.jar:?]
@@ -120,18 +90,18 @@ java.lang.NullPointerException: Cannot invoke "me.comphack.playerlogger.libs.web
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1292) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-22-6c2b037]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[07:00:01] [Server thread/INFO]: [FastLogin] Disabling FastLogin v1.10-git484855724b794de1fe057cf7360245362658b432
-[07:00:01] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
-[07:00:01] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[07:00:01] [Server thread/INFO]: [EasyWhitelist] Disabling EasyWhitelist v1.0.2
-[07:00:01] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
+[07:00:02] [Server thread/INFO]: [FastLogin] Disabling FastLogin v1.10-git484855724b794de1fe057cf7360245362658b432
+[07:00:02] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[07:00:02] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[07:00:02] [Server thread/INFO]: [EasyWhitelist] Disabling EasyWhitelist v1.0.2
+[07:00:02] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
 [07:00:02] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
 [07:00:02] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
 [07:00:02] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
 [07:00:02] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.164
 [07:00:02] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[07:00:02] [WebSocketConnectReadThread-119/INFO]: [Geyser-Spigot] The skin uploader has been closed
 [07:00:02] [Server thread/INFO]: [LuckPerms] Closing storage...
-[07:00:02] [WebSocketConnectReadThread-2028/INFO]: [Geyser-Spigot] The skin uploader has been closed
 [07:00:02] [Server thread/INFO]: [LuckPerms] Goodbye!
 [07:00:02] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
 [07:00:02] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
@@ -142,21 +112,21 @@ java.lang.NullPointerException: Cannot invoke "me.comphack.playerlogger.libs.web
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 2 block chunks, 145 entity chunks, 0 poi chunks in world 'world' in 0.18s
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 162 entity chunks, 0 poi chunks in world 'world' in 0.23s
+[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
 [07:00:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saved 29 block chunks, 133 entity chunks, 0 poi chunks in world 'world_nether' in 0.15s
+[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saved 28 block chunks, 119 entity chunks, 0 poi chunks in world 'world_nether' in 0.23s
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
 [07:00:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 32 entity chunks, 0 poi chunks in world 'world_the_end' in 0.08s
+[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 12 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
 [07:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
