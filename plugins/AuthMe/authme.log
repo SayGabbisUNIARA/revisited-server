@@ -375,3 +375,47 @@
 [06-15 03:34:08]: [FINE] Akyra_22 logged in 45.172.69.25
 [06-15 04:14:45]: [FINE] Alencar73 logged in 177.152.86.2
 [06-15 07:00:02]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
+[06-15 07:02:45]: [INFO] SQLite Setup finished
+[06-15 07:02:45]: [INFO] Hooked into LuckPerms!
+[06-15 07:02:46]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-15 07:02:46]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[06-15 07:02:53]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[06-15 07:02:53]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[06-15 07:02:53]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[06-15 07:02:53]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[06-15 07:02:53]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at AuthMe-5.6.0-legacy.jar//fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at AuthMe-5.6.0-legacy.jar//fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at AuthMe-5.6.0-legacy.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at AuthMe-5.6.0-legacy.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[06-15 18:37:36]: [FINE] Alencar73 logged in 177.152.86.2
+[06-15 18:45:08]: [FINE] CaraxhhMaster registered 187.91.82.231
+[06-15 18:45:08]: [FINE] CaraxhhMaster logged in 187.91.82.231
+[06-15 18:55:57]: [FINE] Alencar73 logged in 177.152.86.2
+[06-15 19:11:32]: [FINE] Alencar73 logged in 177.152.86.2
+[06-15 19:24:35]: [FINE] Akyra_22 logged in 45.172.69.25
+[06-15 19:27:47]: [FINE] Alencar73 logged in 177.152.86.2
+[06-15 19:41:13]: [FINE] luco_omega5 logged in 201.87.203.18
+[06-15 20:18:52]: [FINE] Alencar73 logged in 177.152.86.2
+[06-15 21:00:36]: [FINE] Akyra_22 logged in 45.172.69.25
+[06-15 21:09:37]: [FINE] ShapelierC15 logged in 45.226.75.175
+[06-15 21:25:09]: [FINE] ShapelierC15 used the wrong password
+[06-15 21:25:18]: [FINE] ShapelierC15 logged in 45.226.75.175
+[06-15 21:27:50]: [FINE] Akyra_22 logged in 45.172.69.25
+[06-15 21:51:35]: [FINE] luco_omega5 logged in 201.87.203.18
+[06-15 22:26:55]: [FINE] Akyra_22 logged in 45.172.69.25
+[06-15 22:35:27]: [FINE] ShapelierC15 logged in 45.226.75.175
+[06-15 22:40:27]: [FINE] Akyra_22 logged in 45.172.69.25
+[06-15 23:42:54]: [FINE] Akyra_22 logged in 45.172.69.25
+[06-16 07:00:02]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
