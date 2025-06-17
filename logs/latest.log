@@ -1,9 +1,39 @@
-[00:06:34] [Server thread/INFO]: CaraxhhMaster was shot by Akyra_22
-[00:36:37] [Server thread/INFO]: Akyra_22 lost connection: Disconnected
-[00:36:37] [Server thread/INFO]: Akyra_22 left the game
-[00:51:15] [Server thread/INFO]: CaraxhhMaster lost connection: Disconnected
-[00:51:15] [Server thread/INFO]: CaraxhhMaster left the game
+[01:01:04] [User Authenticator #1/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
+[01:01:04] [Server thread/INFO]: Akyra_22 45.172.69.25
+[01:01:04] [Server thread/INFO]: Akyra_22 joined the game
+[01:01:04] [Server thread/INFO]: Akyra_22[/45.172.69.25:12924] logged in with entity id 30811 at ([world]-1335.7973530081051, 64.5625, 265.81544925020637)
+[01:01:14] [Craft Scheduler Thread - 234 - AuthMe/INFO]: [AuthMe] Akyra_22 logged in 45.172.69.25
+[01:11:12] [User Authenticator #2/INFO]: UUID of player CaraxhhMaster is 50a790c9-7e17-3520-b2ae-7ab76298edae
+[01:11:12] [Server thread/INFO]: CaraxhhMaster 187.91.82.231
+[01:11:12] [Server thread/INFO]: CaraxhhMaster joined the game
+[01:11:12] [Server thread/INFO]: CaraxhhMaster[/187.91.82.231:50490] logged in with entity id 32033 at ([world]-1336.1805064197154, 70.0, 224.50908972652098)
+[01:11:30] [Craft Scheduler Thread - 239 - AuthMe/INFO]: [AuthMe] CaraxhhMaster logged in 187.91.82.231
+[01:12:55] [Async Chat Thread - #0/INFO]: [Not Secure] <CaraxhhMaster> SALVE
+[01:13:04] [Async Chat Thread - #0/INFO]: [Not Secure] <Akyra_22> fala
+[01:13:20] [Async Chat Thread - #0/INFO]: [Not Secure] <CaraxhhMaster> TO CASANDO NETHERITE
+[01:13:31] [Async Chat Thread - #0/INFO]: [Not Secure] <Akyra_22> hum
+[01:13:41] [Async Chat Thread - #0/INFO]: [Not Secure] <CaraxhhMaster> BORA CALL?
+[01:13:47] [Async Chat Thread - #0/INFO]: [Not Secure] <Akyra_22> pode ser
+[01:14:01] [Async Chat Thread - #0/INFO]: [Not Secure] <CaraxhhMaster> TO NO JOGANDO PV
+[01:17:04] [Server thread/INFO]: CaraxhhMaster burned to death
+[01:23:17] [Async Chat Thread - #2/INFO]: [Not Secure] <CaraxhhMaster> CADE TU
+[01:37:30] [Server thread/WARN]: Akyra_22 moved wrongly!
+[01:43:13] [Server thread/INFO]: CaraxhhMaster has made the advancement [A Terrible Fortress]
+[01:44:40] [Server thread/INFO]: CaraxhhMaster has made the advancement [Into Fire]
+[02:02:27] [Server thread/INFO]: Akyra_22 has made the advancement [War Pigs]
+[02:05:33] [Server thread/INFO]: Akyra_22 has made the advancement [Who is Cutting Onions?]
+[02:09:57] [Server thread/INFO]: Akyra_22 experienced kinetic energy
+[02:13:25] [Server thread/INFO]: CaraxhhMaster tried to swim in lava
+[02:19:48] [Server thread/INFO]: CaraxhhMaster has completed the challenge [Cover Me in Debris]
+[02:22:28] [Server thread/INFO]: CaraxhhMaster was shot by Akyra_22
+[02:23:14] [Server thread/INFO]: Akyra_22 lost connection: Disconnected
+[02:23:14] [Server thread/INFO]: Akyra_22 left the game
+[02:28:44] [Async Chat Thread - #4/INFO]: [Not Secure] <CaraxhhMaster> me mama
+[02:33:25] [Server thread/INFO]: CaraxhhMaster fell from a high place
+[02:36:24] [Server thread/INFO]: CaraxhhMaster lost connection: Disconnected
+[02:36:24] [Server thread/INFO]: CaraxhhMaster left the game
 [07:00:01] [SIGCONT handler/WARN]: Exception in thread "SIGCONT handler" java.io.IOError: java.io.IOException: Error calling ioctl(TIOCGWINSZ): return code is -1
+[07:00:01] [Server thread/INFO]: Stopping server
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:65)
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.Terminal.getBufferSize(Terminal.java:273)
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.reader.impl.LineReaderImpl.handleSignal(LineReaderImpl.java:1160)
@@ -18,9 +48,8 @@
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.jni.JniNativePty.getSize(JniNativePty.java:155)
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:63)
 [07:00:01] [SIGCONT handler/WARN]: 	... 9 more
-[07:00:01] [Server thread/INFO]: Stopping server
 [07:00:01] [Server thread/INFO]: [NoVpn] Disabling NoVpn v1.0.0
-[07:00:01] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.6
+[07:00:02] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.6
 [07:00:01] [Server console handler/ERROR]: Caught previously unhandled exception :
 java.io.IOError: java.io.IOException: Input/output error
 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170) ~[jline-reader-3.20.0.jar:?]
@@ -69,36 +98,36 @@ java.lang.NullPointerException: Cannot invoke "me.comphack.playerlogger.libs.web
 [07:00:02] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
 [07:00:02] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
 [07:00:02] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[07:00:02] [WebSocketConnectReadThread-2615/INFO]: [Geyser-Spigot] The skin uploader has been closed
 [07:00:02] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
 [07:00:02] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.164
 [07:00:02] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
 [07:00:02] [Server thread/INFO]: [LuckPerms] Closing storage...
+[07:00:02] [WebSocketConnectReadThread-3197/INFO]: [Geyser-Spigot] The skin uploader has been closed
 [07:00:02] [Server thread/INFO]: [LuckPerms] Goodbye!
 [07:00:02] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
 [07:00:02] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
 [07:00:02] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[07:00:02] [Server thread/INFO]: Saving players
-[07:00:02] [Server thread/INFO]: Saving worlds
-[07:00:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07:00:03] [Server thread/INFO]: Saving players
+[07:00:03] [Server thread/INFO]: Saving worlds
+[07:00:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 148 entity chunks, 0 poi chunks in world 'world' in 0.20s
+[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 145 entity chunks, 0 poi chunks in world 'world' in 0.17s
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
 [07:00:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saved 27 block chunks, 132 entity chunks, 0 poi chunks in world 'world_nether' in 0.13s
+[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saved 31 block chunks, 141 entity chunks, 0 poi chunks in world 'world_nether' in 0.17s
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
 [07:00:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_the_end' in 0.07s
+[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 33 entity chunks, 0 poi chunks in world 'world_the_end' in 0.09s
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
 [07:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
