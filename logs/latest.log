@@ -1,55 +1,27 @@
-[00:16:16] [User Authenticator #1/INFO]: UUID of player CaraxhhMaster is 50a790c9-7e17-3520-b2ae-7ab76298edae
-[00:16:17] [Server thread/INFO]: CaraxhhMaster 187.91.82.231
-[00:16:17] [Server thread/INFO]: CaraxhhMaster joined the game
-[00:16:17] [Server thread/INFO]: CaraxhhMaster[/187.91.82.231:64584] logged in with entity id 17609 at ([world]-1313.2334683501547, 67.0, 111.93063220781548)
-[00:16:30] [Craft Scheduler Thread - 93 - AuthMe/INFO]: [AuthMe] CaraxhhMaster logged in 187.91.82.231
-[00:38:16] [Server thread/INFO]: CaraxhhMaster has made the advancement [Those Were the Days]
-[00:38:25] [Server thread/INFO]: CaraxhhMaster has made the advancement [War Pigs]
-[00:44:53] [Server thread/INFO]: CaraxhhMaster has made the advancement [Spooky Scary Skeleton]
-[00:50:21] [Server thread/INFO]: CaraxhhMaster tried to swim in lava
-[00:51:01] [Server thread/INFO]: CaraxhhMaster lost connection: Disconnected
-[00:51:01] [Server thread/INFO]: CaraxhhMaster left the game
-[01:55:47] [User Authenticator #2/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
-[01:55:48] [Server thread/INFO]: Akyra_22 45.172.69.25
-[01:55:48] [Server thread/INFO]: Akyra_22 joined the game
-[01:55:48] [Server thread/INFO]: Akyra_22[/45.172.69.25:13103] logged in with entity id 24021 at ([world]-1370.4195882851961, 69.9375, 245.70946465514658)
-[01:55:58] [Craft Scheduler Thread - 116 - AuthMe/INFO]: [AuthMe] Akyra_22 logged in 45.172.69.25
-[02:02:05] [User Authenticator #3/INFO]: UUID of player CaraxhhMaster is 50a790c9-7e17-3520-b2ae-7ab76298edae
-[02:02:05] [Server thread/INFO]: CaraxhhMaster 187.91.82.231
-[02:02:05] [Server thread/INFO]: CaraxhhMaster joined the game
-[02:02:05] [Server thread/INFO]: CaraxhhMaster[/187.91.82.231:50459] logged in with entity id 24921 at ([world]-1336.1300820135139, 70.0, 228.1042729044355)
-[02:02:25] [Craft Scheduler Thread - 121 - AuthMe/INFO]: [AuthMe] CaraxhhMaster logged in 187.91.82.231
-[02:10:14] [Server thread/INFO]: Akyra_22 has reached the goal [Zombie Doctor]
-[02:23:37] [Server thread/INFO]: Akyra_22 tried to swim in lava
-[02:23:39] [Server thread/INFO]: CaraxhhMaster was slain by Zombified Piglin
-[02:25:51] [Server thread/INFO]: Akyra_22 lost connection: Disconnected
-[02:25:51] [Server thread/INFO]: Akyra_22 left the game
-[02:30:22] [Server thread/INFO]: CaraxhhMaster lost connection: Disconnected
-[02:30:22] [Server thread/INFO]: CaraxhhMaster left the game
-[03:32:20] [User Authenticator #4/INFO]: UUID of player Chamito_Gomes is beb5711b-9710-3c99-85cc-5f91ed18bf9a
-[03:32:21] [Server thread/INFO]: Chamito_Gomes 177.10.10.84
-[03:32:21] [Server thread/INFO]: Chamito_Gomes joined the game
-[03:32:21] [Server thread/INFO]: Chamito_Gomes[/177.10.10.84:57812] logged in with entity id 32793 at ([world]-1358.6560421044278, 70.0, 232.35238263990144)
-[03:32:44] [Craft Scheduler Thread - 144 - AuthMe/INFO]: [AuthMe] Chamito_Gomes logged in 177.10.10.84
-[03:33:06] [Server thread/INFO]: Chamito_Gomes lost connection: Disconnected
-[03:33:06] [Server thread/INFO]: Chamito_Gomes left the game
-[03:34:29] [User Authenticator #5/INFO]: UUID of player Chamito_Gomes is beb5711b-9710-3c99-85cc-5f91ed18bf9a
-[03:34:30] [Server thread/INFO]: Chamito_Gomes 177.10.10.84
-[03:34:30] [Server thread/INFO]: Chamito_Gomes joined the game
-[03:34:30] [Server thread/INFO]: Chamito_Gomes[/177.10.10.84:57481] logged in with entity id 32879 at ([world]-1325.6946943545788, 70.0, 237.70086705466295)
-[03:34:41] [Craft Scheduler Thread - 148 - AuthMe/INFO]: [AuthMe] Chamito_Gomes logged in 177.10.10.84
-[03:36:15] [Server thread/INFO]: Chamito_Gomes has made the advancement [We Need to Go Deeper]
-[03:39:33] [Server thread/INFO]: Chamito_Gomes lost connection: Disconnected
-[03:39:33] [Server thread/INFO]: Chamito_Gomes left the game
-[03:42:11] [User Authenticator #6/INFO]: UUID of player Chamito_Gomes is beb5711b-9710-3c99-85cc-5f91ed18bf9a
-[03:42:12] [Server thread/INFO]: Chamito_Gomes 177.10.10.84
-[03:42:12] [Server thread/INFO]: Chamito_Gomes joined the game
-[03:42:12] [Server thread/INFO]: Chamito_Gomes[/177.10.10.84:57535] logged in with entity id 33926 at ([world]-1091.3075815786192, 65.0, 516.7472628382146)
-[03:42:20] [Craft Scheduler Thread - 154 - AuthMe/INFO]: [AuthMe] Chamito_Gomes logged in 177.10.10.84
-[03:43:01] [Server thread/INFO]: Chamito_Gomes lost connection: Disconnected
-[03:43:01] [Server thread/INFO]: Chamito_Gomes left the game
+[04:09:27] [User Authenticator #2/INFO]: UUID of player Heitorff0105 is 7998141d-8b57-321f-b8cd-9e43079fcaad
+[04:09:28] [Server thread/INFO]: Heitorff0105 187.59.24.65
+[04:09:28] [Server thread/INFO]: Heitorff0105 joined the game
+[04:09:28] [Server thread/INFO]: Heitorff0105[/187.59.24.65:56810] logged in with entity id 4568 at ([world]-1371.6314755170702, 67.0, 147.8250331237792)
+[04:09:58] [Server thread/INFO]: Heitorff0105 lost connection: Excedeu o tempo para autenticação
+[04:09:58] [Server thread/INFO]: Heitorff0105 left the game
+[04:10:03] [User Authenticator #2/INFO]: UUID of player Heitorff0105 is 7998141d-8b57-321f-b8cd-9e43079fcaad
+[04:10:03] [Server thread/INFO]: Heitorff0105 187.59.24.65
+[04:10:03] [Server thread/INFO]: Heitorff0105 joined the game
+[04:10:03] [Server thread/INFO]: Heitorff0105[/187.59.24.65:56838] logged in with entity id 4689 at ([world]-1371.6314755170702, 67.0, 147.8250331237792)
+[04:10:11] [Server thread/INFO]: Heitorff0105 issued server command: /regis
+[04:10:33] [Server thread/INFO]: Heitorff0105 lost connection: Excedeu o tempo para autenticação
+[04:10:33] [Server thread/INFO]: Heitorff0105 left the game
+[04:10:37] [User Authenticator #2/INFO]: UUID of player Heitorff0105 is 7998141d-8b57-321f-b8cd-9e43079fcaad
+[04:10:38] [Server thread/INFO]: Heitorff0105 187.59.24.65
+[04:10:38] [Server thread/INFO]: Heitorff0105 joined the game
+[04:10:38] [Server thread/INFO]: Heitorff0105[/187.59.24.65:56869] logged in with entity id 4752 at ([world]-1371.6314755170702, 67.0, 147.8250331237792)
+[04:10:46] [Server thread/INFO]: Heitorff0105 issued server command: /register
+[04:11:08] [Server thread/INFO]: Heitorff0105 lost connection: Excedeu o tempo para autenticação
+[04:11:08] [Server thread/INFO]: Heitorff0105 left the game
+[04:17:08] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Heitorff0105
+[04:17:08] [localSession-7-2/INFO]: [Geyser-Spigot] Heitorff0105 (logged in as: Heitorff0105) has connected to the Java server
+[04:17:08] [localSession-7-2/INFO]: [Geyser-Spigot] Heitorff0105 has disconnected from the Java server because of Outdated client! Please use 1.21.6
 [07:00:01] [SIGCONT handler/WARN]: Exception in thread "SIGCONT handler" java.io.IOError: java.io.IOException: Error calling ioctl(TIOCGWINSZ): return code is -1
-[07:00:01] [Server thread/INFO]: Stopping server
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:65)
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.Terminal.getBufferSize(Terminal.java:273)
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.reader.impl.LineReaderImpl.handleSignal(LineReaderImpl.java:1160)
@@ -64,7 +36,7 @@
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.jni.JniNativePty.getSize(JniNativePty.java:155)
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:63)
 [07:00:01] [SIGCONT handler/WARN]: 	... 9 more
-[07:00:01] [Server thread/INFO]: [NoVpn] Disabling NoVpn v1.0.0
+[07:00:01] [Server thread/INFO]: Stopping server
 [07:00:01] [Server console handler/ERROR]: Caught previously unhandled exception :
 java.io.IOError: java.io.IOException: Input/output error
 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170) ~[jline-reader-3.20.0.jar:?]
@@ -88,7 +60,8 @@ Caused by: java.io.IOException: Input/output error
 	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:56) ~[jline-terminal-3.27.1.jar:?]
 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160) ~[jline-reader-3.20.0.jar:?]
 	... 9 more
-[07:00:01] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.6
+[07:00:01] [Server thread/INFO]: [NoVpn] Disabling NoVpn v1.0.0
+[07:00:01] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.7
 [07:00:01] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
 [07:00:01] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
 [07:00:01] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
@@ -114,42 +87,42 @@ java.lang.NullPointerException: Cannot invoke "me.comphack.playerlogger.libs.web
 [07:00:01] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.2-SNAPSHOT
 [07:00:01] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
 [07:00:01] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[07:00:02] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.4.0-SNAPSHOT
-[07:00:02] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.4
-[07:00:02] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[07:00:02] [WebSocketConnectReadThread-1104/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[07:00:02] [Server thread/INFO]: [LuckPerms] Closing storage...
-[07:00:02] [Server thread/INFO]: [LuckPerms] Goodbye!
-[07:00:02] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.4.0-SNAPSHOT
-[07:00:02] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[07:00:02] [Server thread/INFO]: Saving players
-[07:00:02] [Server thread/INFO]: Saving worlds
-[07:00:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 3 block chunks, 140 entity chunks, 4 poi chunks in world 'world' in 0.23s
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[07:00:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 31 block chunks, 138 entity chunks, 0 poi chunks in world 'world_nether' in 0.24s
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[07:00:01] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.4.0-SNAPSHOT
+[07:00:01] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.4
+[07:00:01] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[07:00:01] [Server thread/INFO]: [LuckPerms] Closing storage...
+[07:00:01] [Server thread/INFO]: [LuckPerms] Goodbye!
+[07:00:01] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.4.0-SNAPSHOT
+[07:00:01] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[07:00:01] [Server thread/INFO]: Saving players
+[07:00:01] [WebSocketConnectReadThread-3074/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[07:00:01] [Server thread/INFO]: Saving worlds
+[07:00:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 182 entity chunks, 0 poi chunks in world 'world' in 0.07s
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[07:00:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 7 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[07:00:01] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
 [07:00:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 32 entity chunks, 0 poi chunks in world 'world_the_end' in 0.09s
-[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[07:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[07:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[07:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[07:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[07:00:03] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[07:00:03] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[07:00:03] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[07:00:03] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 14 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:00:02] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[07:00:02] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[07:00:02] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[07:00:02] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
