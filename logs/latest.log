@@ -1,5 +1,10 @@
-[00:00:27] [Server thread/INFO]: CaraxhhMaster lost connection: Disconnected
-[00:00:27] [Server thread/INFO]: CaraxhhMaster left the game
+[02:25:43] [User Authenticator #3/INFO]: UUID of player Akyra_22 is 5b0e1e5d-1ce5-3251-a2c1-5a4f49fab549
+[02:25:44] [Server thread/INFO]: Akyra_22 45.172.69.25
+[02:25:44] [Server thread/INFO]: Akyra_22 joined the game
+[02:25:44] [Server thread/INFO]: Akyra_22[/45.172.69.25:12609] logged in with entity id 11363 at ([world]-1338.206921639504, 64.0, 266.52083857901346)
+[02:25:53] [Craft Scheduler Thread - 252 - AuthMe/INFO]: [AuthMe] Akyra_22 logged in 45.172.69.25
+[02:29:27] [Server thread/INFO]: Akyra_22 lost connection: Disconnected
+[02:29:27] [Server thread/INFO]: Akyra_22 left the game
 [07:00:01] [SIGCONT handler/WARN]: Exception in thread "SIGCONT handler" java.io.IOError: java.io.IOException: Error calling ioctl(TIOCGWINSZ): return code is -1
 [07:00:01] [Server thread/INFO]: Stopping server
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:65)
@@ -69,8 +74,8 @@ java.lang.NullPointerException: Cannot invoke "me.comphack.playerlogger.libs.web
 [07:00:02] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.4.0-SNAPSHOT
 [07:00:02] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.4
 [07:00:02] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[07:00:02] [WebSocketConnectReadThread-626/INFO]: [Geyser-Spigot] The skin uploader has been closed
 [07:00:02] [Server thread/INFO]: [LuckPerms] Closing storage...
-[07:00:02] [WebSocketConnectReadThread-2693/INFO]: [Geyser-Spigot] The skin uploader has been closed
 [07:00:02] [Server thread/INFO]: [LuckPerms] Goodbye!
 [07:00:02] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.4.0-SNAPSHOT
 [07:00:02] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
@@ -80,21 +85,21 @@ java.lang.NullPointerException: Cannot invoke "me.comphack.playerlogger.libs.web
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 157 entity chunks, 0 poi chunks in world 'world' in 0.19s
-[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 154 entity chunks, 0 poi chunks in world 'world' in 0.19s
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
 [07:00:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saved 29 block chunks, 122 entity chunks, 0 poi chunks in world 'world_nether' in 0.22s
+[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saved 4 block chunks, 114 entity chunks, 0 poi chunks in world 'world_nether' in 0.09s
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
 [07:00:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 13 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
+[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 13 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
 [07:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
 [07:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
