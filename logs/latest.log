@@ -1,4 +1,5 @@
 [07:00:01] [SIGCONT handler/WARN]: Exception in thread "SIGCONT handler" java.io.IOError: java.io.IOException: Error calling ioctl(TIOCGWINSZ): return code is -1
+[07:00:01] [Server thread/INFO]: Stopping server
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:65)
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.Terminal.getBufferSize(Terminal.java:273)
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.reader.impl.LineReaderImpl.handleSignal(LineReaderImpl.java:1160)
@@ -13,6 +14,7 @@
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.jni.JniNativePty.getSize(JniNativePty.java:155)
 [07:00:01] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:63)
 [07:00:01] [SIGCONT handler/WARN]: 	... 9 more
+[07:00:01] [Server thread/INFO]: [NoVpn] Disabling NoVpn v1.0.0
 [07:00:01] [Server console handler/ERROR]: Caught previously unhandled exception :
 java.io.IOError: java.io.IOException: Input/output error
 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170) ~[jline-reader-3.20.0.jar:?]
@@ -36,8 +38,6 @@ Caused by: java.io.IOException: Input/output error
 	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:56) ~[jline-terminal-3.27.1.jar:?]
 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160) ~[jline-reader-3.20.0.jar:?]
 	... 9 more
-[07:00:01] [Server thread/INFO]: Stopping server
-[07:00:01] [Server thread/INFO]: [NoVpn] Disabling NoVpn v1.0.0
 [07:00:02] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.1
 [07:00:02] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
 [07:00:02] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
@@ -58,8 +58,8 @@ java.lang.NullPointerException: Cannot invoke "me.comphack.playerlogger.libs.web
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.6.jar:1.21.6-28-803baf0]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
 [07:00:02] [Server thread/INFO]: [FastLogin] Disabling FastLogin v1.10-git484855724b794de1fe057cf7360245362658b432
-[07:00:02] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-3 - Shutdown initiated...
-[07:00:02] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-3 - Shutdown completed.
+[07:00:02] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[07:00:02] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
 [07:00:02] [Server thread/INFO]: [EasyWhitelist] Disabling EasyWhitelist v1.0.2
 [07:00:02] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.2-SNAPSHOT
 [07:00:02] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
@@ -71,36 +71,36 @@ java.lang.NullPointerException: Cannot invoke "me.comphack.playerlogger.libs.web
 [07:00:02] [Server thread/INFO]: [LuckPerms] Goodbye!
 [07:00:02] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
 [07:00:02] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.4.1-SNAPSHOT
+[07:00:02] [WebSocketConnectReadThread-2615/INFO]: [Geyser-Spigot] The skin uploader has been closed
 [07:00:02] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
 [07:00:02] [Server thread/INFO]: Saving players
-[07:00:02] [WebSocketConnectReadThread-1469/INFO]: [Geyser-Spigot] The skin uploader has been closed
 [07:00:02] [Server thread/INFO]: Saving worlds
 [07:00:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 185 entity chunks, 0 poi chunks in world 'world' in 0.12s
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 23 entity chunks, 0 poi chunks in world 'world' in 0.05s
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
 [07:00:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 5 block chunks, 103 entity chunks, 0 poi chunks in world 'world_nether' in 0.06s
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 5 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
 [07:00:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
 [07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 33 entity chunks, 0 poi chunks in world 'world_the_end' in 0.08s
-[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[07:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[07:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[07:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[07:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[07:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[07:00:03] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[07:00:03] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[07:00:03] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[07:00:03] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 12 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[07:00:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:00:02] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[07:00:02] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[07:00:02] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[07:00:02] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
